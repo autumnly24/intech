@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "intech:bauxite_vein",
+  "step": "underground_ores"
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diorite",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:stone",
+    "minecraft:coal_ore",
+    "minecraft:emerald_ore",
+    "minecraft:granite",
+    "minecraft:andesite",
+    "minecraft:gold_ore",
+    "minecraft:lapis_ore",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate",
+    "minecraft:tuff",
+    "minecraft:iron_ore",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_redstone_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:copper_ore"
+  ]
+}
