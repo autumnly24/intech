@@ -1,7 +1,7 @@
 {
   "type": "intech:bauxite_vein",
   "config": {
-    "size": 58,
+    "size": 64,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {

@@ -2,17 +2,21 @@
   "feature": "intech:bauxite_vein",
   "placement": [
     {
+      "type": "minecraft:rarity_filter",
+      "chance": 7
+    },
+    {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:trapezoid",
+        "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": -49
+          "absolute": -52
         },
         "max_inclusive": {
-          "absolute": 22
+          "absolute": 18
         }
       }
     },

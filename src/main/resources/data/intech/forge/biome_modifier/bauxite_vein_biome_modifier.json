@@ -4,5 +4,5 @@
     "type": "forge:any"
   },
   "features": "intech:bauxite_vein",
-  "step": "underground_ores"
+  "step": "surface_structures"
 }
