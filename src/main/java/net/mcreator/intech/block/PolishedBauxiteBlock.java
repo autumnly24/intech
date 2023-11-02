@@ -16,8 +16,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class BauxiteBlock extends Block {
-	public BauxiteBlock() {
+public class PolishedBauxiteBlock extends Block {
+	public PolishedBauxiteBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.BASALT).strength(3.5f, 35f).requiresCorrectToolForDrops());
 	}
 

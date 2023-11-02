@@ -44,13 +44,155 @@
           "src/main/java/net/mcreator/intech/world/features/BauxiteVeinFeature.java"
         ]
       }
+    },
+    {
+      "name": "PolishedBauxite",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/polished_bauxite.json",
+          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBlock.java",
+          "src/main/resources/assets/intech/models/item/polished_bauxite.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxiteBricks",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/polished_bauxite_bricks.json",
+          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBricksBlock.java",
+          "src/main/resources/assets/intech/blockstates/polished_bauxite_bricks.json",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxitePillar",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_pillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/PolishedBauxitePillarBlock.java",
+          "src/main/resources/assets/intech/blockstates/polished_bauxite_pillar.json",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_pillar.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxiteRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxiteStonecutting",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_stonecutting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxiteBricksRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxiteBricksStonecutting",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_bricks_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_bricks_stonecutting.json"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteBlocks",
+      "type": "tag",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/bauxite_blocks.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxitePillarRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_pillar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxitePillarStonecutting",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_pillar_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_pillar_stonecutting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.intech.bauxite": "Bauxite"
+      "block.intech.bauxite": "Bauxite",
+      "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
+      "block.intech.polished_bauxite": "Polished Bauxite",
+      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_bauxite_bricks",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:polished_bauxite"
+    },
+    "1": {
+      "item": "intech:polished_bauxite"
+    },
+    "2": {
+      "item": "intech:polished_bauxite"
+    },
+    "3": {
+      "item": "intech:polished_bauxite"
+    }
+  },
+  "result": {
+    "item": "intech:polished_bauxite_bricks",
+    "count": 4
+  }
+}

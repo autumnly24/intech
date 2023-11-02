@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_bauxite",
+  "count": 1,
+  "ingredient": {
+    "tag": "forge:bauxite_blocks"
+  },
+  "result": "intech:polished_bauxite"
+}

@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "bauxite",
+    "texture": "polished_bauxite",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Bauxite",
+    "name": "Polished Bauxite",
     "specialInfo": [],
     "hardness": 3.5,
     "resistance": 35.0,

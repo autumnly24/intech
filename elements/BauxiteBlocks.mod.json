@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Bauxite"
+      },
+      {
+        "value": "CUSTOM:PolishedBauxite"
+      },
+      {
+        "value": "CUSTOM:PolishedBauxiteBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedBauxitePillar"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "bauxite_blocks",
+    "namespace": "forge"
+  }
+}

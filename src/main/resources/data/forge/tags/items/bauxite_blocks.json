@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "intech:bauxite",
-    "intech:polished_bauxite",
+    "intech:polished_bauxite_pillar",
     "intech:polished_bauxite_bricks",
-    "intech:polished_bauxite_pillar"
+    "intech:polished_bauxite"
   ]
 }

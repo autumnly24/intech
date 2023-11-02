@@ -22,8 +22,11 @@ public class IntechModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(IntechModBlocks.BAUXITE.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_BAUXITE.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICKS.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_PILLAR.get().asItem());
 		}
 	}
 }

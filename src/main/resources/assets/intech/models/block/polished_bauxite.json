@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "intech:block/polished_bauxite",
+    "particle": "intech:block/polished_bauxite"
+  },
+  "render_type": "solid"
+}

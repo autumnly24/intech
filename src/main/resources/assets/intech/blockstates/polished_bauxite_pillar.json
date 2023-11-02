@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "intech:block/polished_bauxite_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "intech:block/polished_bauxite_pillar"
+    },
+    "axis=z": {
+      "model": "intech:block/polished_bauxite_pillar",
+      "x": 90
+    }
+  }
+}

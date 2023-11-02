@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "intech:block/bauxite_pillar_top",
+    "up": "intech:block/bauxite_pillar_top",
+    "north": "intech:block/bauxite_pillar_side",
+    "east": "intech:block/bauxite_pillar_side",
+    "south": "intech:block/bauxite_pillar_side",
+    "west": "intech:block/bauxite_pillar_side",
+    "particle": "intech:block/bauxite_pillar_top"
+  },
+  "render_type": "solid"
+}

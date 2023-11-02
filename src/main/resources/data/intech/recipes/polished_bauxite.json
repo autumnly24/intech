@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_bauxite",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:bauxite"
+    },
+    "1": {
+      "item": "intech:bauxite"
+    },
+    "2": {
+      "item": "intech:bauxite"
+    },
+    "3": {
+      "item": "intech:bauxite"
+    }
+  },
+  "result": {
+    "item": "intech:polished_bauxite",
+    "count": 4
+  }
+}
