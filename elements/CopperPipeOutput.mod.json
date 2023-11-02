@@ -9,7 +9,7 @@
     "textureRight": "copper_pipe_side",
     "textureBack": "copper_pipe_side",
     "renderType": 2,
-    "customModelName": "copper_pipe_input:default",
+    "customModelName": "copper_pipe_output:default",
     "rotationMode": 1,
     "enablePitch": true,
     "emissiveRendering": false,
@@ -67,18 +67,9 @@
         "My": 2.0,
         "Mz": 14.0,
         "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 4.0,
-        "mz": 3.0,
-        "Mx": 14.0,
-        "My": 5.0,
-        "Mz": 14.0,
-        "subtract": false
       }
     ],
-    "name": "Copper Pipe Input",
+    "name": "Copper Pipe Output",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 6.0,

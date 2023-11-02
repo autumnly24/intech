@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "copper_pipe_input"
+      },
+      "name": "default"
+    },
+    "exposed": {
+      "map": {
+        "4": "exposed_copper_pipe_input"
+      },
+      "name": "exposed"
+    },
+    "oxidized": {
+      "map": {
+        "4": "oxidized_copper_pipe_input"
+      },
+      "name": "oxidized"
+    },
+    "weathered": {
+      "map": {
+        "4": "weathered_copper_pipe_input"
+      },
+      "name": "weathered"
+    }
+  }
+}

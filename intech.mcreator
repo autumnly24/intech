@@ -442,6 +442,74 @@
         ]
       },
       "path": "~/Copper"
+    },
+    {
+      "name": "CopperPipeOutput",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pipe_output",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/entity/CopperPipeOutputBlockEntity.java",
+          "src/main/resources/assets/intech/blockstates/copper_pipe_output.json",
+          "src/main/resources/assets/intech/models/item/copper_pipe_output.json",
+          "src/main/java/net/mcreator/intech/block/CopperPipeOutputBlock.java",
+          "src/main/resources/assets/intech/models/block/copper_pipe_output.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "Pipes",
+      "type": "tag",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/tags/blocks/pipes.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperPipeUpdateTick",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pipe_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperPipeUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Copper"
     }
   ],
   "variable_elements": [
@@ -461,6 +529,7 @@
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
+      "block.intech.copper_pipe_output": "Copper Pipe Output",
       "block.intech.aluminum_pillar": "Aluminum Pillar",
       "item.intech.raw_aluminum": "Raw Aluminum",
       "block.intech.copper_pipe_input": "Copper Pipe Input",

@@ -28,7 +28,7 @@ import javax.annotation.Nullable;
 import java.util.stream.IntStream;
 
 public class CopperPipeBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(7, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(1, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public CopperPipeBlockEntity(BlockPos position, BlockState state) {

@@ -30,6 +30,7 @@ public class IntechModItems {
 	public static final RegistryObject<Item> ALUMINUM_INGOT = REGISTRY.register("aluminum_ingot", () -> new AluminumIngotItem());
 	public static final RegistryObject<Item> COPPER_PIPE = block(IntechModBlocks.COPPER_PIPE);
 	public static final RegistryObject<Item> COPPER_PIPE_INPUT = block(IntechModBlocks.COPPER_PIPE_INPUT);
+	public static final RegistryObject<Item> COPPER_PIPE_OUTPUT = block(IntechModBlocks.COPPER_PIPE_OUTPUT);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
