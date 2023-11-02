@@ -35,6 +35,7 @@ public class IntechModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(IntechModBlocks.COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.COPPER_PIPE_INPUT.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

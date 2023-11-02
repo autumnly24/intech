@@ -9,6 +9,7 @@
     "intech:aluminum_block",
     "intech:aluminum_tiles",
     "intech:aluminum_pillar",
-    "intech:copper_pipe"
+    "intech:copper_pipe",
+    "intech:copper_pipe_input"
   ]
 }

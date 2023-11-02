@@ -4,10 +4,11 @@
   "block.intech.bauxite": "Bauxite",
   "block.intech.raw_aluminum_block": "Raw Aluminum Block",
   "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
-  "block.intech.polished_bauxite": "Polished Bauxite",
   "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
-  "block.intech.aluminum_block": "Block of Aluminum",
-  "item.intech.raw_aluminum": "Raw Aluminum",
   "block.intech.aluminum_pillar": "Aluminum Pillar",
+  "item.intech.raw_aluminum": "Raw Aluminum",
+  "block.intech.copper_pipe_input": "Copper Pipe Input",
+  "block.intech.polished_bauxite": "Polished Bauxite",
+  "block.intech.aluminum_block": "Block of Aluminum",
   "block.intech.copper_pipe": "Copper Pipe"
 }
