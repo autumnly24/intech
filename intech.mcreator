@@ -3,7 +3,7 @@
     {
       "name": "Bauxite",
       "type": "block",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite",
@@ -19,7 +19,7 @@
     {
       "name": "BauxiteReplaceables",
       "type": "tag",
-      "sortid": 3,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_replaceables",
@@ -32,7 +32,7 @@
     {
       "name": "BauxiteVein",
       "type": "feature",
-      "sortid": 4,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_vein",
@@ -48,7 +48,7 @@
     {
       "name": "PolishedBauxite",
       "type": "block",
-      "sortid": 5,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite",
@@ -64,7 +64,7 @@
     {
       "name": "PolishedBauxiteBricks",
       "type": "block",
-      "sortid": 6,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks",
@@ -80,7 +80,7 @@
     {
       "name": "PolishedBauxitePillar",
       "type": "block",
-      "sortid": 7,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar",
@@ -96,7 +96,7 @@
     {
       "name": "PolishedBauxiteRecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_recipe",
@@ -109,7 +109,7 @@
     {
       "name": "PolishedBauxiteStonecutting",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_stonecutting",
@@ -122,7 +122,7 @@
     {
       "name": "PolishedBauxiteBricksRecipe",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_recipe",
@@ -135,7 +135,7 @@
     {
       "name": "PolishedBauxiteBricksStonecutting",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_stonecutting",
@@ -148,7 +148,7 @@
     {
       "name": "BauxiteBlocks",
       "type": "tag",
-      "sortid": 12,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_blocks",
@@ -161,7 +161,7 @@
     {
       "name": "PolishedBauxitePillarRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_recipe",
@@ -174,7 +174,7 @@
     {
       "name": "PolishedBauxitePillarStonecutting",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_stonecutting",
@@ -187,7 +187,7 @@
     {
       "name": "RawAluminum",
       "type": "item",
-      "sortid": 15,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum",
@@ -201,7 +201,7 @@
     {
       "name": "RawAluminumBlock",
       "type": "block",
-      "sortid": 16,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block",
@@ -217,7 +217,7 @@
     {
       "name": "AluminumIngot",
       "type": "item",
-      "sortid": 17,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot",
@@ -231,7 +231,7 @@
     {
       "name": "AluminumBlock",
       "type": "block",
-      "sortid": 18,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_block",
@@ -247,7 +247,7 @@
     {
       "name": "AluminumTiles",
       "type": "block",
-      "sortid": 19,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles",
@@ -263,7 +263,7 @@
     {
       "name": "AluminumPillar",
       "type": "block",
-      "sortid": 20,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar",
@@ -279,7 +279,7 @@
     {
       "name": "RawAluminumToBlock",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_to_block",
@@ -292,7 +292,7 @@
     {
       "name": "RawAluminumBlockToItem",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block_to_item",
@@ -305,7 +305,7 @@
     {
       "name": "AluminumIngotSmelting",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_smelting",
@@ -318,7 +318,7 @@
     {
       "name": "AluminumIngotBlasting",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_blasting",
@@ -331,7 +331,7 @@
     {
       "name": "AluminumIngotToBlock",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_to_block",
@@ -344,7 +344,7 @@
     {
       "name": "AluminumBlockToIngot",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_block_to_ingot",
@@ -357,7 +357,7 @@
     {
       "name": "AluminumTilesRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles_recipe",
@@ -370,7 +370,7 @@
     {
       "name": "AluminumPillarRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar_recipe",
