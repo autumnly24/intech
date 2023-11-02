@@ -33,6 +33,7 @@ import net.mcreator.intech.init.IntechModTabs;
 import net.mcreator.intech.init.IntechModItems;
 import net.mcreator.intech.init.IntechModFeatures;
 import net.mcreator.intech.init.IntechModBlocks;
+import net.mcreator.intech.init.IntechModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,7 +54,7 @@ public class IntechMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		IntechModBlocks.REGISTRY.register(bus);
-
+		IntechModBlockEntities.REGISTRY.register(bus);
 		IntechModItems.REGISTRY.register(bus);
 
 		IntechModTabs.REGISTRY.register(bus);

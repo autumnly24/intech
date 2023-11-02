@@ -14,7 +14,8 @@
           "src/main/resources/assets/intech/models/block/bauxite.json",
           "src/main/java/net/mcreator/intech/block/BauxiteBlock.java"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "BauxiteReplaceables",
@@ -27,7 +28,8 @@
         "files": [
           "src/main/resources/data/forge/tags/blocks/bauxite_replaceables.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "BauxiteVein",
@@ -43,7 +45,8 @@
           "src/main/resources/data/intech/worldgen/placed_feature/bauxite_vein.json",
           "src/main/java/net/mcreator/intech/world/features/BauxiteVeinFeature.java"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxite",
@@ -59,7 +62,8 @@
           "src/main/resources/assets/intech/models/item/polished_bauxite.json",
           "src/main/resources/assets/intech/models/block/polished_bauxite.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxiteBricks",
@@ -75,7 +79,8 @@
           "src/main/resources/assets/intech/blockstates/polished_bauxite_bricks.json",
           "src/main/resources/assets/intech/models/item/polished_bauxite_bricks.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxitePillar",
@@ -91,7 +96,8 @@
           "src/main/resources/assets/intech/models/item/polished_bauxite_pillar.json",
           "src/main/resources/assets/intech/models/block/polished_bauxite_pillar.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxiteRecipe",
@@ -104,7 +110,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/polished_bauxite.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxiteStonecutting",
@@ -117,7 +124,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/polished_bauxite_stonecutting.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxiteBricksRecipe",
@@ -130,7 +138,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/polished_bauxite_bricks.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxiteBricksStonecutting",
@@ -143,7 +152,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/polished_bauxite_bricks_stonecutting.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "BauxiteBlocks",
@@ -156,7 +166,8 @@
         "files": [
           "src/main/resources/data/forge/tags/items/bauxite_blocks.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxitePillarRecipe",
@@ -169,7 +180,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/polished_bauxite_pillar.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "PolishedBauxitePillarStonecutting",
@@ -182,7 +194,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/polished_bauxite_pillar_stonecutting.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "RawAluminum",
@@ -196,7 +209,8 @@
           "src/main/resources/assets/intech/models/item/raw_aluminum.json",
           "src/main/java/net/mcreator/intech/item/RawAluminumItem.java"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "RawAluminumBlock",
@@ -212,7 +226,8 @@
           "src/main/resources/assets/intech/models/block/raw_aluminum_block.json",
           "src/main/resources/assets/intech/blockstates/raw_aluminum_block.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumIngot",
@@ -226,7 +241,8 @@
           "src/main/java/net/mcreator/intech/item/AluminumIngotItem.java",
           "src/main/resources/assets/intech/models/item/aluminum_ingot.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumBlock",
@@ -242,7 +258,8 @@
           "src/main/resources/assets/intech/models/item/aluminum_block.json",
           "src/main/resources/assets/intech/blockstates/aluminum_block.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumTiles",
@@ -258,7 +275,8 @@
           "src/main/resources/assets/intech/models/block/aluminum_tiles.json",
           "src/main/java/net/mcreator/intech/block/AluminumTilesBlock.java"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumPillar",
@@ -274,7 +292,8 @@
           "src/main/java/net/mcreator/intech/block/AluminumPillarBlock.java",
           "src/main/resources/assets/intech/blockstates/aluminum_pillar.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "RawAluminumToBlock",
@@ -287,7 +306,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/raw_aluminum_to_block.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "RawAluminumBlockToItem",
@@ -300,7 +320,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/raw_aluminum_block_to_item.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumIngotSmelting",
@@ -313,7 +334,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/aluminum_ingot_smelting.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumIngotBlasting",
@@ -326,7 +348,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/aluminum_ingot_blasting.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumIngotToBlock",
@@ -339,7 +362,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/aluminum_ingot_to_block.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumBlockToIngot",
@@ -352,7 +376,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/aluminum_block_to_ingot.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumTilesRecipe",
@@ -365,7 +390,8 @@
         "files": [
           "src/main/resources/data/intech/recipes/aluminum_tiles.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
     },
     {
       "name": "AluminumPillarRecipe",
@@ -378,10 +404,36 @@
         "files": [
           "src/main/resources/data/intech/recipes/aluminum_pillar.json"
         ]
-      }
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "CopperPipe",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/CopperPipeBlock.java",
+          "src/main/resources/assets/intech/blockstates/copper_pipe.json",
+          "src/main/resources/assets/intech/models/item/copper_pipe.json",
+          "src/main/resources/assets/intech/models/block/copper_pipe.json",
+          "src/main/java/net/mcreator/intech/block/entity/CopperPipeBlockEntity.java"
+        ]
+      },
+      "path": "~/Copper"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "MarkersOn",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -394,12 +446,22 @@
       "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
       "block.intech.aluminum_block": "Block of Aluminum",
       "item.intech.raw_aluminum": "Raw Aluminum",
-      "block.intech.aluminum_pillar": "Aluminum Pillar"
+      "block.intech.aluminum_pillar": "Aluminum Pillar",
+      "block.intech.copper_pipe": "Copper Pipe"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Aluminum",
+        "children": []
+      },
+      {
+        "name": "Copper",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "intech",

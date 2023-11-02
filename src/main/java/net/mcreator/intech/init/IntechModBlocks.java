@@ -14,6 +14,7 @@ import net.mcreator.intech.block.RawAluminumBlockBlock;
 import net.mcreator.intech.block.PolishedBauxitePillarBlock;
 import net.mcreator.intech.block.PolishedBauxiteBricksBlock;
 import net.mcreator.intech.block.PolishedBauxiteBlock;
+import net.mcreator.intech.block.CopperPipeBlock;
 import net.mcreator.intech.block.BauxiteBlock;
 import net.mcreator.intech.block.AluminumTilesBlock;
 import net.mcreator.intech.block.AluminumPillarBlock;
@@ -30,4 +31,5 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> ALUMINUM_BLOCK = REGISTRY.register("aluminum_block", () -> new AluminumBlockBlock());
 	public static final RegistryObject<Block> ALUMINUM_TILES = REGISTRY.register("aluminum_tiles", () -> new AluminumTilesBlock());
 	public static final RegistryObject<Block> ALUMINUM_PILLAR = REGISTRY.register("aluminum_pillar", () -> new AluminumPillarBlock());
+	public static final RegistryObject<Block> COPPER_PIPE = REGISTRY.register("copper_pipe", () -> new CopperPipeBlock());
 }

@@ -33,6 +33,10 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.ALUMINUM_PILLAR.get().asItem());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(IntechModBlocks.COPPER_PIPE.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(IntechModItems.RAW_ALUMINUM.get());
 			tabData.accept(IntechModItems.ALUMINUM_INGOT.get());
