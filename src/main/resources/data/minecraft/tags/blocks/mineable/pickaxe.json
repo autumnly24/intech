@@ -4,6 +4,10 @@
     "intech:bauxite",
     "intech:polished_bauxite",
     "intech:polished_bauxite_bricks",
-    "intech:polished_bauxite_pillar"
+    "intech:polished_bauxite_pillar",
+    "intech:raw_aluminum_block",
+    "intech:aluminum_block",
+    "intech:aluminum_tiles",
+    "intech:aluminum_pillar"
   ]
 }

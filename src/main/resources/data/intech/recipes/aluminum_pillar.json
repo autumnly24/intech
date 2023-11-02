@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "aluminum_pillar",
+  "category": "building",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:aluminum_ingot"
+    },
+    "1": {
+      "item": "intech:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "intech:aluminum_pillar",
+    "count": 2
+  }
+}

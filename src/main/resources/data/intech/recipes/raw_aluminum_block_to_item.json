@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "raw_aluminum",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:raw_aluminum_block"
+    }
+  },
+  "result": {
+    "item": "intech:raw_aluminum",
+    "count": 9
+  }
+}

@@ -183,16 +183,218 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_pillar_stonecutting.json"
         ]
       }
+    },
+    {
+      "name": "RawAluminum",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aluminum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/raw_aluminum.json",
+          "src/main/java/net/mcreator/intech/item/RawAluminumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RawAluminumBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aluminum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/raw_aluminum_block.json",
+          "src/main/java/net/mcreator/intech/block/RawAluminumBlockBlock.java",
+          "src/main/resources/assets/intech/models/block/raw_aluminum_block.json",
+          "src/main/resources/assets/intech/blockstates/raw_aluminum_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumIngot",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/item/AluminumIngotItem.java",
+          "src/main/resources/assets/intech/models/item/aluminum_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/aluminum_block.json",
+          "src/main/java/net/mcreator/intech/block/AluminumBlockBlock.java",
+          "src/main/resources/assets/intech/models/item/aluminum_block.json",
+          "src/main/resources/assets/intech/blockstates/aluminum_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumTiles",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/aluminum_tiles.json",
+          "src/main/resources/assets/intech/models/item/aluminum_tiles.json",
+          "src/main/resources/assets/intech/models/block/aluminum_tiles.json",
+          "src/main/java/net/mcreator/intech/block/AluminumTilesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminumPillar",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/aluminum_pillar.json",
+          "src/main/resources/assets/intech/models/block/aluminum_pillar.json",
+          "src/main/java/net/mcreator/intech/block/AluminumPillarBlock.java",
+          "src/main/resources/assets/intech/blockstates/aluminum_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "RawAluminumToBlock",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aluminum_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/raw_aluminum_to_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RawAluminumBlockToItem",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aluminum_block_to_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/raw_aluminum_block_to_item.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumIngotSmelting",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_ingot_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_ingot_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumIngotBlasting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_ingot_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_ingot_blasting.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumIngotToBlock",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_ingot_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_ingot_to_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumBlockToIngot",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_block_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumTilesRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tiles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminumPillarRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_pillar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_pillar.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.intech.aluminum_tiles": "Aluminum Tiles",
+      "item.intech.aluminum_ingot": "Aluminum Ingot",
       "block.intech.bauxite": "Bauxite",
+      "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "block.intech.polished_bauxite": "Polished Bauxite",
-      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar"
+      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
+      "block.intech.aluminum_block": "Block of Aluminum",
+      "item.intech.raw_aluminum": "Raw Aluminum",
+      "block.intech.aluminum_pillar": "Aluminum Pillar"
     }
   },
   "foldersRoot": {

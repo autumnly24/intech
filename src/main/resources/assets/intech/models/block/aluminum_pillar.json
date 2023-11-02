@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "intech:block/aluminum_block",
+    "up": "intech:block/aluminum_block",
+    "north": "intech:block/aluminum_pillar",
+    "east": "intech:block/aluminum_pillar",
+    "south": "intech:block/aluminum_pillar",
+    "west": "intech:block/aluminum_pillar",
+    "particle": "intech:block/aluminum_block"
+  },
+  "render_type": "solid"
+}

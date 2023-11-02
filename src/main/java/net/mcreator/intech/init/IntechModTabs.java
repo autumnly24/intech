@@ -27,6 +27,15 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.POLISHED_BAUXITE.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICKS.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_PILLAR.get().asItem());
+			tabData.accept(IntechModBlocks.RAW_ALUMINUM_BLOCK.get().asItem());
+			tabData.accept(IntechModBlocks.ALUMINUM_BLOCK.get().asItem());
+			tabData.accept(IntechModBlocks.ALUMINUM_TILES.get().asItem());
+			tabData.accept(IntechModBlocks.ALUMINUM_PILLAR.get().asItem());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(IntechModItems.RAW_ALUMINUM.get());
+			tabData.accept(IntechModItems.ALUMINUM_INGOT.get());
 		}
 	}
 }
