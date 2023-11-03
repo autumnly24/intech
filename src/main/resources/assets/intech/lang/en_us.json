@@ -1,16 +1,22 @@
 {
   "block.intech.aluminum_tiles": "Aluminum Tiles",
+  "block.intech.waxed_copper_pipe": "Waxed Copper Pipe",
   "item.intech.aluminum_ingot": "Aluminum Ingot",
   "block.intech.bauxite": "Bauxite",
   "block.intech.raw_aluminum_block": "Raw Aluminum Block",
+  "block.intech.waxed_exposed_copper_pipe": "Waxed Exposed Copper Pipe",
+  "block.intech.oxidized_copper_pipe": "Oxidized Copper Pipe",
   "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
-  "block.intech.copper_pipe_output": "Copper Pipe Output",
   "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
   "block.intech.aluminum_pillar": "Aluminum Pillar",
   "item.intech.raw_aluminum": "Raw Aluminum",
   "subtitles.pipeclank": "Pipe-Clank",
-  "block.intech.copper_pipe_input": "Copper Pipe Input",
+  "block.intech.exposed_copper_pipe": "Exposed Copper Pipe",
+  "block.intech.waxed_oxidized_copper_pipe": "Waxed Oxidized Copper Pipe",
   "block.intech.polished_bauxite": "Polished Bauxite",
+  "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
+  "block.intech.waxed_weathered_copper_pipe": "Waxed Weathered Copper Pipe",
   "block.intech.aluminum_block": "Block of Aluminum",
-  "block.intech.copper_pipe": "Copper Pipe"
+  "block.intech.copper_pipe": "Copper Pipe",
+  "block.intech.dark_brass_pipe": "Dark Brass Pipe"
 }

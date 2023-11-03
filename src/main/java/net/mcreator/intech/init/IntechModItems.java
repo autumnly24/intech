@@ -29,8 +29,14 @@ public class IntechModItems {
 	public static final RegistryObject<Item> RAW_ALUMINUM = REGISTRY.register("raw_aluminum", () -> new RawAluminumItem());
 	public static final RegistryObject<Item> ALUMINUM_INGOT = REGISTRY.register("aluminum_ingot", () -> new AluminumIngotItem());
 	public static final RegistryObject<Item> COPPER_PIPE = block(IntechModBlocks.COPPER_PIPE);
-	public static final RegistryObject<Item> COPPER_PIPE_INPUT = block(IntechModBlocks.COPPER_PIPE_INPUT);
-	public static final RegistryObject<Item> COPPER_PIPE_OUTPUT = block(IntechModBlocks.COPPER_PIPE_OUTPUT);
+	public static final RegistryObject<Item> WAXED_COPPER_PIPE = block(IntechModBlocks.WAXED_COPPER_PIPE);
+	public static final RegistryObject<Item> EXPOSED_COPPER_PIPE = block(IntechModBlocks.EXPOSED_COPPER_PIPE);
+	public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_PIPE = block(IntechModBlocks.WAXED_EXPOSED_COPPER_PIPE);
+	public static final RegistryObject<Item> WEATHERED_COPPER_PIPE = block(IntechModBlocks.WEATHERED_COPPER_PIPE);
+	public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_PIPE = block(IntechModBlocks.WAXED_WEATHERED_COPPER_PIPE);
+	public static final RegistryObject<Item> OXIDIZED_COPPER_PIPE = block(IntechModBlocks.OXIDIZED_COPPER_PIPE);
+	public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_PIPE = block(IntechModBlocks.WAXED_OXIDIZED_COPPER_PIPE);
+	public static final RegistryObject<Item> DARK_BRASS_PIPE = block(IntechModBlocks.DARK_BRASS_PIPE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

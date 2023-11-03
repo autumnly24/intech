@@ -1,9 +1,0 @@
-{
-  "parent": "intech:custom/copper_pipe_input",
-  "textures": {
-    "all": "intech:block/copper_pipe_input",
-    "particle": "intech:block/copper_pipe_input",
-    "4": "intech:block/copper_pipe_input"
-  },
-  "render_type": "solid"
-}

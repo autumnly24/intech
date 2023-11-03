@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "intech:block/copper_pipe_top",
+    "up": "intech:block/copper_pipe_top",
+    "north": "intech:block/copper_pipe_side",
+    "east": "intech:block/copper_pipe_side",
+    "south": "intech:block/copper_pipe_side",
+    "west": "intech:block/copper_pipe_side",
+    "particle": "intech:block/copper_pipe_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "intech:block/oxidized_copper_pipe"
+    },
+    "face=floor,facing=east": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "x": 90
+    },
+    "face=wall,facing=east": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=south": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "intech:block/oxidized_copper_pipe",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

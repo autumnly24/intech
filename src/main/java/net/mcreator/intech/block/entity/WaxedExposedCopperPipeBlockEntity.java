@@ -27,12 +27,12 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-public class CopperPipeInputBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+public class WaxedExposedCopperPipeBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(1, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
-	public CopperPipeInputBlockEntity(BlockPos position, BlockState state) {
-		super(IntechModBlockEntities.COPPER_PIPE_INPUT.get(), position, state);
+	public WaxedExposedCopperPipeBlockEntity(BlockPos position, BlockState state) {
+		super(IntechModBlockEntities.WAXED_EXPOSED_COPPER_PIPE.get(), position, state);
 	}
 
 	@Override
@@ -76,7 +76,7 @@ public class CopperPipeInputBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("copper_pipe_input");
+		return Component.literal("waxed_exposed_copper_pipe");
 	}
 
 	@Override
@@ -91,7 +91,7 @@ public class CopperPipeInputBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Copper Pipe Input");
+		return Component.literal("Waxed Exposed Copper Pipe");
 	}
 
 	@Override

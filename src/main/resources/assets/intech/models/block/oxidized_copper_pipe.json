@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "intech:block/oxidized_copper_pipe_top",
+    "up": "intech:block/oxidized_copper_pipe_top",
+    "north": "intech:block/oxidized_copper_pipe_side",
+    "east": "intech:block/oxidized_copper_pipe_side",
+    "south": "intech:block/oxidized_copper_pipe_side",
+    "west": "intech:block/oxidized_copper_pipe_side",
+    "particle": "intech:block/oxidized_copper_pipe_top"
+  },
+  "render_type": "solid"
+}

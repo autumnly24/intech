@@ -1,9 +1,6 @@
 
 package net.mcreator.intech.block;
 
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.Shapes;
-import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -28,62 +25,29 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.intech.block.entity.CopperPipeOutputBlockEntity;
+import net.mcreator.intech.procedures.CopperPipeUpdateTickProcedure;
+import net.mcreator.intech.block.entity.DarkBrassPipeBlockEntity;
 
 import java.util.List;
 import java.util.Collections;
 
-public class CopperPipeOutputBlock extends Block implements EntityBlock {
+public class DarkBrassPipeBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final EnumProperty<AttachFace> FACE = FaceAttachedHorizontalDirectionalBlock.FACE;
 
-	public CopperPipeOutputBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(3f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+	public DarkBrassPipeBlock() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(3f, 6f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL));
 	}
 
 	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
-		return true;
-	}
-
-	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
-	}
-
-	@Override
-	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.empty();
-	}
-
-	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return switch (state.getValue(FACING)) {
-			default -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(0, 0, 0, 16, 7, 16);
-				case WALL -> box(0, 0, 0, 16, 16, 7);
-				case CEILING -> box(0, 9, 0, 16, 16, 16);
-			};
-			case NORTH -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(0, 0, 0, 16, 7, 16);
-				case WALL -> box(0, 0, 9, 16, 16, 16);
-				case CEILING -> box(0, 9, 0, 16, 16, 16);
-			};
-			case EAST -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(0, 0, 0, 16, 7, 16);
-				case WALL -> box(0, 0, 0, 7, 16, 16);
-				case CEILING -> box(0, 9, 0, 16, 16, 16);
-			};
-			case WEST -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(0, 0, 0, 16, 7, 16);
-				case WALL -> box(9, 0, 0, 16, 16, 16);
-				case CEILING -> box(0, 9, 0, 16, 16, 16);
-			};
-		};
+		return 15;
 	}
 
 	@Override
@@ -127,6 +91,22 @@ public class CopperPipeOutputBlock extends Block implements EntityBlock {
 	}
 
 	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 1);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		CopperPipeUpdateTickProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 1);
+	}
+
+	@Override
 	public MenuProvider getMenuProvider(BlockState state, Level worldIn, BlockPos pos) {
 		BlockEntity tileEntity = worldIn.getBlockEntity(pos);
 		return tileEntity instanceof MenuProvider menuProvider ? menuProvider : null;
@@ -134,7 +114,7 @@ public class CopperPipeOutputBlock extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new CopperPipeOutputBlockEntity(pos, state);
+		return new DarkBrassPipeBlockEntity(pos, state);
 	}
 
 	@Override
@@ -148,7 +128,7 @@ public class CopperPipeOutputBlock extends Block implements EntityBlock {
 	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if (state.getBlock() != newState.getBlock()) {
 			BlockEntity blockEntity = world.getBlockEntity(pos);
-			if (blockEntity instanceof CopperPipeOutputBlockEntity be) {
+			if (blockEntity instanceof DarkBrassPipeBlockEntity be) {
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
@@ -164,7 +144,7 @@ public class CopperPipeOutputBlock extends Block implements EntityBlock {
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof CopperPipeOutputBlockEntity be)
+		if (tileentity instanceof DarkBrassPipeBlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;

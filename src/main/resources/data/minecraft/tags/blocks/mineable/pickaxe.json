@@ -10,7 +10,13 @@
     "intech:aluminum_tiles",
     "intech:aluminum_pillar",
     "intech:copper_pipe",
-    "intech:copper_pipe_input",
-    "intech:copper_pipe_output"
+    "intech:waxed_copper_pipe",
+    "intech:exposed_copper_pipe",
+    "intech:waxed_exposed_copper_pipe",
+    "intech:weathered_copper_pipe",
+    "intech:waxed_weathered_copper_pipe",
+    "intech:oxidized_copper_pipe",
+    "intech:waxed_oxidized_copper_pipe",
+    "intech:dark_brass_pipe"
   ]
 }

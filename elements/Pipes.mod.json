@@ -7,6 +7,27 @@
     "blocks": [
       {
         "value": "CUSTOM:CopperPipe"
+      },
+      {
+        "value": "CUSTOM:WaxedCopperPipe"
+      },
+      {
+        "value": "CUSTOM:ExposedCopperPipe"
+      },
+      {
+        "value": "CUSTOM:WaxedExposedCopperPipe"
+      },
+      {
+        "value": "CUSTOM:WeatheredCopperPipe"
+      },
+      {
+        "value": "CUSTOM:WaxedWeatheredCopperPipe"
+      },
+      {
+        "value": "CUSTOM:OxidizedCopperPipe"
+      },
+      {
+        "value": "CUSTOM:WaxedOxidizedCopperPipe"
       }
     ],
     "functions": [],

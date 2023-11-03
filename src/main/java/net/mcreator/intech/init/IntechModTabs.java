@@ -35,8 +35,14 @@ public class IntechModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(IntechModBlocks.COPPER_PIPE.get().asItem());
-			tabData.accept(IntechModBlocks.COPPER_PIPE_INPUT.get().asItem());
-			tabData.accept(IntechModBlocks.COPPER_PIPE_OUTPUT.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.EXPOSED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_EXPOSED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.WEATHERED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_WEATHERED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.DARK_BRASS_PIPE.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
