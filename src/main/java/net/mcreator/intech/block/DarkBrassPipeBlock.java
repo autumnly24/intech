@@ -41,7 +41,7 @@ public class DarkBrassPipeBlock extends Block implements EntityBlock {
 	public static final EnumProperty<AttachFace> FACE = FaceAttachedHorizontalDirectionalBlock.FACE;
 
 	public DarkBrassPipeBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(3f, 6f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.NETHERITE_BLOCK).strength(3f, 6f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL));
 	}
 
