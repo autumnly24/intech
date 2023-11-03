@@ -93,7 +93,7 @@ public class CopperPipeBlock extends Block implements EntityBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 2);
+		world.scheduleTick(pos, this, 6);
 	}
 
 	@Override
@@ -102,8 +102,8 @@ public class CopperPipeBlock extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		CopperPipeUpdateTickProcedure.execute(world, x, y, z, blockstate);
-		world.scheduleTick(pos, this, 2);
+		CopperPipeUpdateTickProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 6);
 	}
 
 	@Override
