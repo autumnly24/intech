@@ -67,24 +67,24 @@ public class CopperPipeInputBlock extends Block implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(0, 0, 0, 16, 8, 16);
-				case WALL -> box(0, 0, 0, 16, 16, 8);
-				case CEILING -> box(0, 8, 0, 16, 16, 16);
+				case FLOOR -> box(0, 0, 0, 16, 7, 16);
+				case WALL -> box(0, 0, 0, 16, 16, 7);
+				case CEILING -> box(0, 9, 0, 16, 16, 16);
 			};
 			case NORTH -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(0, 0, 0, 16, 8, 16);
-				case WALL -> box(0, 0, 8, 16, 16, 16);
-				case CEILING -> box(0, 8, 0, 16, 16, 16);
+				case FLOOR -> box(0, 0, 0, 16, 7, 16);
+				case WALL -> box(0, 0, 9, 16, 16, 16);
+				case CEILING -> box(0, 9, 0, 16, 16, 16);
 			};
 			case EAST -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(0, 0, 0, 16, 8, 16);
-				case WALL -> box(0, 0, 0, 8, 16, 16);
-				case CEILING -> box(0, 8, 0, 16, 16, 16);
+				case FLOOR -> box(0, 0, 0, 16, 7, 16);
+				case WALL -> box(0, 0, 0, 7, 16, 16);
+				case CEILING -> box(0, 9, 0, 16, 16, 16);
 			};
 			case WEST -> switch (state.getValue(FACE)) {
-				case FLOOR -> box(0, 0, 0, 16, 8, 16);
-				case WALL -> box(8, 0, 0, 16, 16, 16);
-				case CEILING -> box(0, 8, 0, 16, 16, 16);
+				case FLOOR -> box(0, 0, 0, 16, 7, 16);
+				case WALL -> box(9, 0, 0, 16, 16, 16);
+				case CEILING -> box(0, 9, 0, 16, 16, 16);
 			};
 		};
 	}
