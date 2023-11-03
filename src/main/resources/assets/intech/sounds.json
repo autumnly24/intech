@@ -1,0 +1,11 @@
+{
+  "pipeclank": {
+    "subtitle": "subtitles.pipeclank",
+    "sounds": [
+      {
+        "name": "intech:pipe_bang",
+        "stream": false
+      }
+    ]
+  }
+}

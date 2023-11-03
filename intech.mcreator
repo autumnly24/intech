@@ -580,7 +580,16 @@
       "value": "false"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "pipeclank",
+      "files": [
+        "pipe_bang"
+      ],
+      "category": "block",
+      "subtitle": "Pipe-Clank"
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.intech.aluminum_tiles": "Aluminum Tiles",
@@ -588,10 +597,11 @@
       "block.intech.bauxite": "Bauxite",
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
-      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
       "block.intech.copper_pipe_output": "Copper Pipe Output",
+      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
       "block.intech.aluminum_pillar": "Aluminum Pillar",
       "item.intech.raw_aluminum": "Raw Aluminum",
+      "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.copper_pipe_input": "Copper Pipe Input",
       "block.intech.polished_bauxite": "Polished Bauxite",
       "block.intech.aluminum_block": "Block of Aluminum",

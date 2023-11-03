@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.intech.init.IntechModTabs;
+import net.mcreator.intech.init.IntechModSounds;
 import net.mcreator.intech.init.IntechModItems;
 import net.mcreator.intech.init.IntechModFeatures;
 import net.mcreator.intech.init.IntechModBlocks;
@@ -52,7 +53,7 @@ public class IntechMod {
 	public IntechMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		IntechModSounds.REGISTRY.register(bus);
 		IntechModBlocks.REGISTRY.register(bus);
 		IntechModBlockEntities.REGISTRY.register(bus);
 		IntechModItems.REGISTRY.register(bus);
