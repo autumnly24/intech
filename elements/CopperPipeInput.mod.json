@@ -28,53 +28,8 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 7.0,
-        "Mz": 2.0,
-        "subtract": false
-      },
-      {
-        "mx": 0.0,
-        "my": 0.0,
-        "mz": 2.0,
-        "Mx": 2.0,
-        "My": 7.0,
-        "Mz": 14.0,
-        "subtract": false
-      },
-      {
-        "mx": 14.0,
-        "my": 0.0,
-        "mz": 2.0,
-        "Mx": 16.0,
-        "My": 7.0,
-        "Mz": 14.0,
-        "subtract": false
-      },
-      {
-        "mx": 0.0,
-        "my": 0.0,
-        "mz": 14.0,
-        "Mx": 16.0,
-        "My": 7.0,
+        "My": 8.0,
         "Mz": 16.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 0.0,
-        "mz": 2.0,
-        "Mx": 14.0,
-        "My": 2.0,
-        "Mz": 14.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 4.0,
-        "mz": 3.0,
-        "Mx": 14.0,
-        "My": 5.0,
-        "Mz": 14.0,
         "subtract": false
       }
     ],
@@ -162,6 +117,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "CopperPipeInputUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

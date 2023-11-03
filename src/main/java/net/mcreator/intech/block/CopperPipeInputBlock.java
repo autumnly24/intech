@@ -28,9 +28,12 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.intech.procedures.CopperPipeInputUpdateTickProcedure;
 import net.mcreator.intech.block.entity.CopperPipeInputBlockEntity;
 
 import java.util.List;
@@ -64,24 +67,24 @@ public class CopperPipeInputBlock extends Block implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 0, 14, 16, 7, 16), box(14, 0, 2, 16, 7, 14), box(0, 0, 2, 2, 7, 14), box(0, 0, 0, 16, 7, 2), box(2, 0, 2, 14, 2, 14), box(2, 4, 2, 14, 5, 13));
-				case WALL -> Shapes.or(box(0, 0, 0, 16, 2, 7), box(14, 2, 0, 16, 14, 7), box(0, 2, 0, 2, 14, 7), box(0, 14, 0, 16, 16, 7), box(2, 2, 0, 14, 14, 2), box(2, 3, 4, 14, 14, 5));
-				case CEILING -> Shapes.or(box(0, 9, 14, 16, 16, 16), box(0, 9, 2, 2, 16, 14), box(14, 9, 2, 16, 16, 14), box(0, 9, 0, 16, 16, 2), box(2, 14, 2, 14, 16, 14), box(2, 11, 2, 14, 12, 13));
+				case FLOOR -> box(0, 0, 0, 16, 8, 16);
+				case WALL -> box(0, 0, 0, 16, 16, 8);
+				case CEILING -> box(0, 8, 0, 16, 16, 16);
 			};
 			case NORTH -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 0, 0, 16, 7, 2), box(0, 0, 2, 2, 7, 14), box(14, 0, 2, 16, 7, 14), box(0, 0, 14, 16, 7, 16), box(2, 0, 2, 14, 2, 14), box(2, 4, 3, 14, 5, 14));
-				case WALL -> Shapes.or(box(0, 0, 9, 16, 2, 16), box(0, 2, 9, 2, 14, 16), box(14, 2, 9, 16, 14, 16), box(0, 14, 9, 16, 16, 16), box(2, 2, 14, 14, 14, 16), box(2, 3, 11, 14, 14, 12));
-				case CEILING -> Shapes.or(box(0, 9, 0, 16, 16, 2), box(14, 9, 2, 16, 16, 14), box(0, 9, 2, 2, 16, 14), box(0, 9, 14, 16, 16, 16), box(2, 14, 2, 14, 16, 14), box(2, 11, 3, 14, 12, 14));
+				case FLOOR -> box(0, 0, 0, 16, 8, 16);
+				case WALL -> box(0, 0, 8, 16, 16, 16);
+				case CEILING -> box(0, 8, 0, 16, 16, 16);
 			};
 			case EAST -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(14, 0, 0, 16, 7, 16), box(2, 0, 0, 14, 7, 2), box(2, 0, 14, 14, 7, 16), box(0, 0, 0, 2, 7, 16), box(2, 0, 2, 14, 2, 14), box(2, 4, 2, 13, 5, 14));
-				case WALL -> Shapes.or(box(0, 0, 0, 7, 2, 16), box(0, 2, 0, 7, 14, 2), box(0, 2, 14, 7, 14, 16), box(0, 14, 0, 7, 16, 16), box(0, 2, 2, 2, 14, 14), box(4, 3, 2, 5, 14, 14));
-				case CEILING -> Shapes.or(box(14, 9, 0, 16, 16, 16), box(2, 9, 14, 14, 16, 16), box(2, 9, 0, 14, 16, 2), box(0, 9, 0, 2, 16, 16), box(2, 14, 2, 14, 16, 14), box(2, 11, 2, 13, 12, 14));
+				case FLOOR -> box(0, 0, 0, 16, 8, 16);
+				case WALL -> box(0, 0, 0, 8, 16, 16);
+				case CEILING -> box(0, 8, 0, 16, 16, 16);
 			};
 			case WEST -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 0, 0, 2, 7, 16), box(2, 0, 14, 14, 7, 16), box(2, 0, 0, 14, 7, 2), box(14, 0, 0, 16, 7, 16), box(2, 0, 2, 14, 2, 14), box(3, 4, 2, 14, 5, 14));
-				case WALL -> Shapes.or(box(9, 0, 0, 16, 2, 16), box(9, 2, 14, 16, 14, 16), box(9, 2, 0, 16, 14, 2), box(9, 14, 0, 16, 16, 16), box(14, 2, 2, 16, 14, 14), box(11, 3, 2, 12, 14, 14));
-				case CEILING -> Shapes.or(box(0, 9, 0, 2, 16, 16), box(2, 9, 0, 14, 16, 2), box(2, 9, 14, 14, 16, 16), box(14, 9, 0, 16, 16, 16), box(2, 14, 2, 14, 16, 14), box(3, 11, 2, 14, 12, 14));
+				case FLOOR -> box(0, 0, 0, 16, 8, 16);
+				case WALL -> box(8, 0, 0, 16, 16, 16);
+				case CEILING -> box(0, 8, 0, 16, 16, 16);
 			};
 		};
 	}
@@ -124,6 +127,22 @@ public class CopperPipeInputBlock extends Block implements EntityBlock {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 2);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		CopperPipeInputUpdateTickProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 2);
 	}
 
 	@Override

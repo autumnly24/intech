@@ -64,24 +64,24 @@ public class CopperPipeOutputBlock extends Block implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 0, 14, 16, 7, 16), box(14, 0, 2, 16, 7, 14), box(0, 0, 2, 2, 7, 14), box(0, 0, 0, 16, 7, 2), box(2, 0, 2, 14, 2, 14));
-				case WALL -> Shapes.or(box(0, 0, 0, 16, 2, 7), box(14, 2, 0, 16, 14, 7), box(0, 2, 0, 2, 14, 7), box(0, 14, 0, 16, 16, 7), box(2, 2, 0, 14, 14, 2));
-				case CEILING -> Shapes.or(box(0, 9, 14, 16, 16, 16), box(0, 9, 2, 2, 16, 14), box(14, 9, 2, 16, 16, 14), box(0, 9, 0, 16, 16, 2), box(2, 14, 2, 14, 16, 14));
+				case FLOOR -> box(0, 0, 0, 16, 8, 16);
+				case WALL -> box(0, 0, 0, 16, 16, 8);
+				case CEILING -> box(0, 8, 0, 16, 16, 16);
 			};
 			case NORTH -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 0, 0, 16, 7, 2), box(0, 0, 2, 2, 7, 14), box(14, 0, 2, 16, 7, 14), box(0, 0, 14, 16, 7, 16), box(2, 0, 2, 14, 2, 14));
-				case WALL -> Shapes.or(box(0, 0, 9, 16, 2, 16), box(0, 2, 9, 2, 14, 16), box(14, 2, 9, 16, 14, 16), box(0, 14, 9, 16, 16, 16), box(2, 2, 14, 14, 14, 16));
-				case CEILING -> Shapes.or(box(0, 9, 0, 16, 16, 2), box(14, 9, 2, 16, 16, 14), box(0, 9, 2, 2, 16, 14), box(0, 9, 14, 16, 16, 16), box(2, 14, 2, 14, 16, 14));
+				case FLOOR -> box(0, 0, 0, 16, 8, 16);
+				case WALL -> box(0, 0, 8, 16, 16, 16);
+				case CEILING -> box(0, 8, 0, 16, 16, 16);
 			};
 			case EAST -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(14, 0, 0, 16, 7, 16), box(2, 0, 0, 14, 7, 2), box(2, 0, 14, 14, 7, 16), box(0, 0, 0, 2, 7, 16), box(2, 0, 2, 14, 2, 14));
-				case WALL -> Shapes.or(box(0, 0, 0, 7, 2, 16), box(0, 2, 0, 7, 14, 2), box(0, 2, 14, 7, 14, 16), box(0, 14, 0, 7, 16, 16), box(0, 2, 2, 2, 14, 14));
-				case CEILING -> Shapes.or(box(14, 9, 0, 16, 16, 16), box(2, 9, 14, 14, 16, 16), box(2, 9, 0, 14, 16, 2), box(0, 9, 0, 2, 16, 16), box(2, 14, 2, 14, 16, 14));
+				case FLOOR -> box(0, 0, 0, 16, 8, 16);
+				case WALL -> box(0, 0, 0, 8, 16, 16);
+				case CEILING -> box(0, 8, 0, 16, 16, 16);
 			};
 			case WEST -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 0, 0, 2, 7, 16), box(2, 0, 14, 14, 7, 16), box(2, 0, 0, 14, 7, 2), box(14, 0, 0, 16, 7, 16), box(2, 0, 2, 14, 2, 14));
-				case WALL -> Shapes.or(box(9, 0, 0, 16, 2, 16), box(9, 2, 14, 16, 14, 16), box(9, 2, 0, 16, 14, 2), box(9, 14, 0, 16, 16, 16), box(14, 2, 2, 16, 14, 14));
-				case CEILING -> Shapes.or(box(0, 9, 0, 2, 16, 16), box(2, 9, 0, 14, 16, 2), box(2, 9, 14, 14, 16, 16), box(14, 9, 0, 16, 16, 16), box(2, 14, 2, 14, 16, 14));
+				case FLOOR -> box(0, 0, 0, 16, 8, 16);
+				case WALL -> box(8, 0, 0, 16, 16, 16);
+				case CEILING -> box(0, 8, 0, 16, 16, 16);
 			};
 		};
 	}
