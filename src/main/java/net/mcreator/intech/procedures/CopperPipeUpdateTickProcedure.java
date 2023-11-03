@@ -238,7 +238,7 @@ public class CopperPipeUpdateTickProcedure {
 							return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(BlockPos.containing(x, y, z))) && !(new Object() {
+				}.getDirection(BlockPos.containing(x, y, z)))) && !(new Object() {
 					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 						AtomicInteger _retval = new AtomicInteger(0);
 						BlockEntity _ent = world.getBlockEntity(pos);
@@ -246,7 +246,7 @@ public class CopperPipeUpdateTickProcedure {
 							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 						return _retval.get();
 					}
-				}.getAmount(world, BlockPos.containing(x, y, z), 0) == 0))) {
+				}.getAmount(world, BlockPos.containing(x, y, z), 0) == 0)) {
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
 							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:pipeclank")), SoundSource.BLOCKS, 1, 1);
