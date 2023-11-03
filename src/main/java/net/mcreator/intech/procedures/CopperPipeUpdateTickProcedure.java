@@ -12,9 +12,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundSource;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -85,8 +83,6 @@ public class CopperPipeUpdateTickProcedure {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:pipeclank")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
-					if (world instanceof ServerLevel _level)
-						_level.sendParticles(ParticleTypes.WHITE_ASH, x, y, z, 7, 0.3, 0.3, 0.3, 0.3);
 				}
 				PipeMoveItemProcedure.execute(world, x, y, z);
 			}
@@ -103,7 +99,7 @@ public class CopperPipeUpdateTickProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.EAST
-				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep19 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep19).toString() : "")
+				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep18 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep18).toString() : "")
 						.equals("WALL")) {
 			if ((world.getBlockState(BlockPos.containing(x + 1, y, z))).is(BlockTags.create(new ResourceLocation("intech:pipes")))) {
 				if ((!((new Object() {
@@ -130,11 +126,11 @@ public class CopperPipeUpdateTickProcedure {
 							return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep26
-						? (world.getBlockState(BlockPos.containing(x + 1, y, z))).getValue(_getep26).toString()
+				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep25
+						? (world.getBlockState(BlockPos.containing(x + 1, y, z))).getValue(_getep25).toString()
 						: "")
-						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep28
-								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep28).toString()
+						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep27
+								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep27).toString()
 								: "")))
 						&& !(new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
@@ -152,8 +148,6 @@ public class CopperPipeUpdateTickProcedure {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:pipeclank")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
-					if (world instanceof ServerLevel _level)
-						_level.sendParticles(ParticleTypes.WHITE_ASH, x, y, z, 7, 0.3, 0.3, 0.3, 0.3);
 				}
 				PipeMoveItemProcedure.execute(world, x, y, z);
 			}
@@ -170,7 +164,7 @@ public class CopperPipeUpdateTickProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.SOUTH
-				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep35 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep35).toString() : "")
+				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep33 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep33).toString() : "")
 						.equals("WALL")) {
 			if ((world.getBlockState(BlockPos.containing(x, y, z + 1))).is(BlockTags.create(new ResourceLocation("intech:pipes")))) {
 				if ((!((new Object() {
@@ -197,11 +191,11 @@ public class CopperPipeUpdateTickProcedure {
 							return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep42
-						? (world.getBlockState(BlockPos.containing(x, y, z + 1))).getValue(_getep42).toString()
+				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep40
+						? (world.getBlockState(BlockPos.containing(x, y, z + 1))).getValue(_getep40).toString()
 						: "")
-						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep44
-								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep44).toString()
+						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep42
+								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep42).toString()
 								: "")))
 						&& !(new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
@@ -219,8 +213,6 @@ public class CopperPipeUpdateTickProcedure {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:pipeclank")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
-					if (world instanceof ServerLevel _level)
-						_level.sendParticles(ParticleTypes.WHITE_ASH, x, y, z, 7, 0.3, 0.3, 0.3, 0.3);
 				}
 				PipeMoveItemProcedure.execute(world, x, y, z);
 			}
@@ -237,7 +229,7 @@ public class CopperPipeUpdateTickProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST
-				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep51 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep51).toString() : "")
+				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep48 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep48).toString() : "")
 						.equals("WALL")) {
 			if ((world.getBlockState(BlockPos.containing(x - 1, y, z))).is(BlockTags.create(new ResourceLocation("intech:pipes")))) {
 				if ((!((new Object() {
@@ -264,11 +256,11 @@ public class CopperPipeUpdateTickProcedure {
 							return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep58
-						? (world.getBlockState(BlockPos.containing(x - 1, y, z))).getValue(_getep58).toString()
+				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep55
+						? (world.getBlockState(BlockPos.containing(x - 1, y, z))).getValue(_getep55).toString()
 						: "")
-						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep60
-								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep60).toString()
+						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep57
+								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep57).toString()
 								: "")))
 						&& !(new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
@@ -286,12 +278,10 @@ public class CopperPipeUpdateTickProcedure {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:pipeclank")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
-					if (world instanceof ServerLevel _level)
-						_level.sendParticles(ParticleTypes.WHITE_ASH, x, y, z, 7, 0.3, 0.3, 0.3, 0.3);
 				}
 				PipeMoveItemProcedure.execute(world, x, y, z);
 			}
-		} else if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep65 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep65).toString() : "")
+		} else if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep61 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep61).toString() : "")
 				.equals("FLOOR")) {
 			if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation("intech:pipes")))) {
 				if ((!((new Object() {
@@ -318,11 +308,11 @@ public class CopperPipeUpdateTickProcedure {
 							return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep72
-						? (world.getBlockState(BlockPos.containing(x, y + 1, z))).getValue(_getep72).toString()
+				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep68
+						? (world.getBlockState(BlockPos.containing(x, y + 1, z))).getValue(_getep68).toString()
 						: "")
-						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep74
-								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep74).toString()
+						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep70
+								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep70).toString()
 								: "")))
 						&& !(new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
@@ -340,12 +330,10 @@ public class CopperPipeUpdateTickProcedure {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:pipeclank")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
-					if (world instanceof ServerLevel _level)
-						_level.sendParticles(ParticleTypes.WHITE_ASH, x, y, z, 7, 0.3, 0.3, 0.3, 0.3);
 				}
 				PipeMoveItemProcedure.execute(world, x, y, z);
 			}
-		} else if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep79 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep79).toString() : "")
+		} else if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep74 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep74).toString() : "")
 				.equals("CEILING")) {
 			if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BlockTags.create(new ResourceLocation("intech:pipes")))) {
 				if ((!((new Object() {
@@ -372,11 +360,11 @@ public class CopperPipeUpdateTickProcedure {
 							return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep86
-						? (world.getBlockState(BlockPos.containing(x, y - 1, z))).getValue(_getep86).toString()
+				}.getDirection(BlockPos.containing(x, y, z)))) || !(((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep81
+						? (world.getBlockState(BlockPos.containing(x, y - 1, z))).getValue(_getep81).toString()
 						: "")
-						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep88
-								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep88).toString()
+						.equals((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep83
+								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep83).toString()
 								: "")))
 						&& !(new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
@@ -394,8 +382,6 @@ public class CopperPipeUpdateTickProcedure {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:pipeclank")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
-					if (world instanceof ServerLevel _level)
-						_level.sendParticles(ParticleTypes.WHITE_ASH, x, y, z, 7, 0.3, 0.3, 0.3, 0.3);
 				}
 				PipeMoveItemProcedure.execute(world, x, y, z);
 			}
