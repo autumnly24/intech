@@ -1,17 +1,20 @@
 
 package net.mcreator.intech.block;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.common.util.ForgeSoundType;
+
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.StairBlock;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
@@ -19,7 +22,12 @@ import java.util.Collections;
 
 public class PolishedTuffBrickStairsBlock extends StairBlock {
 	public PolishedTuffBrickStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.TUFF).strength(2f, 6f).requiresCorrectToolForDrops().dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(),
+				BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM)
+						.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.tuff_bricks.break")),
+								() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.tuff_bricks.step")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.tuff_bricks.place")),
+								() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.tuff.hit")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.tuff_bricks.place"))))
+						.strength(2f, 6f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

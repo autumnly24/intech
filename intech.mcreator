@@ -1770,7 +1770,7 @@
         "pipe_bang"
       ],
       "category": "block",
-      "subtitle": "Pipe-Clank"
+      "subtitle": "Pipe Clanks"
     },
     {
       "name": "block.pipe.break",
@@ -1917,16 +1917,53 @@
       ],
       "category": "block",
       "subtitle": "Block broken"
+    },
+    {
+      "name": "block.tuff_bricks.place",
+      "files": [
+        "tuff_bricks_place1",
+        "tuff_bricks_place2",
+        "tuff_bricks_place3",
+        "tuff_bricks_place4",
+        "tuff_bricks_place5"
+      ],
+      "category": "block",
+      "subtitle": "Tuff Bricks Are Placed"
+    },
+    {
+      "name": "block.tuff_bricks.break",
+      "files": [
+        "tuff_bricks_place1",
+        "tuff_bricks_place2",
+        "tuff_bricks_place3",
+        "tuff_bricks_place4",
+        "tuff_bricks_place5"
+      ],
+      "category": "block",
+      "subtitle": "Tuff Bricks Are Broken"
+    },
+    {
+      "name": "block.tuff_bricks.step",
+      "files": [
+        "tuff_bricks_step1",
+        "tuff_bricks_step2",
+        "tuff_bricks_step3",
+        "tuff_bricks_step4",
+        "tuff_bricks_step5",
+        "tuff_bricks_step6"
+      ],
+      "category": "player",
+      "subtitle": "Player Steps On Tuff Bricks"
     }
   ],
   "language_map": {
     "en_us": {
-      "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "block.intech.aluminum_tiles": "Aluminum Tiles",
+      "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "subtitles.block.pipe.place": "Pipe Is Placed",
       "subtitles.block.aluminum.break": "Block broken",
-      "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
       "item.intech.zinc_ingot": "Zinc Ingot",
+      "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
       "block.intech.reinforced_weathered_copper_spleaves": "Reinforced Weathered Copper Spleaves",
       "block.intech.polished_tuff_brick_wall": "Polished Tuff Brick Wall",
       "block.intech.polished_bauxite_brick_slab": "Polished Bauxite Brick Slab",
@@ -1945,14 +1982,16 @@
       "subtitles.block.spleaves.place": "Spleaves Are Placed",
       "block.intech.weathered_chiseled_copper": "Weathered Chiseled Copper",
       "block.intech.copper_spleaves": "Copper Spleaves",
+      "subtitles.block.tuff_bricks.step": "Player Steps On Tuff Bricks",
       "block.intech.aluminum_pillar": "Aluminum Pillar",
-      "subtitles.pipeclank": "Pipe-Clank",
+      "subtitles.pipeclank": "Pipe Clanks",
       "block.intech.dark_brass_block": "Block Of Dark Brass",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
       "block.intech.dark_brass_tiles": "Dark Brass Tiles",
       "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "subtitles.block.zinc.place": "Block placed",
       "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
+      "subtitles.block.tuff_bricks.break": "Tuff Bricks Are Broken",
       "block.intech.oxidized_copper_spleaves": "Oxidized Copper Spleaves",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
       "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
@@ -1981,6 +2020,7 @@
       "item.intech.aluminum_ingot": "Aluminum Ingot",
       "block.intech.reinforced_copper_spleaves": "Reinforced Copper Spleaves",
       "block.intech.zinc_tiles": "Zinc Block",
+      "subtitles.block.tuff_bricks.place": "Tuff Bricks Are Placed",
       "block.intech.oxidized_copper_pipe": "Oxidized Copper Pipe",
       "subtitles.block.zinc.hit": "Block breaking",
       "block.intech.polished_tuff_brick_stairs": "Polished Tuff Brick Stairs",

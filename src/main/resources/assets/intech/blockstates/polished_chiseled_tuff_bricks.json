@@ -1,25 +1,14 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "intech:block/polished_chiseled_tuff_bricks"
-    },
-    "facing=east": {
+    "axis=x": {
       "model": "intech:block/polished_chiseled_tuff_bricks",
+      "x": 90,
       "y": 90
     },
-    "facing=south": {
-      "model": "intech:block/polished_chiseled_tuff_bricks",
-      "y": 180
+    "axis=y": {
+      "model": "intech:block/polished_chiseled_tuff_bricks"
     },
-    "facing=west": {
-      "model": "intech:block/polished_chiseled_tuff_bricks",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "intech:block/polished_chiseled_tuff_bricks",
-      "x": 270
-    },
-    "facing=down": {
+    "axis=z": {
       "model": "intech:block/polished_chiseled_tuff_bricks",
       "x": 90
     }

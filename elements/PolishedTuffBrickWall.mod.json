@@ -78,24 +78,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "TUFF"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:block.tuff_bricks.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "CUSTOM:block.tuff_bricks.place"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.tuff.hit"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:block.tuff_bricks.place"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:block.tuff_bricks.step"
     },
     "luminance": 0,
     "unbreakable": false,
