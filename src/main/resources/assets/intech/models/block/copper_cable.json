@@ -1,17 +1,9 @@
 {
-  "parent": "intech:custom/coppercable",
+  "parent": "intech:custom/coppercable_(1)",
   "textures": {
-    "all": "intech:block/wires",
+    "all": "intech:block/texture",
     "particle": "intech:block/copper_pipe_top",
-    "0": "intech:block/wires",
-    "2": "intech:block/wireguard2",
-    "3": "intech:block/wiregaurd",
-    "4": "intech:block/wiregaurd3",
-    "6": "intech:block/wireguard3",
-    "7": "intech:block/wireguard4",
-    "8": "intech:block/wireguard5",
-    "9": "intech:block/wireguard6",
-    "10": "intech:block/copperguard7"
+    "2": "intech:block/texture"
   },
   "render_type": "solid"
 }

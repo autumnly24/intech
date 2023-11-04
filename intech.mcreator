@@ -20,7 +20,7 @@
     {
       "name": "BauxiteReplaceables",
       "type": "tag",
-      "sortid": 49,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_replaceables",
@@ -34,7 +34,7 @@
     {
       "name": "BauxiteVein",
       "type": "feature",
-      "sortid": 50,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_vein",
@@ -102,7 +102,7 @@
     {
       "name": "PolishedBauxiteRecipe",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_recipe",
@@ -116,7 +116,7 @@
     {
       "name": "PolishedBauxiteStonecutting",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_stonecutting",
@@ -130,7 +130,7 @@
     {
       "name": "PolishedBauxiteBricksRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_recipe",
@@ -144,7 +144,7 @@
     {
       "name": "PolishedBauxiteBricksStonecutting",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_stonecutting",
@@ -158,7 +158,7 @@
     {
       "name": "BauxiteBlocks",
       "type": "tag",
-      "sortid": 55,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_blocks",
@@ -172,7 +172,7 @@
     {
       "name": "PolishedBauxitePillarRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_recipe",
@@ -186,7 +186,7 @@
     {
       "name": "PolishedBauxitePillarStonecutting",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_stonecutting",
@@ -200,7 +200,7 @@
     {
       "name": "RawAluminum",
       "type": "item",
-      "sortid": 37,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum",
@@ -232,7 +232,7 @@
     {
       "name": "AluminumIngot",
       "type": "item",
-      "sortid": 38,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot",
@@ -298,7 +298,7 @@
     {
       "name": "RawAluminumToBlock",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_to_block",
@@ -312,7 +312,7 @@
     {
       "name": "RawAluminumBlockToItem",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block_to_item",
@@ -326,7 +326,7 @@
     {
       "name": "AluminumIngotSmelting",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_smelting",
@@ -340,7 +340,7 @@
     {
       "name": "AluminumIngotBlasting",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_blasting",
@@ -354,7 +354,7 @@
     {
       "name": "AluminumIngotToBlock",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_to_block",
@@ -368,7 +368,7 @@
     {
       "name": "AluminumBlockToIngot",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_block_to_ingot",
@@ -382,7 +382,7 @@
     {
       "name": "AluminumTilesRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles_recipe",
@@ -396,7 +396,7 @@
     {
       "name": "AluminumPillarRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar_recipe",
@@ -410,7 +410,7 @@
     {
       "name": "CopperPipe",
       "type": "block",
-      "sortid": 40,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pipe",
@@ -428,7 +428,7 @@
     {
       "name": "Pipes",
       "type": "tag",
-      "sortid": 66,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pipes",
@@ -442,7 +442,7 @@
     {
       "name": "CopperPipeUpdateTick",
       "type": "procedure",
-      "sortid": 67,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pipe_update_tick",
@@ -474,7 +474,7 @@
     {
       "name": "PipeMoveItem",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pipe_move_item",
@@ -506,7 +506,7 @@
     {
       "name": "ExposedCopperPipe",
       "type": "block",
-      "sortid": 41,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_pipe",
@@ -524,7 +524,7 @@
     {
       "name": "WeatheredCopperPipe",
       "type": "block",
-      "sortid": 42,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_pipe",
@@ -542,7 +542,7 @@
     {
       "name": "OxidizedCopperPipe",
       "type": "block",
-      "sortid": 43,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_pipe",
@@ -560,7 +560,7 @@
     {
       "name": "DarkBrassPipe",
       "type": "block",
-      "sortid": 44,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_pipe",
@@ -595,7 +595,7 @@
     {
       "name": "DarkBrassIngot",
       "type": "item",
-      "sortid": 39,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_ingot",
@@ -661,7 +661,7 @@
     {
       "name": "CopperSpleavesStonecut",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_spleaves_stonecut",
@@ -692,7 +692,7 @@
     {
       "name": "BreakTheSpleavesGoddammit",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "break_the_spleaves_goddammit",
@@ -724,7 +724,7 @@
     {
       "name": "ExposedCopperSpleaves",
       "type": "block",
-      "sortid": 15,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_spleaves",
@@ -741,7 +741,7 @@
     {
       "name": "WeatheredCopperSpleaves",
       "type": "block",
-      "sortid": 17,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_spleaves",
@@ -758,7 +758,7 @@
     {
       "name": "OxidizedCopperSpleaves",
       "type": "block",
-      "sortid": 19,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_spleaves",
@@ -775,7 +775,7 @@
     {
       "name": "CopperJunction",
       "type": "block",
-      "sortid": 45,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_junction",
@@ -792,7 +792,7 @@
     {
       "name": "PolishedBauxiteBrickSlabStonecut",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab_stonecut",
@@ -806,7 +806,7 @@
     {
       "name": "BauxiteSlab",
       "type": "block",
-      "sortid": 22,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_slab",
@@ -825,7 +825,7 @@
     {
       "name": "BauxiteSlabCraft",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_slab_craft",
@@ -839,7 +839,7 @@
     {
       "name": "AluminumTileStairs",
       "type": "block",
-      "sortid": 27,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs",
@@ -858,7 +858,7 @@
     {
       "name": "PolishedBauxiteBrickWallCraft",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_wall_craft",
@@ -872,7 +872,7 @@
     {
       "name": "PolishedBauxiteBrickWall",
       "type": "block",
-      "sortid": 26,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_wall",
@@ -892,7 +892,7 @@
     {
       "name": "PolishedBauxiteBrickSlabCraft",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab_craft",
@@ -906,7 +906,7 @@
     {
       "name": "AluminumTilesStonecut",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles_stonecut",
@@ -920,7 +920,7 @@
     {
       "name": "AluminumTileStairsStonecut2",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_stonecut_2",
@@ -934,7 +934,7 @@
     {
       "name": "AluminumTileStairsStonecut",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_stonecut",
@@ -948,7 +948,7 @@
     {
       "name": "BauxiteWallStonecut",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_wall_stonecut",
@@ -962,7 +962,7 @@
     {
       "name": "BauxiteWallCraft",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_wall_craft",
@@ -976,7 +976,7 @@
     {
       "name": "VanillaWalls",
       "type": "tag",
-      "sortid": 80,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vanilla_walls",
@@ -990,7 +990,7 @@
     {
       "name": "BauxitePressurePlateCraft",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_pressure_plate_craft",
@@ -1004,7 +1004,7 @@
     {
       "name": "PolishedBauxiteBrickStairs",
       "type": "block",
-      "sortid": 24,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_stairs",
@@ -1023,7 +1023,7 @@
     {
       "name": "AluminumTileSlab",
       "type": "block",
-      "sortid": 28,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab",
@@ -1042,7 +1042,7 @@
     {
       "name": "PolishedBauxiteBrickStairsStonecut",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_stairs_stonecut",
@@ -1056,7 +1056,7 @@
     {
       "name": "BauxitePressurePlate",
       "type": "block",
-      "sortid": 47,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_pressure_plate",
@@ -1074,7 +1074,7 @@
     {
       "name": "CopperCable",
       "type": "block",
-      "sortid": 46,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_cable",
@@ -1091,7 +1091,7 @@
     {
       "name": "PolishedBauxiteBrickStairsCraft",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_stairs_craft",
@@ -1105,7 +1105,7 @@
     {
       "name": "BauxiteStairs",
       "type": "block",
-      "sortid": 21,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_stairs",
@@ -1124,7 +1124,7 @@
     {
       "name": "BauxiteButton",
       "type": "block",
-      "sortid": 48,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_button",
@@ -1143,7 +1143,7 @@
     {
       "name": "AluminumPillarStonecut",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar_stonecut",
@@ -1157,7 +1157,7 @@
     {
       "name": "AluminumTileSlabStonecut2",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_stonecut_2",
@@ -1171,7 +1171,7 @@
     {
       "name": "BauxiteSlabStonecut",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_slab_stonecut",
@@ -1185,7 +1185,7 @@
     {
       "name": "BauxiteWall",
       "type": "block",
-      "sortid": 23,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_wall",
@@ -1205,7 +1205,7 @@
     {
       "name": "BauxiteStairsCraft",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_stairs_craft",
@@ -1219,7 +1219,7 @@
     {
       "name": "BauxiteStairsStonecut",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_stairs_stonecut",
@@ -1233,7 +1233,7 @@
     {
       "name": "PolishedBauxiteBrickSlab",
       "type": "block",
-      "sortid": 25,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab",
@@ -1252,7 +1252,7 @@
     {
       "name": "PolishedBauxiteBrickWallStonecut",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_wall_stonecut",
@@ -1266,7 +1266,7 @@
     {
       "name": "AluminumTileSlabCraft",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_craft",
@@ -1280,7 +1280,7 @@
     {
       "name": "AluminumTileStairsCraft",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_craft",
@@ -1294,7 +1294,7 @@
     {
       "name": "AluminumTileSlabStonecut",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_stonecut",
@@ -1323,6 +1323,23 @@
       "path": "~/Copper"
     },
     {
+      "name": "WaxedOxidizedChiseledCopper",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/waxed_oxidized_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/WaxedOxidizedChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/waxed_oxidized_chiseled_copper.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
       "name": "ReinforcedExposedCopperSpleaves",
       "type": "block",
       "sortid": 16,
@@ -1335,6 +1352,23 @@
           "src/main/resources/assets/intech/models/item/reinforced_exposed_copper_spleaves.json",
           "src/main/resources/assets/intech/blockstates/reinforced_exposed_copper_spleaves.json",
           "src/main/resources/assets/intech/models/block/reinforced_exposed_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "WaxedWeatheredChiseledCopper",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/WaxedWeatheredChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/item/waxed_weathered_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/waxed_weathered_chiseled_copper.json"
         ]
       },
       "path": "~/Copper"
@@ -1357,35 +1391,18 @@
       "path": "~/Copper"
     },
     {
-      "name": "ReinforcedOxidizedCopperSpleaves",
+      "name": "OxidizedChiseledCopper",
       "type": "block",
-      "sortid": 20,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reinforced_oxidized_copper_spleaves",
+      "registry_name": "oxidized_chiseled_copper",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/ReinforcedOxidizedCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/block/reinforced_oxidized_copper_spleaves.json",
-          "src/main/resources/assets/intech/blockstates/reinforced_oxidized_copper_spleaves.json",
-          "src/main/resources/assets/intech/models/item/reinforced_oxidized_copper_spleaves.json"
-        ]
-      },
-      "path": "~/Copper"
-    },
-    {
-      "name": "ChiseledCopper",
-      "type": "block",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chiseled_copper",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/intech/blockstates/chiseled_copper.json",
-          "src/main/resources/assets/intech/models/block/chiseled_copper.json",
-          "src/main/java/net/mcreator/intech/block/ChiseledCopperBlock.java",
-          "src/main/resources/assets/intech/models/item/chiseled_copper.json"
+          "src/main/resources/assets/intech/models/item/oxidized_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/block/oxidized_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/OxidizedChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/blockstates/oxidized_chiseled_copper.json"
         ]
       },
       "path": "~/Copper"
@@ -1425,6 +1442,23 @@
       "path": "~/Copper"
     },
     {
+      "name": "ReinforcedOxidizedCopperSpleaves",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_oxidized_copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/ReinforcedOxidizedCopperSpleavesBlock.java",
+          "src/main/resources/assets/intech/models/block/reinforced_oxidized_copper_spleaves.json",
+          "src/main/resources/assets/intech/blockstates/reinforced_oxidized_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/item/reinforced_oxidized_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
       "name": "WaxedExposedChiseledCopper",
       "type": "block",
       "sortid": 32,
@@ -1459,52 +1493,18 @@
       "path": "~/Copper"
     },
     {
-      "name": "WaxedWeatheredChiseledCopper",
+      "name": "ChiseledCopper",
       "type": "block",
-      "sortid": 34,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "waxed_weathered_chiseled_copper",
+      "registry_name": "chiseled_copper",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/WaxedWeatheredChiseledCopperBlock.java",
-          "src/main/resources/assets/intech/models/item/waxed_weathered_chiseled_copper.json",
-          "src/main/resources/assets/intech/models/block/waxed_weathered_chiseled_copper.json",
-          "src/main/resources/assets/intech/blockstates/waxed_weathered_chiseled_copper.json"
-        ]
-      },
-      "path": "~/Copper"
-    },
-    {
-      "name": "OxidizedChiseledCopper",
-      "type": "block",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "oxidized_chiseled_copper",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/intech/models/item/oxidized_chiseled_copper.json",
-          "src/main/resources/assets/intech/models/block/oxidized_chiseled_copper.json",
-          "src/main/java/net/mcreator/intech/block/OxidizedChiseledCopperBlock.java",
-          "src/main/resources/assets/intech/blockstates/oxidized_chiseled_copper.json"
-        ]
-      },
-      "path": "~/Copper"
-    },
-    {
-      "name": "WaxedOxidizedChiseledCopper",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_oxidized_chiseled_copper",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/intech/models/item/waxed_oxidized_chiseled_copper.json",
-          "src/main/java/net/mcreator/intech/block/WaxedOxidizedChiseledCopperBlock.java",
-          "src/main/resources/assets/intech/models/block/waxed_oxidized_chiseled_copper.json",
-          "src/main/resources/assets/intech/blockstates/waxed_oxidized_chiseled_copper.json"
+          "src/main/resources/assets/intech/blockstates/chiseled_copper.json",
+          "src/main/resources/assets/intech/models/block/chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/ChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/item/chiseled_copper.json"
         ]
       },
       "path": "~/Copper"
@@ -1600,25 +1600,22 @@
   ],
   "language_map": {
     "en_us": {
-      "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "block.intech.aluminum_tiles": "Aluminum Tiles",
+      "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "subtitles.block.pipe.place": "Pipe Is Placed",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
-      "block.intech.reinforced_weathered_copper_spleaves": "Weathered Copper Spleaves",
       "block.intech.polished_bauxite_brick_slab": "Polished Bauxite Brick Slab",
       "block.intech.exposed_copper_spleaves": "Exposed Copper Spleaves",
       "subtitles.block.spleaves.break": "Spleaves Are Broken",
       "block.intech.dark_brass_pillar": "Dark Brass Pillar",
       "block.intech.polished_bauxite_brick_stairs": "Polished Bauxite Brick Stairs",
       "block.intech.exposed_copper_pipe": "Exposed Copper Pipe",
-      "block.intech.exposed_chiseled_copper": "Exposed Chiseled Copper",
       "block.intech.dark_brass_pipe": "Dark Brass Pipe",
       "block.intech.bauxite_button": "Bauxite Button",
       "block.intech.bauxite": "Bauxite",
       "block.intech.copper_junction": "Copper Junction",
       "subtitles.block.pipe.step": "Player Steps On Pipe",
       "subtitles.block.spleaves.place": "Spleaves Are Placed",
-      "block.intech.weathered_chiseled_copper": "Weathered Chiseled Copper",
       "block.intech.copper_spleaves": "Copper Spleaves",
       "block.intech.aluminum_pillar": "Aluminum Pillar",
       "subtitles.pipeclank": "Pipe-Clank",
@@ -1629,28 +1626,19 @@
       "block.intech.oxidized_copper_spleaves": "Oxidized Copper Spleaves",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
       "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
-      "block.intech.waxed_exposed_chiseled_copper": "Waxed Exposed Chiseled Copper",
       "block.intech.copper_pipe": "Copper Pipe",
-      "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "subtitles.block.pipe.break": "Pipe Is Broken",
       "subtitles.block.spleaves.step": "Player Steps On Spleaves",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
-      "block.intech.waxed_oxidized_chiseled_copper": "Waxed Oxidized Chiseled Copper",
       "block.intech.bauxite_wall": "Bauxite Wall",
-      "block.intech.chiseled_copper": "Chiseled Copper",
       "block.intech.aluminum_tile_slab": "Aluminum Tile Slab",
       "block.intech.aluminum_tile_stairs": "Aluminum Tile Stairs",
       "item.intech.aluminum_ingot": "Aluminum Ingot",
-      "block.intech.reinforced_copper_spleaves": "Copper Spleaves",
       "block.intech.oxidized_copper_pipe": "Oxidized Copper Pipe",
-      "block.intech.oxidized_chiseled_copper": "Oxidized Chiseled Copper",
-      "block.intech.waxed_chiseled_copper": "Waxed Chiseled Copper",
       "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
-      "block.intech.reinforced_oxidized_copper_spleaves": "Oxidized Copper Spleaves",
       "item.intech.raw_aluminum": "Raw Aluminum",
       "block.intech.bauxite_slab": "Bauxite Slab",
-      "block.intech.reinforced_exposed_copper_spleaves": "Exposed Copper Spleaves",
       "item.intech.dark_brass_ingot": "Dark Brass Ingot",
       "block.intech.copper_cable": "Copper Cable",
       "block.intech.polished_bauxite": "Polished Bauxite",
