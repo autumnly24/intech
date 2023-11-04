@@ -149,5 +149,125 @@
         "stream": false
       }
     ]
+  },
+  "block.aluminum.break": {
+    "subtitle": "subtitles.block.aluminum.break",
+    "sounds": [
+      {
+        "name": "intech:aluminum_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_break1",
+        "stream": false
+      }
+    ]
+  },
+  "block.aluminum.step": {
+    "subtitle": "subtitles.block.aluminum.step",
+    "sounds": [
+      {
+        "name": "intech:aluminum_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_step1",
+        "stream": false
+      }
+    ]
+  },
+  "block.aluminum.place": {
+    "subtitle": "subtitles.block.aluminum.place",
+    "sounds": [
+      {
+        "name": "intech:aluminum_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_break1",
+        "stream": false
+      }
+    ]
+  },
+  "block.aluminum.hit": {
+    "subtitle": "subtitles.block.aluminum.hit",
+    "sounds": [
+      {
+        "name": "intech:aluminum_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_step1",
+        "stream": false
+      }
+    ]
+  },
+  "block.zinc.break": {
+    "subtitle": "subtitles.block.zinc.break",
+    "sounds": [
+      {
+        "name": "intech:zinc_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_break1",
+        "stream": false
+      }
+    ]
+  },
+  "block.zinc.place": {
+    "subtitle": "subtitles.block.zinc.place",
+    "sounds": [
+      {
+        "name": "intech:zinc_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_break1",
+        "stream": false
+      }
+    ]
+  },
+  "block.zinc.step": {
+    "subtitle": "subtitles.block.zinc.step",
+    "sounds": [
+      {
+        "name": "intech:zinc_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_step1",
+        "stream": false
+      }
+    ]
+  },
+  "block.zinc.hit": {
+    "subtitle": "subtitles.block.zinc.hit",
+    "sounds": [
+      {
+        "name": "intech:zinc_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_step1",
+        "stream": false
+      }
+    ]
   }
 }
