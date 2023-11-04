@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "intech:bauxite"
+  },
+  "result": "intech:deleted_mod_element"
+}

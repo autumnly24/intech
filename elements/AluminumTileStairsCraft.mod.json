@@ -3,16 +3,16 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
-    "group": "polished_bauxite_pillar",
+    "recipeRetstackSize": 4,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:PolishedBauxite"
+        "value": "CUSTOM:AluminumTiles"
       },
       {
         "value": ""
@@ -21,28 +21,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:PolishedBauxite"
+        "value": "CUSTOM:AluminumTiles"
+      },
+      {
+        "value": "CUSTOM:AluminumTiles"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:AluminumTiles"
       },
       {
-        "value": ""
+        "value": "CUSTOM:AluminumTiles"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:AluminumTiles"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PolishedBauxitePillar"
+      "value": "CUSTOM:AluminumTileStairs"
     },
-    "name": "polished_bauxite_pillar",
+    "name": "aluminum_tile_stairs_craft",
     "namespace": "mod"
   }
 }

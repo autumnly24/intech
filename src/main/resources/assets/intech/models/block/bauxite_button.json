@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "intech:block/bauxite"
+  },
+  "render_type": "solid"
+}

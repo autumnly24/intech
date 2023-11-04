@@ -788,6 +788,522 @@
         ]
       },
       "path": "~/Copper"
+    },
+    {
+      "name": "PolishedBauxiteBrickSlabStonecut",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_brick_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/bauxite_slab.json",
+          "src/main/resources/assets/intech/blockstates/bauxite_slab.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteSlabBlock.java",
+          "src/main/resources/assets/intech/models/block/bauxite_slab.json",
+          "src/main/resources/assets/intech/models/block/bauxite_slab_full.json",
+          "src/main/resources/assets/intech/models/block/bauxite_slab_top.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteSlabCraft",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/bauxite_slab_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileStairs",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/aluminum_tile_stairs.json",
+          "src/main/java/net/mcreator/intech/block/AluminumTileStairsBlock.java",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_stairs_outer.json",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_stairs_inner.json",
+          "src/main/resources/assets/intech/models/item/aluminum_tile_stairs.json",
+          "src/main/resources/assets/intech/blockstates/aluminum_tile_stairs.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "PolishedBauxiteBrickWallCraft",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_wall_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_brick_wall_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "PolishedBauxiteBrickWall",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBrickWallBlock.java",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall_side_tall.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall_post.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall_inventory.json",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_brick_wall.json",
+          "src/main/resources/assets/intech/blockstates/polished_bauxite_brick_wall.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "PolishedBauxiteBrickSlabCraft",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_brick_slab_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTilesStonecut",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tiles_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tiles_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileStairsStonecut2",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_stairs_stonecut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_stairs_stonecut_2.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileStairsStonecut",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteWallStonecut",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_wall_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/bauxite_wall_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteWallCraft",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_wall_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/bauxite_wall_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "VanillaWalls",
+      "type": "tag",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/vanilla_walls.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxitePressurePlateCraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_pressure_plate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/bauxite_pressure_plate_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "PolishedBauxiteBrickStairs",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs.json",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_brick_stairs.json",
+          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBrickStairsBlock.java",
+          "src/main/resources/assets/intech/blockstates/polished_bauxite_brick_stairs.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs_inner.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs_outer.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileSlab",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/aluminum_tile_slab_top.json",
+          "src/main/resources/assets/intech/blockstates/aluminum_tile_slab.json",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_slab_full.json",
+          "src/main/resources/assets/intech/models/item/aluminum_tile_slab.json",
+          "src/main/java/net/mcreator/intech/block/AluminumTileSlabBlock.java",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_slab.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "PolishedBauxiteBrickStairsStonecut",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_brick_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxitePressurePlate",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/bauxite_pressure_plate.json",
+          "src/main/resources/assets/intech/models/block/bauxite_pressure_plate_down.json",
+          "src/main/resources/assets/intech/blockstates/bauxite_pressure_plate.json",
+          "src/main/java/net/mcreator/intech/block/BauxitePressurePlateBlock.java",
+          "src/main/resources/assets/intech/models/item/bauxite_pressure_plate.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "CopperCable",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/copper_cable.json",
+          "src/main/resources/assets/intech/blockstates/copper_cable.json",
+          "src/main/java/net/mcreator/intech/block/CopperCableBlock.java",
+          "src/main/resources/assets/intech/models/block/copper_cable.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "PolishedBauxiteBrickStairsCraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_brick_stairs_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteStairs",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/bauxite_stairs_outer.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteStairsBlock.java",
+          "src/main/resources/assets/intech/models/block/bauxite_stairs.json",
+          "src/main/resources/assets/intech/models/item/bauxite_stairs.json",
+          "src/main/resources/assets/intech/blockstates/bauxite_stairs.json",
+          "src/main/resources/assets/intech/models/block/bauxite_stairs_inner.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteButton",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/bauxite_button_pressed.json",
+          "src/main/resources/assets/intech/models/block/bauxite_button_inventory.json",
+          "src/main/resources/assets/intech/models/item/bauxite_button.json",
+          "src/main/resources/assets/intech/blockstates/bauxite_button.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteButtonBlock.java",
+          "src/main/resources/assets/intech/models/block/bauxite_button.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumPillarStonecut",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_pillar_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_pillar_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileSlabStonecut2",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_slab_stonecut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_slab_stonecut_2.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteSlabStonecut",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/bauxite_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteWall",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/bauxite_wall_side_tall.json",
+          "src/main/resources/assets/intech/models/block/bauxite_wall_inventory.json",
+          "src/main/resources/assets/intech/blockstates/bauxite_wall.json",
+          "src/main/resources/assets/intech/models/item/bauxite_wall.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteWallBlock.java",
+          "src/main/resources/assets/intech/models/block/bauxite_wall_post.json",
+          "src/main/resources/assets/intech/models/block/bauxite_wall.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteStairsCraft",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/bauxite_stairs_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "BauxiteStairsStonecut",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/bauxite_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "PolishedBauxiteBrickSlab",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab.json",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_brick_slab.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab_top.json",
+          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBrickSlabBlock.java",
+          "src/main/resources/assets/intech/blockstates/polished_bauxite_brick_slab.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab_full.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "PolishedBauxiteBrickWallStonecut",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite_brick_wall_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_bauxite_brick_wall_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileSlabCraft",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_slab_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileStairsCraft",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_stairs_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileSlabStonecut",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
     }
   ],
   "variable_elements": [

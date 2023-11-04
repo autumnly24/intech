@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:bauxite"
+    },
+    "1": {
+      "item": "intech:bauxite"
+    },
+    "2": {
+      "item": "intech:bauxite"
+    }
+  },
+  "result": {
+    "item": "intech:bauxite_slab",
+    "count": 6
+  }
+}

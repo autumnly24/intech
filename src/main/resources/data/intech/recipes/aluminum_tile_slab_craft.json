@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:aluminum_tiles"
+    },
+    "1": {
+      "item": "intech:aluminum_tiles"
+    },
+    "2": {
+      "item": "intech:aluminum_tiles"
+    }
+  },
+  "result": {
+    "item": "intech:aluminum_tile_slab",
+    "count": 6
+  }
+}

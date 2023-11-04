@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:bauxite"
+    },
+    "1": {
+      "item": "intech:bauxite"
+    },
+    "2": {
+      "item": "intech:bauxite"
+    },
+    "3": {
+      "item": "intech:bauxite"
+    },
+    "4": {
+      "item": "intech:bauxite"
+    },
+    "5": {
+      "item": "intech:bauxite"
+    }
+  },
+  "result": {
+    "item": "intech:deleted_mod_element",
+    "count": 6
+  }
+}

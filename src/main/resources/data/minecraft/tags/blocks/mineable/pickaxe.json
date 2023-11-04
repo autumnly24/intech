@@ -18,6 +18,15 @@
     "intech:oxidized_copper_pipe",
     "intech:dark_brass_pipe",
     "intech:oxidized_copper_spleaves",
-    "intech:copper_junction"
+    "intech:copper_junction",
+    "intech:bauxite_stairs",
+    "intech:bauxite_slab",
+    "intech:bauxite_wall",
+    "intech:bauxite_pressure_plate",
+    "intech:polished_bauxite_brick_stairs",
+    "intech:polished_bauxite_brick_slab",
+    "intech:polished_bauxite_brick_wall",
+    "intech:aluminum_tile_stairs",
+    "intech:aluminum_tile_slab"
   ]
 }

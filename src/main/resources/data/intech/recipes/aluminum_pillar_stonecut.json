@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 12,
+  "ingredient": {
+    "item": "intech:aluminum_block"
+  },
+  "result": "intech:aluminum_pillar"
+}
