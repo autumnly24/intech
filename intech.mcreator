@@ -51,7 +51,7 @@
     {
       "name": "PolishedBauxite",
       "type": "block",
-      "sortid": 2,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite",
@@ -68,7 +68,7 @@
     {
       "name": "PolishedBauxiteBricks",
       "type": "block",
-      "sortid": 3,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks",
@@ -85,7 +85,7 @@
     {
       "name": "PolishedBauxitePillar",
       "type": "block",
-      "sortid": 4,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar",
@@ -215,7 +215,7 @@
     {
       "name": "RawAluminumBlock",
       "type": "block",
-      "sortid": 5,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block",
@@ -247,7 +247,7 @@
     {
       "name": "AluminumBlock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_block",
@@ -264,7 +264,7 @@
     {
       "name": "AluminumTiles",
       "type": "block",
-      "sortid": 7,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles",
@@ -281,7 +281,7 @@
     {
       "name": "AluminumPillar",
       "type": "block",
-      "sortid": 8,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar",
@@ -578,7 +578,7 @@
     {
       "name": "DarkBrassBlock",
       "type": "block",
-      "sortid": 9,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_block",
@@ -610,7 +610,7 @@
     {
       "name": "DarkBrassTiles",
       "type": "block",
-      "sortid": 10,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_tiles",
@@ -627,7 +627,7 @@
     {
       "name": "DarkBrassPillar",
       "type": "block",
-      "sortid": 11,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_pillar",
@@ -644,7 +644,7 @@
     {
       "name": "ReinforcedDarkBrass",
       "type": "block",
-      "sortid": 12,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_dark_brass",
@@ -675,7 +675,7 @@
     {
       "name": "CopperSpleaves",
       "type": "block",
-      "sortid": 13,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_spleaves",
@@ -724,7 +724,7 @@
     {
       "name": "ExposedCopperSpleaves",
       "type": "block",
-      "sortid": 14,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_spleaves",
@@ -741,7 +741,7 @@
     {
       "name": "WeatheredCopperSpleaves",
       "type": "block",
-      "sortid": 16,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_spleaves",
@@ -758,7 +758,7 @@
     {
       "name": "OxidizedCopperSpleaves",
       "type": "block",
-      "sortid": 28,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_spleaves",
@@ -806,7 +806,7 @@
     {
       "name": "BauxiteSlab",
       "type": "block",
-      "sortid": 30,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_slab",
@@ -839,7 +839,7 @@
     {
       "name": "AluminumTileStairs",
       "type": "block",
-      "sortid": 35,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs",
@@ -872,7 +872,7 @@
     {
       "name": "PolishedBauxiteBrickWall",
       "type": "block",
-      "sortid": 34,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_wall",
@@ -990,7 +990,7 @@
     {
       "name": "PolishedBauxiteBrickStairs",
       "type": "block",
-      "sortid": 32,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_stairs",
@@ -1009,7 +1009,7 @@
     {
       "name": "AluminumTileSlab",
       "type": "block",
-      "sortid": 36,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab",
@@ -1091,7 +1091,7 @@
     {
       "name": "BauxiteStairs",
       "type": "block",
-      "sortid": 29,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_stairs",
@@ -1171,7 +1171,7 @@
     {
       "name": "BauxiteWall",
       "type": "block",
-      "sortid": 31,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_wall",
@@ -1219,7 +1219,7 @@
     {
       "name": "PolishedBauxiteBrickSlab",
       "type": "block",
-      "sortid": 33,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab",
@@ -1294,7 +1294,7 @@
     {
       "name": "ReinforcedCopperSpleaves",
       "type": "block",
-      "sortid": 15,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_copper_spleaves",
@@ -1311,7 +1311,7 @@
     {
       "name": "WaxedOxidizedChiseledCopper",
       "type": "block",
-      "sortid": 27,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_oxidized_chiseled_copper",
@@ -1328,7 +1328,7 @@
     {
       "name": "ReinforcedExposedCopperSpleaves",
       "type": "block",
-      "sortid": 17,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_exposed_copper_spleaves",
@@ -1345,7 +1345,7 @@
     {
       "name": "WaxedWeatheredChiseledCopper",
       "type": "block",
-      "sortid": 25,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_weathered_chiseled_copper",
@@ -1362,7 +1362,7 @@
     {
       "name": "ReinforcedWeatheredCopperSpleaves",
       "type": "block",
-      "sortid": 18,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_weathered_copper_spleaves",
@@ -1379,7 +1379,7 @@
     {
       "name": "OxidizedChiseledCopper",
       "type": "block",
-      "sortid": 26,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_chiseled_copper",
@@ -1396,7 +1396,7 @@
     {
       "name": "WaxedChiseledCopper",
       "type": "block",
-      "sortid": 21,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_chiseled_copper",
@@ -1413,7 +1413,7 @@
     {
       "name": "ExposedChiseledCopper",
       "type": "block",
-      "sortid": 22,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_chiseled_copper",
@@ -1430,7 +1430,7 @@
     {
       "name": "ReinforcedOxidizedCopperSpleaves",
       "type": "block",
-      "sortid": 19,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_oxidized_copper_spleaves",
@@ -1447,7 +1447,7 @@
     {
       "name": "WaxedExposedChiseledCopper",
       "type": "block",
-      "sortid": 23,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_exposed_chiseled_copper",
@@ -1464,7 +1464,7 @@
     {
       "name": "WeatheredChiseledCopper",
       "type": "block",
-      "sortid": 24,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_chiseled_copper",
@@ -1481,7 +1481,7 @@
     {
       "name": "ChiseledCopper",
       "type": "block",
-      "sortid": 20,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_copper",
@@ -1958,12 +1958,12 @@
   ],
   "language_map": {
     "en_us": {
-      "block.intech.aluminum_tiles": "Aluminum Tiles",
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
+      "block.intech.aluminum_tiles": "Aluminum Tiles",
       "subtitles.block.pipe.place": "Pipe Is Placed",
       "subtitles.block.aluminum.break": "Block broken",
-      "item.intech.zinc_ingot": "Zinc Ingot",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
+      "item.intech.zinc_ingot": "Zinc Ingot",
       "block.intech.reinforced_weathered_copper_spleaves": "Reinforced Weathered Copper Spleaves",
       "block.intech.polished_tuff_brick_wall": "Polished Tuff Brick Wall",
       "block.intech.polished_bauxite_brick_slab": "Polished Bauxite Brick Slab",
