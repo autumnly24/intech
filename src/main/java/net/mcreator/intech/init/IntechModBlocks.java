@@ -22,6 +22,7 @@ import net.mcreator.intech.block.PolishedBauxiteBlock;
 import net.mcreator.intech.block.OxidizedCopperPipeBlock;
 import net.mcreator.intech.block.ExposedCopperPipeBlock;
 import net.mcreator.intech.block.DarkBrassPipeBlock;
+import net.mcreator.intech.block.DarkBrassBlockBlock;
 import net.mcreator.intech.block.CopperPipeBlock;
 import net.mcreator.intech.block.BauxiteBlock;
 import net.mcreator.intech.block.AluminumTilesBlock;
@@ -48,4 +49,5 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> OXIDIZED_COPPER_PIPE = REGISTRY.register("oxidized_copper_pipe", () -> new OxidizedCopperPipeBlock());
 	public static final RegistryObject<Block> WAXED_OXIDIZED_COPPER_PIPE = REGISTRY.register("waxed_oxidized_copper_pipe", () -> new WaxedOxidizedCopperPipeBlock());
 	public static final RegistryObject<Block> DARK_BRASS_PIPE = REGISTRY.register("dark_brass_pipe", () -> new DarkBrassPipeBlock());
+	public static final RegistryObject<Block> DARK_BRASS_BLOCK = REGISTRY.register("dark_brass_block", () -> new DarkBrassBlockBlock());
 }
