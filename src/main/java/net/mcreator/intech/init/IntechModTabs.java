@@ -32,6 +32,9 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.ALUMINUM_TILES.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_PILLAR.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_BLOCK.get().asItem());
+			tabData.accept(IntechModBlocks.DARK_BRASS_TILES.get().asItem());
+			tabData.accept(IntechModBlocks.DARK_BRASS_PILLAR.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_DARK_BRASS.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

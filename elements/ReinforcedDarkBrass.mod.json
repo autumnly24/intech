@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "dark_brass_block",
+    "texture": "dark_brass_pipe_top",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Block Of Dark Brass",
+    "name": "Dark Brass Tiles",
     "specialInfo": [],
     "hardness": 4.5,
     "resistance": 1600.0,
