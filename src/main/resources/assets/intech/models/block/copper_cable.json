@@ -1,5 +1,5 @@
 {
-  "parent": "intech:custom/coppercable_(1)",
+  "parent": "intech:custom/coppercablerenewed",
   "textures": {
     "all": "intech:block/texture",
     "particle": "intech:block/copper_pipe_top",
