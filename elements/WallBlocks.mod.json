@@ -1,0 +1,24 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PolishedBauxiteBrickWall"
+      },
+      {
+        "value": "CUSTOM:BauxiteWall"
+      },
+      {
+        "value": "CUSTOM:PolishedTuffWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

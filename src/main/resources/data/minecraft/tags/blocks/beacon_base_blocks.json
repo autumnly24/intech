@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "intech:dark_brass_block",
+    "intech:zinc_block",
+    "intech:aluminum_block"
+  ]
+}

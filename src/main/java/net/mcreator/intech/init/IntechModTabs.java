@@ -59,6 +59,18 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICK_WALL.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_TILE_STAIRS.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_TILE_SLAB.get().asItem());
+			tabData.accept(IntechModBlocks.ZINC_BLOCK.get().asItem());
+			tabData.accept(IntechModBlocks.ZINC_TILES.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_TUFF.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_TUFF_STAIRS.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_TUFF_SLAB.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_TUFF_WALL.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICKS.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICK_STAIRS.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICK_SLAB.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICK_WALL.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_CHISELED_TUFF.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_CHISELED_TUFF_BRICKS.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
@@ -80,6 +92,7 @@ public class IntechModTabs {
 			tabData.accept(IntechModItems.RAW_ALUMINUM.get());
 			tabData.accept(IntechModItems.ALUMINUM_INGOT.get());
 			tabData.accept(IntechModItems.DARK_BRASS_INGOT.get());
+			tabData.accept(IntechModItems.ZINC_INGOT.get());
 		}
 	}
 }

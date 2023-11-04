@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "intech:block/chiseled_tuff_bricks_top",
+    "up": "intech:block/chiseled_tuff_bricks_top",
+    "north": "intech:block/chiseled_tuff_bricks",
+    "east": "intech:block/chiseled_tuff_bricks",
+    "south": "intech:block/chiseled_tuff_bricks",
+    "west": "intech:block/chiseled_tuff_bricks",
+    "particle": "intech:block/chiseled_tuff_bricks_top"
+  },
+  "render_type": "solid"
+}

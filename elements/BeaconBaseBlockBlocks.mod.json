@@ -6,16 +6,19 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:BauxiteWall"
+        "value": "CUSTOM:AluminumBlock"
       },
       {
-        "value": "CUSTOM:PolishedBauxiteBrickWall"
+        "value": "CUSTOM:DarkBrassBlock"
+      },
+      {
+        "value": "CUSTOM:ZincBlock"
       }
     ],
     "functions": [],
     "entities": [],
     "biomes": [],
-    "name": "vanilla_walls",
+    "name": "beacon_base_blocks",
     "namespace": "minecraft"
   }
 }
