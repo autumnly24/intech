@@ -1290,6 +1290,20 @@
         ]
       },
       "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumPillarStonecut",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_pillar_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_pillar_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
     }
   ],
   "variable_elements": [
@@ -1382,11 +1396,11 @@
   ],
   "language_map": {
     "en_us": {
-      "block.intech.aluminum_tiles": "Aluminum Tiles",
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
+      "block.intech.aluminum_tiles": "Aluminum Tiles",
       "subtitles.block.pipe.place": "Pipe Is Placed",
-      "subtitles.block.pipe.break": "Pipe Is Broken",
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
+      "subtitles.block.pipe.break": "Pipe Is Broken",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "subtitles.block.spleaves.step": "Player Steps On Spleaves",
