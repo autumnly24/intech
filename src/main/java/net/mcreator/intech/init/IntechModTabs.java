@@ -36,9 +36,13 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.DARK_BRASS_PILLAR.get().asItem());
 			tabData.accept(IntechModBlocks.REINFORCED_DARK_BRASS.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.EXPOSED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_EXPOSED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.WEATHERED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_WEATHERED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_OXIDIZED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.BAUXITE_STAIRS.get().asItem());
 			tabData.accept(IntechModBlocks.BAUXITE_SLAB.get().asItem());
 			tabData.accept(IntechModBlocks.BAUXITE_WALL.get().asItem());
@@ -47,6 +51,14 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICK_WALL.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_TILE_STAIRS.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_TILE_SLAB.get().asItem());
+			tabData.accept(IntechModBlocks.CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.EXPOSED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.WEATHERED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.OXIDIZED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

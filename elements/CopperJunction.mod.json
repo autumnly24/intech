@@ -35,8 +35,8 @@
     ],
     "name": "Copper Junction",
     "specialInfo": [],
-    "hardness": 2.5,
-    "resistance": 10.0,
+    "hardness": 3.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

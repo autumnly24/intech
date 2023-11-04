@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "intech:polished_bauxite_brick_wall"
+    "intech:polished_bauxite_brick_wall",
+    "intech:bauxite_wall"
   ]
 }

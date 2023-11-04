@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class CopperJunctionBlock extends Block {
 	public CopperJunctionBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(2.5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(3f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override
