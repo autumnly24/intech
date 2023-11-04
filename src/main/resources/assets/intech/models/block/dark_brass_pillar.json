@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "intech:block/dark_brass_pillar_top",
+    "up": "intech:block/dark_brass_pillar_top",
+    "north": "intech:block/dark_brass_pillar_side",
+    "east": "intech:block/dark_brass_pillar_side",
+    "south": "intech:block/dark_brass_pillar_side",
+    "west": "intech:block/dark_brass_pillar_side",
+    "particle": "intech:block/dark_brass_pillar_top"
+  },
+  "render_type": "solid"
+}

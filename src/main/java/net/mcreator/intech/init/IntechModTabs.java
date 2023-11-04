@@ -32,6 +32,10 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.ALUMINUM_TILES.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_PILLAR.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.DARK_BRASS_BLOCK.get().asItem());
+			tabData.accept(IntechModBlocks.DARK_BRASS_TILES.get().asItem());
+			tabData.accept(IntechModBlocks.DARK_BRASS_PILLAR.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_DARK_BRASS.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
@@ -49,6 +53,7 @@ public class IntechModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(IntechModItems.RAW_ALUMINUM.get());
 			tabData.accept(IntechModItems.ALUMINUM_INGOT.get());
+			tabData.accept(IntechModItems.DARK_BRASS_INGOT.get());
 		}
 	}
 }

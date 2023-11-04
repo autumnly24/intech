@@ -3,15 +3,15 @@
   "_type": "block",
   "definition": {
     "texture": "dark_brass_pipe_top",
-    "textureTop": "dark_brass_pipe_top",
-    "textureLeft": "dark_brass_pipe_side",
-    "textureFront": "dark_brass_pipe_side",
-    "textureRight": "dark_brass_pipe_side",
-    "textureBack": "dark_brass_pipe_side",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 1,
-    "enablePitch": true,
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -33,22 +33,22 @@
         "subtract": false
       }
     ],
-    "name": "Dark Brass Pipe",
+    "name": "Dark Brass Tiles",
     "specialInfo": [],
     "hardness": 4.5,
     "resistance": 1600.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "TRANSPORTATION"
+      "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -56,7 +56,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 1,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -98,12 +98,12 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "CopperPipeUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

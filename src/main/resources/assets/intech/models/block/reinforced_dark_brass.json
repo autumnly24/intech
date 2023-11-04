@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "intech:block/dark_brass_pipe_top",
+    "particle": "intech:block/dark_brass_pipe_top"
+  },
+  "render_type": "solid"
+}
