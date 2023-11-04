@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "intech:block/aluminum_tiles",
+    "top": "intech:block/aluminum_tiles",
+    "side": "intech:block/aluminum_tiles"
+  },
+  "render_type": "solid"
+}

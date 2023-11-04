@@ -53,6 +53,8 @@ public class IntechModItems {
 	public static final RegistryObject<Item> POLISHED_BAUXITE_BRICK_STAIRS = block(IntechModBlocks.POLISHED_BAUXITE_BRICK_STAIRS);
 	public static final RegistryObject<Item> POLISHED_BAUXITE_BRICK_SLAB = block(IntechModBlocks.POLISHED_BAUXITE_BRICK_SLAB);
 	public static final RegistryObject<Item> POLISHED_BAUXITE_BRICK_WALL = block(IntechModBlocks.POLISHED_BAUXITE_BRICK_WALL);
+	public static final RegistryObject<Item> ALUMINUM_TILE_STAIRS = block(IntechModBlocks.ALUMINUM_TILE_STAIRS);
+	public static final RegistryObject<Item> ALUMINUM_TILE_SLAB = block(IntechModBlocks.ALUMINUM_TILE_SLAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

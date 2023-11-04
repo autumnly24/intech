@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 24,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:AluminumBlock"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:AluminumTileSlab"
+    },
+    "name": "aluminum_tile_slab_stonecut_2",
+    "namespace": "mod"
+  }
+}

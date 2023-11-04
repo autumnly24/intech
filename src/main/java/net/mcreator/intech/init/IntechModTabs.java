@@ -45,6 +45,8 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICK_STAIRS.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICK_SLAB.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICK_WALL.get().asItem());
+			tabData.accept(IntechModBlocks.ALUMINUM_TILE_STAIRS.get().asItem());
+			tabData.accept(IntechModBlocks.ALUMINUM_TILE_SLAB.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

@@ -39,6 +39,8 @@ import net.mcreator.intech.block.BauxitePressurePlateBlock;
 import net.mcreator.intech.block.BauxiteButtonBlock;
 import net.mcreator.intech.block.BauxiteBlock;
 import net.mcreator.intech.block.AluminumTilesBlock;
+import net.mcreator.intech.block.AluminumTileStairsBlock;
+import net.mcreator.intech.block.AluminumTileSlabBlock;
 import net.mcreator.intech.block.AluminumPillarBlock;
 import net.mcreator.intech.block.AluminumBlockBlock;
 import net.mcreator.intech.IntechMod;
@@ -76,4 +78,6 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> POLISHED_BAUXITE_BRICK_STAIRS = REGISTRY.register("polished_bauxite_brick_stairs", () -> new PolishedBauxiteBrickStairsBlock());
 	public static final RegistryObject<Block> POLISHED_BAUXITE_BRICK_SLAB = REGISTRY.register("polished_bauxite_brick_slab", () -> new PolishedBauxiteBrickSlabBlock());
 	public static final RegistryObject<Block> POLISHED_BAUXITE_BRICK_WALL = REGISTRY.register("polished_bauxite_brick_wall", () -> new PolishedBauxiteBrickWallBlock());
+	public static final RegistryObject<Block> ALUMINUM_TILE_STAIRS = REGISTRY.register("aluminum_tile_stairs", () -> new AluminumTileStairsBlock());
+	public static final RegistryObject<Block> ALUMINUM_TILE_SLAB = REGISTRY.register("aluminum_tile_slab", () -> new AluminumTileSlabBlock());
 }

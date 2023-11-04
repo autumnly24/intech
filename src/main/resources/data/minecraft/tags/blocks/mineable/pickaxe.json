@@ -25,6 +25,8 @@
     "intech:bauxite_pressure_plate",
     "intech:polished_bauxite_brick_stairs",
     "intech:polished_bauxite_brick_slab",
-    "intech:polished_bauxite_brick_wall"
+    "intech:polished_bauxite_brick_wall",
+    "intech:aluminum_tile_stairs",
+    "intech:aluminum_tile_slab"
   ]
 }

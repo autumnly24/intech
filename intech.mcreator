@@ -1154,6 +1154,142 @@
         ]
       },
       "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileStairs",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/aluminum_tile_stairs.json",
+          "src/main/java/net/mcreator/intech/block/AluminumTileStairsBlock.java",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_stairs_outer.json",
+          "src/main/resources/assets/intech/blockstates/aluminum_tile_stairs.json",
+          "src/main/resources/assets/intech/models/item/aluminum_tile_stairs.json",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_stairs_inner.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileSlab",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/aluminum_tile_slab.json",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_slab_top.json",
+          "src/main/java/net/mcreator/intech/block/AluminumTileSlabBlock.java",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_slab_full.json",
+          "src/main/resources/assets/intech/models/item/aluminum_tile_slab.json",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_slab.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileStairsCraft",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_stairs_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileSlabCraft",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_slab_craft.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileStairsStonecut",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileSlabStonecut",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTilesStonecut",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tiles_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tiles_stonecut.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileStairsStonecut2",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_stairs_stonecut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_stairs_stonecut_2.json"
+        ]
+      },
+      "path": "~/Aluminum"
+    },
+    {
+      "name": "AluminumTileSlabStonecut2",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_tile_slab_stonecut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_tile_slab_stonecut_2.json"
+        ]
+      },
+      "path": "~/Aluminum"
     }
   ],
   "variable_elements": [
@@ -1249,8 +1385,8 @@
       "block.intech.aluminum_tiles": "Aluminum Tiles",
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "subtitles.block.pipe.place": "Pipe Is Placed",
-      "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "subtitles.block.pipe.break": "Pipe Is Broken",
+      "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "subtitles.block.spleaves.step": "Player Steps On Spleaves",
@@ -1262,7 +1398,9 @@
       "block.intech.exposed_copper_pipe": "Exposed Copper Pipe",
       "block.intech.bauxite_wall": "Bauxite Wall",
       "block.intech.dark_brass_pipe": "Dark Brass Pipe",
+      "block.intech.aluminum_tile_slab": "Aluminum Tile Slab",
       "block.intech.bauxite_button": "Bauxite Button",
+      "block.intech.aluminum_tile_stairs": "Aluminum Tile Stairs",
       "item.intech.aluminum_ingot": "Aluminum Ingot",
       "block.intech.bauxite": "Bauxite",
       "block.intech.copper_junction": "Copper Junction",
