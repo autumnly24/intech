@@ -807,7 +807,7 @@
       "name": "BauxiteSlab",
       "type": "block",
       "sortid": 50,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bauxite_slab",
       "metadata": {
@@ -840,7 +840,7 @@
       "name": "AluminumTileStairs",
       "type": "block",
       "sortid": 71,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs",
       "metadata": {
@@ -1024,7 +1024,7 @@
       "name": "AluminumTileSlab",
       "type": "block",
       "sortid": 72,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab",
       "metadata": {
@@ -1057,7 +1057,7 @@
       "name": "BauxitePressurePlate",
       "type": "block",
       "sortid": 52,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bauxite_pressure_plate",
       "metadata": {
@@ -1075,7 +1075,7 @@
       "name": "CopperCable",
       "type": "block",
       "sortid": 48,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_cable",
       "metadata": {
@@ -1106,7 +1106,7 @@
       "name": "BauxiteStairs",
       "type": "block",
       "sortid": 49,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bauxite_stairs",
       "metadata": {
@@ -1125,7 +1125,7 @@
       "name": "BauxiteButton",
       "type": "block",
       "sortid": 53,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bauxite_button",
       "metadata": {
@@ -1186,7 +1186,7 @@
       "name": "BauxiteWall",
       "type": "block",
       "sortid": 51,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bauxite_wall",
       "metadata": {
@@ -1234,7 +1234,7 @@
       "name": "PolishedBauxiteBrickSlab",
       "type": "block",
       "sortid": 62,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab",
       "metadata": {
@@ -1399,8 +1399,8 @@
       "block.intech.aluminum_tiles": "Aluminum Tiles",
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "subtitles.block.pipe.place": "Pipe Is Placed",
-      "subtitles.block.pipe.break": "Pipe Is Broken",
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
+      "subtitles.block.pipe.break": "Pipe Is Broken",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "subtitles.block.spleaves.step": "Player Steps On Spleaves",
       "block.intech.exposed_copper_spleaves": "Exposed Copper Spleaves",
@@ -1451,7 +1451,7 @@
     "modid": "intech",
     "modName": "Intech",
     "version": "1.0.0",
-    "author": "Jacob, MCreator",
+    "author": "Autumn",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -1461,6 +1461,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.intech",
     "lockBaseModFiles": false
   },
