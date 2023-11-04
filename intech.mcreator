@@ -1600,8 +1600,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.intech.aluminum_tiles": "Aluminum Tiles",
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
+      "block.intech.aluminum_tiles": "Aluminum Tiles",
       "subtitles.block.pipe.place": "Pipe Is Placed",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
       "block.intech.reinforced_weathered_copper_spleaves": "Weathered Copper Spleaves",
@@ -1634,8 +1634,8 @@
       "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "subtitles.block.pipe.break": "Pipe Is Broken",
-      "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "subtitles.block.spleaves.step": "Player Steps On Spleaves",
+      "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "block.intech.waxed_oxidized_chiseled_copper": "Waxed Oxidized Chiseled Copper",
       "block.intech.bauxite_wall": "Bauxite Wall",
       "block.intech.chiseled_copper": "Chiseled Copper",

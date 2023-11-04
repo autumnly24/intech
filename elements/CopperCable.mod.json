@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "coppercable_(1):default",
+    "customModelName": "coppercablerenewed:default",
     "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -24,63 +24,18 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 4.0,
-        "my": 14.0,
-        "mz": 6.0,
-        "Mx": 6.0,
-        "My": 16.0,
-        "Mz": 10.0,
-        "subtract": false
-      },
-      {
-        "mx": 10.0,
-        "my": 14.0,
-        "mz": 6.0,
-        "Mx": 12.0,
-        "My": 16.0,
-        "Mz": 10.0,
-        "subtract": false
-      },
-      {
         "mx": 6.0,
-        "my": 14.0,
-        "mz": 4.0,
+        "my": 2.0,
+        "mz": 6.0,
         "Mx": 10.0,
-        "My": 16.0,
-        "Mz": 6.0,
-        "subtract": false
-      },
-      {
-        "mx": 6.0,
-        "my": 14.0,
-        "mz": 10.0,
-        "Mx": 10.0,
-        "My": 16.0,
-        "Mz": 12.0,
+        "My": 14.0,
+        "Mz": 10.0,
         "subtract": false
       },
       {
         "mx": 5.0,
         "my": 14.0,
         "mz": 5.0,
-        "Mx": 6.0,
-        "My": 16.0,
-        "Mz": 6.0,
-        "subtract": false
-      },
-      {
-        "mx": 10.0,
-        "my": 14.0,
-        "mz": 5.0,
-        "Mx": 11.0,
-        "My": 16.0,
-        "Mz": 6.0,
-        "subtract": false
-      },
-      {
-        "mx": 10.0,
-        "my": 14.0,
-        "mz": 10.0,
         "Mx": 11.0,
         "My": 16.0,
         "Mz": 11.0,
@@ -89,91 +44,10 @@
       {
         "mx": 5.0,
         "my": 0.0,
-        "mz": 10.0,
-        "Mx": 6.0,
-        "My": 2.0,
-        "Mz": 11.0,
-        "subtract": false
-      },
-      {
-        "mx": 5.0,
-        "my": 14.0,
-        "mz": 10.0,
-        "Mx": 6.0,
-        "My": 16.0,
-        "Mz": 11.0,
-        "subtract": false
-      },
-      {
-        "mx": 6.0,
-        "my": 0.0,
-        "mz": 10.0,
-        "Mx": 10.0,
-        "My": 2.0,
-        "Mz": 12.0,
-        "subtract": false
-      },
-      {
-        "mx": 10.0,
-        "my": 0.0,
-        "mz": 10.0,
-        "Mx": 11.0,
-        "My": 2.0,
-        "Mz": 11.0,
-        "subtract": false
-      },
-      {
-        "mx": 10.0,
-        "my": 0.0,
-        "mz": 6.0,
-        "Mx": 12.0,
-        "My": 2.0,
-        "Mz": 10.0,
-        "subtract": false
-      },
-      {
-        "mx": 10.0,
-        "my": 0.0,
         "mz": 5.0,
         "Mx": 11.0,
         "My": 2.0,
-        "Mz": 6.0,
-        "subtract": false
-      },
-      {
-        "mx": 6.0,
-        "my": 0.0,
-        "mz": 4.0,
-        "Mx": 10.0,
-        "My": 2.0,
-        "Mz": 6.0,
-        "subtract": false
-      },
-      {
-        "mx": 4.0,
-        "my": 0.0,
-        "mz": 6.0,
-        "Mx": 6.0,
-        "My": 2.0,
-        "Mz": 10.0,
-        "subtract": false
-      },
-      {
-        "mx": 5.0,
-        "my": 0.0,
-        "mz": 5.0,
-        "Mx": 6.0,
-        "My": 2.0,
-        "Mz": 6.0,
-        "subtract": false
-      },
-      {
-        "mx": 6.0,
-        "my": 0.0,
-        "mz": 6.0,
-        "Mx": 10.0,
-        "My": 16.0,
-        "Mz": 10.0,
+        "Mz": 11.0,
         "subtract": false
       }
     ],
