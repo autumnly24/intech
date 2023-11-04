@@ -1600,8 +1600,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "block.intech.aluminum_tiles": "Aluminum Tiles",
+      "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "subtitles.block.pipe.place": "Pipe Is Placed",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
       "block.intech.reinforced_weathered_copper_spleaves": "Weathered Copper Spleaves",
