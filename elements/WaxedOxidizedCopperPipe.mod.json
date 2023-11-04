@@ -77,24 +77,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "COPPER"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:block.pipe.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.copper.fall"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.copper.hit"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:block.pipe.break"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:block.pipe.step"
     },
     "luminance": 0,
     "unbreakable": false,

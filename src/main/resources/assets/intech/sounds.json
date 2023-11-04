@@ -7,5 +7,55 @@
         "stream": false
       }
     ]
+  },
+  "block.pipe.break": {
+    "subtitle": "subtitles.block.pipe.break",
+    "sounds": [
+      {
+        "name": "intech:break1",
+        "stream": false
+      },
+      {
+        "name": "intech:break2",
+        "stream": false
+      },
+      {
+        "name": "intech:break3",
+        "stream": false
+      },
+      {
+        "name": "intech:break4",
+        "stream": false
+      }
+    ]
+  },
+  "block.pipe.step": {
+    "subtitle": "subtitles.block.pipe.step",
+    "sounds": [
+      {
+        "name": "intech:step1",
+        "stream": false
+      },
+      {
+        "name": "intech:step2",
+        "stream": false
+      },
+      {
+        "name": "intech:step3",
+        "stream": false
+      },
+      {
+        "name": "intech:step4",
+        "stream": false
+      },
+      {
+        "name": "intech:step5",
+        "stream": false
+      },
+      {
+        "name": "intech:step6",
+        "stream": false
+      }
+    ]
   }
 }
