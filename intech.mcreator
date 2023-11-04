@@ -1598,14 +1598,14 @@
       "subtitle": "Player Steps On Spleaves"
     },
     {
-      "name": "block.aluminum.break",
+      "name": "block.zinc.place",
       "files": [
-        "aluminum_break3",
-        "aluminum_break2",
-        "aluminum_break1"
+        "zinc_break3",
+        "zinc_break2",
+        "zinc_break1"
       ],
       "category": "block",
-      "subtitle": "Block broken"
+      "subtitle": "Block placed"
     },
     {
       "name": "block.aluminum.step",
@@ -1617,16 +1617,6 @@
       "subtitle": "Footsteps"
     },
     {
-      "name": "block.aluminum.place",
-      "files": [
-        "aluminum_break3",
-        "aluminum_break2",
-        "aluminum_break1"
-      ],
-      "category": "block",
-      "subtitle": "Block placed"
-    },
-    {
       "name": "block.aluminum.hit",
       "files": [
         "aluminum_step2",
@@ -1636,21 +1626,11 @@
       "subtitle": "Block breaking"
     },
     {
-      "name": "block.zinc.break",
+      "name": "block.aluminum.place",
       "files": [
-        "zinc_break3",
-        "zinc_break2",
-        "zinc_break1"
-      ],
-      "category": "block",
-      "subtitle": "Block broken"
-    },
-    {
-      "name": "block.zinc.place",
-      "files": [
-        "zinc_break3",
-        "zinc_break2",
-        "zinc_break1"
+        "aluminum_break3",
+        "aluminum_break2",
+        "aluminum_break1"
       ],
       "category": "block",
       "subtitle": "Block placed"
@@ -1672,6 +1652,26 @@
       ],
       "category": "block",
       "subtitle": "Block breaking"
+    },
+    {
+      "name": "block.zinc.break",
+      "files": [
+        "zinc_break3",
+        "zinc_break2",
+        "zinc_break1"
+      ],
+      "category": "block",
+      "subtitle": "Block broken"
+    },
+    {
+      "name": "block.aluminum.break",
+      "files": [
+        "aluminum_break3",
+        "aluminum_break2",
+        "aluminum_break1"
+      ],
+      "category": "block",
+      "subtitle": "Block broken"
     }
   ],
   "language_map": {
