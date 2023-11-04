@@ -31,6 +31,7 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.ALUMINUM_BLOCK.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_TILES.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_PILLAR.get().asItem());
+			tabData.accept(IntechModBlocks.COPPER_SPLEAVES.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

@@ -37,6 +37,7 @@ public class IntechModItems {
 	public static final RegistryObject<Item> OXIDIZED_COPPER_PIPE = block(IntechModBlocks.OXIDIZED_COPPER_PIPE);
 	public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_PIPE = block(IntechModBlocks.WAXED_OXIDIZED_COPPER_PIPE);
 	public static final RegistryObject<Item> DARK_BRASS_PIPE = block(IntechModBlocks.DARK_BRASS_PIPE);
+	public static final RegistryObject<Item> COPPER_SPLEAVES = block(IntechModBlocks.COPPER_SPLEAVES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

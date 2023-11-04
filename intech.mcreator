@@ -646,6 +646,69 @@
         ]
       },
       "path": "~/Copper"
+    },
+    {
+      "name": "CopperSpleaves",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/copper_spleaves.json",
+          "src/main/resources/assets/intech/models/block/copper_spleaves.json",
+          "src/main/resources/assets/intech/models/item/copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/CopperSpleavesBlock.java"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "BreakTheSpleavesGoddammit",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_the_spleaves_goddammit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/BreakTheSpleavesGoddammitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperSpleavesStonecut",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spleaves_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_spleaves_stonecut.json"
+        ]
+      },
+      "path": "~/Copper"
     }
   ],
   "variable_elements": [
@@ -677,6 +740,7 @@
       "block.intech.oxidized_copper_pipe": "Oxidized Copper Pipe",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
+      "block.intech.copper_spleaves": "Copper Spleaves",
       "block.intech.aluminum_pillar": "Aluminum Pillar",
       "item.intech.raw_aluminum": "Raw Aluminum",
       "subtitles.pipeclank": "Pipe-Clank",
