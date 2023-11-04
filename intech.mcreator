@@ -1304,6 +1304,210 @@
         ]
       },
       "path": "~/Aluminum"
+    },
+    {
+      "name": "ReinforcedCopperSpleaves",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/reinforced_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/ReinforcedCopperSpleavesBlock.java",
+          "src/main/resources/assets/intech/blockstates/reinforced_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/item/reinforced_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "WaxedOxidizedChiseledCopper",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/WaxedOxidizedChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/blockstates/waxed_oxidized_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/item/waxed_oxidized_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_chiseled_copper.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "ReinforcedExposedCopperSpleaves",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_exposed_copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/reinforced_exposed_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/ReinforcedExposedCopperSpleavesBlock.java",
+          "src/main/resources/assets/intech/models/item/reinforced_exposed_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/block/reinforced_exposed_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "WaxedWeatheredChiseledCopper",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/WaxedWeatheredChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/item/waxed_weathered_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/waxed_weathered_chiseled_copper.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "ReinforcedWeatheredCopperSpleaves",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_weathered_copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/reinforced_weathered_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/block/reinforced_weathered_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/ReinforcedWeatheredCopperSpleavesBlock.java",
+          "src/main/resources/assets/intech/blockstates/reinforced_weathered_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "OxidizedChiseledCopper",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/oxidized_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/OxidizedChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/block/oxidized_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/oxidized_chiseled_copper.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "WaxedChiseledCopper",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/WaxedChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/item/waxed_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/block/waxed_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/waxed_chiseled_copper.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "ExposedChiseledCopper",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/exposed_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/exposed_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/block/exposed_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/ExposedChiseledCopperBlock.java"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "ReinforcedOxidizedCopperSpleaves",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_oxidized_copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/reinforced_oxidized_copper_spleaves.json",
+          "src/main/resources/assets/intech/blockstates/reinforced_oxidized_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/ReinforcedOxidizedCopperSpleavesBlock.java",
+          "src/main/resources/assets/intech/models/item/reinforced_oxidized_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "WaxedExposedChiseledCopper",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_exposed_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/waxed_exposed_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/block/waxed_exposed_chiseled_copper.json",
+          "src/main/resources/assets/intech/models/item/waxed_exposed_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/WaxedExposedChiseledCopperBlock.java"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "WeatheredChiseledCopper",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/weathered_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/weathered_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/WeatheredChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/block/weathered_chiseled_copper.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "ChiseledCopper",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/ChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/block/chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/chiseled_copper.json"
+        ]
+      },
+      "path": "~/Copper"
     }
   ],
   "variable_elements": [
@@ -1396,49 +1600,49 @@
   ],
   "language_map": {
     "en_us": {
-      "block.intech.aluminum_tiles": "Aluminum Tiles",
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
+      "block.intech.aluminum_tiles": "Aluminum Tiles",
       "subtitles.block.pipe.place": "Pipe Is Placed",
-      "subtitles.block.pipe.break": "Pipe Is Broken",
-      "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
-      "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
-      "subtitles.block.spleaves.step": "Player Steps On Spleaves",
       "block.intech.polished_bauxite_brick_slab": "Polished Bauxite Brick Slab",
       "block.intech.exposed_copper_spleaves": "Exposed Copper Spleaves",
       "subtitles.block.spleaves.break": "Spleaves Are Broken",
       "block.intech.dark_brass_pillar": "Dark Brass Pillar",
       "block.intech.polished_bauxite_brick_stairs": "Polished Bauxite Brick Stairs",
       "block.intech.exposed_copper_pipe": "Exposed Copper Pipe",
-      "block.intech.bauxite_wall": "Bauxite Wall",
       "block.intech.dark_brass_pipe": "Dark Brass Pipe",
-      "block.intech.aluminum_tile_slab": "Aluminum Tile Slab",
       "block.intech.bauxite_button": "Bauxite Button",
-      "block.intech.aluminum_tile_stairs": "Aluminum Tile Stairs",
-      "item.intech.aluminum_ingot": "Aluminum Ingot",
       "block.intech.bauxite": "Bauxite",
       "block.intech.copper_junction": "Copper Junction",
-      "block.intech.oxidized_copper_pipe": "Oxidized Copper Pipe",
       "subtitles.block.pipe.step": "Player Steps On Pipe",
       "subtitles.block.spleaves.place": "Spleaves Are Placed",
-      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
       "block.intech.copper_spleaves": "Copper Spleaves",
       "block.intech.aluminum_pillar": "Aluminum Pillar",
-      "item.intech.raw_aluminum": "Raw Aluminum",
-      "block.intech.bauxite_slab": "Bauxite Slab",
       "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.dark_brass_block": "Block Of Dark Brass",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
-      "item.intech.dark_brass_ingot": "Dark Brass Ingot",
-      "block.intech.copper_cable": "Copper Cable",
       "block.intech.dark_brass_tiles": "Dark Brass Tiles",
       "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "block.intech.oxidized_copper_spleaves": "Oxidized Copper Spleaves",
-      "block.intech.polished_bauxite": "Polished Bauxite",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "block.intech.aluminum_block": "Block of Aluminum",
       "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
-      "block.intech.copper_pipe": "Copper Pipe"
+      "block.intech.copper_pipe": "Copper Pipe",
+      "subtitles.block.pipe.break": "Pipe Is Broken",
+      "block.intech.raw_aluminum_block": "Raw Aluminum Block",
+      "subtitles.block.spleaves.step": "Player Steps On Spleaves",
+      "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
+      "block.intech.bauxite_wall": "Bauxite Wall",
+      "block.intech.aluminum_tile_slab": "Aluminum Tile Slab",
+      "block.intech.aluminum_tile_stairs": "Aluminum Tile Stairs",
+      "item.intech.aluminum_ingot": "Aluminum Ingot",
+      "block.intech.oxidized_copper_pipe": "Oxidized Copper Pipe",
+      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
+      "item.intech.raw_aluminum": "Raw Aluminum",
+      "block.intech.bauxite_slab": "Bauxite Slab",
+      "item.intech.dark_brass_ingot": "Dark Brass Ingot",
+      "block.intech.copper_cable": "Copper Cable",
+      "block.intech.polished_bauxite": "Polished Bauxite",
+      "block.intech.aluminum_block": "Block of Aluminum"
     }
   },
   "foldersRoot": {

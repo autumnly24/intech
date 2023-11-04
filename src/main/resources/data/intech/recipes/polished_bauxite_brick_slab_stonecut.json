@@ -4,5 +4,5 @@
   "ingredient": {
     "tag": "forge:bauxite_blocks"
   },
-  "result": "intech:deleted_mod_element"
+  "result": "intech:polished_bauxite_brick_slab"
 }
