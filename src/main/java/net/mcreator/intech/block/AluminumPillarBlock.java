@@ -1,8 +1,28 @@
 
 package net.mcreator.intech.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.common.util.ForgeSoundType;
+
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import java.util.List;
+import java.util.Collections;
 
 public class AluminumPillarBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
