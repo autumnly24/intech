@@ -39,6 +39,12 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.EXPOSED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.WEATHERED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.BAUXITE_STAIRS.get().asItem());
+			tabData.accept(IntechModBlocks.BAUXITE_SLAB.get().asItem());
+			tabData.accept(IntechModBlocks.BAUXITE_WALL.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICK_STAIRS.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICK_SLAB.get().asItem());
+			tabData.accept(IntechModBlocks.POLISHED_BAUXITE_BRICK_WALL.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
@@ -49,6 +55,11 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.DARK_BRASS_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_JUNCTION.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_CABLE.get().asItem());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(IntechModBlocks.BAUXITE_PRESSURE_PLATE.get().asItem());
+			tabData.accept(IntechModBlocks.BAUXITE_BUTTON.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

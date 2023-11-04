@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:polished_bauxite_bricks"
+    },
+    "1": {
+      "item": "intech:polished_bauxite_bricks"
+    },
+    "2": {
+      "item": "intech:polished_bauxite_bricks"
+    }
+  },
+  "result": {
+    "item": "intech:polished_bauxite_brick_slab",
+    "count": 6
+  }
+}

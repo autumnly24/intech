@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "intech:block/bauxite_slab"
+    },
+    "type=top": {
+      "model": "intech:block/bauxite_slab_top"
+    },
+    "type=double": {
+      "model": "intech:block/bauxite_slab_full"
+    }
+  }
+}

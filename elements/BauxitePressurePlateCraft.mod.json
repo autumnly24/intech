@@ -3,25 +3,25 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
-    "group": "polished_bauxite_pillar",
+    "recipeRetstackSize": 1,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:PolishedBauxite"
+        "value": "CUSTOM:Bauxite"
+      },
+      {
+        "value": "CUSTOM:Bauxite"
       },
       {
         "value": ""
       },
       {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:PolishedBauxite"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PolishedBauxitePillar"
+      "value": "CUSTOM:BauxitePressurePlate"
     },
-    "name": "polished_bauxite_pillar",
+    "name": "bauxite_pressure_plate_craft",
     "namespace": "mod"
   }
 }

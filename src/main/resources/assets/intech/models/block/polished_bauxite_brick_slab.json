@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "intech:block/bauxite_bricks",
+    "top": "intech:block/bauxite_bricks",
+    "side": "intech:block/bauxite_bricks"
+  },
+  "render_type": "solid"
+}

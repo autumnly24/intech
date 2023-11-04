@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:bauxite"
+    },
+    "3": {
+      "item": "intech:bauxite"
+    },
+    "4": {
+      "item": "intech:bauxite"
+    },
+    "6": {
+      "item": "intech:bauxite"
+    },
+    "7": {
+      "item": "intech:bauxite"
+    },
+    "8": {
+      "item": "intech:bauxite"
+    }
+  },
+  "result": {
+    "item": "intech:bauxite_stairs",
+    "count": 4
+  }
+}

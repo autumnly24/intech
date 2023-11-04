@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:polished_bauxite_bricks"
+    },
+    "3": {
+      "item": "intech:polished_bauxite_bricks"
+    },
+    "4": {
+      "item": "intech:polished_bauxite_bricks"
+    },
+    "6": {
+      "item": "intech:polished_bauxite_bricks"
+    },
+    "7": {
+      "item": "intech:polished_bauxite_bricks"
+    },
+    "8": {
+      "item": "intech:polished_bauxite_bricks"
+    }
+  },
+  "result": {
+    "item": "intech:polished_bauxite_brick_stairs",
+    "count": 4
+  }
+}
