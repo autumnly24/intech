@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "reinforced_oxidized_copper_spleaves",
+    "texture": "reinforced_weathered_copper_spleaves",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -16,6 +16,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Pane",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -33,12 +34,12 @@
         "subtract": false
       }
     ],
-    "name": "Oxidized Copper Grate",
+    "name": "Weathered Copper Mesh",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 6.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },

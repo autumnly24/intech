@@ -16,6 +16,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Pane",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -33,12 +34,12 @@
         "subtract": false
       }
     ],
-    "name": "Oxidized Copper Grate",
+    "name": "Oxidized Copper Mesh",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 6.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "intech:block/reinforced_oxidized_copper_spleaves"
+  },
+  "render_type": "cutout"
+}
