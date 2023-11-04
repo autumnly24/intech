@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "intech:block/copper_cable",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "intech:block/copper_cable"
+    },
+    "axis=z": {
+      "model": "intech:block/copper_cable",
+      "x": 90
+    }
+  }
+}

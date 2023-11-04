@@ -28,6 +28,7 @@ import net.mcreator.intech.block.DarkBrassBlockBlock;
 import net.mcreator.intech.block.CopperSpleavesBlock;
 import net.mcreator.intech.block.CopperPipeBlock;
 import net.mcreator.intech.block.CopperJunctionBlock;
+import net.mcreator.intech.block.CopperCableBlock;
 import net.mcreator.intech.block.BauxiteBlock;
 import net.mcreator.intech.block.AluminumTilesBlock;
 import net.mcreator.intech.block.AluminumPillarBlock;
@@ -58,4 +59,5 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> DARK_BRASS_PIPE = REGISTRY.register("dark_brass_pipe", () -> new DarkBrassPipeBlock());
 	public static final RegistryObject<Block> OXIDIZED_COPPER_SPLEAVES = REGISTRY.register("oxidized_copper_spleaves", () -> new OxidizedCopperSpleavesBlock());
 	public static final RegistryObject<Block> COPPER_JUNCTION = REGISTRY.register("copper_junction", () -> new CopperJunctionBlock());
+	public static final RegistryObject<Block> COPPER_CABLE = REGISTRY.register("copper_cable", () -> new CopperCableBlock());
 }

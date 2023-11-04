@@ -48,6 +48,7 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_JUNCTION.get().asItem());
+			tabData.accept(IntechModBlocks.COPPER_CABLE.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
