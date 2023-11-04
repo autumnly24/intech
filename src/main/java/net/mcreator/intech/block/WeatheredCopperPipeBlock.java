@@ -46,7 +46,7 @@ public class WeatheredCopperPipeBlock extends Block implements EntityBlock {
 	public WeatheredCopperPipeBlock() {
 		super(BlockBehaviour.Properties.of()
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.pipe.break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.pipe.step")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.pipe.break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.copper.hit")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.pipe.place")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.copper.hit")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.copper.fall"))))
 				.strength(3f, 6f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL));

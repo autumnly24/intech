@@ -2,25 +2,25 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "weathered_copper_pipe_top",
-    "textureTop": "weathered_copper_pipe_top",
-    "textureLeft": "weathered_copper_pipe_side",
-    "textureFront": "weathered_copper_pipe_side",
-    "textureRight": "weathered_copper_pipe_side",
-    "textureBack": "weathered_copper_pipe_side",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 1,
-    "enablePitch": true,
+    "texture": "weathered_copper_spleaves",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Waxed Weathered Copper Pipe",
+    "name": "Weathered Copper Spleaves",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 6.0,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
-      "value": "TRANSPORTATION"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -52,11 +52,11 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
-    "tickRate": 16,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -82,7 +82,7 @@
       "value": "COPPER"
     },
     "breakSound": {
-      "value": "CUSTOM:block.pipe.break"
+      "value": "CUSTOM:block.spleaves.break"
     },
     "fallSound": {
       "value": "block.copper.fall"
@@ -91,21 +91,21 @@
       "value": "block.copper.hit"
     },
     "placeSound": {
-      "value": "CUSTOM:block.pipe.break"
+      "value": "CUSTOM:block.spleaves.place"
     },
     "stepSound": {
-      "value": "CUSTOM:block.pipe.step"
+      "value": "CUSTOM:block.spleaves.step"
     },
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "inventorySize": 0,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
+    "inventoryDropWhenDestroyed": false,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
@@ -117,8 +117,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "CopperPipeUpdateTick"
+    "onEntityWalksOn": {
+      "name": "BreakTheSpleavesGoddammit"
+    },
+    "onHitByProjectile": {
+      "name": "BreakTheSpleavesGoddammit"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

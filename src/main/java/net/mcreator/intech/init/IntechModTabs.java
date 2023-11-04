@@ -32,22 +32,22 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.ALUMINUM_TILES.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_PILLAR.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_BLOCK.get().asItem());
-			tabData.accept(IntechModBlocks.COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_TILES.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_PILLAR.get().asItem());
 			tabData.accept(IntechModBlocks.REINFORCED_DARK_BRASS.get().asItem());
+			tabData.accept(IntechModBlocks.COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.EXPOSED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.WEATHERED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_SPLEAVES.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(IntechModBlocks.COPPER_PIPE.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_COPPER_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.EXPOSED_COPPER_PIPE.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_EXPOSED_COPPER_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.WEATHERED_COPPER_PIPE.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_WEATHERED_COPPER_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_PIPE.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_COPPER_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.COPPER_JUNCTION.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

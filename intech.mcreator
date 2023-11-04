@@ -9,9 +9,9 @@
       "registry_name": "bauxite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/blockstates/bauxite.json",
-          "src/main/resources/assets/intech/models/item/bauxite.json",
           "src/main/resources/assets/intech/models/block/bauxite.json",
+          "src/main/resources/assets/intech/models/item/bauxite.json",
+          "src/main/resources/assets/intech/blockstates/bauxite.json",
           "src/main/java/net/mcreator/intech/block/BauxiteBlock.java"
         ]
       },
@@ -20,7 +20,7 @@
     {
       "name": "BauxiteReplaceables",
       "type": "tag",
-      "sortid": 11,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_replaceables",
@@ -34,15 +34,15 @@
     {
       "name": "BauxiteVein",
       "type": "feature",
-      "sortid": 12,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_vein",
       "metadata": {
         "files": [
+          "src/main/resources/data/intech/worldgen/placed_feature/bauxite_vein.json",
           "src/main/resources/data/intech/forge/biome_modifier/bauxite_vein_biome_modifier.json",
           "src/main/resources/data/intech/worldgen/configured_feature/bauxite_vein.json",
-          "src/main/resources/data/intech/worldgen/placed_feature/bauxite_vein.json",
           "src/main/java/net/mcreator/intech/world/features/BauxiteVeinFeature.java"
         ]
       },
@@ -57,10 +57,10 @@
       "registry_name": "polished_bauxite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/blockstates/polished_bauxite.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite.json",
           "src/main/java/net/mcreator/intech/block/PolishedBauxiteBlock.java",
           "src/main/resources/assets/intech/models/item/polished_bauxite.json",
-          "src/main/resources/assets/intech/models/block/polished_bauxite.json"
+          "src/main/resources/assets/intech/blockstates/polished_bauxite.json"
         ]
       },
       "path": "~/Aluminum"
@@ -74,10 +74,10 @@
       "registry_name": "polished_bauxite_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_bauxite_bricks.json",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_bricks.json",
           "src/main/java/net/mcreator/intech/block/PolishedBauxiteBricksBlock.java",
           "src/main/resources/assets/intech/blockstates/polished_bauxite_bricks.json",
-          "src/main/resources/assets/intech/models/item/polished_bauxite_bricks.json"
+          "src/main/resources/assets/intech/models/block/polished_bauxite_bricks.json"
         ]
       },
       "path": "~/Aluminum"
@@ -91,10 +91,10 @@
       "registry_name": "polished_bauxite_pillar",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/PolishedBauxitePillarBlock.java",
           "src/main/resources/assets/intech/blockstates/polished_bauxite_pillar.json",
-          "src/main/resources/assets/intech/models/item/polished_bauxite_pillar.json",
-          "src/main/resources/assets/intech/models/block/polished_bauxite_pillar.json"
+          "src/main/java/net/mcreator/intech/block/PolishedBauxitePillarBlock.java",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_pillar.json",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_pillar.json"
         ]
       },
       "path": "~/Aluminum"
@@ -102,7 +102,7 @@
     {
       "name": "PolishedBauxiteRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_recipe",
@@ -116,7 +116,7 @@
     {
       "name": "PolishedBauxiteStonecutting",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_stonecutting",
@@ -130,7 +130,7 @@
     {
       "name": "PolishedBauxiteBricksRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_recipe",
@@ -144,7 +144,7 @@
     {
       "name": "PolishedBauxiteBricksStonecutting",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_stonecutting",
@@ -158,7 +158,7 @@
     {
       "name": "BauxiteBlocks",
       "type": "tag",
-      "sortid": 17,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_blocks",
@@ -172,7 +172,7 @@
     {
       "name": "PolishedBauxitePillarRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_recipe",
@@ -186,7 +186,7 @@
     {
       "name": "PolishedBauxitePillarStonecutting",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_stonecutting",
@@ -200,7 +200,7 @@
     {
       "name": "RawAluminum",
       "type": "item",
-      "sortid": 9,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum",
@@ -221,9 +221,9 @@
       "registry_name": "raw_aluminum_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/raw_aluminum_block.json",
-          "src/main/java/net/mcreator/intech/block/RawAluminumBlockBlock.java",
           "src/main/resources/assets/intech/models/block/raw_aluminum_block.json",
+          "src/main/java/net/mcreator/intech/block/RawAluminumBlockBlock.java",
+          "src/main/resources/assets/intech/models/item/raw_aluminum_block.json",
           "src/main/resources/assets/intech/blockstates/raw_aluminum_block.json"
         ]
       },
@@ -232,14 +232,14 @@
     {
       "name": "AluminumIngot",
       "type": "item",
-      "sortid": 10,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/item/AluminumIngotItem.java",
-          "src/main/resources/assets/intech/models/item/aluminum_ingot.json"
+          "src/main/resources/assets/intech/models/item/aluminum_ingot.json",
+          "src/main/java/net/mcreator/intech/item/AluminumIngotItem.java"
         ]
       },
       "path": "~/Aluminum"
@@ -254,9 +254,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/intech/models/block/aluminum_block.json",
-          "src/main/java/net/mcreator/intech/block/AluminumBlockBlock.java",
           "src/main/resources/assets/intech/models/item/aluminum_block.json",
-          "src/main/resources/assets/intech/blockstates/aluminum_block.json"
+          "src/main/resources/assets/intech/blockstates/aluminum_block.json",
+          "src/main/java/net/mcreator/intech/block/AluminumBlockBlock.java"
         ]
       },
       "path": "~/Aluminum"
@@ -270,10 +270,10 @@
       "registry_name": "aluminum_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/blockstates/aluminum_tiles.json",
           "src/main/resources/assets/intech/models/item/aluminum_tiles.json",
           "src/main/resources/assets/intech/models/block/aluminum_tiles.json",
-          "src/main/java/net/mcreator/intech/block/AluminumTilesBlock.java"
+          "src/main/java/net/mcreator/intech/block/AluminumTilesBlock.java",
+          "src/main/resources/assets/intech/blockstates/aluminum_tiles.json"
         ]
       },
       "path": "~/Aluminum"
@@ -287,10 +287,10 @@
       "registry_name": "aluminum_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/aluminum_pillar.json",
-          "src/main/resources/assets/intech/models/block/aluminum_pillar.json",
           "src/main/java/net/mcreator/intech/block/AluminumPillarBlock.java",
-          "src/main/resources/assets/intech/blockstates/aluminum_pillar.json"
+          "src/main/resources/assets/intech/blockstates/aluminum_pillar.json",
+          "src/main/resources/assets/intech/models/block/aluminum_pillar.json",
+          "src/main/resources/assets/intech/models/item/aluminum_pillar.json"
         ]
       },
       "path": "~/Aluminum"
@@ -298,7 +298,7 @@
     {
       "name": "RawAluminumToBlock",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_to_block",
@@ -312,7 +312,7 @@
     {
       "name": "RawAluminumBlockToItem",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block_to_item",
@@ -326,7 +326,7 @@
     {
       "name": "AluminumIngotSmelting",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_smelting",
@@ -340,7 +340,7 @@
     {
       "name": "AluminumIngotBlasting",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_blasting",
@@ -354,7 +354,7 @@
     {
       "name": "AluminumIngotToBlock",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_to_block",
@@ -368,7 +368,7 @@
     {
       "name": "AluminumBlockToIngot",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_block_to_ingot",
@@ -382,7 +382,7 @@
     {
       "name": "AluminumTilesRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles_recipe",
@@ -396,7 +396,7 @@
     {
       "name": "AluminumPillarRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar_recipe",
@@ -410,17 +410,17 @@
     {
       "name": "CopperPipe",
       "type": "block",
-      "sortid": 28,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/CopperPipeBlock.java",
-          "src/main/resources/assets/intech/blockstates/copper_pipe.json",
           "src/main/resources/assets/intech/models/item/copper_pipe.json",
           "src/main/resources/assets/intech/models/block/copper_pipe.json",
-          "src/main/java/net/mcreator/intech/block/entity/CopperPipeBlockEntity.java"
+          "src/main/java/net/mcreator/intech/block/CopperPipeBlock.java",
+          "src/main/java/net/mcreator/intech/block/entity/CopperPipeBlockEntity.java",
+          "src/main/resources/assets/intech/blockstates/copper_pipe.json"
         ]
       },
       "path": "~/Copper"
@@ -428,7 +428,7 @@
     {
       "name": "Pipes",
       "type": "tag",
-      "sortid": 31,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pipes",
@@ -442,7 +442,7 @@
     {
       "name": "CopperPipeUpdateTick",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pipe_update_tick",
@@ -474,7 +474,7 @@
     {
       "name": "PipeMoveItem",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pipe_move_item",
@@ -504,55 +504,19 @@
       "path": "~/Copper"
     },
     {
-      "name": "WaxedCopperPipe",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_copper_pipe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/intech/block/entity/WaxedCopperPipeBlockEntity.java",
-          "src/main/java/net/mcreator/intech/block/WaxedCopperPipeBlock.java",
-          "src/main/resources/assets/intech/models/item/waxed_copper_pipe.json",
-          "src/main/resources/assets/intech/blockstates/waxed_copper_pipe.json",
-          "src/main/resources/assets/intech/models/block/waxed_copper_pipe.json"
-        ]
-      },
-      "path": "~/Copper"
-    },
-    {
       "name": "ExposedCopperPipe",
       "type": "block",
-      "sortid": 35,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_pipe",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/intech/block/ExposedCopperPipeBlock.java",
+          "src/main/resources/assets/intech/blockstates/exposed_copper_pipe.json",
           "src/main/resources/assets/intech/models/item/exposed_copper_pipe.json",
           "src/main/resources/assets/intech/models/block/exposed_copper_pipe.json",
-          "src/main/java/net/mcreator/intech/block/ExposedCopperPipeBlock.java",
-          "src/main/java/net/mcreator/intech/block/entity/ExposedCopperPipeBlockEntity.java",
-          "src/main/resources/assets/intech/blockstates/exposed_copper_pipe.json"
-        ]
-      },
-      "path": "~/Copper"
-    },
-    {
-      "name": "WaxedExposedCopperPipe",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_exposed_copper_pipe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/intech/block/entity/WaxedExposedCopperPipeBlockEntity.java",
-          "src/main/resources/assets/intech/models/item/waxed_exposed_copper_pipe.json",
-          "src/main/resources/assets/intech/models/block/waxed_exposed_copper_pipe.json",
-          "src/main/resources/assets/intech/blockstates/waxed_exposed_copper_pipe.json",
-          "src/main/java/net/mcreator/intech/block/WaxedExposedCopperPipeBlock.java"
+          "src/main/java/net/mcreator/intech/block/entity/ExposedCopperPipeBlockEntity.java"
         ]
       },
       "path": "~/Copper"
@@ -560,35 +524,17 @@
     {
       "name": "WeatheredCopperPipe",
       "type": "block",
-      "sortid": 37,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_pipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/weathered_copper_pipe.json",
+          "src/main/java/net/mcreator/intech/block/entity/WeatheredCopperPipeBlockEntity.java",
           "src/main/resources/assets/intech/blockstates/weathered_copper_pipe.json",
           "src/main/resources/assets/intech/models/block/weathered_copper_pipe.json",
-          "src/main/java/net/mcreator/intech/block/WeatheredCopperPipeBlock.java",
-          "src/main/java/net/mcreator/intech/block/entity/WeatheredCopperPipeBlockEntity.java"
-        ]
-      },
-      "path": "~/Copper"
-    },
-    {
-      "name": "WaxedWeatheredCopperPipe",
-      "type": "block",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_weathered_copper_pipe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/intech/block/entity/WaxedWeatheredCopperPipeBlockEntity.java",
-          "src/main/resources/assets/intech/models/block/waxed_weathered_copper_pipe.json",
-          "src/main/resources/assets/intech/blockstates/waxed_weathered_copper_pipe.json",
-          "src/main/java/net/mcreator/intech/block/WaxedWeatheredCopperPipeBlock.java",
-          "src/main/resources/assets/intech/models/item/waxed_weathered_copper_pipe.json"
+          "src/main/resources/assets/intech/models/item/weathered_copper_pipe.json",
+          "src/main/java/net/mcreator/intech/block/WeatheredCopperPipeBlock.java"
         ]
       },
       "path": "~/Copper"
@@ -596,35 +542,17 @@
     {
       "name": "OxidizedCopperPipe",
       "type": "block",
-      "sortid": 39,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_pipe",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/intech/block/entity/OxidizedCopperPipeBlockEntity.java",
           "src/main/java/net/mcreator/intech/block/OxidizedCopperPipeBlock.java",
-          "src/main/resources/assets/intech/models/block/oxidized_copper_pipe.json",
-          "src/main/resources/assets/intech/blockstates/oxidized_copper_pipe.json",
           "src/main/resources/assets/intech/models/item/oxidized_copper_pipe.json",
-          "src/main/java/net/mcreator/intech/block/entity/OxidizedCopperPipeBlockEntity.java"
-        ]
-      },
-      "path": "~/Copper"
-    },
-    {
-      "name": "WaxedOxidizedCopperPipe",
-      "type": "block",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_oxidized_copper_pipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/intech/models/item/waxed_oxidized_copper_pipe.json",
-          "src/main/resources/assets/intech/blockstates/waxed_oxidized_copper_pipe.json",
-          "src/main/java/net/mcreator/intech/block/entity/WaxedOxidizedCopperPipeBlockEntity.java",
-          "src/main/java/net/mcreator/intech/block/WaxedOxidizedCopperPipeBlock.java",
-          "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_pipe.json"
+          "src/main/resources/assets/intech/models/block/oxidized_copper_pipe.json",
+          "src/main/resources/assets/intech/blockstates/oxidized_copper_pipe.json"
         ]
       },
       "path": "~/Copper"
@@ -632,16 +560,16 @@
     {
       "name": "DarkBrassPipe",
       "type": "block",
-      "sortid": 41,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_pipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/dark_brass_pipe.json",
           "src/main/java/net/mcreator/intech/block/entity/DarkBrassPipeBlockEntity.java",
           "src/main/java/net/mcreator/intech/block/DarkBrassPipeBlock.java",
           "src/main/resources/assets/intech/models/item/dark_brass_pipe.json",
+          "src/main/resources/assets/intech/models/block/dark_brass_pipe.json",
           "src/main/resources/assets/intech/blockstates/dark_brass_pipe.json"
         ]
       },
@@ -650,16 +578,16 @@
     {
       "name": "DarkBrassBlock",
       "type": "block",
-      "sortid": 42,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/block/dark_brass_block.json",
           "src/main/java/net/mcreator/intech/block/DarkBrassBlockBlock.java",
           "src/main/resources/assets/intech/models/item/dark_brass_block.json",
-          "src/main/resources/assets/intech/blockstates/dark_brass_block.json",
-          "src/main/resources/assets/intech/models/block/dark_brass_block.json"
+          "src/main/resources/assets/intech/blockstates/dark_brass_block.json"
         ]
       },
       "path": "~/Dark Brass"
@@ -667,7 +595,7 @@
     {
       "name": "DarkBrassIngot",
       "type": "item",
-      "sortid": 43,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_ingot",
@@ -682,16 +610,16 @@
     {
       "name": "DarkBrassTiles",
       "type": "block",
-      "sortid": 44,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_tiles",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/item/dark_brass_tiles.json",
           "src/main/resources/assets/intech/models/block/dark_brass_tiles.json",
           "src/main/java/net/mcreator/intech/block/DarkBrassTilesBlock.java",
-          "src/main/resources/assets/intech/blockstates/dark_brass_tiles.json",
-          "src/main/resources/assets/intech/models/item/dark_brass_tiles.json"
+          "src/main/resources/assets/intech/blockstates/dark_brass_tiles.json"
         ]
       },
       "path": "~/Dark Brass"
@@ -699,16 +627,16 @@
     {
       "name": "DarkBrassPillar",
       "type": "block",
-      "sortid": 45,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/dark_brass_pillar.json",
           "src/main/resources/assets/intech/models/block/dark_brass_pillar.json",
+          "src/main/java/net/mcreator/intech/block/DarkBrassPillarBlock.java",
           "src/main/resources/assets/intech/blockstates/dark_brass_pillar.json",
-          "src/main/java/net/mcreator/intech/block/DarkBrassPillarBlock.java"
+          "src/main/resources/assets/intech/models/item/dark_brass_pillar.json"
         ]
       },
       "path": "~/Dark Brass"
@@ -716,16 +644,16 @@
     {
       "name": "ReinforcedDarkBrass",
       "type": "block",
-      "sortid": 46,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_dark_brass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/reinforced_dark_brass.json",
           "src/main/resources/assets/intech/models/block/reinforced_dark_brass.json",
           "src/main/java/net/mcreator/intech/block/ReinforcedDarkBrassBlock.java",
-          "src/main/resources/assets/intech/blockstates/reinforced_dark_brass.json"
+          "src/main/resources/assets/intech/blockstates/reinforced_dark_brass.json",
+          "src/main/resources/assets/intech/models/item/reinforced_dark_brass.json"
         ]
       },
       "path": "~/Dark Brass"
@@ -747,16 +675,16 @@
     {
       "name": "CopperSpleaves",
       "type": "block",
-      "sortid": 42,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_spleaves",
       "metadata": {
         "files": [
           "src/main/resources/assets/intech/models/item/copper_spleaves.json",
-          "src/main/resources/assets/intech/models/block/copper_spleaves.json",
           "src/main/java/net/mcreator/intech/block/CopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/blockstates/copper_spleaves.json"
+          "src/main/resources/assets/intech/blockstates/copper_spleaves.json",
+          "src/main/resources/assets/intech/models/block/copper_spleaves.json"
         ]
       },
       "path": "~/Copper"
@@ -764,7 +692,7 @@
     {
       "name": "BreakTheSpleavesGoddammit",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "break_the_spleaves_goddammit",
@@ -792,6 +720,74 @@
         ]
       },
       "path": "~/Copper"
+    },
+    {
+      "name": "ExposedCopperSpleaves",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/exposed_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/ExposedCopperSpleavesBlock.java",
+          "src/main/resources/assets/intech/models/item/exposed_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "WeatheredCopperSpleaves",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/WeatheredCopperSpleavesBlock.java",
+          "src/main/resources/assets/intech/models/item/weathered_copper_spleaves.json",
+          "src/main/resources/assets/intech/blockstates/weathered_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/block/weathered_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "OxidizedCopperSpleaves",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_copper_spleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/oxidized_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/OxidizedCopperSpleavesBlock.java",
+          "src/main/resources/assets/intech/models/block/oxidized_copper_spleaves.json",
+          "src/main/resources/assets/intech/blockstates/oxidized_copper_spleaves.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperJunction",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_junction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/CopperJunctionBlock.java",
+          "src/main/resources/assets/intech/blockstates/copper_junction.json",
+          "src/main/resources/assets/intech/models/block/copper_junction.json",
+          "src/main/resources/assets/intech/models/item/copper_junction.json"
+        ]
+      },
+      "path": "~/Copper"
     }
   ],
   "variable_elements": [
@@ -812,46 +808,96 @@
       "subtitle": "Pipe-Clank"
     },
     {
+      "name": "block.pipe.break",
+      "files": [
+        "pipe_break1",
+        "pipe_break2",
+        "pipe_break3",
+        "pipe_break4"
+      ],
+      "category": "block",
+      "subtitle": "Pipe Is Broken"
+    },
+    {
+      "name": "block.pipe.place",
+      "files": [
+        "pipe_break1",
+        "pipe_break2",
+        "pipe_break3",
+        "pipe_break4"
+      ],
+      "category": "block",
+      "subtitle": "Pipe Is Placed"
+    },
+    {
       "name": "block.pipe.step",
       "files": [
-        "step1",
-        "step2",
-        "step3",
-        "step4",
-        "step5",
-        "step6"
+        "pipe_step1",
+        "pipe_step2",
+        "pipe_step3",
+        "pipe_step4",
+        "pipe_step5",
+        "pipe_step6"
       ],
       "category": "player",
       "subtitle": "Player Steps On Pipe"
     },
     {
-      "name": "block.pipe.break",
+      "name": "block.spleaves.break",
       "files": [
-        "break1",
-        "break2",
-        "break3",
-        "break4"
+        "spleaves_break1",
+        "spleaves_break2",
+        "spleaves_break3",
+        "spleaves_break4"
       ],
       "category": "block",
-      "subtitle": "Copper Pipe Is Broken"
+      "subtitle": "Spleaves Are Broken"
+    },
+    {
+      "name": "block.spleaves.place",
+      "files": [
+        "spleaves_break1",
+        "spleaves_break2",
+        "spleaves_break3",
+        "spleaves_break4"
+      ],
+      "category": "block",
+      "subtitle": "Spleaves Are Placed"
+    },
+    {
+      "name": "block.spleaves.step",
+      "files": [
+        "spleaves_step1",
+        "spleaves_step2",
+        "spleaves_step3",
+        "spleaves_step4",
+        "spleaves_step5",
+        "spleaves_step6"
+      ],
+      "category": "player",
+      "subtitle": "Player Steps On Spleaves"
     }
   ],
   "language_map": {
     "en_us": {
       "block.intech.aluminum_tiles": "Aluminum Tiles",
-      "block.intech.waxed_copper_pipe": "Waxed Copper Pipe",
+      "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
+      "subtitles.block.pipe.place": "Pipe Is Placed",
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
-      "block.intech.waxed_exposed_copper_pipe": "Waxed Exposed Copper Pipe",
-      "subtitles.block.pipe.break": "Copper Pipe Is Broken",
+      "subtitles.block.pipe.break": "Pipe Is Broken",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
+      "subtitles.block.spleaves.step": "Player Steps On Spleaves",
+      "block.intech.exposed_copper_spleaves": "Exposed Copper Spleaves",
+      "subtitles.block.spleaves.break": "Spleaves Are Broken",
       "block.intech.dark_brass_pillar": "Dark Brass Pillar",
       "block.intech.exposed_copper_pipe": "Exposed Copper Pipe",
-      "block.intech.waxed_oxidized_copper_pipe": "Waxed Oxidized Copper Pipe",
       "block.intech.dark_brass_pipe": "Dark Brass Pipe",
       "item.intech.aluminum_ingot": "Aluminum Ingot",
       "block.intech.bauxite": "Bauxite",
+      "block.intech.copper_junction": "Copper Junction",
       "block.intech.oxidized_copper_pipe": "Oxidized Copper Pipe",
       "subtitles.block.pipe.step": "Player Steps On Pipe",
+      "subtitles.block.spleaves.place": "Spleaves Are Placed",
       "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
       "block.intech.copper_spleaves": "Copper Spleaves",
       "block.intech.aluminum_pillar": "Aluminum Pillar",
@@ -860,9 +906,9 @@
       "block.intech.dark_brass_block": "Block Of Dark Brass",
       "item.intech.dark_brass_ingot": "Dark Brass Ingot",
       "block.intech.dark_brass_tiles": "Dark Brass Tiles",
+      "block.intech.oxidized_copper_spleaves": "Oxidized Copper Spleaves",
       "block.intech.polished_bauxite": "Polished Bauxite",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "block.intech.waxed_weathered_copper_pipe": "Waxed Weathered Copper Pipe",
       "block.intech.aluminum_block": "Block of Aluminum",
       "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
       "block.intech.copper_pipe": "Copper Pipe"

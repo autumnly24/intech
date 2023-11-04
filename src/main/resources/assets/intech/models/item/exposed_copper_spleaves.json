@@ -1,5 +1,5 @@
 {
-  "parent": "intech:block/waxed_copper_pipe",
+  "parent": "intech:block/exposed_copper_spleaves",
   "display": {
     "thirdperson": {
       "rotation": [

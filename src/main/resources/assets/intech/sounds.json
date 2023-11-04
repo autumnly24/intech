@@ -8,52 +8,144 @@
       }
     ]
   },
-  "block.pipe.step": {
-    "subtitle": "subtitles.block.pipe.step",
-    "sounds": [
-      {
-        "name": "intech:step1",
-        "stream": false
-      },
-      {
-        "name": "intech:step2",
-        "stream": false
-      },
-      {
-        "name": "intech:step3",
-        "stream": false
-      },
-      {
-        "name": "intech:step4",
-        "stream": false
-      },
-      {
-        "name": "intech:step5",
-        "stream": false
-      },
-      {
-        "name": "intech:step6",
-        "stream": false
-      }
-    ]
-  },
   "block.pipe.break": {
     "subtitle": "subtitles.block.pipe.break",
     "sounds": [
       {
-        "name": "intech:break1",
+        "name": "intech:pipe_break1",
         "stream": false
       },
       {
-        "name": "intech:break2",
+        "name": "intech:pipe_break2",
         "stream": false
       },
       {
-        "name": "intech:break3",
+        "name": "intech:pipe_break3",
         "stream": false
       },
       {
-        "name": "intech:break4",
+        "name": "intech:pipe_break4",
+        "stream": false
+      }
+    ]
+  },
+  "block.pipe.place": {
+    "subtitle": "subtitles.block.pipe.place",
+    "sounds": [
+      {
+        "name": "intech:pipe_break1",
+        "stream": false
+      },
+      {
+        "name": "intech:pipe_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:pipe_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:pipe_break4",
+        "stream": false
+      }
+    ]
+  },
+  "block.pipe.step": {
+    "subtitle": "subtitles.block.pipe.step",
+    "sounds": [
+      {
+        "name": "intech:pipe_step1",
+        "stream": false
+      },
+      {
+        "name": "intech:pipe_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:pipe_step3",
+        "stream": false
+      },
+      {
+        "name": "intech:pipe_step4",
+        "stream": false
+      },
+      {
+        "name": "intech:pipe_step5",
+        "stream": false
+      },
+      {
+        "name": "intech:pipe_step6",
+        "stream": false
+      }
+    ]
+  },
+  "block.spleaves.break": {
+    "subtitle": "subtitles.block.spleaves.break",
+    "sounds": [
+      {
+        "name": "intech:spleaves_break1",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_break4",
+        "stream": false
+      }
+    ]
+  },
+  "block.spleaves.place": {
+    "subtitle": "subtitles.block.spleaves.place",
+    "sounds": [
+      {
+        "name": "intech:spleaves_break1",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_break4",
+        "stream": false
+      }
+    ]
+  },
+  "block.spleaves.step": {
+    "subtitle": "subtitles.block.spleaves.step",
+    "sounds": [
+      {
+        "name": "intech:spleaves_step1",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_step3",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_step4",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_step5",
+        "stream": false
+      },
+      {
+        "name": "intech:spleaves_step6",
         "stream": false
       }
     ]

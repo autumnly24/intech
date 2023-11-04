@@ -91,7 +91,7 @@
       "value": "block.copper.hit"
     },
     "placeSound": {
-      "value": "CUSTOM:block.pipe.break"
+      "value": "CUSTOM:block.pipe.place"
     },
     "stepSound": {
       "value": "CUSTOM:block.pipe.step"

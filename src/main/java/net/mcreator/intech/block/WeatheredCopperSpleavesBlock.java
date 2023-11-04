@@ -37,10 +37,10 @@ import net.mcreator.intech.procedures.BreakTheSpleavesGoddammitProcedure;
 import java.util.List;
 import java.util.Collections;
 
-public class CopperSpleavesBlock extends Block implements SimpleWaterloggedBlock {
+public class WeatheredCopperSpleavesBlock extends Block implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-	public CopperSpleavesBlock() {
+	public WeatheredCopperSpleavesBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.spleaves.break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.spleaves.step")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.spleaves.place")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.copper.hit")),

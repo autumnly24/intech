@@ -77,35 +77,35 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "COPPER"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:block.spleaves.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.copper.fall"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.copper.hit"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:block.spleaves.place"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:block.spleaves.step"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "inventorySize": 0,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
+    "inventoryDropWhenDestroyed": false,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
