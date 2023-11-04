@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "intech:block/polished_tuff",
+    "top": "intech:block/polished_tuff",
+    "side": "intech:block/polished_tuff"
+  },
+  "render_type": "solid"
+}

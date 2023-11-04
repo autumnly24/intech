@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "intech:block/tuff_bricks",
+    "top": "intech:block/tuff_bricks",
+    "side": "intech:block/tuff_bricks"
+  },
+  "render_type": "solid"
+}

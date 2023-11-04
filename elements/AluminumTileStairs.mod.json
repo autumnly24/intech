@@ -78,24 +78,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "METAL"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:block.aluminum.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "CUSTOM:block.spleaves.step"
     },
     "hitSound": {
-      "value": ""
+      "value": "CUSTOM:block.aluminum.hit"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:block.aluminum.place"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:block.aluminum.step"
     },
     "luminance": 0,
     "unbreakable": false,

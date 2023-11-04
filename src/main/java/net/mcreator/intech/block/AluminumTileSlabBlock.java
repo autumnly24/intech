@@ -1,16 +1,19 @@
 
 package net.mcreator.intech.block;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.common.util.ForgeSoundType;
+
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.SlabType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
@@ -18,7 +21,11 @@ import java.util.Collections;
 
 public class AluminumTileSlabBlock extends SlabBlock {
 	public AluminumTileSlabBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(3f, 50f).requiresCorrectToolForDrops().dynamicShape());
+		super(BlockBehaviour.Properties.of()
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.aluminum.break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.aluminum.step")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.aluminum.place")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.aluminum.hit")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intech:block.aluminum.step"))))
+				.strength(3f, 50f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

@@ -149,5 +149,204 @@
         "stream": false
       }
     ]
+  },
+  "block.zinc.place": {
+    "subtitle": "subtitles.block.zinc.place",
+    "sounds": [
+      {
+        "name": "intech:zinc_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_break1",
+        "stream": false
+      }
+    ]
+  },
+  "block.tuff_bricks.place": {
+    "subtitle": "subtitles.block.tuff_bricks.place",
+    "sounds": [
+      {
+        "name": "intech:tuff_bricks_place1",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_place2",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_place3",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_place4",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_place5",
+        "stream": false
+      }
+    ]
+  },
+  "block.aluminum.step": {
+    "subtitle": "subtitles.block.aluminum.step",
+    "sounds": [
+      {
+        "name": "intech:aluminum_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_step1",
+        "stream": false
+      }
+    ]
+  },
+  "block.aluminum.hit": {
+    "subtitle": "subtitles.block.aluminum.hit",
+    "sounds": [
+      {
+        "name": "intech:aluminum_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_step1",
+        "stream": false
+      }
+    ]
+  },
+  "block.aluminum.place": {
+    "subtitle": "subtitles.block.aluminum.place",
+    "sounds": [
+      {
+        "name": "intech:aluminum_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_break1",
+        "stream": false
+      }
+    ]
+  },
+  "block.zinc.step": {
+    "subtitle": "subtitles.block.zinc.step",
+    "sounds": [
+      {
+        "name": "intech:zinc_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_step1",
+        "stream": false
+      }
+    ]
+  },
+  "block.zinc.hit": {
+    "subtitle": "subtitles.block.zinc.hit",
+    "sounds": [
+      {
+        "name": "intech:zinc_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_step1",
+        "stream": false
+      }
+    ]
+  },
+  "block.zinc.break": {
+    "subtitle": "subtitles.block.zinc.break",
+    "sounds": [
+      {
+        "name": "intech:zinc_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:zinc_break1",
+        "stream": false
+      }
+    ]
+  },
+  "block.tuff_bricks.break": {
+    "subtitle": "subtitles.block.tuff_bricks.break",
+    "sounds": [
+      {
+        "name": "intech:tuff_bricks_place1",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_place2",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_place3",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_place4",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_place5",
+        "stream": false
+      }
+    ]
+  },
+  "block.aluminum.break": {
+    "subtitle": "subtitles.block.aluminum.break",
+    "sounds": [
+      {
+        "name": "intech:aluminum_break3",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_break2",
+        "stream": false
+      },
+      {
+        "name": "intech:aluminum_break1",
+        "stream": false
+      }
+    ]
+  },
+  "block.tuff_bricks.step": {
+    "subtitle": "subtitles.block.tuff_bricks.step",
+    "sounds": [
+      {
+        "name": "intech:tuff_bricks_step1",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_step2",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_step3",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_step4",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_step5",
+        "stream": false
+      },
+      {
+        "name": "intech:tuff_bricks_step6",
+        "stream": false
+      }
+    ]
   }
 }
