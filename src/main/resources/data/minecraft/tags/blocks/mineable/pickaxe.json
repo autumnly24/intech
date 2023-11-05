@@ -49,17 +49,17 @@
     "intech:polished_tuff_brick_wall",
     "intech:polished_chiseled_tuff",
     "intech:polished_chiseled_tuff_bricks",
-    "intech:pulverizer",
     "intech:copper_pipe",
+    "intech:pulverizer",
     "intech:exposed_copper_pipe",
     "intech:weathered_copper_pipe",
     "intech:oxidized_copper_pipe",
     "intech:dark_brass_pipe",
     "intech:copper_junction",
-    "intech:zinc_battery",
-    "intech:lightning_bulb",
     "intech:bauxite_pressure_plate",
+    "intech:zinc_battery",
     "intech:zinc_ore",
+    "intech:lightning_bulb",
     "intech:lit_lightning_bulb"
   ]
 }
