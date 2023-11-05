@@ -106,11 +106,11 @@ public class WeatheredCopperSpleavesBlock extends Block implements SimpleWaterlo
 	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		BreakTheSpleavesGoddammitProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		BreakTheSpleavesGoddammitProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 
 	@Override
 	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
-		BreakTheSpleavesGoddammitProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
+		BreakTheSpleavesGoddammitProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ(), entity);
 	}
 }
