@@ -58,7 +58,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "TRANSPORTATION"
+      "value": "CUSTOM:Power"
     },
     "destroyTool": "Not specified",
     "customDrop": {

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "intech:block/zinc_ore",
+    "up": "intech:block/zinc_ore",
+    "north": "intech:block/zinc_ore",
+    "east": "intech:block/zinc_ore",
+    "south": "intech:block/zinc_ore",
+    "west": "intech:block/zinc_ore",
+    "particle": "intech:block/zinc_ore"
+  },
+  "render_type": "solid"
+}
