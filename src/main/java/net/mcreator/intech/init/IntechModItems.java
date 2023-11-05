@@ -47,18 +47,22 @@ public class IntechModItems {
 	public static final RegistryObject<Item> WEATHERED_COPPER_PIPE = block(IntechModBlocks.WEATHERED_COPPER_PIPE);
 	public static final RegistryObject<Item> OXIDIZED_COPPER_PIPE = block(IntechModBlocks.OXIDIZED_COPPER_PIPE);
 	public static final RegistryObject<Item> DARK_BRASS_PIPE = block(IntechModBlocks.DARK_BRASS_PIPE);
+	public static final RegistryObject<Item> COPPER_MESH = block(IntechModBlocks.COPPER_MESH);
 	public static final RegistryObject<Item> CHISELED_COPPER = block(IntechModBlocks.CHISELED_COPPER);
 	public static final RegistryObject<Item> WAXED_CHISELED_COPPER = block(IntechModBlocks.WAXED_CHISELED_COPPER);
+	public static final RegistryObject<Item> EXPOSED_COPPER_MESH = block(IntechModBlocks.EXPOSED_COPPER_MESH);
 	public static final RegistryObject<Item> EXPOSED_CHISELED_COPPER = block(IntechModBlocks.EXPOSED_CHISELED_COPPER);
 	public static final RegistryObject<Item> WAXED_EXPOSED_CHISELED_COPPER = block(IntechModBlocks.WAXED_EXPOSED_CHISELED_COPPER);
 	public static final RegistryObject<Item> WEATHERED_CHISELED_COPPER = block(IntechModBlocks.WEATHERED_CHISELED_COPPER);
 	public static final RegistryObject<Item> WAXED_WEATHERED_CHISELED_COPPER = block(IntechModBlocks.WAXED_WEATHERED_CHISELED_COPPER);
 	public static final RegistryObject<Item> OXIDIZED_CHISELED_COPPER = block(IntechModBlocks.OXIDIZED_CHISELED_COPPER);
+	public static final RegistryObject<Item> WEATHERED_COPPER_MESH = block(IntechModBlocks.WEATHERED_COPPER_MESH);
 	public static final RegistryObject<Item> WAXED_OXIDIZED_CHISELED_COPPER = block(IntechModBlocks.WAXED_OXIDIZED_CHISELED_COPPER);
 	public static final RegistryObject<Item> ZINC_BLOCK = block(IntechModBlocks.ZINC_BLOCK);
 	public static final RegistryObject<Item> ZINC_TILES = block(IntechModBlocks.ZINC_TILES);
 	public static final RegistryObject<Item> POLISHED_TUFF = block(IntechModBlocks.POLISHED_TUFF);
 	public static final RegistryObject<Item> POLISHED_TUFF_STAIRS = block(IntechModBlocks.POLISHED_TUFF_STAIRS);
+	public static final RegistryObject<Item> OXIDIZED_COPPER_MESH = block(IntechModBlocks.OXIDIZED_COPPER_MESH);
 	public static final RegistryObject<Item> POLISHED_TUFF_SLAB = block(IntechModBlocks.POLISHED_TUFF_SLAB);
 	public static final RegistryObject<Item> POLISHED_TUFF_WALL = block(IntechModBlocks.POLISHED_TUFF_WALL);
 	public static final RegistryObject<Item> POLISHED_TUFF_BRICKS = block(IntechModBlocks.POLISHED_TUFF_BRICKS);
@@ -81,6 +85,8 @@ public class IntechModItems {
 	public static final RegistryObject<Item> POLISHED_BAUXITE_BRICK_WALL = block(IntechModBlocks.POLISHED_BAUXITE_BRICK_WALL);
 	public static final RegistryObject<Item> ALUMINUM_TILE_STAIRS = block(IntechModBlocks.ALUMINUM_TILE_STAIRS);
 	public static final RegistryObject<Item> ALUMINUM_TILE_SLAB = block(IntechModBlocks.ALUMINUM_TILE_SLAB);
+	public static final RegistryObject<Item> LIGHTNING_BULB = block(IntechModBlocks.LIGHTNING_BULB);
+	public static final RegistryObject<Item> LIT_LIGHTNING_BULB = block(IntechModBlocks.LIT_LIGHTNING_BULB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

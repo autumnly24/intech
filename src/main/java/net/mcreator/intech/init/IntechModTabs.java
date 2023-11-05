@@ -42,18 +42,22 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.REINFORCED_EXPOSED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.REINFORCED_WEATHERED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.REINFORCED_OXIDIZED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.WAXED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.EXPOSED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.EXPOSED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.WEATHERED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.OXIDIZED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.WEATHERED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.ZINC_BLOCK.get().asItem());
 			tabData.accept(IntechModBlocks.ZINC_TILES.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_STAIRS.get().asItem());
+			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_SLAB.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_WALL.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICKS.get().asItem());
@@ -81,6 +85,7 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.DARK_BRASS_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_JUNCTION.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_CABLE.get().asItem());
+			tabData.accept(IntechModBlocks.LIGHTNING_BULB.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {

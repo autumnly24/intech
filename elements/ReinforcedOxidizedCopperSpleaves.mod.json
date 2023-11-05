@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Reinforced Oxidized Copper Spleaves",
+    "name": "Oxidized Copper Grate",
     "specialInfo": [],
-    "hardness": 0.0,
-    "resistance": 0.0,
+    "hardness": 3.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {

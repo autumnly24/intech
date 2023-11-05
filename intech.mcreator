@@ -1753,6 +1753,139 @@
         ]
       },
       "path": "~/Tuff"
+    },
+    {
+      "name": "CopperMesh",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_mesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/copper_mesh_noside_alt.json",
+          "src/main/resources/assets/intech/models/block/copper_mesh_post.json",
+          "src/main/resources/assets/intech/models/item/copper_mesh.json",
+          "src/main/resources/assets/intech/blockstates/copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/block/copper_mesh_side_alt.json",
+          "src/main/java/net/mcreator/intech/block/CopperMeshBlock.java",
+          "src/main/resources/assets/intech/models/block/copper_mesh_noside.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "WeatheredCopperMesh",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_mesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/WeatheredCopperMeshBlock.java",
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_side_alt.json",
+          "src/main/resources/assets/intech/models/item/weathered_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside_alt.json",
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside.json",
+          "src/main/resources/assets/intech/blockstates/weathered_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_post.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "OxidizedCopperMesh",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_copper_mesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_noside.json",
+          "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_noside_alt.json",
+          "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_post.json",
+          "src/main/resources/assets/intech/blockstates/oxidized_copper_mesh.json",
+          "src/main/resources/assets/intech/models/item/oxidized_copper_mesh.json",
+          "src/main/java/net/mcreator/intech/block/OxidizedCopperMeshBlock.java",
+          "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_side_alt.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "ExposedCopperMesh",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_mesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/exposed_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/item/exposed_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_post.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside_alt.json",
+          "src/main/java/net/mcreator/intech/block/ExposedCopperMeshBlock.java",
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_side_alt.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "LitLightningBulb",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_lightning_bulb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/LitLightningBulbBlock.java",
+          "src/main/resources/assets/intech/models/item/lit_lightning_bulb.json",
+          "src/main/resources/assets/intech/blockstates/lit_lightning_bulb.json",
+          "src/main/resources/assets/intech/models/block/lit_lightning_bulb.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "Patina",
+      "type": "tag",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "patina",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/tags/items/patina.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "LightningBulb",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_bulb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/lightning_bulb.json",
+          "src/main/resources/assets/intech/models/item/lightning_bulb.json",
+          "src/main/java/net/mcreator/intech/block/LightningBulbBlock.java",
+          "src/main/resources/assets/intech/blockstates/lightning_bulb.json",
+          "src/main/java/net/mcreator/intech/block/entity/LightningBulbBlockEntity.java"
+        ]
+      },
+      "path": "~/Copper"
     }
   ],
   "variable_elements": [

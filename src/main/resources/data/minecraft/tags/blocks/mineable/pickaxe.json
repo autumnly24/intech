@@ -21,18 +21,22 @@
     "intech:weathered_copper_pipe",
     "intech:oxidized_copper_pipe",
     "intech:dark_brass_pipe",
+    "intech:copper_mesh",
     "intech:chiseled_copper",
     "intech:waxed_chiseled_copper",
+    "intech:exposed_copper_mesh",
     "intech:exposed_chiseled_copper",
     "intech:waxed_exposed_chiseled_copper",
     "intech:weathered_chiseled_copper",
     "intech:waxed_weathered_chiseled_copper",
     "intech:oxidized_chiseled_copper",
+    "intech:weathered_copper_mesh",
     "intech:waxed_oxidized_chiseled_copper",
     "intech:zinc_block",
     "intech:zinc_tiles",
     "intech:polished_tuff",
     "intech:polished_tuff_stairs",
+    "intech:oxidized_copper_mesh",
     "intech:polished_tuff_slab",
     "intech:polished_tuff_wall",
     "intech:polished_tuff_bricks",
@@ -51,6 +55,8 @@
     "intech:polished_bauxite_brick_slab",
     "intech:polished_bauxite_brick_wall",
     "intech:aluminum_tile_stairs",
-    "intech:aluminum_tile_slab"
+    "intech:aluminum_tile_slab",
+    "intech:lightning_bulb",
+    "intech:lit_lightning_bulb"
   ]
 }
