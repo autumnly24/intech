@@ -2176,8 +2176,8 @@
     "en_us": {
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "block.intech.aluminum_tiles": "Aluminum Tiles",
-      "block.intech.zinc_ore": "Zinc Ore",
       "subtitles.block.pipe.place": "Pipe Is Placed",
+      "block.intech.zinc_ore": "Zinc Ore",
       "subtitles.block.aluminum.break": "Block broken",
       "block.intech.pulverizer": "Pulverizer",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
