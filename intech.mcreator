@@ -2156,6 +2156,10 @@
         "name": "Decoration",
         "children": [
           {
+            "name": "Tuff",
+            "children": []
+          },
+          {
             "name": "Copper",
             "children": [
               {
@@ -2165,19 +2169,15 @@
             ]
           },
           {
-            "name": "Tuff",
-            "children": []
-          },
-          {
-            "name": "Dark Brass",
-            "children": []
-          },
-          {
             "name": "Zinc",
             "children": []
           },
           {
             "name": "Aluminum",
+            "children": []
+          },
+          {
+            "name": "Dark Brass",
             "children": []
           }
         ]
@@ -2203,11 +2203,11 @@
             "children": []
           },
           {
-            "name": "Dark Brass",
+            "name": "Zinc",
             "children": []
           },
           {
-            "name": "Zinc",
+            "name": "Dark Brass",
             "children": []
           }
         ]
