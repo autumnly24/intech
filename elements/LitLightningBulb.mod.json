@@ -2,17 +2,17 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "exposed_copper_pipe_top",
-    "textureTop": "exposed_copper_pipe_top",
-    "textureLeft": "exposed_copper_pipe_side",
-    "textureFront": "exposed_copper_pipe_side",
-    "textureRight": "exposed_copper_pipe_side",
-    "textureBack": "exposed_copper_pipe_side",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 1,
-    "enablePitch": true,
-    "emissiveRendering": false,
+    "texture": "lightning_bulb_lit",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -33,18 +33,18 @@
         "subtract": false
       }
     ],
-    "name": "Exposed Copper Pipe",
+    "name": "Lightning Bulb",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Industry"
+      "value": "No creative tab entry"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:LightningBulb"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -56,7 +56,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 16,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -65,7 +65,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:LightningBulb"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -77,33 +77,33 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "COPPER"
     },
     "breakSound": {
-      "value": "CUSTOM:block.pipe.break"
+      "value": ""
     },
     "fallSound": {
-      "value": "block.copper.fall"
+      "value": ""
     },
     "hitSound": {
-      "value": "block.copper.hit"
+      "value": ""
     },
     "placeSound": {
-      "value": "CUSTOM:block.pipe.place"
+      "value": ""
     },
     "stepSound": {
-      "value": "CUSTOM:block.pipe.step"
+      "value": ""
     },
-    "luminance": 0,
+    "luminance": 12,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "CopperPipeUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

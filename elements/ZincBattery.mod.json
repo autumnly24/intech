@@ -2,12 +2,12 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "exposed_copper_pipe_top",
-    "textureTop": "exposed_copper_pipe_top",
-    "textureLeft": "exposed_copper_pipe_side",
-    "textureFront": "exposed_copper_pipe_side",
-    "textureRight": "exposed_copper_pipe_side",
-    "textureBack": "exposed_copper_pipe_side",
+    "texture": "zinc_battery_top",
+    "textureTop": "zinc_battery_top",
+    "textureLeft": "zinc_battery_side",
+    "textureFront": "zinc_battery_side",
+    "textureRight": "zinc_battery_side",
+    "textureBack": "zinc_battery_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Exposed Copper Pipe",
+    "name": "Zinc Battery",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 6.0,
+    "hardness": 3.5,
+    "resistance": 8.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Industry"
+      "value": "CUSTOM:Power"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -56,7 +56,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 16,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -79,31 +79,31 @@
     "isNotColidable": false,
     "isCustomSoundType": true,
     "soundOnStep": {
-      "value": "COPPER"
+      "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:block.pipe.break"
+      "value": "CUSTOM:block.zinc.break"
     },
     "fallSound": {
-      "value": "block.copper.fall"
+      "value": "CUSTOM:block.zinc.place"
     },
     "hitSound": {
-      "value": "block.copper.hit"
+      "value": "CUSTOM:block.zinc.hit"
     },
     "placeSound": {
-      "value": "CUSTOM:block.pipe.place"
+      "value": "CUSTOM:block.zinc.place"
     },
     "stepSound": {
-      "value": "CUSTOM:block.pipe.step"
+      "value": "CUSTOM:block.zinc.step"
     },
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "CopperPipeUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

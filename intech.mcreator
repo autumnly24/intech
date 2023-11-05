@@ -1837,6 +1837,127 @@
         ]
       },
       "path": "~/Copper"
+    },
+    {
+      "name": "Industry",
+      "type": "tab",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industry",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Pulverizer",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulverizer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/pulverizer.json",
+          "src/main/java/net/mcreator/intech/block/PulverizerBlock.java",
+          "src/main/resources/assets/intech/models/item/pulverizer.json",
+          "src/main/resources/assets/intech/models/block/pulverizer.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincBattery",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/zinc_battery.json",
+          "src/main/resources/assets/intech/models/block/zinc_battery.json",
+          "src/main/java/net/mcreator/intech/block/ZincBatteryBlock.java",
+          "src/main/resources/assets/intech/blockstates/zinc_battery.json"
+        ]
+      },
+      "path": "~/Zinc"
+    },
+    {
+      "name": "LitLightningBulb",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_lightning_bulb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/lit_lightning_bulb.json",
+          "src/main/java/net/mcreator/intech/block/LitLightningBulbBlock.java",
+          "src/main/resources/assets/intech/models/item/lit_lightning_bulb.json",
+          "src/main/resources/assets/intech/blockstates/lit_lightning_bulb.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "ZincOre",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/ZincOreBlock.java",
+          "src/main/resources/assets/intech/blockstates/zinc_ore.json",
+          "src/main/resources/assets/intech/models/block/zinc_ore.json",
+          "src/main/resources/assets/intech/models/item/zinc_ore.json"
+        ]
+      },
+      "path": "~/Zinc"
+    },
+    {
+      "name": "Patina",
+      "type": "tag",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "patina",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/tags/items/patina.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "LightningBulb",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_bulb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/entity/LightningBulbBlockEntity.java",
+          "src/main/resources/assets/intech/blockstates/lightning_bulb.json",
+          "src/main/java/net/mcreator/intech/block/LightningBulbBlock.java",
+          "src/main/resources/assets/intech/models/block/lightning_bulb.json",
+          "src/main/resources/assets/intech/models/item/lightning_bulb.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "Power",
+      "type": "tab",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [

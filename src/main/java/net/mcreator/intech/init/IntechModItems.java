@@ -77,6 +77,7 @@ public class IntechModItems {
 	public static final RegistryObject<Item> DARK_BRASS_INGOT = REGISTRY.register("dark_brass_ingot", () -> new DarkBrassIngotItem());
 	public static final RegistryObject<Item> ZINC_INGOT = REGISTRY.register("zinc_ingot", () -> new ZincIngotItem());
 	public static final RegistryObject<Item> COPPER_PIPE = block(IntechModBlocks.COPPER_PIPE);
+	public static final RegistryObject<Item> PULVERIZER = block(IntechModBlocks.PULVERIZER);
 	public static final RegistryObject<Item> EXPOSED_COPPER_PIPE = block(IntechModBlocks.EXPOSED_COPPER_PIPE);
 	public static final RegistryObject<Item> WEATHERED_COPPER_PIPE = block(IntechModBlocks.WEATHERED_COPPER_PIPE);
 	public static final RegistryObject<Item> OXIDIZED_COPPER_PIPE = block(IntechModBlocks.OXIDIZED_COPPER_PIPE);
@@ -85,6 +86,10 @@ public class IntechModItems {
 	public static final RegistryObject<Item> COPPER_CABLE = block(IntechModBlocks.COPPER_CABLE);
 	public static final RegistryObject<Item> BAUXITE_PRESSURE_PLATE = block(IntechModBlocks.BAUXITE_PRESSURE_PLATE);
 	public static final RegistryObject<Item> BAUXITE_BUTTON = block(IntechModBlocks.BAUXITE_BUTTON);
+	public static final RegistryObject<Item> ZINC_BATTERY = block(IntechModBlocks.ZINC_BATTERY);
+	public static final RegistryObject<Item> LIGHTNING_BULB = block(IntechModBlocks.LIGHTNING_BULB);
+	public static final RegistryObject<Item> ZINC_ORE = block(IntechModBlocks.ZINC_ORE);
+	public static final RegistryObject<Item> LIT_LIGHTNING_BULB = block(IntechModBlocks.LIT_LIGHTNING_BULB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

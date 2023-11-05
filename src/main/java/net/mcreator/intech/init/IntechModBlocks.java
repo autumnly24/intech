@@ -11,7 +11,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.intech.block.ZincTilesBlock;
+import net.mcreator.intech.block.ZincOreBlock;
 import net.mcreator.intech.block.ZincBlockBlock;
+import net.mcreator.intech.block.ZincBatteryBlock;
 import net.mcreator.intech.block.WeatheredCopperSpleavesBlock;
 import net.mcreator.intech.block.WeatheredCopperPipeBlock;
 import net.mcreator.intech.block.WeatheredCopperMeshBlock;
@@ -26,6 +28,7 @@ import net.mcreator.intech.block.ReinforcedExposedCopperSpleavesBlock;
 import net.mcreator.intech.block.ReinforcedDarkBrassBlock;
 import net.mcreator.intech.block.ReinforcedCopperSpleavesBlock;
 import net.mcreator.intech.block.RawAluminumBlockBlock;
+import net.mcreator.intech.block.PulverizerBlock;
 import net.mcreator.intech.block.PolishedTuffWallBlock;
 import net.mcreator.intech.block.PolishedTuffStairsBlock;
 import net.mcreator.intech.block.PolishedTuffSlabBlock;
@@ -46,6 +49,8 @@ import net.mcreator.intech.block.OxidizedCopperSpleavesBlock;
 import net.mcreator.intech.block.OxidizedCopperPipeBlock;
 import net.mcreator.intech.block.OxidizedCopperMeshBlock;
 import net.mcreator.intech.block.OxidizedChiseledCopperBlock;
+import net.mcreator.intech.block.LitLightningBulbBlock;
+import net.mcreator.intech.block.LightningBulbBlock;
 import net.mcreator.intech.block.ExposedCopperSpleavesBlock;
 import net.mcreator.intech.block.ExposedCopperPipeBlock;
 import net.mcreator.intech.block.ExposedCopperMeshBlock;
@@ -128,6 +133,7 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> POLISHED_CHISELED_TUFF = REGISTRY.register("polished_chiseled_tuff", () -> new PolishedChiseledTuffBlock());
 	public static final RegistryObject<Block> POLISHED_CHISELED_TUFF_BRICKS = REGISTRY.register("polished_chiseled_tuff_bricks", () -> new PolishedChiseledTuffBricksBlock());
 	public static final RegistryObject<Block> COPPER_PIPE = REGISTRY.register("copper_pipe", () -> new CopperPipeBlock());
+	public static final RegistryObject<Block> PULVERIZER = REGISTRY.register("pulverizer", () -> new PulverizerBlock());
 	public static final RegistryObject<Block> EXPOSED_COPPER_PIPE = REGISTRY.register("exposed_copper_pipe", () -> new ExposedCopperPipeBlock());
 	public static final RegistryObject<Block> WEATHERED_COPPER_PIPE = REGISTRY.register("weathered_copper_pipe", () -> new WeatheredCopperPipeBlock());
 	public static final RegistryObject<Block> OXIDIZED_COPPER_PIPE = REGISTRY.register("oxidized_copper_pipe", () -> new OxidizedCopperPipeBlock());
@@ -136,4 +142,8 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> COPPER_CABLE = REGISTRY.register("copper_cable", () -> new CopperCableBlock());
 	public static final RegistryObject<Block> BAUXITE_PRESSURE_PLATE = REGISTRY.register("bauxite_pressure_plate", () -> new BauxitePressurePlateBlock());
 	public static final RegistryObject<Block> BAUXITE_BUTTON = REGISTRY.register("bauxite_button", () -> new BauxiteButtonBlock());
+	public static final RegistryObject<Block> ZINC_BATTERY = REGISTRY.register("zinc_battery", () -> new ZincBatteryBlock());
+	public static final RegistryObject<Block> LIGHTNING_BULB = REGISTRY.register("lightning_bulb", () -> new LightningBulbBlock());
+	public static final RegistryObject<Block> ZINC_ORE = REGISTRY.register("zinc_ore", () -> new ZincOreBlock());
+	public static final RegistryObject<Block> LIT_LIGHTNING_BULB = REGISTRY.register("lit_lightning_bulb", () -> new LitLightningBulbBlock());
 }
