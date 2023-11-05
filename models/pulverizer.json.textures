@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "pulverizer"
+      },
+      "name": "default"
+    }
+  }
+}

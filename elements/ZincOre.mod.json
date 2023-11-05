@@ -2,16 +2,16 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "exposed_copper_pipe_top",
-    "textureTop": "exposed_copper_pipe_top",
-    "textureLeft": "exposed_copper_pipe_side",
-    "textureFront": "exposed_copper_pipe_side",
-    "textureRight": "exposed_copper_pipe_side",
-    "textureBack": "exposed_copper_pipe_side",
+    "texture": "zinc_ore",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 1,
-    "enablePitch": true,
+    "rotationMode": 0,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Exposed Copper Pipe",
+    "name": "Zinc Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Industry"
+      "value": "DECORATIONS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -54,9 +54,9 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
-    "tickRate": 16,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -77,33 +77,33 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "COPPER"
+      "value": "STONE"
     },
     "breakSound": {
-      "value": "CUSTOM:block.pipe.break"
+      "value": ""
     },
     "fallSound": {
-      "value": "block.copper.fall"
+      "value": ""
     },
     "hitSound": {
-      "value": "block.copper.hit"
+      "value": ""
     },
     "placeSound": {
-      "value": "CUSTOM:block.pipe.place"
+      "value": ""
     },
     "stepSound": {
-      "value": "CUSTOM:block.pipe.step"
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "CopperPipeUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

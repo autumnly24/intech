@@ -80,9 +80,12 @@ public class IntechModItems {
 	public static final RegistryObject<Item> BAUXITE_PRESSURE_PLATE = block(IntechModBlocks.BAUXITE_PRESSURE_PLATE);
 	public static final RegistryObject<Item> ZINC_INGOT = REGISTRY.register("zinc_ingot", () -> new ZincIngotItem());
 	public static final RegistryObject<Item> BAUXITE_BUTTON = block(IntechModBlocks.BAUXITE_BUTTON);
+	public static final RegistryObject<Item> PULVERIZER = block(IntechModBlocks.PULVERIZER);
 	public static final RegistryObject<Item> POLISHED_BAUXITE_BRICK_STAIRS = block(IntechModBlocks.POLISHED_BAUXITE_BRICK_STAIRS);
 	public static final RegistryObject<Item> POLISHED_BAUXITE_BRICK_SLAB = block(IntechModBlocks.POLISHED_BAUXITE_BRICK_SLAB);
 	public static final RegistryObject<Item> POLISHED_BAUXITE_BRICK_WALL = block(IntechModBlocks.POLISHED_BAUXITE_BRICK_WALL);
+	public static final RegistryObject<Item> ZINC_BATTERY = block(IntechModBlocks.ZINC_BATTERY);
+	public static final RegistryObject<Item> ZINC_ORE = block(IntechModBlocks.ZINC_ORE);
 	public static final RegistryObject<Item> ALUMINUM_TILE_STAIRS = block(IntechModBlocks.ALUMINUM_TILE_STAIRS);
 	public static final RegistryObject<Item> ALUMINUM_TILE_SLAB = block(IntechModBlocks.ALUMINUM_TILE_SLAB);
 	public static final RegistryObject<Item> LIGHTNING_BULB = block(IntechModBlocks.LIGHTNING_BULB);

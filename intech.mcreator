@@ -1888,6 +1888,81 @@
         ]
       },
       "path": "~/Copper"
+    },
+    {
+      "name": "Industry",
+      "type": "tab",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industry",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "Pulverizer",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulverizer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/pulverizer.json",
+          "src/main/resources/assets/intech/models/item/pulverizer.json",
+          "src/main/java/net/mcreator/intech/block/PulverizerBlock.java",
+          "src/main/resources/assets/intech/blockstates/pulverizer.json"
+        ]
+      },
+      "path": "~/Industry"
+    },
+    {
+      "name": "ZincBattery",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_battery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/ZincBatteryBlock.java",
+          "src/main/resources/assets/intech/models/item/zinc_battery.json",
+          "src/main/resources/assets/intech/blockstates/zinc_battery.json",
+          "src/main/resources/assets/intech/models/block/zinc_battery.json"
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "ZincOre",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/zinc_ore.json",
+          "src/main/resources/assets/intech/blockstates/zinc_ore.json",
+          "src/main/resources/assets/intech/models/block/zinc_ore.json",
+          "src/main/java/net/mcreator/intech/block/ZincOreBlock.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "Power",
+      "type": "tab",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [
@@ -2185,24 +2260,68 @@
     "name": "~",
     "children": [
       {
-        "name": "Tuff",
+        "name": "Power",
         "children": []
       },
       {
-        "name": "Copper",
+        "name": "Decoration",
+        "children": [
+          {
+            "name": "Tuff",
+            "children": []
+          },
+          {
+            "name": "Copper",
+            "children": [
+              {
+                "name": "Spleaves",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Zinc",
+            "children": []
+          },
+          {
+            "name": "Aluminum",
+            "children": []
+          },
+          {
+            "name": "Dark Brass",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Other",
         "children": []
       },
       {
-        "name": "Zinc",
-        "children": []
+        "name": "Industry",
+        "children": [
+          {
+            "name": "Pipes",
+            "children": []
+          }
+        ]
       },
       {
-        "name": "Dark Brass",
-        "children": []
-      },
-      {
-        "name": "Aluminum",
-        "children": []
+        "name": "Materials",
+        "children": [
+          {
+            "name": "Aluminum",
+            "children": []
+          },
+          {
+            "name": "Zinc",
+            "children": []
+          },
+          {
+            "name": "Dark Brass",
+            "children": []
+          }
+        ]
       }
     ]
   },

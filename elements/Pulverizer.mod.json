@@ -2,23 +2,23 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "exposed_copper_pipe_top",
-    "textureTop": "exposed_copper_pipe_top",
-    "textureLeft": "exposed_copper_pipe_side",
-    "textureFront": "exposed_copper_pipe_side",
-    "textureRight": "exposed_copper_pipe_side",
-    "textureBack": "exposed_copper_pipe_side",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "pulverizer",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "pulverizer:default",
     "rotationMode": 1,
-    "enablePitch": true,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -28,17 +28,53 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 16.0,
+        "My": 13.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 14.0,
+        "Mx": 16.0,
+        "My": 13.0,
         "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 2.0,
+        "My": 13.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 14.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 16.0,
+        "My": 13.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 11.0,
+        "Mz": 14.0,
         "subtract": false
       }
     ],
-    "name": "Exposed Copper Pipe",
+    "name": "Pulverizer",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 6.0,
+    "hardness": 4.0,
+    "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "CUSTOM:Industry"
     },
@@ -52,11 +88,11 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
-    "tickRate": 16,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -77,33 +113,33 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "COPPER"
+      "value": "POLISHED_DEEPSLATE"
     },
     "breakSound": {
-      "value": "CUSTOM:block.pipe.break"
+      "value": ""
     },
     "fallSound": {
-      "value": "block.copper.fall"
+      "value": ""
     },
     "hitSound": {
-      "value": "block.copper.hit"
+      "value": ""
     },
     "placeSound": {
-      "value": "CUSTOM:block.pipe.place"
+      "value": ""
     },
     "stepSound": {
-      "value": "CUSTOM:block.pipe.step"
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -117,9 +153,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "CopperPipeUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
