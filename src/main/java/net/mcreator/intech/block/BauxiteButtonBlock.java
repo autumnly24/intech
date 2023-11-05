@@ -1,17 +1,8 @@
 
 package net.mcreator.intech.block;
 
-import net.minecraft.world.level.storage.loot.LootParams;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.block.state.properties.BlockSetType;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.ButtonBlock;
-import net.minecraft.world.item.ItemStack;
-
-import java.util.List;
-import java.util.Collections;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class BauxiteButtonBlock extends ButtonBlock {
 	public BauxiteButtonBlock() {

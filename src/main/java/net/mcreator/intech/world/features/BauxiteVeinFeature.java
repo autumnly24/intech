@@ -1,14 +1,8 @@
 
 package net.mcreator.intech.world.features;
 
-import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
-import net.minecraft.world.level.levelgen.feature.OreFeature;
-import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
-import net.minecraft.world.level.WorldGenLevel;
-import net.minecraft.world.level.Level;
-import net.minecraft.resources.ResourceKey;
-
-import java.util.Set;
+import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 
 public class BauxiteVeinFeature extends OreFeature {
 	private final Set<ResourceKey<Level>> generateDimensions = Set.of(Level.OVERWORLD);
