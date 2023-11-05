@@ -23,8 +23,8 @@ public class IntechModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, IntechMod.MODID);
 	public static final RegistryObject<CreativeModeTab> INDUSTRY = REGISTRY.register("industry",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.intech.industry")).icon(() -> new ItemStack(IntechModBlocks.PULVERIZER.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(IntechModBlocks.COPPER_PIPE.get().asItem());
 				tabData.accept(IntechModBlocks.PULVERIZER.get().asItem());
+				tabData.accept(IntechModBlocks.COPPER_PIPE.get().asItem());
 				tabData.accept(IntechModBlocks.EXPOSED_COPPER_PIPE.get().asItem());
 				tabData.accept(IntechModBlocks.WEATHERED_COPPER_PIPE.get().asItem());
 				tabData.accept(IntechModBlocks.OXIDIZED_COPPER_PIPE.get().asItem());

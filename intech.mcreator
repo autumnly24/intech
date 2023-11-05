@@ -20,7 +20,7 @@
     {
       "name": "BauxiteReplaceables",
       "type": "tag",
-      "sortid": 66,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_replaceables",
@@ -34,7 +34,7 @@
     {
       "name": "BauxiteVein",
       "type": "feature",
-      "sortid": 67,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_vein",
@@ -102,7 +102,7 @@
     {
       "name": "PolishedBauxiteRecipe",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_recipe",
@@ -116,7 +116,7 @@
     {
       "name": "PolishedBauxiteStonecutting",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_stonecutting",
@@ -130,7 +130,7 @@
     {
       "name": "PolishedBauxiteBricksRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_recipe",
@@ -144,7 +144,7 @@
     {
       "name": "PolishedBauxiteBricksStonecutting",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_stonecutting",
@@ -158,7 +158,7 @@
     {
       "name": "BauxiteBlocks",
       "type": "tag",
-      "sortid": 72,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_blocks",
@@ -172,7 +172,7 @@
     {
       "name": "PolishedBauxitePillarRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_recipe",
@@ -186,7 +186,7 @@
     {
       "name": "PolishedBauxitePillarStonecutting",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_stonecutting",
@@ -298,7 +298,7 @@
     {
       "name": "RawAluminumToBlock",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_to_block",
@@ -312,7 +312,7 @@
     {
       "name": "RawAluminumBlockToItem",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block_to_item",
@@ -326,7 +326,7 @@
     {
       "name": "AluminumIngotSmelting",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_smelting",
@@ -340,7 +340,7 @@
     {
       "name": "AluminumIngotBlasting",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_blasting",
@@ -354,7 +354,7 @@
     {
       "name": "AluminumIngotToBlock",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_to_block",
@@ -368,7 +368,7 @@
     {
       "name": "AluminumBlockToIngot",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_block_to_ingot",
@@ -382,7 +382,7 @@
     {
       "name": "AluminumTilesRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles_recipe",
@@ -396,7 +396,7 @@
     {
       "name": "AluminumPillarRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar_recipe",
@@ -410,7 +410,7 @@
     {
       "name": "CopperPipe",
       "type": "block",
-      "sortid": 57,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pipe",
@@ -428,7 +428,7 @@
     {
       "name": "Pipes",
       "type": "tag",
-      "sortid": 83,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pipes",
@@ -442,7 +442,7 @@
     {
       "name": "CopperPipeUpdateTick",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pipe_update_tick",
@@ -474,7 +474,7 @@
     {
       "name": "PipeMoveItem",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pipe_move_item",
@@ -506,7 +506,7 @@
     {
       "name": "ExposedCopperPipe",
       "type": "block",
-      "sortid": 58,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_pipe",
@@ -524,7 +524,7 @@
     {
       "name": "WeatheredCopperPipe",
       "type": "block",
-      "sortid": 59,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_pipe",
@@ -542,7 +542,7 @@
     {
       "name": "OxidizedCopperPipe",
       "type": "block",
-      "sortid": 60,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_pipe",
@@ -560,7 +560,7 @@
     {
       "name": "DarkBrassPipe",
       "type": "block",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_pipe",
@@ -661,7 +661,7 @@
     {
       "name": "CopperSpleavesStonecut",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_spleaves_stonecut",
@@ -692,7 +692,7 @@
     {
       "name": "BreakTheSpleavesGoddammit",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "break_the_spleaves_goddammit",
@@ -775,7 +775,7 @@
     {
       "name": "CopperJunction",
       "type": "block",
-      "sortid": 62,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_junction",
@@ -793,7 +793,7 @@
     {
       "name": "PolishedBauxiteBrickSlabStonecut",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab_stonecut",
@@ -826,7 +826,7 @@
     {
       "name": "BauxiteSlabCraft",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_slab_craft",
@@ -859,7 +859,7 @@
     {
       "name": "PolishedBauxiteBrickWallCraft",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_wall_craft",
@@ -893,7 +893,7 @@
     {
       "name": "PolishedBauxiteBrickSlabCraft",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab_craft",
@@ -907,7 +907,7 @@
     {
       "name": "AluminumTilesStonecut",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles_stonecut",
@@ -921,7 +921,7 @@
     {
       "name": "AluminumTileStairsStonecut2",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_stonecut_2",
@@ -935,7 +935,7 @@
     {
       "name": "AluminumTileStairsStonecut",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_stonecut",
@@ -949,7 +949,7 @@
     {
       "name": "BauxiteWallStonecut",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_wall_stonecut",
@@ -963,7 +963,7 @@
     {
       "name": "BauxiteWallCraft",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_wall_craft",
@@ -977,7 +977,7 @@
     {
       "name": "BauxitePressurePlateCraft",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_pressure_plate_craft",
@@ -1029,7 +1029,7 @@
     {
       "name": "PolishedBauxiteBrickStairsStonecut",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_stairs_stonecut",
@@ -1043,7 +1043,7 @@
     {
       "name": "BauxitePressurePlate",
       "type": "block",
-      "sortid": 64,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_pressure_plate",
@@ -1061,7 +1061,7 @@
     {
       "name": "CopperCable",
       "type": "block",
-      "sortid": 63,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_cable",
@@ -1079,7 +1079,7 @@
     {
       "name": "PolishedBauxiteBrickStairsCraft",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_stairs_craft",
@@ -1112,7 +1112,7 @@
     {
       "name": "BauxiteButton",
       "type": "block",
-      "sortid": 65,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_button",
@@ -1131,7 +1131,7 @@
     {
       "name": "AluminumPillarStonecut",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar_stonecut",
@@ -1145,7 +1145,7 @@
     {
       "name": "AluminumTileSlabStonecut2",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_stonecut_2",
@@ -1159,7 +1159,7 @@
     {
       "name": "BauxiteSlabStonecut",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_slab_stonecut",
@@ -1193,7 +1193,7 @@
     {
       "name": "BauxiteStairsCraft",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_stairs_craft",
@@ -1207,7 +1207,7 @@
     {
       "name": "BauxiteStairsStonecut",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_stairs_stonecut",
@@ -1240,7 +1240,7 @@
     {
       "name": "PolishedBauxiteBrickWallStonecut",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_wall_stonecut",
@@ -1254,7 +1254,7 @@
     {
       "name": "AluminumTileSlabCraft",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_craft",
@@ -1268,7 +1268,7 @@
     {
       "name": "AluminumTileStairsCraft",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_craft",
@@ -1282,7 +1282,7 @@
     {
       "name": "AluminumTileSlabStonecut",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_stonecut",
@@ -1537,7 +1537,7 @@
     {
       "name": "BeaconBaseBlockBlocks",
       "type": "tag",
-      "sortid": 109,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_base_block_blocks",
@@ -1678,7 +1678,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 110,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -1843,7 +1843,7 @@
     {
       "name": "LightningBulb",
       "type": "block",
-      "sortid": 111,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightning_bulb",
@@ -1861,7 +1861,7 @@
     {
       "name": "LitLightningBulb",
       "type": "block",
-      "sortid": 112,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_lightning_bulb",
@@ -1878,7 +1878,7 @@
     {
       "name": "Patina",
       "type": "tag",
-      "sortid": 113,
+      "sortid": 116,
       "compiles": true,
       "locked_code": true,
       "registry_name": "patina",
@@ -2167,8 +2167,8 @@
     "en_us": {
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "block.intech.aluminum_tiles": "Aluminum Tiles",
-      "block.intech.zinc_ore": "Zinc Ore",
       "subtitles.block.pipe.place": "Pipe Is Placed",
+      "block.intech.zinc_ore": "Zinc Ore",
       "subtitles.block.aluminum.break": "Block broken",
       "block.intech.pulverizer": "Pulverizer",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
