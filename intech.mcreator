@@ -40,10 +40,10 @@
       "registry_name": "bauxite_vein",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/intech/world/features/BauxiteVeinFeature.java",
           "src/main/resources/data/intech/worldgen/placed_feature/bauxite_vein.json",
-          "src/main/resources/data/intech/forge/biome_modifier/bauxite_vein_biome_modifier.json",
           "src/main/resources/data/intech/worldgen/configured_feature/bauxite_vein.json",
-          "src/main/java/net/mcreator/intech/world/features/BauxiteVeinFeature.java"
+          "src/main/resources/data/intech/forge/biome_modifier/bauxite_vein_biome_modifier.json"
         ]
       },
       "path": "~/Materials/Aluminum"
@@ -57,10 +57,10 @@
       "registry_name": "polished_bauxite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_bauxite.json",
-          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBlock.java",
           "src/main/resources/assets/intech/models/item/polished_bauxite.json",
-          "src/main/resources/assets/intech/blockstates/polished_bauxite.json"
+          "src/main/resources/assets/intech/blockstates/polished_bauxite.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite.json",
+          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBlock.java"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -74,10 +74,10 @@
       "registry_name": "polished_bauxite_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/polished_bauxite_bricks.json",
           "src/main/java/net/mcreator/intech/block/PolishedBauxiteBricksBlock.java",
-          "src/main/resources/assets/intech/blockstates/polished_bauxite_bricks.json",
-          "src/main/resources/assets/intech/models/block/polished_bauxite_bricks.json"
+          "src/main/resources/assets/intech/models/block/polished_bauxite_bricks.json",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_bricks.json",
+          "src/main/resources/assets/intech/blockstates/polished_bauxite_bricks.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -93,8 +93,8 @@
         "files": [
           "src/main/resources/assets/intech/blockstates/polished_bauxite_pillar.json",
           "src/main/java/net/mcreator/intech/block/PolishedBauxitePillarBlock.java",
-          "src/main/resources/assets/intech/models/block/polished_bauxite_pillar.json",
-          "src/main/resources/assets/intech/models/item/polished_bauxite_pillar.json"
+          "src/main/resources/assets/intech/models/item/polished_bauxite_pillar.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_pillar.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -206,8 +206,8 @@
       "registry_name": "raw_aluminum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/raw_aluminum.json",
-          "src/main/java/net/mcreator/intech/item/RawAluminumItem.java"
+          "src/main/java/net/mcreator/intech/item/RawAluminumItem.java",
+          "src/main/resources/assets/intech/models/item/raw_aluminum.json"
         ]
       },
       "path": "~/Materials/Aluminum"
@@ -221,10 +221,10 @@
       "registry_name": "raw_aluminum_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/raw_aluminum_block.json",
           "src/main/java/net/mcreator/intech/block/RawAluminumBlockBlock.java",
+          "src/main/resources/assets/intech/blockstates/raw_aluminum_block.json",
           "src/main/resources/assets/intech/models/item/raw_aluminum_block.json",
-          "src/main/resources/assets/intech/blockstates/raw_aluminum_block.json"
+          "src/main/resources/assets/intech/models/block/raw_aluminum_block.json"
         ]
       },
       "path": "~/Materials/Aluminum"
@@ -253,10 +253,10 @@
       "registry_name": "aluminum_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/aluminum_block.json",
           "src/main/resources/assets/intech/models/item/aluminum_block.json",
           "src/main/resources/assets/intech/blockstates/aluminum_block.json",
-          "src/main/java/net/mcreator/intech/block/AluminumBlockBlock.java"
+          "src/main/java/net/mcreator/intech/block/AluminumBlockBlock.java",
+          "src/main/resources/assets/intech/models/block/aluminum_block.json"
         ]
       },
       "path": "~/Materials/Aluminum"
@@ -270,10 +270,10 @@
       "registry_name": "aluminum_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/aluminum_tiles.json",
           "src/main/resources/assets/intech/models/block/aluminum_tiles.json",
-          "src/main/java/net/mcreator/intech/block/AluminumTilesBlock.java",
-          "src/main/resources/assets/intech/blockstates/aluminum_tiles.json"
+          "src/main/resources/assets/intech/models/item/aluminum_tiles.json",
+          "src/main/resources/assets/intech/blockstates/aluminum_tiles.json",
+          "src/main/java/net/mcreator/intech/block/AluminumTilesBlock.java"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -289,8 +289,8 @@
         "files": [
           "src/main/java/net/mcreator/intech/block/AluminumPillarBlock.java",
           "src/main/resources/assets/intech/blockstates/aluminum_pillar.json",
-          "src/main/resources/assets/intech/models/block/aluminum_pillar.json",
-          "src/main/resources/assets/intech/models/item/aluminum_pillar.json"
+          "src/main/resources/assets/intech/models/item/aluminum_pillar.json",
+          "src/main/resources/assets/intech/models/block/aluminum_pillar.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -416,10 +416,10 @@
       "registry_name": "copper_pipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/copper_pipe.json",
-          "src/main/resources/assets/intech/models/block/copper_pipe.json",
           "src/main/java/net/mcreator/intech/block/CopperPipeBlock.java",
+          "src/main/resources/assets/intech/models/item/copper_pipe.json",
           "src/main/java/net/mcreator/intech/block/entity/CopperPipeBlockEntity.java",
+          "src/main/resources/assets/intech/models/block/copper_pipe.json",
           "src/main/resources/assets/intech/blockstates/copper_pipe.json"
         ]
       },
@@ -512,8 +512,8 @@
       "registry_name": "exposed_copper_pipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/ExposedCopperPipeBlock.java",
           "src/main/resources/assets/intech/blockstates/exposed_copper_pipe.json",
+          "src/main/java/net/mcreator/intech/block/ExposedCopperPipeBlock.java",
           "src/main/resources/assets/intech/models/item/exposed_copper_pipe.json",
           "src/main/resources/assets/intech/models/block/exposed_copper_pipe.json",
           "src/main/java/net/mcreator/intech/block/entity/ExposedCopperPipeBlockEntity.java"
@@ -530,11 +530,11 @@
       "registry_name": "weathered_copper_pipe",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/intech/block/WeatheredCopperPipeBlock.java",
+          "src/main/resources/assets/intech/models/block/weathered_copper_pipe.json",
           "src/main/java/net/mcreator/intech/block/entity/WeatheredCopperPipeBlockEntity.java",
           "src/main/resources/assets/intech/blockstates/weathered_copper_pipe.json",
-          "src/main/resources/assets/intech/models/block/weathered_copper_pipe.json",
-          "src/main/resources/assets/intech/models/item/weathered_copper_pipe.json",
-          "src/main/java/net/mcreator/intech/block/WeatheredCopperPipeBlock.java"
+          "src/main/resources/assets/intech/models/item/weathered_copper_pipe.json"
         ]
       },
       "path": "~/Industry/Pipes"
@@ -551,8 +551,8 @@
           "src/main/java/net/mcreator/intech/block/entity/OxidizedCopperPipeBlockEntity.java",
           "src/main/java/net/mcreator/intech/block/OxidizedCopperPipeBlock.java",
           "src/main/resources/assets/intech/models/item/oxidized_copper_pipe.json",
-          "src/main/resources/assets/intech/models/block/oxidized_copper_pipe.json",
-          "src/main/resources/assets/intech/blockstates/oxidized_copper_pipe.json"
+          "src/main/resources/assets/intech/blockstates/oxidized_copper_pipe.json",
+          "src/main/resources/assets/intech/models/block/oxidized_copper_pipe.json"
         ]
       },
       "path": "~/Industry/Pipes"
@@ -567,10 +567,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/intech/block/entity/DarkBrassPipeBlockEntity.java",
-          "src/main/java/net/mcreator/intech/block/DarkBrassPipeBlock.java",
           "src/main/resources/assets/intech/models/item/dark_brass_pipe.json",
+          "src/main/resources/assets/intech/blockstates/dark_brass_pipe.json",
           "src/main/resources/assets/intech/models/block/dark_brass_pipe.json",
-          "src/main/resources/assets/intech/blockstates/dark_brass_pipe.json"
+          "src/main/java/net/mcreator/intech/block/DarkBrassPipeBlock.java"
         ]
       },
       "path": "~/Industry/Pipes"
@@ -584,10 +584,10 @@
       "registry_name": "dark_brass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/dark_brass_block.json",
+          "src/main/resources/assets/intech/blockstates/dark_brass_block.json",
           "src/main/java/net/mcreator/intech/block/DarkBrassBlockBlock.java",
           "src/main/resources/assets/intech/models/item/dark_brass_block.json",
-          "src/main/resources/assets/intech/blockstates/dark_brass_block.json"
+          "src/main/resources/assets/intech/models/block/dark_brass_block.json"
         ]
       },
       "path": "~/Materials"
@@ -616,10 +616,10 @@
       "registry_name": "dark_brass_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/dark_brass_tiles.json",
           "src/main/resources/assets/intech/models/block/dark_brass_tiles.json",
+          "src/main/resources/assets/intech/blockstates/dark_brass_tiles.json",
           "src/main/java/net/mcreator/intech/block/DarkBrassTilesBlock.java",
-          "src/main/resources/assets/intech/blockstates/dark_brass_tiles.json"
+          "src/main/resources/assets/intech/models/item/dark_brass_tiles.json"
         ]
       },
       "path": "~/Decoration/Dark Brass"
@@ -633,10 +633,10 @@
       "registry_name": "dark_brass_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/dark_brass_pillar.json",
-          "src/main/java/net/mcreator/intech/block/DarkBrassPillarBlock.java",
           "src/main/resources/assets/intech/blockstates/dark_brass_pillar.json",
-          "src/main/resources/assets/intech/models/item/dark_brass_pillar.json"
+          "src/main/resources/assets/intech/models/block/dark_brass_pillar.json",
+          "src/main/resources/assets/intech/models/item/dark_brass_pillar.json",
+          "src/main/java/net/mcreator/intech/block/DarkBrassPillarBlock.java"
         ]
       },
       "path": "~/Decoration/Dark Brass"
@@ -650,9 +650,9 @@
       "registry_name": "reinforced_dark_brass",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/blockstates/reinforced_dark_brass.json",
           "src/main/resources/assets/intech/models/block/reinforced_dark_brass.json",
           "src/main/java/net/mcreator/intech/block/ReinforcedDarkBrassBlock.java",
-          "src/main/resources/assets/intech/blockstates/reinforced_dark_brass.json",
           "src/main/resources/assets/intech/models/item/reinforced_dark_brass.json"
         ]
       },
@@ -681,10 +681,10 @@
       "registry_name": "copper_spleaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/copper_spleaves.json",
-          "src/main/java/net/mcreator/intech/block/CopperSpleavesBlock.java",
           "src/main/resources/assets/intech/blockstates/copper_spleaves.json",
-          "src/main/resources/assets/intech/models/block/copper_spleaves.json"
+          "src/main/resources/assets/intech/models/block/copper_spleaves.json",
+          "src/main/resources/assets/intech/models/item/copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/CopperSpleavesBlock.java"
         ]
       },
       "path": "~/Decoration/Copper/Spleaves"
@@ -734,10 +734,10 @@
       "registry_name": "exposed_copper_spleaves",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/item/exposed_copper_spleaves.json",
           "src/main/resources/assets/intech/blockstates/exposed_copper_spleaves.json",
           "src/main/resources/assets/intech/models/block/exposed_copper_spleaves.json",
-          "src/main/java/net/mcreator/intech/block/ExposedCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/item/exposed_copper_spleaves.json"
+          "src/main/java/net/mcreator/intech/block/ExposedCopperSpleavesBlock.java"
         ]
       },
       "path": "~/Decoration/Copper/Spleaves"
@@ -751,9 +751,9 @@
       "registry_name": "weathered_copper_spleaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/WeatheredCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/item/weathered_copper_spleaves.json",
           "src/main/resources/assets/intech/blockstates/weathered_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/item/weathered_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/WeatheredCopperSpleavesBlock.java",
           "src/main/resources/assets/intech/models/block/weathered_copper_spleaves.json"
         ]
       },
@@ -769,8 +769,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/intech/models/item/oxidized_copper_spleaves.json",
-          "src/main/java/net/mcreator/intech/block/OxidizedCopperSpleavesBlock.java",
           "src/main/resources/assets/intech/models/block/oxidized_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/OxidizedCopperSpleavesBlock.java",
           "src/main/resources/assets/intech/blockstates/oxidized_copper_spleaves.json"
         ]
       },
@@ -785,11 +785,11 @@
       "registry_name": "copper_junction",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/item/copper_junction.json",
           "src/main/java/net/mcreator/intech/block/CopperJunctionBlock.java",
-          "src/main/resources/assets/intech/blockstates/copper_junction.json",
-          "src/main/java/net/mcreator/intech/block/entity/CopperJunctionBlockEntity.java",
           "src/main/resources/assets/intech/models/block/copper_junction.json",
-          "src/main/resources/assets/intech/models/item/copper_junction.json"
+          "src/main/java/net/mcreator/intech/block/entity/CopperJunctionBlockEntity.java",
+          "src/main/resources/assets/intech/blockstates/copper_junction.json"
         ]
       },
       "path": "~/Power"
@@ -817,10 +817,10 @@
       "registry_name": "bauxite_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/bauxite_slab.json",
-          "src/main/resources/assets/intech/blockstates/bauxite_slab.json",
           "src/main/java/net/mcreator/intech/block/BauxiteSlabBlock.java",
+          "src/main/resources/assets/intech/blockstates/bauxite_slab.json",
           "src/main/resources/assets/intech/models/block/bauxite_slab.json",
+          "src/main/resources/assets/intech/models/item/bauxite_slab.json",
           "src/main/resources/assets/intech/models/block/bauxite_slab_full.json",
           "src/main/resources/assets/intech/models/block/bauxite_slab_top.json"
         ]
@@ -853,9 +853,9 @@
           "src/main/resources/assets/intech/models/block/aluminum_tile_stairs.json",
           "src/main/java/net/mcreator/intech/block/AluminumTileStairsBlock.java",
           "src/main/resources/assets/intech/models/block/aluminum_tile_stairs_outer.json",
-          "src/main/resources/assets/intech/models/block/aluminum_tile_stairs_inner.json",
+          "src/main/resources/assets/intech/blockstates/aluminum_tile_stairs.json",
           "src/main/resources/assets/intech/models/item/aluminum_tile_stairs.json",
-          "src/main/resources/assets/intech/blockstates/aluminum_tile_stairs.json"
+          "src/main/resources/assets/intech/models/block/aluminum_tile_stairs_inner.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -883,13 +883,13 @@
       "registry_name": "polished_bauxite_brick_wall",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/item/polished_bauxite_brick_wall.json",
           "src/main/java/net/mcreator/intech/block/PolishedBauxiteBrickWallBlock.java",
-          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall_side_tall.json",
+          "src/main/resources/assets/intech/blockstates/polished_bauxite_brick_wall.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall_inventory.json",
           "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall_post.json",
           "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall.json",
-          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall_inventory.json",
-          "src/main/resources/assets/intech/models/item/polished_bauxite_brick_wall.json",
-          "src/main/resources/assets/intech/blockstates/polished_bauxite_brick_wall.json"
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_wall_side_tall.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -1001,11 +1001,11 @@
       "registry_name": "polished_bauxite_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs.json",
           "src/main/resources/assets/intech/models/item/polished_bauxite_brick_stairs.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs_inner.json",
           "src/main/java/net/mcreator/intech/block/PolishedBauxiteBrickStairsBlock.java",
           "src/main/resources/assets/intech/blockstates/polished_bauxite_brick_stairs.json",
-          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs_inner.json",
           "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs_outer.json"
         ]
       },
@@ -1020,11 +1020,11 @@
       "registry_name": "aluminum_tile_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/aluminum_tile_slab_top.json",
           "src/main/resources/assets/intech/blockstates/aluminum_tile_slab.json",
+          "src/main/resources/assets/intech/models/block/aluminum_tile_slab_top.json",
+          "src/main/java/net/mcreator/intech/block/AluminumTileSlabBlock.java",
           "src/main/resources/assets/intech/models/block/aluminum_tile_slab_full.json",
           "src/main/resources/assets/intech/models/item/aluminum_tile_slab.json",
-          "src/main/java/net/mcreator/intech/block/AluminumTileSlabBlock.java",
           "src/main/resources/assets/intech/models/block/aluminum_tile_slab.json"
         ]
       },
@@ -1053,11 +1053,11 @@
       "registry_name": "bauxite_pressure_plate",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/item/bauxite_pressure_plate.json",
           "src/main/resources/assets/intech/models/block/bauxite_pressure_plate.json",
-          "src/main/resources/assets/intech/models/block/bauxite_pressure_plate_down.json",
-          "src/main/resources/assets/intech/blockstates/bauxite_pressure_plate.json",
           "src/main/java/net/mcreator/intech/block/BauxitePressurePlateBlock.java",
-          "src/main/resources/assets/intech/models/item/bauxite_pressure_plate.json"
+          "src/main/resources/assets/intech/blockstates/bauxite_pressure_plate.json",
+          "src/main/resources/assets/intech/models/block/bauxite_pressure_plate_down.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -1071,11 +1071,11 @@
       "registry_name": "copper_cable",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/copper_cable.json",
           "src/main/resources/assets/intech/blockstates/copper_cable.json",
-          "src/main/java/net/mcreator/intech/block/CopperCableBlock.java",
           "src/main/resources/assets/intech/models/block/copper_cable.json",
-          "src/main/java/net/mcreator/intech/block/entity/CopperCableBlockEntity.java"
+          "src/main/java/net/mcreator/intech/block/CopperCableBlock.java",
+          "src/main/java/net/mcreator/intech/block/entity/CopperCableBlockEntity.java",
+          "src/main/resources/assets/intech/models/item/copper_cable.json"
         ]
       },
       "path": "~/Power"
@@ -1103,12 +1103,12 @@
       "registry_name": "bauxite_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/bauxite_stairs_outer.json",
+          "src/main/resources/assets/intech/models/block/bauxite_stairs_inner.json",
           "src/main/java/net/mcreator/intech/block/BauxiteStairsBlock.java",
           "src/main/resources/assets/intech/models/block/bauxite_stairs.json",
+          "src/main/resources/assets/intech/models/block/bauxite_stairs_outer.json",
           "src/main/resources/assets/intech/models/item/bauxite_stairs.json",
-          "src/main/resources/assets/intech/blockstates/bauxite_stairs.json",
-          "src/main/resources/assets/intech/models/block/bauxite_stairs_inner.json"
+          "src/main/resources/assets/intech/blockstates/bauxite_stairs.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -1122,11 +1122,11 @@
       "registry_name": "bauxite_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/bauxite_button_pressed.json",
-          "src/main/resources/assets/intech/models/block/bauxite_button_inventory.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteButtonBlock.java",
           "src/main/resources/assets/intech/models/item/bauxite_button.json",
           "src/main/resources/assets/intech/blockstates/bauxite_button.json",
-          "src/main/java/net/mcreator/intech/block/BauxiteButtonBlock.java",
+          "src/main/resources/assets/intech/models/block/bauxite_button_pressed.json",
+          "src/main/resources/assets/intech/models/block/bauxite_button_inventory.json",
           "src/main/resources/assets/intech/models/block/bauxite_button.json"
         ]
       },
@@ -1183,13 +1183,13 @@
       "registry_name": "bauxite_wall",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/blockstates/bauxite_wall.json",
           "src/main/resources/assets/intech/models/block/bauxite_wall_side_tall.json",
           "src/main/resources/assets/intech/models/block/bauxite_wall_inventory.json",
-          "src/main/resources/assets/intech/blockstates/bauxite_wall.json",
-          "src/main/resources/assets/intech/models/item/bauxite_wall.json",
-          "src/main/java/net/mcreator/intech/block/BauxiteWallBlock.java",
           "src/main/resources/assets/intech/models/block/bauxite_wall_post.json",
-          "src/main/resources/assets/intech/models/block/bauxite_wall.json"
+          "src/main/resources/assets/intech/models/block/bauxite_wall.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteWallBlock.java",
+          "src/main/resources/assets/intech/models/item/bauxite_wall.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -1231,12 +1231,12 @@
       "registry_name": "polished_bauxite_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab.json",
-          "src/main/resources/assets/intech/models/item/polished_bauxite_brick_slab.json",
           "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab_top.json",
-          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBrickSlabBlock.java",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab_full.json",
           "src/main/resources/assets/intech/blockstates/polished_bauxite_brick_slab.json",
-          "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab_full.json"
+          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBrickSlabBlock.java",
+          "src/main/resources/assets/intech/models/item/polished_bauxite_brick_slab.json"
         ]
       },
       "path": "~/Decoration/Aluminum"
@@ -1306,9 +1306,9 @@
       "registry_name": "reinforced_copper_spleaves",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/item/reinforced_copper_spleaves.json",
           "src/main/resources/assets/intech/models/block/reinforced_copper_spleaves.json",
           "src/main/java/net/mcreator/intech/block/ReinforcedCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/item/reinforced_copper_spleaves.json",
           "src/main/resources/assets/intech/blockstates/reinforced_copper_spleaves.json"
         ]
       },
@@ -1323,9 +1323,9 @@
       "registry_name": "waxed_oxidized_chiseled_copper",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_chiseled_copper.json",
           "src/main/resources/assets/intech/models/item/waxed_oxidized_chiseled_copper.json",
           "src/main/java/net/mcreator/intech/block/WaxedOxidizedChiseledCopperBlock.java",
-          "src/main/resources/assets/intech/models/block/waxed_oxidized_chiseled_copper.json",
           "src/main/resources/assets/intech/blockstates/waxed_oxidized_chiseled_copper.json"
         ]
       },
@@ -1340,10 +1340,10 @@
       "registry_name": "reinforced_exposed_copper_spleaves",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/block/reinforced_exposed_copper_spleaves.json",
           "src/main/java/net/mcreator/intech/block/ReinforcedExposedCopperSpleavesBlock.java",
           "src/main/resources/assets/intech/models/item/reinforced_exposed_copper_spleaves.json",
-          "src/main/resources/assets/intech/blockstates/reinforced_exposed_copper_spleaves.json",
-          "src/main/resources/assets/intech/models/block/reinforced_exposed_copper_spleaves.json"
+          "src/main/resources/assets/intech/blockstates/reinforced_exposed_copper_spleaves.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1357,10 +1357,10 @@
       "registry_name": "waxed_weathered_chiseled_copper",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/WaxedWeatheredChiseledCopperBlock.java",
           "src/main/resources/assets/intech/models/item/waxed_weathered_chiseled_copper.json",
-          "src/main/resources/assets/intech/models/block/waxed_weathered_chiseled_copper.json",
-          "src/main/resources/assets/intech/blockstates/waxed_weathered_chiseled_copper.json"
+          "src/main/resources/assets/intech/blockstates/waxed_weathered_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/WaxedWeatheredChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_chiseled_copper.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1374,10 +1374,10 @@
       "registry_name": "reinforced_weathered_copper_spleaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/ReinforcedWeatheredCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/block/reinforced_weathered_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/item/reinforced_weathered_copper_spleaves.json",
           "src/main/resources/assets/intech/blockstates/reinforced_weathered_copper_spleaves.json",
-          "src/main/resources/assets/intech/models/item/reinforced_weathered_copper_spleaves.json"
+          "src/main/resources/assets/intech/models/block/reinforced_weathered_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/ReinforcedWeatheredCopperSpleavesBlock.java"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1391,10 +1391,10 @@
       "registry_name": "oxidized_chiseled_copper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/oxidized_chiseled_copper.json",
           "src/main/resources/assets/intech/models/block/oxidized_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/oxidized_chiseled_copper.json",
           "src/main/java/net/mcreator/intech/block/OxidizedChiseledCopperBlock.java",
-          "src/main/resources/assets/intech/blockstates/oxidized_chiseled_copper.json"
+          "src/main/resources/assets/intech/models/item/oxidized_chiseled_copper.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1410,8 +1410,8 @@
         "files": [
           "src/main/resources/assets/intech/blockstates/waxed_chiseled_copper.json",
           "src/main/resources/assets/intech/models/item/waxed_chiseled_copper.json",
-          "src/main/resources/assets/intech/models/block/waxed_chiseled_copper.json",
-          "src/main/java/net/mcreator/intech/block/WaxedChiseledCopperBlock.java"
+          "src/main/java/net/mcreator/intech/block/WaxedChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_chiseled_copper.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1425,10 +1425,10 @@
       "registry_name": "exposed_chiseled_copper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/blockstates/exposed_chiseled_copper.json",
           "src/main/resources/assets/intech/models/block/exposed_chiseled_copper.json",
-          "src/main/java/net/mcreator/intech/block/ExposedChiseledCopperBlock.java",
-          "src/main/resources/assets/intech/models/item/exposed_chiseled_copper.json"
+          "src/main/resources/assets/intech/models/item/exposed_chiseled_copper.json",
+          "src/main/resources/assets/intech/blockstates/exposed_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/ExposedChiseledCopperBlock.java"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1442,9 +1442,9 @@
       "registry_name": "reinforced_oxidized_copper_spleaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/ReinforcedOxidizedCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/block/reinforced_oxidized_copper_spleaves.json",
           "src/main/resources/assets/intech/blockstates/reinforced_oxidized_copper_spleaves.json",
+          "src/main/resources/assets/intech/models/block/reinforced_oxidized_copper_spleaves.json",
+          "src/main/java/net/mcreator/intech/block/ReinforcedOxidizedCopperSpleavesBlock.java",
           "src/main/resources/assets/intech/models/item/reinforced_oxidized_copper_spleaves.json"
         ]
       },
@@ -1459,10 +1459,10 @@
       "registry_name": "waxed_exposed_chiseled_copper",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/WaxedExposedChiseledCopperBlock.java",
           "src/main/resources/assets/intech/models/item/waxed_exposed_chiseled_copper.json",
-          "src/main/resources/assets/intech/models/block/waxed_exposed_chiseled_copper.json",
-          "src/main/resources/assets/intech/blockstates/waxed_exposed_chiseled_copper.json"
+          "src/main/resources/assets/intech/blockstates/waxed_exposed_chiseled_copper.json",
+          "src/main/java/net/mcreator/intech/block/WaxedExposedChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_exposed_chiseled_copper.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1476,10 +1476,10 @@
       "registry_name": "weathered_chiseled_copper",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/item/weathered_chiseled_copper.json",
           "src/main/resources/assets/intech/blockstates/weathered_chiseled_copper.json",
           "src/main/resources/assets/intech/models/block/weathered_chiseled_copper.json",
-          "src/main/java/net/mcreator/intech/block/WeatheredChiseledCopperBlock.java",
-          "src/main/resources/assets/intech/models/item/weathered_chiseled_copper.json"
+          "src/main/java/net/mcreator/intech/block/WeatheredChiseledCopperBlock.java"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1493,9 +1493,9 @@
       "registry_name": "chiseled_copper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/blockstates/chiseled_copper.json",
           "src/main/resources/assets/intech/models/block/chiseled_copper.json",
           "src/main/java/net/mcreator/intech/block/ChiseledCopperBlock.java",
+          "src/main/resources/assets/intech/blockstates/chiseled_copper.json",
           "src/main/resources/assets/intech/models/item/chiseled_copper.json"
         ]
       },
@@ -1510,12 +1510,12 @@
       "registry_name": "polished_tuff_brick_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_tuff_brick_wall_post.json",
-          "src/main/resources/assets/intech/models/item/polished_tuff_brick_wall.json",
           "src/main/resources/assets/intech/blockstates/polished_tuff_brick_wall.json",
-          "src/main/resources/assets/intech/models/block/polished_tuff_brick_wall_side_tall.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_brick_wall.json",
+          "src/main/resources/assets/intech/models/block/polished_tuff_brick_wall_post.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_brick_wall_inventory.json",
+          "src/main/resources/assets/intech/models/block/polished_tuff_brick_wall_side_tall.json",
+          "src/main/resources/assets/intech/models/item/polished_tuff_brick_wall.json",
           "src/main/java/net/mcreator/intech/block/PolishedTuffBrickWallBlock.java"
         ]
       },
@@ -1530,10 +1530,10 @@
       "registry_name": "polished_chiseled_tuff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_chiseled_tuff.json",
           "src/main/resources/assets/intech/models/item/polished_chiseled_tuff.json",
-          "src/main/resources/assets/intech/blockstates/polished_chiseled_tuff.json",
-          "src/main/java/net/mcreator/intech/block/PolishedChiseledTuffBlock.java"
+          "src/main/java/net/mcreator/intech/block/PolishedChiseledTuffBlock.java",
+          "src/main/resources/assets/intech/models/block/polished_chiseled_tuff.json",
+          "src/main/resources/assets/intech/blockstates/polished_chiseled_tuff.json"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1561,12 +1561,12 @@
       "registry_name": "polished_tuff_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_tuff_slab_full.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_slab_top.json",
+          "src/main/resources/assets/intech/models/item/polished_tuff_slab.json",
+          "src/main/resources/assets/intech/models/block/polished_tuff_slab.json",
           "src/main/resources/assets/intech/blockstates/polished_tuff_slab.json",
           "src/main/java/net/mcreator/intech/block/PolishedTuffSlabBlock.java",
-          "src/main/resources/assets/intech/models/item/polished_tuff_slab.json",
-          "src/main/resources/assets/intech/models/block/polished_tuff_slab.json"
+          "src/main/resources/assets/intech/models/block/polished_tuff_slab_full.json"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1580,12 +1580,12 @@
       "registry_name": "polished_tuff_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/polished_tuff_stairs.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_stairs.json",
-          "src/main/resources/assets/intech/blockstates/polished_tuff_stairs.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_stairs_inner.json",
+          "src/main/java/net/mcreator/intech/block/PolishedTuffStairsBlock.java",
+          "src/main/resources/assets/intech/models/item/polished_tuff_stairs.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_stairs_outer.json",
-          "src/main/java/net/mcreator/intech/block/PolishedTuffStairsBlock.java"
+          "src/main/resources/assets/intech/blockstates/polished_tuff_stairs.json"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1599,12 +1599,12 @@
       "registry_name": "polished_tuff_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_tuff_brick_slab.json",
-          "src/main/resources/assets/intech/blockstates/polished_tuff_brick_slab.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_brick_slab_full.json",
+          "src/main/resources/assets/intech/models/block/polished_tuff_brick_slab_top.json",
           "src/main/java/net/mcreator/intech/block/PolishedTuffBrickSlabBlock.java",
+          "src/main/resources/assets/intech/blockstates/polished_tuff_brick_slab.json",
           "src/main/resources/assets/intech/models/item/polished_tuff_brick_slab.json",
-          "src/main/resources/assets/intech/models/block/polished_tuff_brick_slab_top.json"
+          "src/main/resources/assets/intech/models/block/polished_tuff_brick_slab.json"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1618,10 +1618,10 @@
       "registry_name": "zinc_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/zinc_block.json",
           "src/main/java/net/mcreator/intech/block/ZincBlockBlock.java",
           "src/main/resources/assets/intech/models/item/zinc_block.json",
-          "src/main/resources/assets/intech/blockstates/zinc_block.json"
+          "src/main/resources/assets/intech/blockstates/zinc_block.json",
+          "src/main/resources/assets/intech/models/block/zinc_block.json"
         ]
       },
       "path": "~/Materials"
@@ -1635,10 +1635,10 @@
       "registry_name": "polished_chiseled_tuff_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_chiseled_tuff_bricks.json",
           "src/main/resources/assets/intech/models/item/polished_chiseled_tuff_bricks.json",
           "src/main/resources/assets/intech/blockstates/polished_chiseled_tuff_bricks.json",
-          "src/main/java/net/mcreator/intech/block/PolishedChiseledTuffBricksBlock.java"
+          "src/main/java/net/mcreator/intech/block/PolishedChiseledTuffBricksBlock.java",
+          "src/main/resources/assets/intech/models/block/polished_chiseled_tuff_bricks.json"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1652,10 +1652,10 @@
       "registry_name": "zinc_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/zinc_tiles.json",
           "src/main/resources/assets/intech/blockstates/zinc_tiles.json",
-          "src/main/java/net/mcreator/intech/block/ZincTilesBlock.java",
-          "src/main/resources/assets/intech/models/item/zinc_tiles.json"
+          "src/main/resources/assets/intech/models/block/zinc_tiles.json",
+          "src/main/resources/assets/intech/models/item/zinc_tiles.json",
+          "src/main/java/net/mcreator/intech/block/ZincTilesBlock.java"
         ]
       },
       "path": "~/Decoration/Zinc"
@@ -1669,13 +1669,13 @@
       "registry_name": "polished_tuff_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/polished_tuff_wall.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_wall_inventory.json",
           "src/main/resources/assets/intech/models/block/polished_tuff_wall.json",
-          "src/main/resources/assets/intech/models/block/polished_tuff_wall_post.json",
+          "src/main/java/net/mcreator/intech/block/PolishedTuffWallBlock.java",
           "src/main/resources/assets/intech/models/block/polished_tuff_wall_side_tall.json",
-          "src/main/resources/assets/intech/blockstates/polished_tuff_wall.json",
-          "src/main/java/net/mcreator/intech/block/PolishedTuffWallBlock.java"
+          "src/main/resources/assets/intech/models/item/polished_tuff_wall.json",
+          "src/main/resources/assets/intech/models/block/polished_tuff_wall_post.json",
+          "src/main/resources/assets/intech/blockstates/polished_tuff_wall.json"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1703,10 +1703,10 @@
       "registry_name": "polished_tuff_bricks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/blockstates/polished_tuff_bricks.json",
           "src/main/resources/assets/intech/models/item/polished_tuff_bricks.json",
-          "src/main/resources/assets/intech/models/block/polished_tuff_bricks.json",
           "src/main/java/net/mcreator/intech/block/PolishedTuffBricksBlock.java",
-          "src/main/resources/assets/intech/blockstates/polished_tuff_bricks.json"
+          "src/main/resources/assets/intech/models/block/polished_tuff_bricks.json"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1720,8 +1720,8 @@
       "registry_name": "zinc_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/item/ZincIngotItem.java",
-          "src/main/resources/assets/intech/models/item/zinc_ingot.json"
+          "src/main/resources/assets/intech/models/item/zinc_ingot.json",
+          "src/main/java/net/mcreator/intech/item/ZincIngotItem.java"
         ]
       },
       "path": "~/Materials"
@@ -1736,9 +1736,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/intech/models/block/polished_tuff.json",
+          "src/main/resources/assets/intech/blockstates/polished_tuff.json",
           "src/main/resources/assets/intech/models/item/polished_tuff.json",
-          "src/main/java/net/mcreator/intech/block/PolishedTuffBlock.java",
-          "src/main/resources/assets/intech/blockstates/polished_tuff.json"
+          "src/main/java/net/mcreator/intech/block/PolishedTuffBlock.java"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1752,12 +1752,12 @@
       "registry_name": "polished_tuff_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/polished_tuff_brick_stairs.json",
+          "src/main/resources/assets/intech/models/block/polished_tuff_brick_stairs_inner.json",
           "src/main/resources/assets/intech/models/item/polished_tuff_brick_stairs.json",
-          "src/main/resources/assets/intech/models/block/polished_tuff_brick_stairs_outer.json",
-          "src/main/java/net/mcreator/intech/block/PolishedTuffBrickStairsBlock.java",
           "src/main/resources/assets/intech/blockstates/polished_tuff_brick_stairs.json",
-          "src/main/resources/assets/intech/models/block/polished_tuff_brick_stairs_inner.json"
+          "src/main/resources/assets/intech/models/block/polished_tuff_brick_stairs.json",
+          "src/main/java/net/mcreator/intech/block/PolishedTuffBrickStairsBlock.java",
+          "src/main/resources/assets/intech/models/block/polished_tuff_brick_stairs_outer.json"
         ]
       },
       "path": "~/Decoration/Tuff"
@@ -1771,14 +1771,14 @@
       "registry_name": "copper_mesh",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/copper_mesh_side.json",
-          "src/main/resources/assets/intech/models/item/copper_mesh.json",
-          "src/main/resources/assets/intech/models/block/copper_mesh_noside.json",
           "src/main/resources/assets/intech/models/block/copper_mesh_noside_alt.json",
-          "src/main/java/net/mcreator/intech/block/CopperMeshBlock.java",
           "src/main/resources/assets/intech/models/block/copper_mesh_post.json",
+          "src/main/resources/assets/intech/models/item/copper_mesh.json",
           "src/main/resources/assets/intech/blockstates/copper_mesh.json",
-          "src/main/resources/assets/intech/models/block/copper_mesh_side_alt.json"
+          "src/main/resources/assets/intech/models/block/copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/block/copper_mesh_side_alt.json",
+          "src/main/java/net/mcreator/intech/block/CopperMeshBlock.java",
+          "src/main/resources/assets/intech/models/block/copper_mesh_noside.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1792,14 +1792,14 @@
       "registry_name": "exposed_copper_mesh",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/exposed_copper_mesh.json",
-          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_post.json",
-          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside_alt.json",
           "src/main/resources/assets/intech/blockstates/exposed_copper_mesh.json",
           "src/main/resources/assets/intech/models/block/exposed_copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/item/exposed_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_post.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside_alt.json",
           "src/main/java/net/mcreator/intech/block/ExposedCopperMeshBlock.java",
-          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_side_alt.json",
-          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside.json"
+          "src/main/resources/assets/intech/models/block/exposed_copper_mesh_side_alt.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1814,13 +1814,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/intech/block/WeatheredCopperMeshBlock.java",
-          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside_alt.json",
-          "src/main/resources/assets/intech/models/item/weathered_copper_mesh.json",
-          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_side.json",
           "src/main/resources/assets/intech/models/block/weathered_copper_mesh_side_alt.json",
+          "src/main/resources/assets/intech/models/item/weathered_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside_alt.json",
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside.json",
           "src/main/resources/assets/intech/blockstates/weathered_copper_mesh.json",
-          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_post.json",
-          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside.json"
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/block/weathered_copper_mesh_post.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1834,12 +1834,12 @@
       "registry_name": "oxidized_copper_mesh",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_post.json",
-          "src/main/java/net/mcreator/intech/block/OxidizedCopperMeshBlock.java",
           "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_noside.json",
           "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_noside_alt.json",
-          "src/main/resources/assets/intech/models/item/oxidized_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_post.json",
           "src/main/resources/assets/intech/blockstates/oxidized_copper_mesh.json",
+          "src/main/resources/assets/intech/models/item/oxidized_copper_mesh.json",
+          "src/main/java/net/mcreator/intech/block/OxidizedCopperMeshBlock.java",
           "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_side.json",
           "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_side_alt.json"
         ]
@@ -1855,11 +1855,11 @@
       "registry_name": "lightning_bulb",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/lightning_bulb.json",
           "src/main/resources/assets/intech/models/block/lightning_bulb.json",
+          "src/main/resources/assets/intech/models/item/lightning_bulb.json",
           "src/main/java/net/mcreator/intech/block/LightningBulbBlock.java",
-          "src/main/java/net/mcreator/intech/block/entity/LightningBulbBlockEntity.java",
-          "src/main/resources/assets/intech/blockstates/lightning_bulb.json"
+          "src/main/resources/assets/intech/blockstates/lightning_bulb.json",
+          "src/main/java/net/mcreator/intech/block/entity/LightningBulbBlockEntity.java"
         ]
       },
       "path": "~/Power"
@@ -1873,10 +1873,10 @@
       "registry_name": "lit_lightning_bulb",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/lit_lightning_bulb.json",
-          "src/main/resources/assets/intech/models/item/lit_lightning_bulb.json",
           "src/main/java/net/mcreator/intech/block/LitLightningBulbBlock.java",
-          "src/main/resources/assets/intech/blockstates/lit_lightning_bulb.json"
+          "src/main/resources/assets/intech/models/item/lit_lightning_bulb.json",
+          "src/main/resources/assets/intech/blockstates/lit_lightning_bulb.json",
+          "src/main/resources/assets/intech/models/block/lit_lightning_bulb.json"
         ]
       },
       "path": "~/Power"
@@ -1917,9 +1917,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/intech/models/block/pulverizer.json",
+          "src/main/resources/assets/intech/models/item/pulverizer.json",
           "src/main/java/net/mcreator/intech/block/PulverizerBlock.java",
-          "src/main/resources/assets/intech/blockstates/pulverizer.json",
-          "src/main/resources/assets/intech/models/item/pulverizer.json"
+          "src/main/resources/assets/intech/blockstates/pulverizer.json"
         ]
       },
       "path": "~/Industry"
@@ -1934,9 +1934,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/intech/block/ZincBatteryBlock.java",
-          "src/main/resources/assets/intech/models/block/zinc_battery.json",
           "src/main/resources/assets/intech/models/item/zinc_battery.json",
-          "src/main/resources/assets/intech/blockstates/zinc_battery.json"
+          "src/main/resources/assets/intech/blockstates/zinc_battery.json",
+          "src/main/resources/assets/intech/models/block/zinc_battery.json"
         ]
       },
       "path": "~/Power"
@@ -1950,9 +1950,9 @@
       "registry_name": "zinc_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/zinc_ore.json",
           "src/main/resources/assets/intech/models/item/zinc_ore.json",
           "src/main/resources/assets/intech/blockstates/zinc_ore.json",
+          "src/main/resources/assets/intech/models/block/zinc_ore.json",
           "src/main/java/net/mcreator/intech/block/ZincOreBlock.java"
         ]
       },
@@ -2176,8 +2176,8 @@
     "en_us": {
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "block.intech.aluminum_tiles": "Aluminum Tiles",
-      "subtitles.block.pipe.place": "Pipe Is Placed",
       "block.intech.zinc_ore": "Zinc Ore",
+      "subtitles.block.pipe.place": "Pipe Is Placed",
       "subtitles.block.aluminum.break": "Block broken",
       "block.intech.pulverizer": "Pulverizer",
       "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
