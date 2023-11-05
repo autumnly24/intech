@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "intech:block/lightning_bulb",
+    "particle": "intech:block/lightning_bulb"
+  },
+  "render_type": "solid"
+}

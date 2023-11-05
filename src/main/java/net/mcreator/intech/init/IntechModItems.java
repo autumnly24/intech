@@ -85,6 +85,8 @@ public class IntechModItems {
 	public static final RegistryObject<Item> COPPER_CABLE = block(IntechModBlocks.COPPER_CABLE);
 	public static final RegistryObject<Item> BAUXITE_PRESSURE_PLATE = block(IntechModBlocks.BAUXITE_PRESSURE_PLATE);
 	public static final RegistryObject<Item> BAUXITE_BUTTON = block(IntechModBlocks.BAUXITE_BUTTON);
+	public static final RegistryObject<Item> LIGHTNING_BULB = block(IntechModBlocks.LIGHTNING_BULB);
+	public static final RegistryObject<Item> LIT_LIGHTNING_BULB = block(IntechModBlocks.LIT_LIGHTNING_BULB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

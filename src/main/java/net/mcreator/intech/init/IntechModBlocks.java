@@ -46,6 +46,8 @@ import net.mcreator.intech.block.OxidizedCopperSpleavesBlock;
 import net.mcreator.intech.block.OxidizedCopperPipeBlock;
 import net.mcreator.intech.block.OxidizedCopperMeshBlock;
 import net.mcreator.intech.block.OxidizedChiseledCopperBlock;
+import net.mcreator.intech.block.LitLightningBulbBlock;
+import net.mcreator.intech.block.LightningBulbBlock;
 import net.mcreator.intech.block.ExposedCopperSpleavesBlock;
 import net.mcreator.intech.block.ExposedCopperPipeBlock;
 import net.mcreator.intech.block.ExposedCopperMeshBlock;
@@ -136,4 +138,6 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> COPPER_CABLE = REGISTRY.register("copper_cable", () -> new CopperCableBlock());
 	public static final RegistryObject<Block> BAUXITE_PRESSURE_PLATE = REGISTRY.register("bauxite_pressure_plate", () -> new BauxitePressurePlateBlock());
 	public static final RegistryObject<Block> BAUXITE_BUTTON = REGISTRY.register("bauxite_button", () -> new BauxiteButtonBlock());
+	public static final RegistryObject<Block> LIGHTNING_BULB = REGISTRY.register("lightning_bulb", () -> new LightningBulbBlock());
+	public static final RegistryObject<Block> LIT_LIGHTNING_BULB = REGISTRY.register("lit_lightning_bulb", () -> new LitLightningBulbBlock());
 }

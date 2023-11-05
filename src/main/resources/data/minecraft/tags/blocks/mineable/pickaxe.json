@@ -55,6 +55,8 @@
     "intech:oxidized_copper_pipe",
     "intech:dark_brass_pipe",
     "intech:copper_junction",
-    "intech:bauxite_pressure_plate"
+    "intech:bauxite_pressure_plate",
+    "intech:lightning_bulb",
+    "intech:lit_lightning_bulb"
   ]
 }

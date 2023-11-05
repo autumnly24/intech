@@ -85,6 +85,7 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.DARK_BRASS_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_JUNCTION.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_CABLE.get().asItem());
+			tabData.accept(IntechModBlocks.LIGHTNING_BULB.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {

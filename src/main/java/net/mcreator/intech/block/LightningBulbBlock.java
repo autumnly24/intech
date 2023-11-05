@@ -18,13 +18,13 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.intech.block.entity.CopperJunctionBlockEntity;
+import net.mcreator.intech.block.entity.LightningBulbBlockEntity;
 
 import java.util.List;
 import java.util.Collections;
 
-public class CopperJunctionBlock extends Block implements EntityBlock {
-	public CopperJunctionBlock() {
+public class LightningBulbBlock extends Block implements EntityBlock {
+	public LightningBulbBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(3f, 6f).requiresCorrectToolForDrops());
 	}
 
@@ -56,7 +56,7 @@ public class CopperJunctionBlock extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new CopperJunctionBlockEntity(pos, state);
+		return new LightningBulbBlockEntity(pos, state);
 	}
 
 	@Override
@@ -70,7 +70,7 @@ public class CopperJunctionBlock extends Block implements EntityBlock {
 	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if (state.getBlock() != newState.getBlock()) {
 			BlockEntity blockEntity = world.getBlockEntity(pos);
-			if (blockEntity instanceof CopperJunctionBlockEntity be) {
+			if (blockEntity instanceof LightningBulbBlockEntity be) {
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
@@ -86,7 +86,7 @@ public class CopperJunctionBlock extends Block implements EntityBlock {
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof CopperJunctionBlockEntity be)
+		if (tileentity instanceof LightningBulbBlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
