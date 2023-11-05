@@ -15,7 +15,7 @@
           "src/main/java/net/mcreator/intech/block/BauxiteBlock.java"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "BauxiteReplaceables",
@@ -29,7 +29,7 @@
           "src/main/resources/data/forge/tags/blocks/bauxite_replaceables.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "BauxiteVein",
@@ -46,7 +46,7 @@
           "src/main/java/net/mcreator/intech/world/features/BauxiteVeinFeature.java"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "PolishedBauxite",
@@ -63,7 +63,7 @@
           "src/main/resources/assets/intech/blockstates/polished_bauxite.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBricks",
@@ -80,7 +80,7 @@
           "src/main/resources/assets/intech/models/block/polished_bauxite_bricks.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxitePillar",
@@ -97,7 +97,7 @@
           "src/main/resources/assets/intech/models/item/polished_bauxite_pillar.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteRecipe",
@@ -111,7 +111,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteStonecutting",
@@ -125,7 +125,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_stonecutting.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBricksRecipe",
@@ -139,7 +139,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_bricks.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBricksStonecutting",
@@ -153,7 +153,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_bricks_stonecutting.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteBlocks",
@@ -167,7 +167,7 @@
           "src/main/resources/data/forge/tags/items/bauxite_blocks.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxitePillarRecipe",
@@ -181,7 +181,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_pillar.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxitePillarStonecutting",
@@ -195,7 +195,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_pillar_stonecutting.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "RawAluminum",
@@ -210,7 +210,7 @@
           "src/main/java/net/mcreator/intech/item/RawAluminumItem.java"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "RawAluminumBlock",
@@ -227,7 +227,7 @@
           "src/main/resources/assets/intech/blockstates/raw_aluminum_block.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "AluminumIngot",
@@ -242,7 +242,7 @@
           "src/main/java/net/mcreator/intech/item/AluminumIngotItem.java"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "AluminumBlock",
@@ -259,7 +259,7 @@
           "src/main/java/net/mcreator/intech/block/AluminumBlockBlock.java"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "AluminumTiles",
@@ -276,7 +276,7 @@
           "src/main/resources/assets/intech/blockstates/aluminum_tiles.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumPillar",
@@ -293,7 +293,7 @@
           "src/main/resources/assets/intech/models/item/aluminum_pillar.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "RawAluminumToBlock",
@@ -307,7 +307,7 @@
           "src/main/resources/data/intech/recipes/raw_aluminum_to_block.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "RawAluminumBlockToItem",
@@ -321,7 +321,7 @@
           "src/main/resources/data/intech/recipes/raw_aluminum_block_to_item.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "AluminumIngotSmelting",
@@ -335,7 +335,7 @@
           "src/main/resources/data/intech/recipes/aluminum_ingot_smelting.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "AluminumIngotBlasting",
@@ -349,7 +349,7 @@
           "src/main/resources/data/intech/recipes/aluminum_ingot_blasting.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "AluminumIngotToBlock",
@@ -363,7 +363,7 @@
           "src/main/resources/data/intech/recipes/aluminum_ingot_to_block.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "AluminumBlockToIngot",
@@ -377,7 +377,7 @@
           "src/main/resources/data/intech/recipes/aluminum_block_to_ingot.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Materials/Aluminum"
     },
     {
       "name": "AluminumTilesRecipe",
@@ -391,7 +391,7 @@
           "src/main/resources/data/intech/recipes/aluminum_tiles.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumPillarRecipe",
@@ -405,7 +405,7 @@
           "src/main/resources/data/intech/recipes/aluminum_pillar.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "CopperPipe",
@@ -423,7 +423,7 @@
           "src/main/resources/assets/intech/blockstates/copper_pipe.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Industry/Pipes"
     },
     {
       "name": "Pipes",
@@ -437,7 +437,7 @@
           "src/main/resources/data/intech/tags/blocks/pipes.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Industry/Pipes"
     },
     {
       "name": "CopperPipeUpdateTick",
@@ -469,7 +469,7 @@
           }
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Industry/Pipes"
     },
     {
       "name": "PipeMoveItem",
@@ -501,7 +501,7 @@
           }
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Industry/Pipes"
     },
     {
       "name": "ExposedCopperPipe",
@@ -519,7 +519,7 @@
           "src/main/java/net/mcreator/intech/block/entity/ExposedCopperPipeBlockEntity.java"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Industry/Pipes"
     },
     {
       "name": "WeatheredCopperPipe",
@@ -537,7 +537,7 @@
           "src/main/java/net/mcreator/intech/block/WeatheredCopperPipeBlock.java"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Industry/Pipes"
     },
     {
       "name": "OxidizedCopperPipe",
@@ -555,7 +555,7 @@
           "src/main/resources/assets/intech/blockstates/oxidized_copper_pipe.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Industry/Pipes"
     },
     {
       "name": "DarkBrassPipe",
@@ -573,7 +573,7 @@
           "src/main/resources/assets/intech/blockstates/dark_brass_pipe.json"
         ]
       },
-      "path": "~/Dark Brass"
+      "path": "~/Industry/Pipes"
     },
     {
       "name": "DarkBrassBlock",
@@ -590,7 +590,7 @@
           "src/main/resources/assets/intech/blockstates/dark_brass_block.json"
         ]
       },
-      "path": "~/Dark Brass"
+      "path": "~/Materials/Dark Brass"
     },
     {
       "name": "DarkBrassIngot",
@@ -605,7 +605,7 @@
           "src/main/resources/assets/intech/models/item/dark_brass_ingot.json"
         ]
       },
-      "path": "~/Dark Brass"
+      "path": "~/Materials/Dark Brass"
     },
     {
       "name": "DarkBrassTiles",
@@ -622,7 +622,7 @@
           "src/main/resources/assets/intech/blockstates/dark_brass_tiles.json"
         ]
       },
-      "path": "~/Dark Brass"
+      "path": "~/Decoration/Dark Brass"
     },
     {
       "name": "DarkBrassPillar",
@@ -639,7 +639,7 @@
           "src/main/resources/assets/intech/models/item/dark_brass_pillar.json"
         ]
       },
-      "path": "~/Dark Brass"
+      "path": "~/Decoration/Dark Brass"
     },
     {
       "name": "ReinforcedDarkBrass",
@@ -656,7 +656,7 @@
           "src/main/resources/assets/intech/models/item/reinforced_dark_brass.json"
         ]
       },
-      "path": "~/Dark Brass"
+      "path": "~/Decoration/Dark Brass"
     },
     {
       "name": "CopperSpleavesStonecut",
@@ -670,7 +670,7 @@
           "src/main/resources/data/intech/recipes/copper_spleaves_stonecut.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper/Spleaves"
     },
     {
       "name": "CopperSpleaves",
@@ -687,7 +687,7 @@
           "src/main/resources/assets/intech/models/block/copper_spleaves.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper/Spleaves"
     },
     {
       "name": "BreakTheSpleavesGoddammit",
@@ -719,7 +719,7 @@
           }
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper/Spleaves"
     },
     {
       "name": "ExposedCopperSpleaves",
@@ -736,7 +736,7 @@
           "src/main/resources/assets/intech/models/item/exposed_copper_spleaves.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper/Spleaves"
     },
     {
       "name": "WeatheredCopperSpleaves",
@@ -753,7 +753,7 @@
           "src/main/resources/assets/intech/models/block/weathered_copper_spleaves.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper/Spleaves"
     },
     {
       "name": "OxidizedCopperSpleaves",
@@ -770,7 +770,7 @@
           "src/main/resources/assets/intech/blockstates/oxidized_copper_spleaves.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper/Spleaves"
     },
     {
       "name": "CopperJunction",
@@ -788,7 +788,7 @@
           "src/main/resources/assets/intech/models/item/copper_junction.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Power"
     },
     {
       "name": "PolishedBauxiteBrickSlabStonecut",
@@ -802,7 +802,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_brick_slab_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteSlab",
@@ -821,7 +821,7 @@
           "src/main/resources/assets/intech/models/block/bauxite_slab_top.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteSlabCraft",
@@ -835,7 +835,7 @@
           "src/main/resources/data/intech/recipes/bauxite_slab_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTileStairs",
@@ -854,7 +854,7 @@
           "src/main/resources/assets/intech/blockstates/aluminum_tile_stairs.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBrickWallCraft",
@@ -868,7 +868,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_brick_wall_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBrickWall",
@@ -888,7 +888,7 @@
           "src/main/resources/assets/intech/blockstates/polished_bauxite_brick_wall.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBrickSlabCraft",
@@ -902,7 +902,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_brick_slab_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTilesStonecut",
@@ -916,7 +916,7 @@
           "src/main/resources/data/intech/recipes/aluminum_tiles_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTileStairsStonecut2",
@@ -930,7 +930,7 @@
           "src/main/resources/data/intech/recipes/aluminum_tile_stairs_stonecut_2.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTileStairsStonecut",
@@ -944,7 +944,7 @@
           "src/main/resources/data/intech/recipes/aluminum_tile_stairs_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteWallStonecut",
@@ -958,7 +958,7 @@
           "src/main/resources/data/intech/recipes/bauxite_wall_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteWallCraft",
@@ -972,7 +972,7 @@
           "src/main/resources/data/intech/recipes/bauxite_wall_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxitePressurePlateCraft",
@@ -986,7 +986,7 @@
           "src/main/resources/data/intech/recipes/bauxite_pressure_plate_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBrickStairs",
@@ -1005,7 +1005,7 @@
           "src/main/resources/assets/intech/models/block/polished_bauxite_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTileSlab",
@@ -1024,7 +1024,7 @@
           "src/main/resources/assets/intech/models/block/aluminum_tile_slab.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBrickStairsStonecut",
@@ -1038,7 +1038,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_brick_stairs_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxitePressurePlate",
@@ -1056,7 +1056,7 @@
           "src/main/resources/assets/intech/models/item/bauxite_pressure_plate.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "CopperCable",
@@ -1074,7 +1074,7 @@
           "src/main/java/net/mcreator/intech/block/entity/CopperCableBlockEntity.java"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Power"
     },
     {
       "name": "PolishedBauxiteBrickStairsCraft",
@@ -1088,7 +1088,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_brick_stairs_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteStairs",
@@ -1107,7 +1107,7 @@
           "src/main/resources/assets/intech/models/block/bauxite_stairs_inner.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteButton",
@@ -1126,7 +1126,7 @@
           "src/main/resources/assets/intech/models/block/bauxite_button.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumPillarStonecut",
@@ -1140,7 +1140,7 @@
           "src/main/resources/data/intech/recipes/aluminum_pillar_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTileSlabStonecut2",
@@ -1154,7 +1154,7 @@
           "src/main/resources/data/intech/recipes/aluminum_tile_slab_stonecut_2.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteSlabStonecut",
@@ -1168,7 +1168,7 @@
           "src/main/resources/data/intech/recipes/bauxite_slab_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteWall",
@@ -1188,7 +1188,7 @@
           "src/main/resources/assets/intech/models/block/bauxite_wall.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteStairsCraft",
@@ -1202,7 +1202,7 @@
           "src/main/resources/data/intech/recipes/bauxite_stairs_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "BauxiteStairsStonecut",
@@ -1216,7 +1216,7 @@
           "src/main/resources/data/intech/recipes/bauxite_stairs_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBrickSlab",
@@ -1235,7 +1235,7 @@
           "src/main/resources/assets/intech/models/block/polished_bauxite_brick_slab_full.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "PolishedBauxiteBrickWallStonecut",
@@ -1249,7 +1249,7 @@
           "src/main/resources/data/intech/recipes/polished_bauxite_brick_wall_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTileSlabCraft",
@@ -1263,7 +1263,7 @@
           "src/main/resources/data/intech/recipes/aluminum_tile_slab_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTileStairsCraft",
@@ -1277,7 +1277,7 @@
           "src/main/resources/data/intech/recipes/aluminum_tile_stairs_craft.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "AluminumTileSlabStonecut",
@@ -1291,7 +1291,7 @@
           "src/main/resources/data/intech/recipes/aluminum_tile_slab_stonecut.json"
         ]
       },
-      "path": "~/Aluminum"
+      "path": "~/Decoration/Aluminum"
     },
     {
       "name": "ReinforcedCopperSpleaves",
@@ -1308,7 +1308,7 @@
           "src/main/resources/assets/intech/blockstates/reinforced_copper_spleaves.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WaxedOxidizedChiseledCopper",
@@ -1325,7 +1325,7 @@
           "src/main/resources/assets/intech/blockstates/waxed_oxidized_chiseled_copper.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ReinforcedExposedCopperSpleaves",
@@ -1342,7 +1342,7 @@
           "src/main/resources/assets/intech/models/block/reinforced_exposed_copper_spleaves.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WaxedWeatheredChiseledCopper",
@@ -1359,7 +1359,7 @@
           "src/main/resources/assets/intech/blockstates/waxed_weathered_chiseled_copper.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ReinforcedWeatheredCopperSpleaves",
@@ -1376,7 +1376,7 @@
           "src/main/resources/assets/intech/models/item/reinforced_weathered_copper_spleaves.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "OxidizedChiseledCopper",
@@ -1393,7 +1393,7 @@
           "src/main/resources/assets/intech/blockstates/oxidized_chiseled_copper.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WaxedChiseledCopper",
@@ -1410,7 +1410,7 @@
           "src/main/java/net/mcreator/intech/block/WaxedChiseledCopperBlock.java"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ExposedChiseledCopper",
@@ -1427,7 +1427,7 @@
           "src/main/resources/assets/intech/models/item/exposed_chiseled_copper.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ReinforcedOxidizedCopperSpleaves",
@@ -1444,7 +1444,7 @@
           "src/main/resources/assets/intech/models/item/reinforced_oxidized_copper_spleaves.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WaxedExposedChiseledCopper",
@@ -1461,7 +1461,7 @@
           "src/main/resources/assets/intech/blockstates/waxed_exposed_chiseled_copper.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WeatheredChiseledCopper",
@@ -1478,7 +1478,7 @@
           "src/main/resources/assets/intech/models/item/weathered_chiseled_copper.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ChiseledCopper",
@@ -1495,7 +1495,7 @@
           "src/main/resources/assets/intech/models/item/chiseled_copper.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "PolishedTuffBrickWall",
@@ -1515,7 +1515,7 @@
           "src/main/java/net/mcreator/intech/block/PolishedTuffBrickWallBlock.java"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "PolishedChiseledTuff",
@@ -1532,7 +1532,7 @@
           "src/main/java/net/mcreator/intech/block/PolishedChiseledTuffBlock.java"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "BeaconBaseBlockBlocks",
@@ -1545,7 +1545,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
         ]
-      }
+      },
+      "path": "~/Other"
     },
     {
       "name": "PolishedTuffSlab",
@@ -1564,7 +1565,7 @@
           "src/main/resources/assets/intech/models/block/polished_tuff_slab.json"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "PolishedTuffStairs",
@@ -1583,7 +1584,7 @@
           "src/main/java/net/mcreator/intech/block/PolishedTuffStairsBlock.java"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "PolishedTuffBrickSlab",
@@ -1602,7 +1603,7 @@
           "src/main/resources/assets/intech/models/block/polished_tuff_brick_slab_top.json"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "ZincBlock",
@@ -1619,7 +1620,7 @@
           "src/main/resources/assets/intech/blockstates/zinc_block.json"
         ]
       },
-      "path": "~/Zinc"
+      "path": "~/Materials/Zinc"
     },
     {
       "name": "PolishedChiseledTuffBricks",
@@ -1636,7 +1637,7 @@
           "src/main/java/net/mcreator/intech/block/PolishedChiseledTuffBricksBlock.java"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "ZincTiles",
@@ -1653,7 +1654,7 @@
           "src/main/resources/assets/intech/models/item/zinc_tiles.json"
         ]
       },
-      "path": "~/Zinc"
+      "path": "~/Decoration/Zinc"
     },
     {
       "name": "PolishedTuffWall",
@@ -1673,7 +1674,7 @@
           "src/main/java/net/mcreator/intech/block/PolishedTuffWallBlock.java"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "WallBlocks",
@@ -1686,7 +1687,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/walls.json"
         ]
-      }
+      },
+      "path": "~/Other"
     },
     {
       "name": "PolishedTuffBricks",
@@ -1703,7 +1705,7 @@
           "src/main/resources/assets/intech/blockstates/polished_tuff_bricks.json"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "ZincIngot",
@@ -1718,7 +1720,7 @@
           "src/main/resources/assets/intech/models/item/zinc_ingot.json"
         ]
       },
-      "path": "~/Zinc"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "PolishedTuff",
@@ -1735,7 +1737,7 @@
           "src/main/resources/assets/intech/blockstates/polished_tuff.json"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "PolishedTuffBrickStairs",
@@ -1754,7 +1756,7 @@
           "src/main/resources/assets/intech/models/block/polished_tuff_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Tuff"
+      "path": "~/Decoration/Tuff"
     },
     {
       "name": "CopperMesh",
@@ -1775,7 +1777,7 @@
           "src/main/resources/assets/intech/models/block/copper_mesh_side_alt.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ExposedCopperMesh",
@@ -1796,7 +1798,7 @@
           "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WeatheredCopperMesh",
@@ -1817,7 +1819,7 @@
           "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "OxidizedCopperMesh",
@@ -1838,7 +1840,7 @@
           "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_side_alt.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "LightningBulb",
@@ -1856,7 +1858,7 @@
           "src/main/resources/assets/intech/blockstates/lightning_bulb.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Power"
     },
     {
       "name": "LitLightningBulb",
@@ -1873,7 +1875,7 @@
           "src/main/resources/assets/intech/blockstates/lit_lightning_bulb.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Power"
     },
     {
       "name": "Patina",
@@ -1887,7 +1889,7 @@
           "src/main/resources/data/intech/tags/items/patina.json"
         ]
       },
-      "path": "~/Copper"
+      "path": "~/Other"
     },
     {
       "name": "Industry",
@@ -1898,7 +1900,8 @@
       "registry_name": "industry",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Other"
     },
     {
       "name": "Pulverizer",
@@ -1914,7 +1917,8 @@
           "src/main/resources/assets/intech/blockstates/pulverizer.json",
           "src/main/resources/assets/intech/models/item/pulverizer.json"
         ]
-      }
+      },
+      "path": "~/Industry"
     },
     {
       "name": "ZincBattery",
@@ -1931,7 +1935,7 @@
           "src/main/resources/assets/intech/blockstates/zinc_battery.json"
         ]
       },
-      "path": "~/Zinc"
+      "path": "~/Power"
     },
     {
       "name": "ZincOre",
@@ -1948,7 +1952,7 @@
           "src/main/java/net/mcreator/intech/block/ZincOreBlock.java"
         ]
       },
-      "path": "~/Zinc"
+      "path": "~/Materials/Zinc"
     },
     {
       "name": "Power",
@@ -1959,7 +1963,8 @@
       "registry_name": "power",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [
