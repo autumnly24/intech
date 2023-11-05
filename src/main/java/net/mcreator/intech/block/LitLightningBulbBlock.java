@@ -1,8 +1,24 @@
 
 package net.mcreator.intech.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraft.world.phys.HitResult;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.intech.init.IntechModBlocks;
+
+import java.util.List;
+import java.util.Collections;
 
 public class LitLightningBulbBlock extends Block {
 	public LitLightningBulbBlock() {
@@ -16,7 +32,7 @@ public class LitLightningBulbBlock extends Block {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(IntechModItems.DELETED_MOD_ELEMENT.get());
+		return new ItemStack(IntechModBlocks.LIGHTNING_BULB.get());
 	}
 
 	@Override
@@ -31,6 +47,6 @@ public class LitLightningBulbBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(IntechModItems.DELETED_MOD_ELEMENT.get()));
+		return Collections.singletonList(new ItemStack(IntechModBlocks.LIGHTNING_BULB.get()));
 	}
 }
