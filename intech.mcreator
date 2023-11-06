@@ -20,7 +20,7 @@
     {
       "name": "BauxiteReplaceables",
       "type": "tag",
-      "sortid": 70,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_replaceables",
@@ -34,7 +34,7 @@
     {
       "name": "BauxiteVein",
       "type": "feature",
-      "sortid": 71,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_vein",
@@ -102,7 +102,7 @@
     {
       "name": "PolishedBauxiteRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_recipe",
@@ -116,7 +116,7 @@
     {
       "name": "PolishedBauxiteStonecutting",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_stonecutting",
@@ -130,7 +130,7 @@
     {
       "name": "PolishedBauxiteBricksRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_recipe",
@@ -144,7 +144,7 @@
     {
       "name": "PolishedBauxiteBricksStonecutting",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_bricks_stonecutting",
@@ -158,7 +158,7 @@
     {
       "name": "BauxiteBlocks",
       "type": "tag",
-      "sortid": 76,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_blocks",
@@ -172,7 +172,7 @@
     {
       "name": "PolishedBauxitePillarRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_recipe",
@@ -186,7 +186,7 @@
     {
       "name": "PolishedBauxitePillarStonecutting",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_pillar_stonecutting",
@@ -200,7 +200,7 @@
     {
       "name": "RawAluminum",
       "type": "item",
-      "sortid": 53,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum",
@@ -232,7 +232,7 @@
     {
       "name": "AluminumIngot",
       "type": "item",
-      "sortid": 54,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot",
@@ -298,7 +298,7 @@
     {
       "name": "RawAluminumToBlock",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_to_block",
@@ -312,7 +312,7 @@
     {
       "name": "RawAluminumBlockToItem",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block_to_item",
@@ -326,7 +326,7 @@
     {
       "name": "AluminumIngotSmelting",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_smelting",
@@ -340,7 +340,7 @@
     {
       "name": "AluminumIngotBlasting",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_blasting",
@@ -354,7 +354,7 @@
     {
       "name": "AluminumIngotToBlock",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_to_block",
@@ -368,7 +368,7 @@
     {
       "name": "AluminumBlockToIngot",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_block_to_ingot",
@@ -382,7 +382,7 @@
     {
       "name": "AluminumTilesRecipe",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles_recipe",
@@ -396,7 +396,7 @@
     {
       "name": "AluminumPillarRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar_recipe",
@@ -410,7 +410,7 @@
     {
       "name": "CopperPipe",
       "type": "block",
-      "sortid": 58,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pipe",
@@ -428,7 +428,7 @@
     {
       "name": "Pipes",
       "type": "tag",
-      "sortid": 87,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pipes",
@@ -442,7 +442,7 @@
     {
       "name": "CopperPipeUpdateTick",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pipe_update_tick",
@@ -474,7 +474,7 @@
     {
       "name": "PipeMoveItem",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pipe_move_item",
@@ -506,7 +506,7 @@
     {
       "name": "ExposedCopperPipe",
       "type": "block",
-      "sortid": 59,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_pipe",
@@ -524,7 +524,7 @@
     {
       "name": "WeatheredCopperPipe",
       "type": "block",
-      "sortid": 60,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_pipe",
@@ -542,7 +542,7 @@
     {
       "name": "OxidizedCopperPipe",
       "type": "block",
-      "sortid": 61,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_pipe",
@@ -560,7 +560,7 @@
     {
       "name": "DarkBrassPipe",
       "type": "block",
-      "sortid": 62,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_pipe",
@@ -578,7 +578,7 @@
     {
       "name": "DarkBrassBlock",
       "type": "block",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_block",
@@ -590,12 +590,12 @@
           "src/main/resources/assets/intech/blockstates/dark_brass_block.json"
         ]
       },
-      "path": "~/Materials"
+      "path": "~/Materials/Dark Brass"
     },
     {
       "name": "DarkBrassIngot",
       "type": "item",
-      "sortid": 55,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_ingot",
@@ -605,12 +605,12 @@
           "src/main/resources/assets/intech/models/item/dark_brass_ingot.json"
         ]
       },
-      "path": "~/Materials"
+      "path": "~/Materials/Dark Brass"
     },
     {
       "name": "DarkBrassTiles",
       "type": "block",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_tiles",
@@ -627,7 +627,7 @@
     {
       "name": "DarkBrassPillar",
       "type": "block",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_brass_pillar",
@@ -644,7 +644,7 @@
     {
       "name": "ReinforcedDarkBrass",
       "type": "block",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_dark_brass",
@@ -659,23 +659,9 @@
       "path": "~/Decoration/Dark Brass"
     },
     {
-      "name": "CopperSpleavesStonecut",
-      "type": "recipe",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_spleaves_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/copper_spleaves_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Spleaves"
-    },
-    {
       "name": "CopperSpleaves",
       "type": "block",
-      "sortid": 23,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_spleaves",
@@ -692,7 +678,7 @@
     {
       "name": "BreakTheSpleavesGoddammit",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "break_the_spleaves_goddammit",
@@ -728,7 +714,7 @@
     {
       "name": "ExposedCopperSpleaves",
       "type": "block",
-      "sortid": 28,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_spleaves",
@@ -745,7 +731,7 @@
     {
       "name": "WeatheredCopperSpleaves",
       "type": "block",
-      "sortid": 33,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_spleaves",
@@ -762,7 +748,7 @@
     {
       "name": "OxidizedCopperSpleaves",
       "type": "block",
-      "sortid": 38,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_spleaves",
@@ -779,7 +765,7 @@
     {
       "name": "CopperJunction",
       "type": "block",
-      "sortid": 63,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_junction",
@@ -797,7 +783,7 @@
     {
       "name": "PolishedBauxiteBrickSlabStonecut",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab_stonecut",
@@ -830,7 +816,7 @@
     {
       "name": "BauxiteSlabCraft",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_slab_craft",
@@ -863,7 +849,7 @@
     {
       "name": "PolishedBauxiteBrickWallCraft",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_wall_craft",
@@ -897,7 +883,7 @@
     {
       "name": "PolishedBauxiteBrickSlabCraft",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_slab_craft",
@@ -911,7 +897,7 @@
     {
       "name": "AluminumTilesStonecut",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tiles_stonecut",
@@ -925,7 +911,7 @@
     {
       "name": "AluminumTileStairsStonecut2",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_stonecut_2",
@@ -939,7 +925,7 @@
     {
       "name": "AluminumTileStairsStonecut",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_stonecut",
@@ -953,7 +939,7 @@
     {
       "name": "BauxiteWallStonecut",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_wall_stonecut",
@@ -967,7 +953,7 @@
     {
       "name": "BauxiteWallCraft",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_wall_craft",
@@ -981,7 +967,7 @@
     {
       "name": "BauxitePressurePlateCraft",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_pressure_plate_craft",
@@ -1033,7 +1019,7 @@
     {
       "name": "PolishedBauxiteBrickStairsStonecut",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_stairs_stonecut",
@@ -1047,7 +1033,7 @@
     {
       "name": "BauxitePressurePlate",
       "type": "block",
-      "sortid": 67,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_pressure_plate",
@@ -1065,7 +1051,7 @@
     {
       "name": "CopperCable",
       "type": "block",
-      "sortid": 64,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_cable",
@@ -1083,7 +1069,7 @@
     {
       "name": "PolishedBauxiteBrickStairsCraft",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_stairs_craft",
@@ -1116,7 +1102,7 @@
     {
       "name": "BauxiteButton",
       "type": "block",
-      "sortid": 68,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_button",
@@ -1135,7 +1121,7 @@
     {
       "name": "AluminumPillarStonecut",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_pillar_stonecut",
@@ -1149,7 +1135,7 @@
     {
       "name": "AluminumTileSlabStonecut2",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_stonecut_2",
@@ -1163,7 +1149,7 @@
     {
       "name": "BauxiteSlabStonecut",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_slab_stonecut",
@@ -1197,7 +1183,7 @@
     {
       "name": "BauxiteStairsCraft",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_stairs_craft",
@@ -1211,7 +1197,7 @@
     {
       "name": "BauxiteStairsStonecut",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bauxite_stairs_stonecut",
@@ -1244,7 +1230,7 @@
     {
       "name": "PolishedBauxiteBrickWallStonecut",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_bauxite_brick_wall_stonecut",
@@ -1258,7 +1244,7 @@
     {
       "name": "AluminumTileSlabCraft",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_craft",
@@ -1272,7 +1258,7 @@
     {
       "name": "AluminumTileStairsCraft",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_stairs_craft",
@@ -1286,7 +1272,7 @@
     {
       "name": "AluminumTileSlabStonecut",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_tile_slab_stonecut",
@@ -1300,16 +1286,16 @@
     {
       "name": "ReinforcedCopperSpleaves",
       "type": "block",
-      "sortid": 24,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reinforced_copper_spleaves",
+      "registry_name": "copper_grate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/block/reinforced_copper_spleaves.json",
-          "src/main/java/net/mcreator/intech/block/ReinforcedCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/item/reinforced_copper_spleaves.json",
-          "src/main/resources/assets/intech/blockstates/reinforced_copper_spleaves.json"
+          "src/main/resources/assets/intech/models/item/copper_grate.json",
+          "src/main/resources/assets/intech/blockstates/copper_grate.json",
+          "src/main/resources/assets/intech/models/block/copper_grate.json",
+          "src/main/java/net/mcreator/intech/block/ReinforcedCopperSpleavesBlock.java"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1317,7 +1303,7 @@
     {
       "name": "WaxedOxidizedChiseledCopper",
       "type": "block",
-      "sortid": 37,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_oxidized_chiseled_copper",
@@ -1334,16 +1320,16 @@
     {
       "name": "ReinforcedExposedCopperSpleaves",
       "type": "block",
-      "sortid": 29,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reinforced_exposed_copper_spleaves",
+      "registry_name": "exposed_copper_grate",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/intech/block/ReinforcedExposedCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/item/reinforced_exposed_copper_spleaves.json",
-          "src/main/resources/assets/intech/blockstates/reinforced_exposed_copper_spleaves.json",
-          "src/main/resources/assets/intech/models/block/reinforced_exposed_copper_spleaves.json"
+          "src/main/resources/assets/intech/blockstates/exposed_copper_grate.json",
+          "src/main/resources/assets/intech/models/item/exposed_copper_grate.json",
+          "src/main/resources/assets/intech/models/block/exposed_copper_grate.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1351,7 +1337,7 @@
     {
       "name": "WaxedWeatheredChiseledCopper",
       "type": "block",
-      "sortid": 32,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_weathered_chiseled_copper",
@@ -1368,16 +1354,16 @@
     {
       "name": "ReinforcedWeatheredCopperSpleaves",
       "type": "block",
-      "sortid": 34,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reinforced_weathered_copper_spleaves",
+      "registry_name": "weathered_copper_grate",
       "metadata": {
         "files": [
+          "src/main/resources/assets/intech/models/item/weathered_copper_grate.json",
           "src/main/java/net/mcreator/intech/block/ReinforcedWeatheredCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/block/reinforced_weathered_copper_spleaves.json",
-          "src/main/resources/assets/intech/blockstates/reinforced_weathered_copper_spleaves.json",
-          "src/main/resources/assets/intech/models/item/reinforced_weathered_copper_spleaves.json"
+          "src/main/resources/assets/intech/models/block/weathered_copper_grate.json",
+          "src/main/resources/assets/intech/blockstates/weathered_copper_grate.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1385,7 +1371,7 @@
     {
       "name": "OxidizedChiseledCopper",
       "type": "block",
-      "sortid": 36,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_chiseled_copper",
@@ -1402,7 +1388,7 @@
     {
       "name": "WaxedChiseledCopper",
       "type": "block",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_chiseled_copper",
@@ -1419,7 +1405,7 @@
     {
       "name": "ExposedChiseledCopper",
       "type": "block",
-      "sortid": 26,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_chiseled_copper",
@@ -1436,16 +1422,16 @@
     {
       "name": "ReinforcedOxidizedCopperSpleaves",
       "type": "block",
-      "sortid": 39,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reinforced_oxidized_copper_spleaves",
+      "registry_name": "oxidized_copper_grate",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/intech/block/ReinforcedOxidizedCopperSpleavesBlock.java",
-          "src/main/resources/assets/intech/models/block/reinforced_oxidized_copper_spleaves.json",
-          "src/main/resources/assets/intech/blockstates/reinforced_oxidized_copper_spleaves.json",
-          "src/main/resources/assets/intech/models/item/reinforced_oxidized_copper_spleaves.json"
+          "src/main/resources/assets/intech/models/block/oxidized_copper_grate.json",
+          "src/main/resources/assets/intech/models/item/oxidized_copper_grate.json",
+          "src/main/resources/assets/intech/blockstates/oxidized_copper_grate.json"
         ]
       },
       "path": "~/Decoration/Copper"
@@ -1453,7 +1439,7 @@
     {
       "name": "WaxedExposedChiseledCopper",
       "type": "block",
-      "sortid": 27,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_exposed_chiseled_copper",
@@ -1470,7 +1456,7 @@
     {
       "name": "WeatheredChiseledCopper",
       "type": "block",
-      "sortid": 31,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_chiseled_copper",
@@ -1487,7 +1473,7 @@
     {
       "name": "ChiseledCopper",
       "type": "block",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_copper",
@@ -1504,7 +1490,7 @@
     {
       "name": "PolishedTuffBrickWall",
       "type": "block",
-      "sortid": 50,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_tuff_brick_wall",
@@ -1524,7 +1510,7 @@
     {
       "name": "PolishedChiseledTuff",
       "type": "block",
-      "sortid": 51,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_chiseled_tuff",
@@ -1541,7 +1527,7 @@
     {
       "name": "BeaconBaseBlockBlocks",
       "type": "tag",
-      "sortid": 113,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_base_block_blocks",
@@ -1555,7 +1541,7 @@
     {
       "name": "PolishedTuffSlab",
       "type": "block",
-      "sortid": 45,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_tuff_slab",
@@ -1574,7 +1560,7 @@
     {
       "name": "PolishedTuffStairs",
       "type": "block",
-      "sortid": 44,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_tuff_stairs",
@@ -1593,7 +1579,7 @@
     {
       "name": "PolishedTuffBrickSlab",
       "type": "block",
-      "sortid": 49,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_tuff_brick_slab",
@@ -1612,7 +1598,7 @@
     {
       "name": "ZincBlock",
       "type": "block",
-      "sortid": 41,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinc_block",
@@ -1624,12 +1610,12 @@
           "src/main/resources/assets/intech/blockstates/zinc_block.json"
         ]
       },
-      "path": "~/Materials"
+      "path": "~/Materials/Zinc"
     },
     {
       "name": "PolishedChiseledTuffBricks",
       "type": "block",
-      "sortid": 52,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_chiseled_tuff_bricks",
@@ -1646,7 +1632,7 @@
     {
       "name": "ZincTiles",
       "type": "block",
-      "sortid": 42,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinc_tiles",
@@ -1663,7 +1649,7 @@
     {
       "name": "PolishedTuffWall",
       "type": "block",
-      "sortid": 46,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_tuff_wall",
@@ -1683,7 +1669,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 114,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -1697,7 +1683,7 @@
     {
       "name": "PolishedTuffBricks",
       "type": "block",
-      "sortid": 47,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_tuff_bricks",
@@ -1714,7 +1700,7 @@
     {
       "name": "ZincIngot",
       "type": "item",
-      "sortid": 56,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinc_ingot",
@@ -1724,12 +1710,12 @@
           "src/main/resources/assets/intech/models/item/zinc_ingot.json"
         ]
       },
-      "path": "~/Materials"
+      "path": "~/Materials/Zinc"
     },
     {
       "name": "PolishedTuff",
       "type": "block",
-      "sortid": 43,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_tuff",
@@ -1746,7 +1732,7 @@
     {
       "name": "PolishedTuffBrickStairs",
       "type": "block",
-      "sortid": 48,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_tuff_brick_stairs",
@@ -1765,7 +1751,7 @@
     {
       "name": "CopperMesh",
       "type": "block",
-      "sortid": 25,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_mesh",
@@ -1786,7 +1772,7 @@
     {
       "name": "ExposedCopperMesh",
       "type": "block",
-      "sortid": 30,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_mesh",
@@ -1807,7 +1793,7 @@
     {
       "name": "WeatheredCopperMesh",
       "type": "block",
-      "sortid": 35,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_mesh",
@@ -1828,7 +1814,7 @@
     {
       "name": "OxidizedCopperMesh",
       "type": "block",
-      "sortid": 40,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_mesh",
@@ -1849,7 +1835,7 @@
     {
       "name": "LightningBulb",
       "type": "block",
-      "sortid": 66,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightning_bulb",
@@ -1867,7 +1853,7 @@
     {
       "name": "LitLightningBulb",
       "type": "block",
-      "sortid": 115,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_lightning_bulb",
@@ -1884,7 +1870,7 @@
     {
       "name": "Patina",
       "type": "tag",
-      "sortid": 116,
+      "sortid": 131,
       "compiles": true,
       "locked_code": true,
       "registry_name": "patina",
@@ -1898,7 +1884,7 @@
     {
       "name": "Industry",
       "type": "tab",
-      "sortid": 117,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "industry",
@@ -1910,7 +1896,7 @@
     {
       "name": "Pulverizer",
       "type": "block",
-      "sortid": 57,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pulverizer",
@@ -1919,6 +1905,7 @@
           "src/main/resources/assets/intech/models/block/pulverizer.json",
           "src/main/java/net/mcreator/intech/block/PulverizerBlock.java",
           "src/main/resources/assets/intech/blockstates/pulverizer.json",
+          "src/main/java/net/mcreator/intech/block/entity/PulverizerBlockEntity.java",
           "src/main/resources/assets/intech/models/item/pulverizer.json"
         ]
       },
@@ -1927,7 +1914,7 @@
     {
       "name": "ZincBattery",
       "type": "block",
-      "sortid": 65,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinc_battery",
@@ -1944,7 +1931,7 @@
     {
       "name": "ZincOre",
       "type": "block",
-      "sortid": 69,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinc_ore",
@@ -1956,12 +1943,12 @@
           "src/main/java/net/mcreator/intech/block/ZincOreBlock.java"
         ]
       },
-      "path": "~/Materials"
+      "path": "~/Materials/Zinc"
     },
     {
       "name": "Power",
       "type": "tab",
-      "sortid": 118,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "power",
@@ -1969,6 +1956,981 @@
         "files": []
       },
       "path": "~/Other"
+    },
+    {
+      "name": "DarkBrassIngotRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_ingot.json"
+        ]
+      },
+      "path": "~/Materials/Dark Brass"
+    },
+    {
+      "name": "RawZinc",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zinc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/item/RawZincItem.java",
+          "src/main/resources/assets/intech/models/item/raw_zinc.json"
+        ]
+      },
+      "path": "~/Materials/Zinc"
+    },
+    {
+      "name": "DeepslateZincOre",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_zinc_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/DeepslateZincOreBlock.java",
+          "src/main/resources/assets/intech/models/block/deepslate_zinc_ore.json",
+          "src/main/resources/assets/intech/models/item/deepslate_zinc_ore.json",
+          "src/main/resources/assets/intech/blockstates/deepslate_zinc_ore.json"
+        ]
+      },
+      "path": "~/Materials/Zinc"
+    },
+    {
+      "name": "ZincOreFeature",
+      "type": "feature",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/worldgen/configured_feature/zinc_ore_feature.json",
+          "src/main/resources/data/intech/forge/biome_modifier/zinc_ore_feature_biome_modifier.json",
+          "src/main/java/net/mcreator/intech/world/features/ZincOreFeatureFeature.java",
+          "src/main/resources/data/intech/worldgen/placed_feature/zinc_ore_feature.json"
+        ]
+      },
+      "path": "~/Materials/Zinc"
+    },
+    {
+      "name": "AncientCoil",
+      "type": "animatedblock",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_coil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/model/AncientCoilDisplayModel.java",
+          "src/main/java/net/mcreator/intech/block/renderer/AncientCoilDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/intech/block/model/AncientCoilBlockModel.java",
+          "src/main/resources/assets/intech/blockstates/ancient_coil.json",
+          "src/main/java/net/mcreator/intech/block/AncientCoilBlock.java",
+          "src/main/java/net/mcreator/intech/block/entity/AncientCoilTileEntity.java",
+          "src/main/java/net/mcreator/intech/block/display/AncientCoilDisplayItem.java",
+          "src/main/resources/assets/intech/models/custom/ancient_coil_particle.json",
+          "src/main/java/net/mcreator/intech/block/renderer/AncientCoilTileRenderer.java",
+          "src/main/resources/assets/intech/models/item/ancient_coil.json"
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "AncientCoilUpdateTick",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_coil_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/AncientCoilUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "AncientCoilBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_coil_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/AncientCoilBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "PipeApplyPatina",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe_apply_patina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/PipeApplyPatinaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "CopperGratePatina",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_grate_patina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperGratePatinaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "ChiseledCopperPatina",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_copper_patina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ChiseledCopperPatinaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedCopperMesh",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_copper_mesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/waxed_copper_mesh_noside.json",
+          "src/main/resources/assets/intech/models/block/waxed_copper_mesh_noside_alt.json",
+          "src/main/resources/assets/intech/blockstates/waxed_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/waxed_copper_mesh_side_alt.json",
+          "src/main/resources/assets/intech/models/item/waxed_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/waxed_copper_mesh_post.json",
+          "src/main/java/net/mcreator/intech/block/WaxedCopperMeshBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_copper_mesh_side.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedExposedCopperMesh",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_exposed_copper_mesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/waxed_exposed_copper_mesh_side_alt.json",
+          "src/main/java/net/mcreator/intech/block/WaxedExposedCopperMeshBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_exposed_copper_mesh_post.json",
+          "src/main/resources/assets/intech/models/block/waxed_exposed_copper_mesh_noside_alt.json",
+          "src/main/resources/assets/intech/models/item/waxed_exposed_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/waxed_exposed_copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/block/waxed_exposed_copper_mesh_noside.json",
+          "src/main/resources/assets/intech/blockstates/waxed_exposed_copper_mesh.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedWeatheredCopperMesh",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_copper_mesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/waxed_weathered_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_copper_mesh_noside.json",
+          "src/main/java/net/mcreator/intech/block/WaxedWeatheredCopperMeshBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_copper_mesh_noside_alt.json",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_copper_mesh_side_alt.json",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_copper_mesh_post.json",
+          "src/main/resources/assets/intech/models/item/waxed_weathered_copper_mesh.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedOxidizedCopperMesh",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_copper_mesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/waxed_oxidized_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_mesh_side.json",
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_mesh_post.json",
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_mesh_noside_alt.json",
+          "src/main/java/net/mcreator/intech/block/WaxedOxidizedCopperMeshBlock.java",
+          "src/main/resources/assets/intech/blockstates/waxed_oxidized_copper_mesh.json",
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_mesh_side_alt.json",
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_mesh_noside.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "CopperMeshPatina",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_mesh_patina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperMeshPatinaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedCopperGrate",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_copper_grate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/waxed_copper_grate.json",
+          "src/main/resources/assets/intech/blockstates/waxed_copper_grate.json",
+          "src/main/java/net/mcreator/intech/block/WaxedCopperGrateBlock.java",
+          "src/main/resources/assets/intech/models/item/waxed_copper_grate.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedExposedCopperGrate",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_exposed_copper_grate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/waxed_exposed_copper_grate.json",
+          "src/main/resources/assets/intech/models/item/waxed_exposed_copper_grate.json",
+          "src/main/java/net/mcreator/intech/block/WaxedExposedCopperGrateBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_exposed_copper_grate.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedWeatheredCopperGrate",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_copper_grate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/waxed_weathered_copper_grate.json",
+          "src/main/resources/assets/intech/models/item/waxed_weathered_copper_grate.json",
+          "src/main/resources/assets/intech/models/block/waxed_weathered_copper_grate.json",
+          "src/main/java/net/mcreator/intech/block/WaxedWeatheredCopperGrateBlock.java"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedOxidizedCopperGrate",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_copper_grate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/waxed_oxidized_copper_grate.json",
+          "src/main/resources/assets/intech/models/item/waxed_oxidized_copper_grate.json",
+          "src/main/java/net/mcreator/intech/block/WaxedOxidizedCopperGrateBlock.java",
+          "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_grate.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "AluminumDoor",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/aluminum_door_bottom_left_open.json",
+          "src/main/resources/assets/intech/models/block/aluminum_door_top_right_open.json",
+          "src/main/resources/assets/intech/models/block/aluminum_door_bottom_right_open.json",
+          "src/main/resources/assets/intech/models/block/aluminum_door_top_right.json",
+          "src/main/resources/assets/intech/models/block/aluminum_door_top_left.json",
+          "src/main/resources/assets/intech/blockstates/aluminum_door.json",
+          "src/main/resources/assets/intech/models/item/aluminum_door.json",
+          "src/main/resources/assets/intech/models/block/aluminum_door_top_left_open.json",
+          "src/main/resources/assets/intech/models/block/aluminum_door_bottom_left.json",
+          "src/main/java/net/mcreator/intech/block/AluminumDoorBlock.java",
+          "src/main/resources/assets/intech/models/block/aluminum_door_bottom_right.json"
+        ]
+      },
+      "path": "~/Decoration/Aluminum"
+    },
+    {
+      "name": "ZincDoor",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/zinc_door_bottom_left.json",
+          "src/main/resources/assets/intech/models/block/zinc_door_bottom_right.json",
+          "src/main/resources/assets/intech/models/block/zinc_door_top_left_open.json",
+          "src/main/java/net/mcreator/intech/block/ZincDoorBlock.java",
+          "src/main/resources/assets/intech/models/block/zinc_door_top_left.json",
+          "src/main/resources/assets/intech/models/block/zinc_door_bottom_right_open.json",
+          "src/main/resources/assets/intech/models/item/zinc_door.json",
+          "src/main/resources/assets/intech/models/block/zinc_door_top_right_open.json",
+          "src/main/resources/assets/intech/models/block/zinc_door_top_right.json",
+          "src/main/resources/assets/intech/blockstates/zinc_door.json",
+          "src/main/resources/assets/intech/models/block/zinc_door_bottom_left_open.json"
+        ]
+      },
+      "path": "~/Decoration/Zinc"
+    },
+    {
+      "name": "DarkBrassDoor",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/dark_brass_door_bottom_left_open.json",
+          "src/main/resources/assets/intech/models/block/dark_brass_door_top_left.json",
+          "src/main/resources/assets/intech/models/block/dark_brass_door_bottom_left.json",
+          "src/main/resources/assets/intech/models/block/dark_brass_door_top_right.json",
+          "src/main/resources/assets/intech/models/block/dark_brass_door_top_right_open.json",
+          "src/main/resources/assets/intech/blockstates/dark_brass_door.json",
+          "src/main/resources/assets/intech/models/block/dark_brass_door_bottom_right.json",
+          "src/main/resources/assets/intech/models/block/dark_brass_door_top_left_open.json",
+          "src/main/resources/assets/intech/models/block/dark_brass_door_bottom_right_open.json",
+          "src/main/java/net/mcreator/intech/block/DarkBrassDoorBlock.java",
+          "src/main/resources/assets/intech/models/item/dark_brass_door.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "AluminumDoorRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/aluminum_door.json"
+        ]
+      },
+      "path": "~/Decoration/Aluminum"
+    },
+    {
+      "name": "ZincDoorRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/zinc_door.json"
+        ]
+      },
+      "path": "~/Decoration/Zinc"
+    },
+    {
+      "name": "DarkBrassDoorRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_door.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "GalvanizedBillet",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galvanized_billet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/item/GalvanizedBilletItem.java",
+          "src/main/resources/assets/intech/models/item/galvanized_billet.json"
+        ]
+      },
+      "path": "~/Materials/Galvanized"
+    },
+    {
+      "name": "CopperSpleavesPatina",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spleaves_patina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperSpleavesPatinaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "CopperGrateRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_grate.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "ExposedCopperGrateRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_copper_grate_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WeatheredCopperGrateRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_grate_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "OxidizedCopperGrateRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_copper_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_copper_grate_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedCopperGrateRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_copper_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_copper_grate_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedExposedCopperGrateRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_exposed_copper_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_exposed_copper_grate_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedWeatheredCopperGrateRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_copper_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_weathered_copper_grate_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WaxedOxidizedCopperGrateRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_copper_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_oxidized_copper_grate_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "CopperSpleavesRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spleaves_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_spleaves_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "ExposedCopperSpleavesRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_spleaves_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_copper_spleaves_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "WeatheredCopperSpleavesRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_spleaves_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_spleaves_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "OxidizedCopperSpleavesRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_copper_spleaves_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_copper_spleaves_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "CopperGrateWaxing",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_grate_waxing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_grate_waxing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "ExposedCopperGrateWaxing",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_grate_waxing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_copper_grate_waxing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WeatheredCopperGrateWaxing",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_grate_waxing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_grate_waxing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "OxidizedCopperGrateWaxing",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_copper_grate_waxing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_copper_grate_waxing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "CopperSpleavesRecipe2",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spleaves_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_spleaves_recipe_2.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "ExposedCopperSpleavesRecipe2",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_spleaves_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_copper_spleaves_recipe_2.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "WeatheredCopperSpleavesRecipe2",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_spleaves_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_spleaves_recipe_2.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "OxidizedCopperSpleavesRecipe2",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_copper_spleaves_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_copper_spleaves_recipe_2.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "CopperGrateOxidizing",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_grate_oxidizing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_grate_oxidizing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "ExposedCopperGrateOxidizing",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_grate_oxidizing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_copper_grate_oxidizing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "WeatheredCopperGrateOxidizing",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_grate_oxidizing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_grate_oxidizing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper"
+    },
+    {
+      "name": "CopperSpleavesOxidizing",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spleaves_oxidizing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_spleaves_oxidizing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "ExposedCopperSpleavesOxidizing",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_spleaves_oxidizing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_copper_spleaves_oxidizing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
+    },
+    {
+      "name": "WeatheredCopperSpleavesOxidizing",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_spleaves_oxidizing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_spleaves_oxidizing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Spleaves"
     }
   ],
   "variable_elements": [
@@ -2170,101 +3132,125 @@
       ],
       "category": "player",
       "subtitle": "Player Steps On Tuff Bricks"
+    },
+    {
+      "name": "block.ancient_coil.ambient",
+      "files": [
+        "ancient_coil_ambient"
+      ],
+      "category": "block",
+      "subtitle": "Ancient Coil Humming"
     }
   ],
   "language_map": {
     "en_us": {
+      "block.intech.waxed_exposed_copper_mesh": "Waxed Exposed Copper Mesh",
+      "block.intech.pulverizer": "Pulverizer",
+      "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
+      "item.intech.zinc_ingot": "Zinc Ingot",
+      "block.intech.exposed_copper_pipe": "Exposed Copper Pipe",
+      "block.intech.exposed_chiseled_copper": "Exposed Chiseled Copper",
+      "block.intech.aluminum_door": "Aluminum Door",
+      "block.intech.waxed_copper_mesh": "Waxed Copper Mesh",
+      "block.intech.waxed_oxidized_copper_mesh": "Waxed Oxidized Copper Mesh",
+      "block.intech.waxed_exposed_copper_grate": "Exposed Copper Grate",
+      "block.intech.bauxite_button": "Bauxite Button",
+      "block.intech.bauxite": "Bauxite",
+      "block.intech.copper_junction": "Copper Junction",
+      "subtitles.block.spleaves.place": "Spleaves Are Placed",
+      "block.intech.weathered_chiseled_copper": "Weathered Chiseled Copper",
+      "block.intech.copper_grate": "Copper Grate",
+      "subtitles.block.tuff_bricks.step": "Player Steps On Tuff Bricks",
+      "block.intech.weathered_copper_grate": "Weathered Copper Grate",
+      "subtitles.pipeclank": "Pipe-Clank",
+      "block.intech.bauxite_stairs": "Bauxite Stairs",
+      "subtitles.block.zinc.place": "Block placed",
+      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
+      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
+      "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
+      "subtitles.block.aluminum.step": "Footsteps",
+      "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
+      "block.intech.copper_pipe": "Copper Pipe",
+      "item.intech.galvanized_billet": "Galvanized Billet",
+      "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
+      "subtitles.block.aluminum.hit": "Block breaking",
+      "subtitles.block.pipe.break": "Pipe Is Broken",
+      "subtitles.block.spleaves.step": "Player Steps On Spleaves",
+      "block.intech.polished_tuff_slab": "Polished Tuff Slab",
+      "block.intech.lit_lightning_bulb": "Lightning Bulb",
+      "block.intech.waxed_weathered_copper_grate": "Weathered Copper Grate",
+      "item.intech.raw_zinc": "Raw Zinc",
+      "block.intech.exposed_copper_grate": "Exposed Copper Grate",
+      "block.intech.polished_chiseled_tuff": "Polished Chiseled Tuff",
+      "item.intech.aluminum_ingot": "Aluminum Ingot",
+      "subtitles.block.tuff_bricks.place": "Tuff Bricks Are Placed",
+      "block.intech.zinc_tiles": "Zinc Tiles",
+      "subtitles.block.zinc.hit": "Block breaking",
+      "block.intech.polished_tuff_brick_stairs": "Polished Tuff Brick Stairs",
+      "block.intech.oxidized_chiseled_copper": "Oxidized Chiseled Copper",
+      "block.intech.waxed_chiseled_copper": "Waxed Chiseled Copper",
+      "subtitles.block.ancient_coil.ambient": "Ancient Coil Humming",
+      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
+      "block.intech.bauxite_slab": "Bauxite Slab",
+      "item_group.intech.industry": "Intech: Industry",
+      "block.intech.copper_cable": "Copper Cable",
+      "block.intech.aluminum_block": "Block of Aluminum",
+      "block.intech.weathered_copper_mesh": "Weathered Copper Mesh",
       "block.intech.weathered_copper_spleaves": "Weathered Copper Spleaves",
       "block.intech.aluminum_tiles": "Aluminum Tiles",
       "subtitles.block.pipe.place": "Pipe Is Placed",
       "block.intech.zinc_ore": "Zinc Ore",
       "subtitles.block.aluminum.break": "Block broken",
-      "block.intech.pulverizer": "Pulverizer",
-      "block.intech.bauxite_pressure_plate": "Bauxite Pressure Plate",
-      "item.intech.zinc_ingot": "Zinc Ingot",
-      "block.intech.reinforced_weathered_copper_spleaves": "Weathered Copper Grate",
       "block.intech.polished_tuff_brick_wall": "Polished Tuff Brick Wall",
+      "block.intech.ancient_coil": "Ancient Coil",
       "block.intech.polished_bauxite_brick_slab": "Polished Bauxite Brick Slab",
       "block.intech.exposed_copper_spleaves": "Exposed Copper Spleaves",
       "block.intech.lightning_bulb": "Lightning Bulb",
       "subtitles.block.spleaves.break": "Spleaves Are Broken",
+      "block.intech.zinc_door": "Zinc Door",
+      "block.intech.dark_brass_door": "Dark Brass Door",
       "block.intech.dark_brass_pillar": "Dark Brass Pillar",
       "block.intech.polished_bauxite_brick_stairs": "Polished Bauxite Brick Stairs",
-      "block.intech.exposed_copper_pipe": "Exposed Copper Pipe",
-      "block.intech.exposed_chiseled_copper": "Exposed Chiseled Copper",
+      "block.intech.waxed_oxidized_copper_grate": "Oxidized Copper Grate",
       "block.intech.dark_brass_pipe": "Dark Brass Pipe",
       "block.intech.zinc_battery": "Zinc Battery",
-      "block.intech.bauxite_button": "Bauxite Button",
-      "block.intech.bauxite": "Bauxite",
-      "block.intech.copper_junction": "Copper Junction",
+      "block.intech.oxidized_copper_grate": "Oxidized Copper Grate",
       "subtitles.block.pipe.step": "Player Steps On Pipe",
       "block.intech.zinc_block": "Block Of Zinc",
       "block.intech.oxidized_copper_mesh": "Oxidized Copper Mesh",
-      "subtitles.block.spleaves.place": "Spleaves Are Placed",
-      "block.intech.weathered_chiseled_copper": "Weathered Chiseled Copper",
       "block.intech.copper_spleaves": "Copper Spleaves",
-      "subtitles.block.tuff_bricks.step": "Player Steps On Tuff Bricks",
       "block.intech.aluminum_pillar": "Aluminum Pillar",
-      "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.dark_brass_block": "Block Of Dark Brass",
-      "block.intech.bauxite_stairs": "Bauxite Stairs",
       "block.intech.dark_brass_tiles": "Dark Brass Tiles",
-      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
-      "subtitles.block.zinc.place": "Block placed",
       "subtitles.block.tuff_bricks.break": "Tuff Bricks Are Broken",
-      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
       "block.intech.oxidized_copper_spleaves": "Oxidized Copper Spleaves",
-      "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
-      "subtitles.block.aluminum.step": "Footsteps",
       "block.intech.polished_tuff_stairs": "Polished Tuff Stairs",
       "block.intech.waxed_exposed_chiseled_copper": "Waxed Exposed Chiseled Copper",
       "block.intech.polished_tuff": "Polished Tuff",
-      "block.intech.copper_pipe": "Copper Pipe",
-      "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
-      "subtitles.block.aluminum.hit": "Block breaking",
-      "subtitles.block.pipe.break": "Pipe Is Broken",
+      "block.intech.waxed_weathered_copper_mesh": "Waxed Weathered Copper Mesh",
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
+      "block.intech.waxed_copper_grate": "Copper Grate",
       "block.intech.polished_tuff_bricks": "Polished Tuff Bricks",
-      "subtitles.block.spleaves.step": "Player Steps On Spleaves",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "subtitles.block.aluminum.place": "Block placed",
       "block.intech.waxed_oxidized_chiseled_copper": "Waxed Oxidized Chiseled Copper",
       "subtitles.block.zinc.step": "Footsteps",
-      "block.intech.polished_tuff_slab": "Polished Tuff Slab",
-      "block.intech.lit_lightning_bulb": "Lightning Bulb",
       "block.intech.exposed_copper_mesh": "Exposed Copper Mesh",
       "block.intech.bauxite_wall": "Bauxite Wall",
       "block.intech.chiseled_copper": "Chiseled Copper",
-      "block.intech.polished_chiseled_tuff": "Polished Chiseled Tuff",
       "block.intech.polished_chiseled_tuff_bricks": "Polished Chiseled Tuff Bricks",
       "block.intech.aluminum_tile_slab": "Aluminum Tile Slab",
       "block.intech.aluminum_tile_stairs": "Aluminum Tile Stairs",
-      "item.intech.aluminum_ingot": "Aluminum Ingot",
-      "block.intech.reinforced_copper_spleaves": "Copper Grate",
-      "subtitles.block.tuff_bricks.place": "Tuff Bricks Are Placed",
-      "block.intech.zinc_tiles": "Zinc Block",
+      "block.intech.deepslate_zinc_ore": "Deepslate Zinc Ore",
       "block.intech.oxidized_copper_pipe": "Oxidized Copper Pipe",
-      "subtitles.block.zinc.hit": "Block breaking",
-      "block.intech.polished_tuff_brick_stairs": "Polished Tuff Brick Stairs",
-      "block.intech.oxidized_chiseled_copper": "Oxidized Chiseled Copper",
       "block.intech.polished_tuff_wall": "Polished Tuff Wall",
-      "block.intech.waxed_chiseled_copper": "Waxed Chiseled Copper",
-      "block.intech.polished_bauxite_pillar": "Polished Bauxite Pillar",
-      "block.intech.reinforced_oxidized_copper_spleaves": "Oxidized Copper Grate",
       "item.intech.raw_aluminum": "Raw Aluminum",
-      "block.intech.bauxite_slab": "Bauxite Slab",
       "subtitles.block.zinc.break": "Block broken",
-      "item_group.intech.industry": "Intech: Industry",
       "item_group.intech.power": "Intech: Power",
-      "block.intech.reinforced_exposed_copper_spleaves": "Exposed Copper Grate",
       "subtitles.aluminum_break": "Block breaking",
       "item.intech.dark_brass_ingot": "Dark Brass Ingot",
-      "block.intech.copper_cable": "Copper Cable",
       "block.intech.polished_bauxite": "Polished Bauxite",
-      "block.intech.copper_mesh": "Copper Mesh",
-      "block.intech.aluminum_block": "Block of Aluminum",
-      "block.intech.weathered_copper_mesh": "Weathered Copper Mesh"
+      "block.intech.copper_mesh": "Copper Mesh"
     }
   },
   "foldersRoot": {
@@ -2331,6 +3317,10 @@
           {
             "name": "Dark Brass",
             "children": []
+          },
+          {
+            "name": "Galvanized",
+            "children": []
           }
         ]
       }
@@ -2348,7 +3338,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.intech",

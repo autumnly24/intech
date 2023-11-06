@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "intech:block/reinforced_oxidized_copper_spleaves"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "weathered_copper_spleaves",
+  "category": "building",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:weathered_copper"
+    },
+    "3": {
+      "item": "minecraft:weathered_copper"
+    },
+    "5": {
+      "item": "minecraft:weathered_copper"
+    },
+    "7": {
+      "item": "minecraft:weathered_copper"
+    }
+  },
+  "result": {
+    "item": "intech:weathered_copper_spleaves",
+    "count": 16
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "copper_spleaves",
+  "count": 16,
+  "ingredient": {
+    "item": "minecraft:oxidized_copper"
+  },
+  "result": "intech:oxidized_copper_spleaves"
+}

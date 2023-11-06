@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.mcreator.intech.world.features.ZincOreFeatureFeature;
 import net.mcreator.intech.world.features.BauxiteVeinFeature;
 import net.mcreator.intech.IntechMod;
 
@@ -18,4 +19,5 @@ import net.mcreator.intech.IntechMod;
 public class IntechModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, IntechMod.MODID);
 	public static final RegistryObject<Feature<?>> BAUXITE_VEIN = REGISTRY.register("bauxite_vein", BauxiteVeinFeature::new);
+	public static final RegistryObject<Feature<?>> ZINC_ORE_FEATURE = REGISTRY.register("zinc_ore_feature", ZincOreFeatureFeature::new);
 }

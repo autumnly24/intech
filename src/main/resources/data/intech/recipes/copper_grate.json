@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "copper_grate",
+  "category": "building",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:copper_block"
+    },
+    "3": {
+      "item": "minecraft:copper_block"
+    },
+    "4": {
+      "item": "minecraft:copper_ingot"
+    },
+    "5": {
+      "item": "minecraft:copper_block"
+    },
+    "7": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "intech:copper_grate",
+    "count": 4
+  }
+}

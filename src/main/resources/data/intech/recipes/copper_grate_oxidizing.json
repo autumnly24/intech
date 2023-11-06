@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "exposed_copper_grate",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "intech:copper_grate"
+    },
+    {
+      "tag": "intech:patina"
+    }
+  ],
+  "result": {
+    "item": "intech:exposed_copper_grate",
+    "count": 1
+  }
+}

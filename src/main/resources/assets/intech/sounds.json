@@ -348,5 +348,14 @@
         "stream": false
       }
     ]
+  },
+  "block.ancient_coil.ambient": {
+    "subtitle": "subtitles.block.ancient_coil.ambient",
+    "sounds": [
+      {
+        "name": "intech:ancient_coil_ambient",
+        "stream": false
+      }
+    ]
   }
 }
