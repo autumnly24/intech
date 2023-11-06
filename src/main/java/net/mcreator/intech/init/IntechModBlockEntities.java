@@ -33,8 +33,8 @@ public class IntechModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> DARK_BRASS_PIPE = register("dark_brass_pipe", IntechModBlocks.DARK_BRASS_PIPE, DarkBrassPipeBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> COPPER_JUNCTION = register("copper_junction", IntechModBlocks.COPPER_JUNCTION, CopperJunctionBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> COPPER_CABLE = register("copper_cable", IntechModBlocks.COPPER_CABLE, CopperCableBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<AncientCoilTileEntity>> ANCIENT_COIL = REGISTRY.register("ancient_coil", () -> BlockEntityType.Builder.of(AncientCoilTileEntity::new, IntechModBlocks.ANCIENT_COIL.get()).build(null));
 	public static final RegistryObject<BlockEntityType<?>> LIGHTNING_BULB = register("lightning_bulb", IntechModBlocks.LIGHTNING_BULB, LightningBulbBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<AncientCoilTileEntity>> ANCIENT_COIL = REGISTRY.register("ancient_coil", () -> BlockEntityType.Builder.of(AncientCoilTileEntity::new, IntechModBlocks.ANCIENT_COIL.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

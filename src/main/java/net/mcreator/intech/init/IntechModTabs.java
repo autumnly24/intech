@@ -35,8 +35,8 @@ public class IntechModTabs {
 				tabData.accept(IntechModBlocks.COPPER_JUNCTION.get().asItem());
 				tabData.accept(IntechModBlocks.COPPER_CABLE.get().asItem());
 				tabData.accept(IntechModBlocks.ZINC_BATTERY.get().asItem());
-				tabData.accept(IntechModBlocks.ANCIENT_COIL.get().asItem());
 				tabData.accept(IntechModBlocks.LIGHTNING_BULB.get().asItem());
+				tabData.accept(IntechModBlocks.ANCIENT_COIL.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -59,53 +59,53 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.ALUMINUM_TILE_STAIRS.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_TILE_SLAB.get().asItem());
 			tabData.accept(IntechModBlocks.ALUMINUM_PILLAR.get().asItem());
-			tabData.accept(IntechModBlocks.ALUMINUM_DOOR.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_BLOCK.get().asItem());
+			tabData.accept(IntechModBlocks.ALUMINUM_DOOR.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_TILES.get().asItem());
 			tabData.accept(IntechModBlocks.DARK_BRASS_PILLAR.get().asItem());
 			tabData.accept(IntechModBlocks.REINFORCED_DARK_BRASS.get().asItem());
-			tabData.accept(IntechModBlocks.DARK_BRASS_DOOR.get().asItem());
 			tabData.accept(IntechModBlocks.CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.WAXED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.DARK_BRASS_DOOR.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_SPLEAVES.get().asItem());
-			tabData.accept(IntechModBlocks.COPPER_GRATE.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_COPPER_GRATE.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.COPPER_MESH.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.EXPOSED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_COPPER_GRATE.get().asItem());
 			tabData.accept(IntechModBlocks.EXPOSED_COPPER_SPLEAVES.get().asItem());
-			tabData.accept(IntechModBlocks.EXPOSED_COPPER_GRATE.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_EXPOSED_COPPER_GRATE.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_EXPOSED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.EXPOSED_COPPER_MESH.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_EXPOSED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.WEATHERED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.WEATHERED_COPPER_SPLEAVES.get().asItem());
-			tabData.accept(IntechModBlocks.WEATHERED_COPPER_GRATE.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_WEATHERED_COPPER_GRATE.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_WEATHERED_COPPER_SPLEAVES.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_EXPOSED_COPPER_GRATE.get().asItem());
 			tabData.accept(IntechModBlocks.WEATHERED_COPPER_MESH.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_WEATHERED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.OXIDIZED_CHISELED_COPPER.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_EXPOSED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get().asItem());
 			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_SPLEAVES.get().asItem());
-			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_GRATE.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_COPPER_GRATE.get().asItem());
+			tabData.accept(IntechModBlocks.REINFORCED_OXIDIZED_COPPER_SPLEAVES.get().asItem());
 			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_MESH.get().asItem());
-			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.ZINC_BLOCK.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_WEATHERED_COPPER_GRATE.get().asItem());
 			tabData.accept(IntechModBlocks.ZINC_TILES.get().asItem());
-			tabData.accept(IntechModBlocks.ZINC_DOOR.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_WEATHERED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_STAIRS.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_SLAB.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_WALL.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICKS.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICK_STAIRS.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_COPPER_GRATE.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICK_SLAB.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICK_WALL.get().asItem());
+			tabData.accept(IntechModBlocks.WAXED_OXIDIZED_COPPER_MESH.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_CHISELED_TUFF.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_CHISELED_TUFF_BRICKS.get().asItem());
+			tabData.accept(IntechModBlocks.ZINC_DOOR.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
@@ -116,9 +116,9 @@ public class IntechModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(IntechModItems.RAW_ALUMINUM.get());
 			tabData.accept(IntechModItems.ALUMINUM_INGOT.get());
-			tabData.accept(IntechModItems.RAW_ZINC.get());
-			tabData.accept(IntechModItems.ZINC_INGOT.get());
 			tabData.accept(IntechModItems.DARK_BRASS_INGOT.get());
+			tabData.accept(IntechModItems.ZINC_INGOT.get());
+			tabData.accept(IntechModItems.RAW_ZINC.get());
 			tabData.accept(IntechModItems.GALVANIZED_BILLET.get());
 		}
 

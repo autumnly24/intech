@@ -19,10 +19,4 @@ authors="Autumn"
 
 
 
-[[dependencies.intech]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

@@ -4,14 +4,14 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "intech:exposed_copper_grate"
+      "item": "intech:reinforced_exposed_copper_spleaves"
     },
     {
       "tag": "intech:patina"
     }
   ],
   "result": {
-    "item": "intech:weathered_copper_grate",
+    "item": "intech:reinforced_weathered_copper_spleaves",
     "count": 1
   }
 }
