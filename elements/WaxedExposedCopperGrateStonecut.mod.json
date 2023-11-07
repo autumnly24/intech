@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 4,
+    "group": "waxed_exposed_copper_grate",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "Blocks.WAXED_EXPOSED_COPPER"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:WaxedExposedCopperGrate"
+    },
+    "name": "waxed_exposed_copper_grate_stonecut",
+    "namespace": "mod"
+  }
+}

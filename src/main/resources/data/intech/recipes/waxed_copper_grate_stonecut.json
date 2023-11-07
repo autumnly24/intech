@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "waxed_copper_grate",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:waxed_copper_block"
+  },
+  "result": "intech:waxed_copper_grate"
+}

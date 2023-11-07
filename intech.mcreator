@@ -1298,7 +1298,7 @@
           "src/main/resources/assets/intech/blockstates/reinforced_copper_spleaves.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WaxedOxidizedChiseledCopper",
@@ -1315,7 +1315,7 @@
           "src/main/resources/assets/intech/blockstates/waxed_oxidized_chiseled_copper.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "ReinforcedExposedCopperSpleaves",
@@ -1332,7 +1332,7 @@
           "src/main/resources/assets/intech/models/block/reinforced_exposed_copper_spleaves.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WaxedWeatheredChiseledCopper",
@@ -1349,7 +1349,7 @@
           "src/main/resources/assets/intech/blockstates/waxed_weathered_chiseled_copper.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "ReinforcedWeatheredCopperSpleaves",
@@ -1366,7 +1366,7 @@
           "src/main/resources/assets/intech/models/item/reinforced_weathered_copper_spleaves.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "OxidizedChiseledCopper",
@@ -1383,7 +1383,7 @@
           "src/main/resources/assets/intech/blockstates/oxidized_chiseled_copper.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "WaxedChiseledCopper",
@@ -1400,7 +1400,7 @@
           "src/main/java/net/mcreator/intech/block/WaxedChiseledCopperBlock.java"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "ExposedChiseledCopper",
@@ -1417,7 +1417,7 @@
           "src/main/resources/assets/intech/models/item/exposed_chiseled_copper.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "ReinforcedOxidizedCopperSpleaves",
@@ -1434,7 +1434,7 @@
           "src/main/resources/assets/intech/models/item/reinforced_oxidized_copper_spleaves.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WaxedExposedChiseledCopper",
@@ -1451,7 +1451,7 @@
           "src/main/resources/assets/intech/blockstates/waxed_exposed_chiseled_copper.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "WeatheredChiseledCopper",
@@ -1468,7 +1468,7 @@
           "src/main/resources/assets/intech/models/item/weathered_chiseled_copper.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "ChiseledCopper",
@@ -1485,7 +1485,7 @@
           "src/main/resources/assets/intech/models/item/chiseled_copper.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "PolishedTuffBrickWall",
@@ -1990,7 +1990,7 @@
           "src/main/resources/data/intech/recipes/exposed_copper_grate_waxing.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WeatheredCopperSpleavesOxidizing",
@@ -2040,7 +2040,7 @@
           }
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "CopperSpleavesOxidizing",
@@ -2123,7 +2123,7 @@
           "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_grate.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "OxidizedCopperSpleavesRecipe",
@@ -2165,7 +2165,7 @@
           "src/main/resources/data/intech/recipes/copper_grate_waxing.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WeatheredCopperGrateOxidizing",
@@ -2179,7 +2179,7 @@
           "src/main/resources/data/intech/recipes/weathered_copper_grate_oxidizing.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "CopperGrateRecipe",
@@ -2193,7 +2193,7 @@
           "src/main/resources/data/intech/recipes/copper_grate.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WaxedWeatheredCopperMesh",
@@ -2228,7 +2228,7 @@
           "src/main/resources/data/intech/recipes/oxidized_copper_grate_recipe.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "DeepslateZincOre",
@@ -2262,7 +2262,7 @@
           "src/main/java/net/mcreator/intech/block/WaxedWeatheredCopperGrateBlock.java"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "ExposedCopperSpleavesRecipe2",
@@ -2290,7 +2290,7 @@
           "src/main/resources/data/intech/recipes/weathered_copper_grate_recipe.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WeatheredCopperGrateWaxing",
@@ -2304,7 +2304,7 @@
           "src/main/resources/data/intech/recipes/weathered_copper_grate_waxing.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "ExposedCopperGrateOxidizing",
@@ -2318,7 +2318,7 @@
           "src/main/resources/data/intech/recipes/exposed_copper_grate_oxidizing.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "GalvanizedBillet",
@@ -2382,7 +2382,7 @@
           "src/main/resources/data/intech/recipes/oxidized_copper_grate_waxing.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "AncientCoilBlockDestroyedByPlayer",
@@ -2467,7 +2467,7 @@
           "src/main/resources/data/intech/recipes/exposed_copper_grate_recipe.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "AncientCoilUpdateTick",
@@ -2600,7 +2600,7 @@
           "src/main/resources/data/intech/recipes/waxed_oxidized_copper_grate_recipe.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WeatheredCopperSpleavesRecipe",
@@ -2667,7 +2667,7 @@
           }
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "PipeApplyPatina",
@@ -2753,7 +2753,7 @@
           "src/main/resources/data/intech/recipes/waxed_exposed_copper_grate_recipe.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WaxedExposedCopperGrate",
@@ -2770,7 +2770,7 @@
           "src/main/resources/assets/intech/models/block/waxed_exposed_copper_grate.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "DarkBrassDoorRecipe",
@@ -2815,7 +2815,7 @@
           "src/main/resources/assets/intech/models/item/waxed_copper_grate.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "ExposedCopperSpleavesRecipe",
@@ -2902,7 +2902,7 @@
           "src/main/resources/data/intech/recipes/waxed_copper_grate_recipe.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "CopperGrateOxidizing",
@@ -2916,7 +2916,7 @@
           "src/main/resources/data/intech/recipes/copper_grate_oxidizing.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
     },
     {
       "name": "WaxedWeatheredCopperGrateRecipe",
@@ -2930,7 +2930,119 @@
           "src/main/resources/data/intech/recipes/waxed_weathered_copper_grate_recipe.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "CopperGrateStonecut",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_grate_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_grate_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "ExposedCopperGrateStonecut",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_grate_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_copper_grate_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "WeatheredCopperGrateStonecutting",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_grate_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_grate_stonecutting.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "OxidizedCopperGrateStonecut",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_copper_grate_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_copper_grate_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "WaxedCopperGrateStonecut",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_copper_grate_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_copper_grate_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "WaxedExposedCopperGrateStonecut",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_exposed_copper_grate_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_exposed_copper_grate_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "WaxedWeatheredCopperGrateStonecut",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_copper_grate_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_weathered_copper_grate_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "WaxedOxidizedCopperGrateStonecut",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_copper_grate_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_oxidized_copper_grate_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
     }
   ],
   "variable_elements": [
@@ -3165,20 +3277,20 @@
       "block.intech.weathered_copper_grate": "Weathered Copper Grate",
       "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
-      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
-      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "subtitles.block.zinc.place": "Block placed",
+      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
+      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "subtitles.block.aluminum.step": "Footsteps",
       "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
-      "block.intech.copper_pipe": "Copper Pipe",
+      "subtitles.block.aluminum.step": "Footsteps",
       "item.intech.galvanized_billet": "Galvanized Billet",
+      "block.intech.copper_pipe": "Copper Pipe",
       "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "subtitles.block.aluminum.hit": "Block breaking",
       "subtitles.block.pipe.break": "Pipe Is Broken",
       "subtitles.block.spleaves.step": "Player Steps On Spleaves",
-      "block.intech.lit_lightning_bulb": "Lightning Bulb",
       "block.intech.polished_tuff_slab": "Polished Tuff Slab",
+      "block.intech.lit_lightning_bulb": "Lightning Bulb",
       "block.intech.waxed_weathered_copper_grate": "Weathered Copper Grate",
       "item.intech.raw_zinc": "Raw Zinc",
       "block.intech.exposed_copper_grate": "Exposed Copper Grate",
@@ -3276,6 +3388,14 @@
             "children": [
               {
                 "name": "Spleaves",
+                "children": []
+              },
+              {
+                "name": "Grates",
+                "children": []
+              },
+              {
+                "name": "Chiseled",
                 "children": []
               }
             ]
