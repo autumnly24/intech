@@ -357,5 +357,14 @@
         "stream": false
       }
     ]
+  },
+  "record.junction_jam": {
+    "subtitle": "subtitles.record.junction_jam",
+    "sounds": [
+      {
+        "name": "intech:junction_jam",
+        "stream": true
+      }
+    ]
   }
 }

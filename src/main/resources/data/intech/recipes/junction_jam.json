@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "junction_jam",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:disc_fragment_junction_jam"
+    },
+    "1": {
+      "item": "intech:disc_fragment_junction_jam"
+    },
+    "2": {
+      "item": "intech:disc_fragment_junction_jam"
+    },
+    "3": {
+      "item": "intech:disc_fragment_junction_jam"
+    },
+    "4": {
+      "item": "intech:disc_fragment_junction_jam"
+    },
+    "5": {
+      "item": "intech:disc_fragment_junction_jam"
+    },
+    "6": {
+      "item": "intech:disc_fragment_junction_jam"
+    },
+    "7": {
+      "item": "intech:disc_fragment_junction_jam"
+    },
+    "8": {
+      "item": "intech:disc_fragment_junction_jam"
+    }
+  },
+  "result": {
+    "item": "intech:music_disc_junction_jam",
+    "count": 1
+  }
+}
