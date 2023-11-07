@@ -3087,6 +3087,198 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "ReinforcedCopperSpleavesUpdateTick",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_copper_spleaves_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ReinforcedCopperSpleavesUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "ReinforcedExposedCopperSpleavesUpdateTick",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_exposed_copper_spleaves_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ReinforcedExposedCopperSpleavesUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "ReinforcedWeatheredCopperSpleavesUpdateTick",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_weathered_copper_spleaves_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ReinforcedWeatheredCopperSpleavesUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Grates"
+    },
+    {
+      "name": "ChiseledCopperUpdateTick",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_copper_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ChiseledCopperUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ExposedChiseledCopperUpdateTick",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_chiseled_copper_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ExposedChiseledCopperUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WeatheredChiseledCopperUpdateTick",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_chiseled_copper_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/WeatheredChiseledCopperUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
     }
   ],
   "variable_elements": [
@@ -3329,14 +3521,14 @@
       "block.intech.weathered_copper_grate": "Weathered Copper Grate",
       "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
-      "subtitles.block.zinc.place": "Block placed",
-      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
+      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
+      "subtitles.block.zinc.place": "Block placed",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
       "subtitles.block.aluminum.step": "Footsteps",
-      "item.intech.galvanized_billet": "Galvanized Billet",
+      "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
       "block.intech.copper_pipe": "Copper Pipe",
+      "item.intech.galvanized_billet": "Galvanized Billet",
       "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "subtitles.block.aluminum.hit": "Block breaking",
       "subtitles.block.pipe.break": "Pipe Is Broken",
