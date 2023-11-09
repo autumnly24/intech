@@ -3279,6 +3279,160 @@
         ]
       },
       "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ChiseledCopperRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/chiseled_copper_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ExposedChiseledCopperRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_chiseled_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_chiseled_copper_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WeatheredChiseledCopperRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_chiseled_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_chiseled_copper_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "OxidizedChiseledCopperRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_chiseled_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_chiseled_copper_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedChiseledCopperRecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_chiseled_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_chiseled_copper_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedExposedChiseledCopperRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_exposed_chiseled_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_exposed_chiseled_copper_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedWeatheredChiseledCopperRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_chiseled_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_weathered_chiseled_copper_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedOxidizedChiseledCopperRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_chiseled_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_oxidized_chiseled_copper_recipe.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ChiseledCopperWaxing",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_copper_waxing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/chiseled_copper_waxing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ExposedChiseledCopperWaxing",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_chiseled_copper_waxing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_chiseled_copper_waxing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WeatheredChiseledCopperWaxing",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_chiseled_copper_waxing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_chiseled_copper_waxing.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
     }
   ],
   "variable_elements": [
