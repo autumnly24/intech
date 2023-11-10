@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "weathered_chiseled_copper",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "intech:exposed_chiseled_copper"
+    },
+    {
+      "tag": "intech:patina"
+    }
+  ],
+  "result": {
+    "item": "intech:weathered_chiseled_copper",
+    "count": 1
+  }
+}
