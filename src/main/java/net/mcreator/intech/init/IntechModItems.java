@@ -114,6 +114,7 @@ public class IntechModItems {
 	public static final RegistryObject<Item> LIT_LIGHTNING_BULB = block(IntechModBlocks.LIT_LIGHTNING_BULB);
 	public static final RegistryObject<Item> COPPER_DIODE = block(IntechModBlocks.COPPER_DIODE);
 	public static final RegistryObject<Item> ANCIENT_COIL = REGISTRY.register(IntechModBlocks.ANCIENT_COIL.getId().getPath(), () -> new AncientCoilDisplayItem(IntechModBlocks.ANCIENT_COIL.get(), new Item.Properties()));
+	public static final RegistryObject<Item> REINFORCED_LIGHTING_ROD = block(IntechModBlocks.REINFORCED_LIGHTING_ROD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

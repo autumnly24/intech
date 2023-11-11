@@ -38,6 +38,7 @@ public class IntechModTabs {
 				tabData.accept(IntechModBlocks.LIGHTNING_BULB.get().asItem());
 				tabData.accept(IntechModBlocks.COPPER_DIODE.get().asItem());
 				tabData.accept(IntechModBlocks.ANCIENT_COIL.get().asItem());
+				tabData.accept(IntechModBlocks.REINFORCED_LIGHTING_ROD.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

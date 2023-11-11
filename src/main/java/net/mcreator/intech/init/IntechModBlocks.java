@@ -33,6 +33,7 @@ import net.mcreator.intech.block.WaxedCopperGrateBlock;
 import net.mcreator.intech.block.WaxedChiseledCopperBlock;
 import net.mcreator.intech.block.ReinforcedWeatheredCopperSpleavesBlock;
 import net.mcreator.intech.block.ReinforcedOxidizedCopperSpleavesBlock;
+import net.mcreator.intech.block.ReinforcedLightingRodBlock;
 import net.mcreator.intech.block.ReinforcedExposedCopperSpleavesBlock;
 import net.mcreator.intech.block.ReinforcedDarkBrassBlock;
 import net.mcreator.intech.block.ReinforcedCopperSpleavesBlock;
@@ -174,4 +175,5 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> LIT_LIGHTNING_BULB = REGISTRY.register("lit_lightning_bulb", () -> new LitLightningBulbBlock());
 	public static final RegistryObject<Block> COPPER_DIODE = REGISTRY.register("copper_diode", () -> new CopperDiodeBlock());
 	public static final RegistryObject<Block> ANCIENT_COIL = REGISTRY.register("ancient_coil", () -> new AncientCoilBlock());
+	public static final RegistryObject<Block> REINFORCED_LIGHTING_ROD = REGISTRY.register("reinforced_lighting_rod", () -> new ReinforcedLightingRodBlock());
 }

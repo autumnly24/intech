@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.intech.block.entity.ZincBatteryBlockEntity;
 import net.mcreator.intech.block.entity.WeatheredCopperPipeBlockEntity;
+import net.mcreator.intech.block.entity.ReinforcedLightingRodBlockEntity;
 import net.mcreator.intech.block.entity.PulverizerBlockEntity;
 import net.mcreator.intech.block.entity.OxidizedCopperPipeBlockEntity;
 import net.mcreator.intech.block.entity.LitLightningBulbBlockEntity;
@@ -41,6 +42,7 @@ public class IntechModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> LIT_LIGHTNING_BULB = register("lit_lightning_bulb", IntechModBlocks.LIT_LIGHTNING_BULB, LitLightningBulbBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> COPPER_DIODE = register("copper_diode", IntechModBlocks.COPPER_DIODE, CopperDiodeBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<AncientCoilTileEntity>> ANCIENT_COIL = REGISTRY.register("ancient_coil", () -> BlockEntityType.Builder.of(AncientCoilTileEntity::new, IntechModBlocks.ANCIENT_COIL.get()).build(null));
+	public static final RegistryObject<BlockEntityType<?>> REINFORCED_LIGHTING_ROD = register("reinforced_lighting_rod", IntechModBlocks.REINFORCED_LIGHTING_ROD, ReinforcedLightingRodBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

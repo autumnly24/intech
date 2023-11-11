@@ -31,11 +31,13 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.intech.procedures.ReinforcedLightingRodEntityWalksOnTheBlockProcedure;
 import net.mcreator.intech.procedures.AncientCoilUpdateTickProcedure;
 import net.mcreator.intech.procedures.AncientCoilBlockDestroyedByPlayerProcedure;
 import net.mcreator.intech.init.IntechModBlockEntities;
@@ -149,5 +151,11 @@ public class AncientCoilBlock extends BaseEntityBlock implements SimpleWaterlogg
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
 		AncientCoilBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		ReinforcedLightingRodEntityWalksOnTheBlockProcedure.execute(entity);
 	}
 }
