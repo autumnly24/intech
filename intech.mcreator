@@ -1767,7 +1767,7 @@
           "src/main/resources/assets/intech/models/block/copper_mesh_side_alt.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "ExposedCopperMesh",
@@ -1788,7 +1788,7 @@
           "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "WeatheredCopperMesh",
@@ -1809,7 +1809,7 @@
           "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "OxidizedCopperMesh",
@@ -1830,7 +1830,7 @@
           "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_side_alt.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "LightningBulb",
@@ -1976,7 +1976,7 @@
           "src/main/resources/assets/intech/blockstates/waxed_exposed_copper_mesh.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "ExposedCopperGrateWaxing",
@@ -2214,7 +2214,7 @@
           "src/main/resources/assets/intech/models/item/waxed_weathered_copper_mesh.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "OxidizedCopperGrateRecipe",
@@ -2354,7 +2354,7 @@
           "src/main/resources/assets/intech/models/block/waxed_copper_mesh_side.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "WeatheredCopperSpleavesRecipe2",
@@ -2739,7 +2739,7 @@
           }
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "WaxedExposedCopperGrateRecipe",
@@ -2850,7 +2850,7 @@
           "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_mesh_noside.json"
         ]
       },
-      "path": "~/Decoration/Copper"
+      "path": "~/Decoration/Copper/Mesh"
     },
     {
       "name": "ExposedCopperSpleavesOxidizing",
@@ -3489,6 +3489,270 @@
         ]
       },
       "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ExposedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WeatheredChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "OxidizedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedExposedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_exposed_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_exposed_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedWeatheredChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_weathered_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedOxidizedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_oxidized_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "CopperMeshUpdateTick",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_mesh_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperMeshUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "ExposedCopperMeshUpdateTick",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_mesh_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ExposedCopperMeshUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "WeatheredCopperMeshUpdateTick",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_mesh_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/WeatheredCopperMeshUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "CopperMeshStonecut",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_mesh_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_mesh_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "ExposedCopperMeshStonecut",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_mesh_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_copper_mesh_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "WeatheredCopperMeshStonecut",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_mesh_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_mesh_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "OxidizedCopperMeshStonecut",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_copper_mesh_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_copper_mesh_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Mesh"
     }
   ],
   "variable_elements": [
@@ -3854,6 +4118,10 @@
               },
               {
                 "name": "Chiseled",
+                "children": []
+              },
+              {
+                "name": "Mesh",
                 "children": []
               }
             ]

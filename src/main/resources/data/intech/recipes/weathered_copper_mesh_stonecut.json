@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "weathered_copper_mesh",
+  "count": 8,
+  "ingredient": {
+    "item": "intech:reinforced_weathered_copper_spleaves"
+  },
+  "result": "intech:weathered_copper_mesh"
+}

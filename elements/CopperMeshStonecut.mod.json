@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 8,
+    "group": "copper_mesh",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:ReinforcedCopperSpleaves"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:CopperMesh"
+    },
+    "name": "copper_mesh_stonecut",
+    "namespace": "mod"
+  }
+}

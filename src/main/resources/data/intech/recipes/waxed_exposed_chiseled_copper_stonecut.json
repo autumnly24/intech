@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "waxed_exposed_chiseled_copper",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:waxed_exposed_copper"
+  },
+  "result": "intech:waxed_exposed_chiseled_copper"
+}

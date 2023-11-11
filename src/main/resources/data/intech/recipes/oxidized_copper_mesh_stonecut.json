@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "oxidized_copper_mesh",
+  "count": 8,
+  "ingredient": {
+    "item": "intech:reinforced_oxidized_copper_spleaves"
+  },
+  "result": "intech:oxidized_copper_mesh"
+}
