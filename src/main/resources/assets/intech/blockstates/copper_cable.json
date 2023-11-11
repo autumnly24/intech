@@ -1,16 +1,57 @@
 {
   "variants": {
-    "axis=x": {
+    "face=floor,facing=north": {
+      "model": "intech:block/copper_cable"
+    },
+    "face=floor,facing=east": {
+      "model": "intech:block/copper_cable",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "intech:block/copper_cable",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "intech:block/copper_cable",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "intech:block/copper_cable",
+      "x": 90
+    },
+    "face=wall,facing=east": {
       "model": "intech:block/copper_cable",
       "x": 90,
       "y": 90
     },
-    "axis=y": {
-      "model": "intech:block/copper_cable"
-    },
-    "axis=z": {
+    "face=wall,facing=south": {
       "model": "intech:block/copper_cable",
-      "x": 90
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "intech:block/copper_cable",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "intech:block/copper_cable",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "intech:block/copper_cable",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "intech:block/copper_cable",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "intech:block/copper_cable",
+      "x": 180,
+      "y": 90
     }
   }
 }

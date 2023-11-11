@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CopperCable"
+      },
+      {
+        "value": "CUSTOM:CopperDiode"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "intech_directional_power",
+    "namespace": "forge"
+  }
+}

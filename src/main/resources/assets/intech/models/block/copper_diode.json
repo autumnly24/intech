@@ -1,0 +1,9 @@
+{
+  "parent": "intech:custom/copper_diode",
+  "textures": {
+    "all": "intech:block/copper_diode",
+    "particle": "intech:block/copper_pipe_top",
+    "1": "intech:block/copper_diode"
+  },
+  "render_type": "solid"
+}

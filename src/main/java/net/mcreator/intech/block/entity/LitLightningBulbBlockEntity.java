@@ -1,21 +1,11 @@
 package net.mcreator.intech.block.entity;
 
-import software.bernie.geckolib.util.GeckoLibUtil;
-import software.bernie.geckolib.core.object.PlayState;
-import software.bernie.geckolib.core.animation.RawAnimation;
-import software.bernie.geckolib.core.animation.AnimationState;
-import software.bernie.geckolib.core.animation.AnimationController;
-import software.bernie.geckolib.core.animation.AnimatableManager;
-import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.animatable.GeoBlockEntity;
-
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.capabilities.Capability;
 
-import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.item.ItemStack;
@@ -37,45 +27,12 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-public class AncientCoilTileEntity extends RandomizableContainerBlockEntity implements GeoBlockEntity, WorldlyContainer {
-	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(0, ItemStack.EMPTY);
+public class LitLightningBulbBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
-	public AncientCoilTileEntity(BlockPos pos, BlockState state) {
-		super(IntechModBlockEntities.ANCIENT_COIL.get(), pos, state);
-	}
-
-	private PlayState predicate(AnimationState event) {
-		String animationprocedure = ("" + ((this.getBlockState()).getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _getip1 ? (this.getBlockState()).getValue(_getip1) : 0));
-		if (animationprocedure.equals("0")) {
-			return event.setAndContinue(RawAnimation.begin().thenLoop(animationprocedure));
-		}
-		return PlayState.STOP;
-	}
-
-	private PlayState procedurePredicate(AnimationState event) {
-		String animationprocedure = ("" + ((this.getBlockState()).getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _getip1 ? (this.getBlockState()).getValue(_getip1) : 0));
-		if (!(animationprocedure.equals("0")) && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-			event.getController().setAnimation(RawAnimation.begin().thenPlay(animationprocedure));
-			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-				if (this.getBlockState().getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _integerProp)
-					level.setBlock(this.getBlockPos(), this.getBlockState().setValue(_integerProp, 0), 3);
-				event.getController().forceAnimationReset();
-			}
-		}
-		return PlayState.CONTINUE;
-	}
-
-	@Override
-	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
-		data.add(new AnimationController<AncientCoilTileEntity>(this, "controller", 0, this::predicate));
-		data.add(new AnimationController<AncientCoilTileEntity>(this, "procedurecontroller", 0, this::procedurePredicate));
-	}
-
-	@Override
-	public AnimatableInstanceCache getAnimatableInstanceCache() {
-		return this.cache;
+	public LitLightningBulbBlockEntity(BlockPos position, BlockState state) {
+		super(IntechModBlockEntities.LIT_LIGHTNING_BULB.get(), position, state);
 	}
 
 	@Override
@@ -119,7 +76,7 @@ public class AncientCoilTileEntity extends RandomizableContainerBlockEntity impl
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("ancient_coil");
+		return Component.literal("lit_lightning_bulb");
 	}
 
 	@Override
@@ -134,7 +91,7 @@ public class AncientCoilTileEntity extends RandomizableContainerBlockEntity impl
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Ancient Coil");
+		return Component.literal("Lightning Bulb");
 	}
 
 	@Override

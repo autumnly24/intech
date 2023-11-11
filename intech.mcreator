@@ -1767,7 +1767,7 @@
           "src/main/resources/assets/intech/models/block/copper_mesh_side_alt.json"
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ExposedCopperMesh",
@@ -1788,7 +1788,7 @@
           "src/main/resources/assets/intech/models/block/exposed_copper_mesh_noside.json"
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WeatheredCopperMesh",
@@ -1809,7 +1809,7 @@
           "src/main/resources/assets/intech/models/block/weathered_copper_mesh_noside.json"
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "OxidizedCopperMesh",
@@ -1830,7 +1830,7 @@
           "src/main/resources/assets/intech/models/block/oxidized_copper_mesh_side_alt.json"
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "LightningBulb",
@@ -1976,7 +1976,7 @@
           "src/main/resources/assets/intech/blockstates/waxed_exposed_copper_mesh.json"
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ExposedCopperGrateWaxing",
@@ -2214,7 +2214,7 @@
           "src/main/resources/assets/intech/models/item/waxed_weathered_copper_mesh.json"
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "OxidizedCopperGrateRecipe",
@@ -2354,7 +2354,7 @@
           "src/main/resources/assets/intech/models/block/waxed_copper_mesh_side.json"
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WeatheredCopperSpleavesRecipe2",
@@ -2538,29 +2538,6 @@
       "path": "~/Decoration/Copper/Spleaves"
     },
     {
-      "name": "AncientCoil",
-      "type": "animatedblock",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ancient_coil",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/intech/block/model/AncientCoilDisplayModel.java",
-          "src/main/java/net/mcreator/intech/block/renderer/AncientCoilDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/intech/block/model/AncientCoilBlockModel.java",
-          "src/main/resources/assets/intech/blockstates/ancient_coil.json",
-          "src/main/java/net/mcreator/intech/block/AncientCoilBlock.java",
-          "src/main/java/net/mcreator/intech/block/entity/AncientCoilTileEntity.java",
-          "src/main/java/net/mcreator/intech/block/display/AncientCoilDisplayItem.java",
-          "src/main/resources/assets/intech/models/custom/ancient_coil_particle.json",
-          "src/main/java/net/mcreator/intech/block/renderer/AncientCoilTileRenderer.java",
-          "src/main/resources/assets/intech/models/item/ancient_coil.json"
-        ]
-      },
-      "path": "~/Power"
-    },
-    {
       "name": "AluminumDoorRecipe",
       "type": "recipe",
       "sortid": 157,
@@ -2739,7 +2716,7 @@
           }
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "WaxedExposedCopperGrateRecipe",
@@ -2850,7 +2827,7 @@
           "src/main/resources/assets/intech/models/block/waxed_oxidized_copper_mesh_noside.json"
         ]
       },
-      "path": "~/Decoration/Copper/Mesh"
+      "path": "~/Decoration/Copper"
     },
     {
       "name": "ExposedCopperSpleavesOxidizing",
@@ -3491,34 +3468,6 @@
       "path": "~/Decoration/Copper/Chiseled"
     },
     {
-      "name": "ChiseledCopperStonecut",
-      "type": "recipe",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chiseled_copper_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/chiseled_copper_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Chiseled"
-    },
-    {
-      "name": "ExposedChiseledCopperStonecut",
-      "type": "recipe",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exposed_chiseled_copper_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/exposed_chiseled_copper_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Chiseled"
-    },
-    {
       "name": "WeatheredChiseledCopperStonecut",
       "type": "recipe",
       "sortid": 205,
@@ -3528,76 +3477,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/intech/recipes/weathered_chiseled_copper_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Chiseled"
-    },
-    {
-      "name": "OxidizedChiseledCopperStonecut",
-      "type": "recipe",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "oxidized_chiseled_copper_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/oxidized_chiseled_copper_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Chiseled"
-    },
-    {
-      "name": "WaxedChiseledCopperStonecut",
-      "type": "recipe",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_chiseled_copper_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/waxed_chiseled_copper_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Chiseled"
-    },
-    {
-      "name": "WaxedExposedChiseledCopperStonecut",
-      "type": "recipe",
-      "sortid": 208,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_exposed_chiseled_copper_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/waxed_exposed_chiseled_copper_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Chiseled"
-    },
-    {
-      "name": "WaxedWeatheredChiseledCopperStonecut",
-      "type": "recipe",
-      "sortid": 209,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_weathered_chiseled_copper_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/waxed_weathered_chiseled_copper_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Chiseled"
-    },
-    {
-      "name": "WaxedOxidizedChiseledCopperStonecut",
-      "type": "recipe",
-      "sortid": 210,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_oxidized_chiseled_copper_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/waxed_oxidized_chiseled_copper_stonecut.json"
         ]
       },
       "path": "~/Decoration/Copper/Chiseled"
@@ -3635,33 +3514,57 @@
       "path": "~/Decoration/Copper/Mesh"
     },
     {
-      "name": "ExposedCopperMeshUpdateTick",
-      "type": "procedure",
-      "sortid": 212,
+      "name": "WaxedWeatheredChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "exposed_copper_mesh_update_tick",
+      "registry_name": "waxed_weathered_chiseled_copper_stonecut",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/procedures/ExposedCopperMeshUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/data/intech/recipes/waxed_weathered_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WaxedOxidizedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/waxed_oxidized_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "CopperMeshStonecut",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_mesh_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/copper_mesh_stonecut.json"
         ]
       },
       "path": "~/Decoration/Copper/Mesh"
@@ -3699,18 +3602,78 @@
       "path": "~/Decoration/Copper/Mesh"
     },
     {
-      "name": "CopperMeshStonecut",
+      "name": "WaxedExposedChiseledCopperStonecut",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "copper_mesh_stonecut",
+      "registry_name": "waxed_exposed_chiseled_copper_stonecut",
       "metadata": {
         "files": [
-          "src/main/resources/data/intech/recipes/copper_mesh_stonecut.json"
+          "src/main/resources/data/intech/recipes/waxed_exposed_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "ExposedCopperMeshUpdateTick",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_copper_mesh_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ExposedCopperMeshUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "ExposedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposed_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/exposed_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
     },
     {
       "name": "ExposedCopperMeshStonecut",
@@ -3722,20 +3685,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/intech/recipes/exposed_copper_mesh_stonecut.json"
-        ]
-      },
-      "path": "~/Decoration/Copper/Mesh"
-    },
-    {
-      "name": "WeatheredCopperMeshStonecut",
-      "type": "recipe",
-      "sortid": 216,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "weathered_copper_mesh_stonecut",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/weathered_copper_mesh_stonecut.json"
         ]
       },
       "path": "~/Decoration/Copper/Mesh"
@@ -3753,6 +3702,478 @@
         ]
       },
       "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "OxidizedChiseledCopperStonecut",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_chiseled_copper_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/oxidized_chiseled_copper_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Chiseled"
+    },
+    {
+      "name": "WeatheredCopperMeshStonecut",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_copper_mesh_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/weathered_copper_mesh_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Copper/Mesh"
+    },
+    {
+      "name": "CopperDiodeRedstoneOn",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_diode_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperDiodeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "LightningBulbUpdateTick",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_bulb_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/LightningBulbUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "LitLightningBulbUpdateTick",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_lightning_bulb_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/LitLightningBulbUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "LitLightningBulbBlockAdded",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_lightning_bulb_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/LitLightningBulbBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "CopperJunctionOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_junction_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperJunctionOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "CopperDiode",
+      "type": "block",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_diode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/CopperDiodeBlock.java",
+          "src/main/resources/assets/intech/models/item/copper_diode.json",
+          "src/main/resources/assets/intech/models/block/copper_diode.json",
+          "src/main/resources/assets/intech/blockstates/copper_diode.json",
+          "src/main/java/net/mcreator/intech/block/entity/CopperDiodeBlockEntity.java"
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "Powerable",
+      "type": "tag",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/intechpowerable.json"
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "Intechmachines",
+      "type": "tag",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intechmachines",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/intechmachines.json"
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "CopperJunctionOnBlockHitByProjectile",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_junction_on_block_hit_by_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperJunctionOnBlockHitByProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "CopperCableUpdateTick",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_cable_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperCableUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "CopperJunctionUpdateTick",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_junction_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperJunctionUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "CopperDiodeUpdateTick",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_diode_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperDiodeUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "CopperDiodeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_diode_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperDiodeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "CopperDiodeBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_diode_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/CopperDiodeBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "PlaceholderPowerBlockBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placeholder_power_block_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/PlaceholderPowerBlockBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "IntechDirectionalPower",
+      "type": "tag",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intech_directional_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/intech_directional_power.json"
+        ]
+      },
+      "path": "~/Power"
     }
   ],
   "variable_elements": [
@@ -3995,14 +4416,14 @@
       "block.intech.weathered_copper_grate": "Weathered Copper Grate",
       "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
-      "subtitles.block.zinc.place": "Block placed",
-      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
+      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
+      "subtitles.block.zinc.place": "Block placed",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
       "subtitles.block.aluminum.step": "Footsteps",
-      "item.intech.galvanized_billet": "Galvanized Billet",
+      "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
       "block.intech.copper_pipe": "Copper Pipe",
+      "item.intech.galvanized_billet": "Galvanized Billet",
       "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "subtitles.block.aluminum.hit": "Block breaking",
       "subtitles.block.pipe.break": "Pipe Is Broken",
@@ -4109,6 +4530,10 @@
             "name": "Copper",
             "children": [
               {
+                "name": "Mesh",
+                "children": []
+              },
+              {
                 "name": "Spleaves",
                 "children": []
               },
@@ -4118,10 +4543,6 @@
               },
               {
                 "name": "Chiseled",
-                "children": []
-              },
-              {
-                "name": "Mesh",
                 "children": []
               }
             ]

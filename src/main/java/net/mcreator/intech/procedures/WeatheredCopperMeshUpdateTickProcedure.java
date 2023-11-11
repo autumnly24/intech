@@ -1,15 +1,8 @@
 package net.mcreator.intech.procedures;
 
-import net.minecraft.world.level.block.state.properties.Property;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
-import net.minecraft.core.BlockPos;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.intech.init.IntechModBlocks;
-
-import java.util.Map;
+import javax.annotation.Nullable;
 
 public class WeatheredCopperMeshUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
