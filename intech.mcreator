@@ -1862,7 +1862,8 @@
           "src/main/resources/assets/intech/models/block/lit_lightning_bulb.json",
           "src/main/resources/assets/intech/models/item/lit_lightning_bulb.json",
           "src/main/java/net/mcreator/intech/block/LitLightningBulbBlock.java",
-          "src/main/resources/assets/intech/blockstates/lit_lightning_bulb.json"
+          "src/main/resources/assets/intech/blockstates/lit_lightning_bulb.json",
+          "src/main/java/net/mcreator/intech/block/entity/LitLightningBulbBlockEntity.java"
         ]
       },
       "path": "~/Power"
@@ -1922,6 +1923,7 @@
         "files": [
           "src/main/java/net/mcreator/intech/block/ZincBatteryBlock.java",
           "src/main/resources/assets/intech/models/block/zinc_battery.json",
+          "src/main/java/net/mcreator/intech/block/entity/ZincBatteryBlockEntity.java",
           "src/main/resources/assets/intech/models/item/zinc_battery.json",
           "src/main/resources/assets/intech/blockstates/zinc_battery.json"
         ]
@@ -4416,14 +4418,14 @@
       "block.intech.weathered_copper_grate": "Weathered Copper Grate",
       "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
-      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
-      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "subtitles.block.zinc.place": "Block placed",
+      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
+      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "subtitles.block.aluminum.step": "Footsteps",
       "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
-      "block.intech.copper_pipe": "Copper Pipe",
+      "subtitles.block.aluminum.step": "Footsteps",
       "item.intech.galvanized_billet": "Galvanized Billet",
+      "block.intech.copper_pipe": "Copper Pipe",
       "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "subtitles.block.aluminum.hit": "Block breaking",
       "subtitles.block.pipe.break": "Pipe Is Broken",
@@ -4489,6 +4491,7 @@
       "block.intech.raw_aluminum_block": "Raw Aluminum Block",
       "block.intech.waxed_copper_grate": "Copper Grate",
       "block.intech.polished_tuff_bricks": "Polished Tuff Bricks",
+      "block.intech.copper_diode": "Copper Diode",
       "block.intech.polished_bauxite_bricks": "Polished Bauxite Bricks",
       "subtitles.block.aluminum.place": "Block placed",
       "block.intech.waxed_oxidized_chiseled_copper": "Waxed Oxidized Chiseled Copper",
