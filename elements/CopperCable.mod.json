@@ -10,8 +10,8 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "coppercablerenewed:default",
-    "rotationMode": 5,
-    "enablePitch": false,
+    "rotationMode": 3,
+    "enablePitch": true,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -74,7 +74,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 0,
+    "tickRate": 2,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -135,6 +135,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "CopperCableUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

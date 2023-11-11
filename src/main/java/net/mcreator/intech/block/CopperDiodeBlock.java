@@ -24,6 +24,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
 import net.minecraft.util.RandomSource;
@@ -31,17 +32,19 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.intech.procedures.CopperCableUpdateTickProcedure;
-import net.mcreator.intech.block.entity.CopperCableBlockEntity;
+import net.mcreator.intech.procedures.CopperDiodeUpdateTickProcedure;
+import net.mcreator.intech.procedures.CopperDiodeRedstoneOnProcedure;
+import net.mcreator.intech.procedures.CopperDiodeBlockIsPlacedByProcedure;
+import net.mcreator.intech.block.entity.CopperDiodeBlockEntity;
 
 import java.util.List;
 import java.util.Collections;
 
-public class CopperCableBlock extends Block implements EntityBlock {
+public class CopperDiodeBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final EnumProperty<AttachFace> FACE = FaceAttachedHorizontalDirectionalBlock.FACE;
 
-	public CopperCableBlock() {
+	public CopperDiodeBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL));
 	}
@@ -65,24 +68,24 @@ public class CopperCableBlock extends Block implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 14, 5, 11, 16, 11), box(5, 0, 5, 11, 2, 11));
-				case WALL -> Shapes.or(box(6, 6, 2, 10, 10, 14), box(5, 5, 14, 11, 11, 16), box(5, 5, 0, 11, 11, 2));
-				case CEILING -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 0, 5, 11, 2, 11), box(5, 14, 5, 11, 16, 11));
+				case FLOOR -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 14, 5, 11, 16, 11), box(5, 0, 5, 11, 2, 11), box(5, 6, 5, 11, 10, 11));
+				case WALL -> Shapes.or(box(6, 6, 2, 10, 10, 14), box(5, 5, 14, 11, 11, 16), box(5, 5, 0, 11, 11, 2), box(5, 5, 6, 11, 11, 10));
+				case CEILING -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 0, 5, 11, 2, 11), box(5, 14, 5, 11, 16, 11), box(5, 6, 5, 11, 10, 11));
 			};
 			case NORTH -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 14, 5, 11, 16, 11), box(5, 0, 5, 11, 2, 11));
-				case WALL -> Shapes.or(box(6, 6, 2, 10, 10, 14), box(5, 5, 0, 11, 11, 2), box(5, 5, 14, 11, 11, 16));
-				case CEILING -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 0, 5, 11, 2, 11), box(5, 14, 5, 11, 16, 11));
+				case FLOOR -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 14, 5, 11, 16, 11), box(5, 0, 5, 11, 2, 11), box(5, 6, 5, 11, 10, 11));
+				case WALL -> Shapes.or(box(6, 6, 2, 10, 10, 14), box(5, 5, 0, 11, 11, 2), box(5, 5, 14, 11, 11, 16), box(5, 5, 6, 11, 11, 10));
+				case CEILING -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 0, 5, 11, 2, 11), box(5, 14, 5, 11, 16, 11), box(5, 6, 5, 11, 10, 11));
 			};
 			case EAST -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 14, 5, 11, 16, 11), box(5, 0, 5, 11, 2, 11));
-				case WALL -> Shapes.or(box(2, 6, 6, 14, 10, 10), box(14, 5, 5, 16, 11, 11), box(0, 5, 5, 2, 11, 11));
-				case CEILING -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 0, 5, 11, 2, 11), box(5, 14, 5, 11, 16, 11));
+				case FLOOR -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 14, 5, 11, 16, 11), box(5, 0, 5, 11, 2, 11), box(5, 6, 5, 11, 10, 11));
+				case WALL -> Shapes.or(box(2, 6, 6, 14, 10, 10), box(14, 5, 5, 16, 11, 11), box(0, 5, 5, 2, 11, 11), box(6, 5, 5, 10, 11, 11));
+				case CEILING -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 0, 5, 11, 2, 11), box(5, 14, 5, 11, 16, 11), box(5, 6, 5, 11, 10, 11));
 			};
 			case WEST -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 14, 5, 11, 16, 11), box(5, 0, 5, 11, 2, 11));
-				case WALL -> Shapes.or(box(2, 6, 6, 14, 10, 10), box(0, 5, 5, 2, 11, 11), box(14, 5, 5, 16, 11, 11));
-				case CEILING -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 0, 5, 11, 2, 11), box(5, 14, 5, 11, 16, 11));
+				case FLOOR -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 14, 5, 11, 16, 11), box(5, 0, 5, 11, 2, 11), box(5, 6, 5, 11, 10, 11));
+				case WALL -> Shapes.or(box(2, 6, 6, 14, 10, 10), box(0, 5, 5, 2, 11, 11), box(14, 5, 5, 16, 11, 11), box(6, 5, 5, 10, 11, 11));
+				case CEILING -> Shapes.or(box(6, 2, 6, 10, 14, 10), box(5, 0, 5, 11, 2, 11), box(5, 14, 5, 11, 16, 11), box(5, 6, 5, 11, 10, 11));
 			};
 		};
 	}
@@ -118,7 +121,17 @@ public class CopperCableBlock extends Block implements EntityBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 2);
+		world.scheduleTick(pos, this, 1);
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		if (world.getBestNeighborSignal(pos) > 0) {
+			CopperDiodeRedstoneOnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		} else {
+			CopperDiodeBlockIsPlacedByProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
 	}
 
 	@Override
@@ -127,8 +140,14 @@ public class CopperCableBlock extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		CopperCableUpdateTickProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 2);
+		CopperDiodeUpdateTickProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 1);
+	}
+
+	@Override
+	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
+		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
+		CopperDiodeBlockIsPlacedByProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
@@ -139,7 +158,7 @@ public class CopperCableBlock extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new CopperCableBlockEntity(pos, state);
+		return new CopperDiodeBlockEntity(pos, state);
 	}
 
 	@Override
@@ -153,7 +172,7 @@ public class CopperCableBlock extends Block implements EntityBlock {
 	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if (state.getBlock() != newState.getBlock()) {
 			BlockEntity blockEntity = world.getBlockEntity(pos);
-			if (blockEntity instanceof CopperCableBlockEntity be) {
+			if (blockEntity instanceof CopperDiodeBlockEntity be) {
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
@@ -169,7 +188,7 @@ public class CopperCableBlock extends Block implements EntityBlock {
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof CopperCableBlockEntity be)
+		if (tileentity instanceof CopperDiodeBlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
