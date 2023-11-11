@@ -4176,6 +4176,29 @@
         ]
       },
       "path": "~/Power"
+    },
+    {
+      "name": "AncientCoil",
+      "type": "animatedblock",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_coil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/model/AncientCoilDisplayModel.java",
+          "src/main/java/net/mcreator/intech/block/renderer/AncientCoilDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/intech/block/model/AncientCoilBlockModel.java",
+          "src/main/resources/assets/intech/blockstates/ancient_coil.json",
+          "src/main/java/net/mcreator/intech/block/AncientCoilBlock.java",
+          "src/main/java/net/mcreator/intech/block/entity/AncientCoilTileEntity.java",
+          "src/main/java/net/mcreator/intech/block/display/AncientCoilDisplayItem.java",
+          "src/main/resources/assets/intech/models/custom/ancient_coil_particle.json",
+          "src/main/java/net/mcreator/intech/block/renderer/AncientCoilTileRenderer.java",
+          "src/main/resources/assets/intech/models/item/ancient_coil.json"
+        ]
+      },
+      "path": "~/Power"
     }
   ],
   "variable_elements": [

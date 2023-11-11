@@ -37,6 +37,7 @@ public class IntechModTabs {
 				tabData.accept(IntechModBlocks.ZINC_BATTERY.get().asItem());
 				tabData.accept(IntechModBlocks.LIGHTNING_BULB.get().asItem());
 				tabData.accept(IntechModBlocks.COPPER_DIODE.get().asItem());
+				tabData.accept(IntechModBlocks.ANCIENT_COIL.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

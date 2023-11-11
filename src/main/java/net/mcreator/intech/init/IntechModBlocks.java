@@ -83,6 +83,7 @@ import net.mcreator.intech.block.BauxiteSlabBlock;
 import net.mcreator.intech.block.BauxitePressurePlateBlock;
 import net.mcreator.intech.block.BauxiteButtonBlock;
 import net.mcreator.intech.block.BauxiteBlock;
+import net.mcreator.intech.block.AncientCoilBlock;
 import net.mcreator.intech.block.AluminumTilesBlock;
 import net.mcreator.intech.block.AluminumTileStairsBlock;
 import net.mcreator.intech.block.AluminumTileSlabBlock;
@@ -172,4 +173,5 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> DEEPSLATE_ZINC_ORE = REGISTRY.register("deepslate_zinc_ore", () -> new DeepslateZincOreBlock());
 	public static final RegistryObject<Block> LIT_LIGHTNING_BULB = REGISTRY.register("lit_lightning_bulb", () -> new LitLightningBulbBlock());
 	public static final RegistryObject<Block> COPPER_DIODE = REGISTRY.register("copper_diode", () -> new CopperDiodeBlock());
+	public static final RegistryObject<Block> ANCIENT_COIL = REGISTRY.register("ancient_coil", () -> new AncientCoilBlock());
 }

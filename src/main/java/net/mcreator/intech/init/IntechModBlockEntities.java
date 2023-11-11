@@ -23,6 +23,7 @@ import net.mcreator.intech.block.entity.CopperPipeBlockEntity;
 import net.mcreator.intech.block.entity.CopperJunctionBlockEntity;
 import net.mcreator.intech.block.entity.CopperDiodeBlockEntity;
 import net.mcreator.intech.block.entity.CopperCableBlockEntity;
+import net.mcreator.intech.block.entity.AncientCoilTileEntity;
 import net.mcreator.intech.IntechMod;
 
 public class IntechModBlockEntities {
@@ -39,6 +40,7 @@ public class IntechModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> LIGHTNING_BULB = register("lightning_bulb", IntechModBlocks.LIGHTNING_BULB, LightningBulbBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LIT_LIGHTNING_BULB = register("lit_lightning_bulb", IntechModBlocks.LIT_LIGHTNING_BULB, LitLightningBulbBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> COPPER_DIODE = register("copper_diode", IntechModBlocks.COPPER_DIODE, CopperDiodeBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<AncientCoilTileEntity>> ANCIENT_COIL = REGISTRY.register("ancient_coil", () -> BlockEntityType.Builder.of(AncientCoilTileEntity::new, IntechModBlocks.ANCIENT_COIL.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
