@@ -20,6 +20,7 @@ import net.mcreator.intech.item.MusicDiscJunctionJamItem;
 import net.mcreator.intech.item.GalvanizedBilletItem;
 import net.mcreator.intech.item.DiscFragmentJunctionJamItem;
 import net.mcreator.intech.item.DarkBrassIngotItem;
+import net.mcreator.intech.item.ChargeSensorItem;
 import net.mcreator.intech.item.AluminumIngotItem;
 import net.mcreator.intech.block.display.AncientCoilDisplayItem;
 import net.mcreator.intech.IntechMod;
@@ -115,6 +116,7 @@ public class IntechModItems {
 	public static final RegistryObject<Item> COPPER_DIODE = block(IntechModBlocks.COPPER_DIODE);
 	public static final RegistryObject<Item> ANCIENT_COIL = REGISTRY.register(IntechModBlocks.ANCIENT_COIL.getId().getPath(), () -> new AncientCoilDisplayItem(IntechModBlocks.ANCIENT_COIL.get(), new Item.Properties()));
 	public static final RegistryObject<Item> REINFORCED_LIGHTING_ROD = block(IntechModBlocks.REINFORCED_LIGHTING_ROD);
+	public static final RegistryObject<Item> CHARGE_SENSOR = REGISTRY.register("charge_sensor", () -> new ChargeSensorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -4186,15 +4186,15 @@
       "registry_name": "ancient_coil",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/renderer/AncientCoilTileRenderer.java",
+          "src/main/java/net/mcreator/intech/block/model/AncientCoilDisplayModel.java",
           "src/main/java/net/mcreator/intech/block/renderer/AncientCoilDisplayItemRenderer.java",
-          "src/main/resources/assets/intech/models/custom/ancient_coil_particle.json",
-          "src/main/java/net/mcreator/intech/block/display/AncientCoilDisplayItem.java",
+          "src/main/java/net/mcreator/intech/block/model/AncientCoilBlockModel.java",
           "src/main/resources/assets/intech/blockstates/ancient_coil.json",
           "src/main/java/net/mcreator/intech/block/AncientCoilBlock.java",
-          "src/main/java/net/mcreator/intech/block/model/AncientCoilDisplayModel.java",
-          "src/main/java/net/mcreator/intech/block/model/AncientCoilBlockModel.java",
           "src/main/java/net/mcreator/intech/block/entity/AncientCoilTileEntity.java",
+          "src/main/java/net/mcreator/intech/block/display/AncientCoilDisplayItem.java",
+          "src/main/resources/assets/intech/models/custom/ancient_coil_particle.json",
+          "src/main/java/net/mcreator/intech/block/renderer/AncientCoilTileRenderer.java",
           "src/main/resources/assets/intech/models/item/ancient_coil.json"
         ]
       },
@@ -4209,11 +4209,11 @@
       "registry_name": "reinforced_lighting_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/ReinforcedLightingRodBlock.java",
-          "src/main/resources/assets/intech/models/block/reinforced_lighting_rod.json",
-          "src/main/java/net/mcreator/intech/block/entity/ReinforcedLightingRodBlockEntity.java",
           "src/main/resources/assets/intech/models/item/reinforced_lighting_rod.json",
-          "src/main/resources/assets/intech/blockstates/reinforced_lighting_rod.json"
+          "src/main/resources/assets/intech/blockstates/reinforced_lighting_rod.json",
+          "src/main/java/net/mcreator/intech/block/entity/ReinforcedLightingRodBlockEntity.java",
+          "src/main/resources/assets/intech/models/block/reinforced_lighting_rod.json",
+          "src/main/java/net/mcreator/intech/block/ReinforcedLightingRodBlock.java"
         ]
       },
       "path": "~/Power"
@@ -4265,6 +4265,57 @@
           {
             "name": "entity",
             "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "ChargeSensor",
+      "type": "item",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charge_sensor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/item/ChargeSensorItem.java",
+          "src/main/resources/assets/intech/models/item/charge_sensor.json"
+        ]
+      },
+      "path": "~/Power"
+    },
+    {
+      "name": "ChargeSensorRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charge_sensor_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/procedures/ChargeSensorRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -4512,14 +4563,14 @@
       "block.intech.weathered_copper_grate": "Weathered Copper Grate",
       "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
-      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
-      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "subtitles.block.zinc.place": "Block placed",
+      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
+      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "subtitles.block.aluminum.step": "Footsteps",
       "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
-      "block.intech.copper_pipe": "Copper Pipe",
+      "subtitles.block.aluminum.step": "Footsteps",
       "item.intech.galvanized_billet": "Galvanized Billet",
+      "block.intech.copper_pipe": "Copper Pipe",
       "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "subtitles.block.aluminum.hit": "Block breaking",
       "subtitles.block.pipe.break": "Pipe Is Broken",
@@ -4556,6 +4607,7 @@
       "subtitles.block.aluminum.break": "Block broken",
       "block.intech.polished_tuff_brick_wall": "Polished Tuff Brick Wall",
       "block.intech.ancient_coil": "Ancient Coil",
+      "item.intech.charge_sensor": "Charge Sensor",
       "block.intech.polished_bauxite_brick_slab": "Polished Bauxite Brick Slab",
       "item.intech.disc_fragment_junction_jam": "Disc Fragment",
       "block.intech.exposed_copper_spleaves": "Exposed Copper Spleaves",
