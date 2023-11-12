@@ -20,6 +20,15 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
+		if (!world.isClientSide()) {
+			BlockPos _bp = BlockPos.containing(x, y, z);
+			BlockEntity _blockEntity = world.getBlockEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_blockEntity != null)
+				_blockEntity.getPersistentData().putDouble("intechrods", 0);
+			if (world instanceof Level _level)
+				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+		}
 		sx = -3;
 		found = false;
 		for (int index0 = 0; index0 < 6; index0++) {
@@ -29,6 +38,22 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 				for (int index2 = 0; index2 < 6; index2++) {
 					if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == IntechModBlocks.ANCIENT_COIL.get()) {
 						found = true;
+						if (!world.isClientSide()) {
+							BlockPos _bp = BlockPos.containing(x, y, z);
+							BlockEntity _blockEntity = world.getBlockEntity(_bp);
+							BlockState _bs = world.getBlockState(_bp);
+							if (_blockEntity != null)
+								_blockEntity.getPersistentData().putDouble("intechrods", (new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods") + 1));
+							if (world instanceof Level _level)
+								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+						}
 					}
 					sz = sz + 1;
 				}
@@ -49,7 +74,30 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 								return blockEntity.getPersistentData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, BlockPos.containing(x, y, z), "energy") + 1));
+					}.getValue(world, BlockPos.containing(x, y, z), "energy") + (new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, BlockPos.containing(x, y, z), "intechrods")) * 3));
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putDouble("intechrods", ((new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, BlockPos.containing(x, y, z), "intechrods")) * 3));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -67,7 +115,7 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH
-				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep7 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep7).toString() : "")
+				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep13 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep13).toString() : "")
 						.equals("WALL")
 				|| (new Object() {
 					public Direction getDirection(BlockPos pos) {
@@ -81,8 +129,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 							return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(BlockPos.containing(x, y, z))) == Direction.SOUTH && ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep11
-						? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep11).toString()
+				}.getDirection(BlockPos.containing(x, y, z))) == Direction.SOUTH && ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep17
+						? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep17).toString()
 						: "").equals("WALL")) {
 			if ((world.getBlockState(BlockPos.containing(x, y, z - 1))).is(BlockTags.create(new ResourceLocation("forge:intechpowerable"))) && new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
@@ -127,8 +175,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 									return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 								return Direction.NORTH;
 							}
-						}.getDirection(BlockPos.containing(x, y, z - 1))) == Direction.NORTH && ((world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep23
-								? (world.getBlockState(BlockPos.containing(x, y, z - 1))).getValue(_getep23).toString()
+						}.getDirection(BlockPos.containing(x, y, z - 1))) == Direction.NORTH && ((world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep29
+								? (world.getBlockState(BlockPos.containing(x, y, z - 1))).getValue(_getep29).toString()
 								: "").equals("WALL") || (new Object() {
 									public Direction getDirection(BlockPos pos) {
 										BlockState _bs = world.getBlockState(pos);
@@ -141,8 +189,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 										return Direction.NORTH;
 									}
-								}.getDirection(BlockPos.containing(x, y, z - 1))) == Direction.SOUTH && ((world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep27
-										? (world.getBlockState(BlockPos.containing(x, y, z - 1))).getValue(_getep27).toString()
+								}.getDirection(BlockPos.containing(x, y, z - 1))) == Direction.SOUTH && ((world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep33
+										? (world.getBlockState(BlockPos.containing(x, y, z - 1))).getValue(_getep33).toString()
 										: "").equals("WALL")) {
 							if (!world.isClientSide()) {
 								BlockPos _bp = BlockPos.containing(x, y, z - 1);
@@ -156,7 +204,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y, z - 1), "energy") + 1));
+									}.getValue(world, BlockPos.containing(x, y, z - 1), "energy") + new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -172,7 +227,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -190,7 +252,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z - 1), "energy") + 1));
+								}.getValue(world, BlockPos.containing(x, y, z - 1), "energy") + new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -206,7 +275,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -256,8 +332,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 									return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 								return Direction.NORTH;
 							}
-						}.getDirection(BlockPos.containing(x, y, z + 1))) == Direction.NORTH && ((world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep47
-								? (world.getBlockState(BlockPos.containing(x, y, z + 1))).getValue(_getep47).toString()
+						}.getDirection(BlockPos.containing(x, y, z + 1))) == Direction.NORTH && ((world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep57
+								? (world.getBlockState(BlockPos.containing(x, y, z + 1))).getValue(_getep57).toString()
 								: "").equals("WALL") || (new Object() {
 									public Direction getDirection(BlockPos pos) {
 										BlockState _bs = world.getBlockState(pos);
@@ -270,8 +346,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 										return Direction.NORTH;
 									}
-								}.getDirection(BlockPos.containing(x, y, z + 1))) == Direction.SOUTH && ((world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep51
-										? (world.getBlockState(BlockPos.containing(x, y, z + 1))).getValue(_getep51).toString()
+								}.getDirection(BlockPos.containing(x, y, z + 1))) == Direction.SOUTH && ((world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep61
+										? (world.getBlockState(BlockPos.containing(x, y, z + 1))).getValue(_getep61).toString()
 										: "").equals("WALL")) {
 							if (!world.isClientSide()) {
 								BlockPos _bp = BlockPos.containing(x, y, z + 1);
@@ -285,7 +361,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y, z + 1), "energy") + 1));
+									}.getValue(world, BlockPos.containing(x, y, z + 1), "energy") + new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -301,7 +384,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -319,7 +409,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z + 1), "energy") + 1));
+								}.getValue(world, BlockPos.containing(x, y, z + 1), "energy") + new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -335,7 +432,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -355,7 +459,7 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.EAST
-				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep63 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep63).toString() : "")
+				&& ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep77 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep77).toString() : "")
 						.equals("WALL")
 				|| (new Object() {
 					public Direction getDirection(BlockPos pos) {
@@ -369,8 +473,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 							return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST && ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep67
-						? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep67).toString()
+				}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST && ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep81
+						? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep81).toString()
 						: "").equals("WALL")) {
 			if ((world.getBlockState(BlockPos.containing(x - 1, y, z))).is(BlockTags.create(new ResourceLocation("forge:intechpowerable"))) && new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
@@ -415,8 +519,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 									return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 								return Direction.NORTH;
 							}
-						}.getDirection(BlockPos.containing(x - 1, y, z))) == Direction.WEST && ((world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep79
-								? (world.getBlockState(BlockPos.containing(x - 1, y, z))).getValue(_getep79).toString()
+						}.getDirection(BlockPos.containing(x - 1, y, z))) == Direction.WEST && ((world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep93
+								? (world.getBlockState(BlockPos.containing(x - 1, y, z))).getValue(_getep93).toString()
 								: "").equals("WALL") || (new Object() {
 									public Direction getDirection(BlockPos pos) {
 										BlockState _bs = world.getBlockState(pos);
@@ -429,8 +533,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 										return Direction.NORTH;
 									}
-								}.getDirection(BlockPos.containing(x - 1, y, z))) == Direction.EAST && ((world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep83
-										? (world.getBlockState(BlockPos.containing(x - 1, y, z))).getValue(_getep83).toString()
+								}.getDirection(BlockPos.containing(x - 1, y, z))) == Direction.EAST && ((world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep97
+										? (world.getBlockState(BlockPos.containing(x - 1, y, z))).getValue(_getep97).toString()
 										: "").equals("WALL")) {
 							if (!world.isClientSide()) {
 								BlockPos _bp = BlockPos.containing(x - 1, y, z);
@@ -444,7 +548,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x - 1, y, z), "energy") + 1));
+									}.getValue(world, BlockPos.containing(x - 1, y, z), "energy") + new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -460,7 +571,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -478,7 +596,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x - 1, y, z), "energy") + 1));
+								}.getValue(world, BlockPos.containing(x - 1, y, z), "energy") + new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -494,7 +619,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -544,8 +676,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 									return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 								return Direction.NORTH;
 							}
-						}.getDirection(BlockPos.containing(x + 1, y, z))) == Direction.WEST && ((world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep103
-								? (world.getBlockState(BlockPos.containing(x + 1, y, z))).getValue(_getep103).toString()
+						}.getDirection(BlockPos.containing(x + 1, y, z))) == Direction.WEST && ((world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep121
+								? (world.getBlockState(BlockPos.containing(x + 1, y, z))).getValue(_getep121).toString()
 								: "").equals("WALL") || (new Object() {
 									public Direction getDirection(BlockPos pos) {
 										BlockState _bs = world.getBlockState(pos);
@@ -558,8 +690,8 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
 										return Direction.NORTH;
 									}
-								}.getDirection(BlockPos.containing(x + 1, y, z))) == Direction.EAST && ((world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep107
-										? (world.getBlockState(BlockPos.containing(x + 1, y, z))).getValue(_getep107).toString()
+								}.getDirection(BlockPos.containing(x + 1, y, z))) == Direction.EAST && ((world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep125
+										? (world.getBlockState(BlockPos.containing(x + 1, y, z))).getValue(_getep125).toString()
 										: "").equals("WALL")) {
 							if (!world.isClientSide()) {
 								BlockPos _bp = BlockPos.containing(x + 1, y, z);
@@ -573,7 +705,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x + 1, y, z), "energy") + 1));
+									}.getValue(world, BlockPos.containing(x + 1, y, z), "energy") + new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -589,7 +728,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -607,7 +753,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x + 1, y, z), "energy") + 1));
+								}.getValue(world, BlockPos.containing(x + 1, y, z), "energy") + new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -623,16 +776,23 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 					}
 				}
 			}
-		} else if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep117 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep117).toString() : "")
+		} else if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep139 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep139).toString() : "")
 				.equals("FLOOR")
-				|| ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep119 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep119).toString() : "")
+				|| ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep141 ? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getep141).toString() : "")
 						.equals("CEILING")) {
 			if (((world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation("forge:intechpowerable")))
 					|| (world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation("forge:intech_machines")))) && new Object() {
@@ -666,11 +826,11 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 					}
 				}.getValue(world, BlockPos.containing(x, y + 1, z), "diode")) == false) {
 					if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation("forge:intech_directional_power")))) {
-						if (((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep131
-								? (world.getBlockState(BlockPos.containing(x, y + 1, z))).getValue(_getep131).toString()
+						if (((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep153
+								? (world.getBlockState(BlockPos.containing(x, y + 1, z))).getValue(_getep153).toString()
 								: "").equals("FLOOR")
-								|| ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep133
-										? (world.getBlockState(BlockPos.containing(x, y + 1, z))).getValue(_getep133).toString()
+								|| ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep155
+										? (world.getBlockState(BlockPos.containing(x, y + 1, z))).getValue(_getep155).toString()
 										: "").equals("CEILING")) {
 							if (!world.isClientSide()) {
 								BlockPos _bp = BlockPos.containing(x, y + 1, z);
@@ -684,7 +844,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y + 1, z), "energy") + 1));
+									}.getValue(world, BlockPos.containing(x, y + 1, z), "energy") + new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -700,7 +867,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -718,7 +892,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y + 1, z), "energy") + 1));
+								}.getValue(world, BlockPos.containing(x, y + 1, z), "energy") + new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -734,7 +915,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -772,11 +960,11 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 					}
 				}.getValue(world, BlockPos.containing(x, y - 1, z), "diode")) == false) {
 					if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BlockTags.create(new ResourceLocation("forge:intech_directional_power")))) {
-						if (((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep151
-								? (world.getBlockState(BlockPos.containing(x, y - 1, z))).getValue(_getep151).toString()
+						if (((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep177
+								? (world.getBlockState(BlockPos.containing(x, y - 1, z))).getValue(_getep177).toString()
 								: "").equals("FLOOR")
-								|| ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep153
-										? (world.getBlockState(BlockPos.containing(x, y - 1, z))).getValue(_getep153).toString()
+								|| ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock().getStateDefinition().getProperty("face") instanceof EnumProperty _getep179
+										? (world.getBlockState(BlockPos.containing(x, y - 1, z))).getValue(_getep179).toString()
 										: "").equals("CEILING")) {
 							if (!world.isClientSide()) {
 								BlockPos _bp = BlockPos.containing(x, y - 1, z);
@@ -790,7 +978,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y - 1, z), "energy") + 1));
+									}.getValue(world, BlockPos.containing(x, y - 1, z), "energy") + new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -806,7 +1001,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 												return blockEntity.getPersistentData().getDouble(tag);
 											return -1;
 										}
-									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+									}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -824,7 +1026,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y - 1, z), "energy") + 1));
+								}.getValue(world, BlockPos.containing(x, y - 1, z), "energy") + new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -840,7 +1049,14 @@ public class ReinforcedLightingRodUpdateTickProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - 1));
+								}.getValue(world, BlockPos.containing(x, y, z), "energy")) - (new Object() {
+									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+										BlockEntity blockEntity = world.getBlockEntity(pos);
+										if (blockEntity != null)
+											return blockEntity.getPersistentData().getDouble(tag);
+										return -1;
+									}
+								}.getValue(world, BlockPos.containing(x, y, z), "intechrods"))));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
