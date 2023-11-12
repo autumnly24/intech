@@ -4320,20 +4320,6 @@
         ]
       },
       "path": "~/Power"
-    },
-    {
-      "name": "Intechpowercap",
-      "type": "tag",
-      "sortid": 226,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "intechpowercap",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/items/intechpowercap.json"
-        ]
-      },
-      "path": "~/Power"
     }
   ],
   "variable_elements": [
