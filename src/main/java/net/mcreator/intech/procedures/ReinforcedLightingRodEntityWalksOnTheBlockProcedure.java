@@ -1,8 +1,9 @@
 package net.mcreator.intech.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 
 public class ReinforcedLightingRodEntityWalksOnTheBlockProcedure {
 	public static void execute(Entity entity) {

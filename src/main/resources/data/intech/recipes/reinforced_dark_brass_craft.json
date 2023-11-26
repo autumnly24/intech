@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "3": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "4": {
+      "item": "intech:dark_brass_tiles"
+    },
+    "5": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "7": {
+      "item": "intech:dark_brass_ingot"
+    }
+  },
+  "result": {
+    "item": "intech:reinforced_dark_brass",
+    "count": 3
+  }
+}

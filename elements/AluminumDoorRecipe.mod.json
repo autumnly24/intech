@@ -12,9 +12,6 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:AluminumIngot"
       },
       {
@@ -37,6 +34,9 @@
       },
       {
         "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {

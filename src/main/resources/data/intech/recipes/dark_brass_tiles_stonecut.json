@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "intech:dark_brass_ingot"
+  },
+  "result": "intech:dark_brass_tiles"
+}

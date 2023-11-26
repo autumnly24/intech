@@ -1,8 +1,15 @@
 package net.mcreator.intech.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
+import net.minecraft.core.BlockPos;
 
-import javax.annotation.Nullable;
+import net.mcreator.intech.init.IntechModBlocks;
+
+import java.util.Map;
 
 public class ReinforcedExposedCopperSpleavesUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

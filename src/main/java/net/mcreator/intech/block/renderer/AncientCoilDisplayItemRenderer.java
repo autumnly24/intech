@@ -1,5 +1,14 @@
 package net.mcreator.intech.block.renderer;
 
+import software.bernie.geckolib.renderer.GeoItemRenderer;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+
+import net.mcreator.intech.block.model.AncientCoilDisplayModel;
+import net.mcreator.intech.block.display.AncientCoilDisplayItem;
+
 public class AncientCoilDisplayItemRenderer extends GeoItemRenderer<AncientCoilDisplayItem> {
 	public AncientCoilDisplayItemRenderer() {
 		super(new AncientCoilDisplayModel());
