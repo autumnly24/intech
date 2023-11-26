@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "1": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "2": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "3": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "4": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "5": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "6": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "7": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "8": {
+      "item": "intech:dark_brass_ingot"
+    }
+  },
+  "result": {
+    "item": "intech:dark_brass_block",
+    "count": 1
+  }
+}

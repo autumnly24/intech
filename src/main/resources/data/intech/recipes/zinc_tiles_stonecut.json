@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "intech:zinc_block"
+  },
+  "result": "intech:zinc_tiles"
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PolishedChiseledTuff"
+      },
+      {
+        "value": "CUSTOM:PolishedChiseledTuffBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedTuffBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedTuff"
+      },
+      {
+        "value": "Blocks.TUFF"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "tuff_blocks",
+    "namespace": "mod"
+  }
+}

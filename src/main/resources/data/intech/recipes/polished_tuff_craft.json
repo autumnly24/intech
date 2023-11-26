@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tuff"
+    },
+    "1": {
+      "item": "minecraft:tuff"
+    },
+    "2": {
+      "item": "minecraft:tuff"
+    },
+    "3": {
+      "item": "minecraft:tuff"
+    }
+  },
+  "result": {
+    "item": "intech:polished_tuff",
+    "count": 4
+  }
+}

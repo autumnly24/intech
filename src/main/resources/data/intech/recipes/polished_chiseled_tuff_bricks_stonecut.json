@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "intech:tuff_blocks"
+  },
+  "result": "intech:polished_chiseled_tuff_bricks"
+}

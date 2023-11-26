@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:polished_tuff_bricks"
+    },
+    "1": {
+      "item": "intech:polished_tuff_bricks"
+    },
+    "2": {
+      "item": "intech:polished_tuff_bricks"
+    },
+    "3": {
+      "item": "intech:polished_tuff_bricks"
+    },
+    "4": {
+      "item": "intech:polished_tuff_bricks"
+    },
+    "5": {
+      "item": "intech:polished_tuff_bricks"
+    }
+  },
+  "result": {
+    "item": "intech:polished_tuff_brick_wall",
+    "count": 6
+  }
+}

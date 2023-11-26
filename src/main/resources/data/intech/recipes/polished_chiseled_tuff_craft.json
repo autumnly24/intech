@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:polished_tuff"
+    },
+    "1": {
+      "item": "intech:polished_tuff"
+    }
+  },
+  "result": {
+    "item": "intech:polished_chiseled_tuff",
+    "count": 2
+  }
+}

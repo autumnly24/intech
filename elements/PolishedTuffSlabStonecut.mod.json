@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "TAG:intech:tuff_blocks"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:PolishedTuffSlab"
+    },
+    "name": "polished_tuff_slab_stonecut",
+    "namespace": "mod"
+  }
+}

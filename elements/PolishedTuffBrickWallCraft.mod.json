@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedTuffBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedTuffBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedTuffBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedTuffBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedTuffBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedTuffBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedTuffBrickWall"
+    },
+    "name": "polished_tuff_brick_wall_craft",
+    "namespace": "mod"
+  }
+}
