@@ -1,8 +1,9 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 16,
+  "group": "copper_grate",
+  "count": 4,
   "ingredient": {
     "item": "minecraft:copper_block"
   },
-  "result": "intech:copper_spleaves"
+  "result": "intech:reinforced_copper_spleaves"
 }

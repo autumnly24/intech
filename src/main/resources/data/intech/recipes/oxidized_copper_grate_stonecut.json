@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "oxidized_copper_grate",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:oxidized_copper"
+  },
+  "result": "intech:reinforced_oxidized_copper_spleaves"
+}

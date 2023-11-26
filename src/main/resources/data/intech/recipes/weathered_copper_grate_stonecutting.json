@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "weathered_copper_grate",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:weathered_copper"
+  },
+  "result": "intech:reinforced_weathered_copper_spleaves"
+}

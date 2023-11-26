@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "waxed_weathered_copper_grate",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:waxed_weathered_copper"
+  },
+  "result": "intech:deleted_mod_element"
+}

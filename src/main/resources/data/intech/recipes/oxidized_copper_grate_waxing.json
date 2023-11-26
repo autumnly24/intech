@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "oxidized_copper_grate",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "intech:reinforced_oxidized_copper_spleaves"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "intech:deleted_mod_element",
+    "count": 1
+  }
+}

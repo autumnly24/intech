@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "weathered_copper_grate",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "intech:reinforced_exposed_copper_spleaves"
+    },
+    {
+      "tag": "intech:patina"
+    }
+  ],
+  "result": {
+    "item": "intech:reinforced_weathered_copper_spleaves",
+    "count": 1
+  }
+}

@@ -10,12 +10,19 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.intech.item.ZincIngotItem;
+import net.mcreator.intech.item.RawZincItem;
 import net.mcreator.intech.item.RawAluminumItem;
+import net.mcreator.intech.item.MusicDiscJunctionJamItem;
+import net.mcreator.intech.item.GalvanizedBilletItem;
+import net.mcreator.intech.item.DiscFragmentJunctionJamItem;
 import net.mcreator.intech.item.DarkBrassIngotItem;
+import net.mcreator.intech.item.ChargeSensorItem;
 import net.mcreator.intech.item.AluminumIngotItem;
+import net.mcreator.intech.block.display.AncientCoilDisplayItem;
 import net.mcreator.intech.IntechMod;
 
 public class IntechModItems {
@@ -37,42 +44,53 @@ public class IntechModItems {
 	public static final RegistryObject<Item> ALUMINUM_TILE_SLAB = block(IntechModBlocks.ALUMINUM_TILE_SLAB);
 	public static final RegistryObject<Item> ALUMINUM_PILLAR = block(IntechModBlocks.ALUMINUM_PILLAR);
 	public static final RegistryObject<Item> DARK_BRASS_BLOCK = block(IntechModBlocks.DARK_BRASS_BLOCK);
+	public static final RegistryObject<Item> ALUMINUM_DOOR = doubleBlock(IntechModBlocks.ALUMINUM_DOOR);
 	public static final RegistryObject<Item> DARK_BRASS_TILES = block(IntechModBlocks.DARK_BRASS_TILES);
 	public static final RegistryObject<Item> DARK_BRASS_PILLAR = block(IntechModBlocks.DARK_BRASS_PILLAR);
 	public static final RegistryObject<Item> REINFORCED_DARK_BRASS = block(IntechModBlocks.REINFORCED_DARK_BRASS);
 	public static final RegistryObject<Item> CHISELED_COPPER = block(IntechModBlocks.CHISELED_COPPER);
 	public static final RegistryObject<Item> WAXED_CHISELED_COPPER = block(IntechModBlocks.WAXED_CHISELED_COPPER);
+	public static final RegistryObject<Item> DARK_BRASS_DOOR = doubleBlock(IntechModBlocks.DARK_BRASS_DOOR);
 	public static final RegistryObject<Item> COPPER_SPLEAVES = block(IntechModBlocks.COPPER_SPLEAVES);
 	public static final RegistryObject<Item> REINFORCED_COPPER_SPLEAVES = block(IntechModBlocks.REINFORCED_COPPER_SPLEAVES);
 	public static final RegistryObject<Item> COPPER_MESH = block(IntechModBlocks.COPPER_MESH);
 	public static final RegistryObject<Item> EXPOSED_CHISELED_COPPER = block(IntechModBlocks.EXPOSED_CHISELED_COPPER);
 	public static final RegistryObject<Item> WAXED_EXPOSED_CHISELED_COPPER = block(IntechModBlocks.WAXED_EXPOSED_CHISELED_COPPER);
+	public static final RegistryObject<Item> WAXED_COPPER_GRATE = block(IntechModBlocks.WAXED_COPPER_GRATE);
 	public static final RegistryObject<Item> EXPOSED_COPPER_SPLEAVES = block(IntechModBlocks.EXPOSED_COPPER_SPLEAVES);
 	public static final RegistryObject<Item> REINFORCED_EXPOSED_COPPER_SPLEAVES = block(IntechModBlocks.REINFORCED_EXPOSED_COPPER_SPLEAVES);
+	public static final RegistryObject<Item> WAXED_COPPER_MESH = block(IntechModBlocks.WAXED_COPPER_MESH);
 	public static final RegistryObject<Item> EXPOSED_COPPER_MESH = block(IntechModBlocks.EXPOSED_COPPER_MESH);
 	public static final RegistryObject<Item> WEATHERED_CHISELED_COPPER = block(IntechModBlocks.WEATHERED_CHISELED_COPPER);
 	public static final RegistryObject<Item> WAXED_WEATHERED_CHISELED_COPPER = block(IntechModBlocks.WAXED_WEATHERED_CHISELED_COPPER);
 	public static final RegistryObject<Item> WEATHERED_COPPER_SPLEAVES = block(IntechModBlocks.WEATHERED_COPPER_SPLEAVES);
 	public static final RegistryObject<Item> REINFORCED_WEATHERED_COPPER_SPLEAVES = block(IntechModBlocks.REINFORCED_WEATHERED_COPPER_SPLEAVES);
+	public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_GRATE = block(IntechModBlocks.WAXED_EXPOSED_COPPER_GRATE);
 	public static final RegistryObject<Item> WEATHERED_COPPER_MESH = block(IntechModBlocks.WEATHERED_COPPER_MESH);
 	public static final RegistryObject<Item> OXIDIZED_CHISELED_COPPER = block(IntechModBlocks.OXIDIZED_CHISELED_COPPER);
+	public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_MESH = block(IntechModBlocks.WAXED_EXPOSED_COPPER_MESH);
 	public static final RegistryObject<Item> WAXED_OXIDIZED_CHISELED_COPPER = block(IntechModBlocks.WAXED_OXIDIZED_CHISELED_COPPER);
 	public static final RegistryObject<Item> OXIDIZED_COPPER_SPLEAVES = block(IntechModBlocks.OXIDIZED_COPPER_SPLEAVES);
 	public static final RegistryObject<Item> REINFORCED_OXIDIZED_COPPER_SPLEAVES = block(IntechModBlocks.REINFORCED_OXIDIZED_COPPER_SPLEAVES);
 	public static final RegistryObject<Item> OXIDIZED_COPPER_MESH = block(IntechModBlocks.OXIDIZED_COPPER_MESH);
 	public static final RegistryObject<Item> ZINC_BLOCK = block(IntechModBlocks.ZINC_BLOCK);
+	public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_GRATE = block(IntechModBlocks.WAXED_WEATHERED_COPPER_GRATE);
 	public static final RegistryObject<Item> ZINC_TILES = block(IntechModBlocks.ZINC_TILES);
 	public static final RegistryObject<Item> POLISHED_TUFF = block(IntechModBlocks.POLISHED_TUFF);
+	public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_MESH = block(IntechModBlocks.WAXED_WEATHERED_COPPER_MESH);
 	public static final RegistryObject<Item> POLISHED_TUFF_STAIRS = block(IntechModBlocks.POLISHED_TUFF_STAIRS);
 	public static final RegistryObject<Item> POLISHED_TUFF_SLAB = block(IntechModBlocks.POLISHED_TUFF_SLAB);
 	public static final RegistryObject<Item> POLISHED_TUFF_WALL = block(IntechModBlocks.POLISHED_TUFF_WALL);
 	public static final RegistryObject<Item> POLISHED_TUFF_BRICKS = block(IntechModBlocks.POLISHED_TUFF_BRICKS);
 	public static final RegistryObject<Item> POLISHED_TUFF_BRICK_STAIRS = block(IntechModBlocks.POLISHED_TUFF_BRICK_STAIRS);
+	public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_GRATE = block(IntechModBlocks.WAXED_OXIDIZED_COPPER_GRATE);
 	public static final RegistryObject<Item> POLISHED_TUFF_BRICK_SLAB = block(IntechModBlocks.POLISHED_TUFF_BRICK_SLAB);
 	public static final RegistryObject<Item> POLISHED_TUFF_BRICK_WALL = block(IntechModBlocks.POLISHED_TUFF_BRICK_WALL);
+	public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_MESH = block(IntechModBlocks.WAXED_OXIDIZED_COPPER_MESH);
 	public static final RegistryObject<Item> POLISHED_CHISELED_TUFF = block(IntechModBlocks.POLISHED_CHISELED_TUFF);
 	public static final RegistryObject<Item> POLISHED_CHISELED_TUFF_BRICKS = block(IntechModBlocks.POLISHED_CHISELED_TUFF_BRICKS);
 	public static final RegistryObject<Item> RAW_ALUMINUM = REGISTRY.register("raw_aluminum", () -> new RawAluminumItem());
+	public static final RegistryObject<Item> ZINC_DOOR = doubleBlock(IntechModBlocks.ZINC_DOOR);
 	public static final RegistryObject<Item> ALUMINUM_INGOT = REGISTRY.register("aluminum_ingot", () -> new AluminumIngotItem());
 	public static final RegistryObject<Item> DARK_BRASS_INGOT = REGISTRY.register("dark_brass_ingot", () -> new DarkBrassIngotItem());
 	public static final RegistryObject<Item> ZINC_INGOT = REGISTRY.register("zinc_ingot", () -> new ZincIngotItem());
@@ -86,12 +104,25 @@ public class IntechModItems {
 	public static final RegistryObject<Item> COPPER_CABLE = block(IntechModBlocks.COPPER_CABLE);
 	public static final RegistryObject<Item> ZINC_BATTERY = block(IntechModBlocks.ZINC_BATTERY);
 	public static final RegistryObject<Item> LIGHTNING_BULB = block(IntechModBlocks.LIGHTNING_BULB);
+	public static final RegistryObject<Item> RAW_ZINC = REGISTRY.register("raw_zinc", () -> new RawZincItem());
 	public static final RegistryObject<Item> BAUXITE_PRESSURE_PLATE = block(IntechModBlocks.BAUXITE_PRESSURE_PLATE);
 	public static final RegistryObject<Item> BAUXITE_BUTTON = block(IntechModBlocks.BAUXITE_BUTTON);
 	public static final RegistryObject<Item> ZINC_ORE = block(IntechModBlocks.ZINC_ORE);
+	public static final RegistryObject<Item> GALVANIZED_BILLET = REGISTRY.register("galvanized_billet", () -> new GalvanizedBilletItem());
+	public static final RegistryObject<Item> DISC_FRAGMENT_JUNCTION_JAM = REGISTRY.register("disc_fragment_junction_jam", () -> new DiscFragmentJunctionJamItem());
+	public static final RegistryObject<Item> DEEPSLATE_ZINC_ORE = block(IntechModBlocks.DEEPSLATE_ZINC_ORE);
+	public static final RegistryObject<Item> MUSIC_DISC_JUNCTION_JAM = REGISTRY.register("music_disc_junction_jam", () -> new MusicDiscJunctionJamItem());
 	public static final RegistryObject<Item> LIT_LIGHTNING_BULB = block(IntechModBlocks.LIT_LIGHTNING_BULB);
+	public static final RegistryObject<Item> COPPER_DIODE = block(IntechModBlocks.COPPER_DIODE);
+	public static final RegistryObject<Item> ANCIENT_COIL = REGISTRY.register(IntechModBlocks.ANCIENT_COIL.getId().getPath(), () -> new AncientCoilDisplayItem(IntechModBlocks.ANCIENT_COIL.get(), new Item.Properties()));
+	public static final RegistryObject<Item> REINFORCED_LIGHTING_ROD = block(IntechModBlocks.REINFORCED_LIGHTING_ROD);
+	public static final RegistryObject<Item> CHARGE_SENSOR = REGISTRY.register("charge_sensor", () -> new ChargeSensorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

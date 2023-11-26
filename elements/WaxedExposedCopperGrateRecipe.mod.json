@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "exposed_copper_grate",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_COPPER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_COPPER"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_COPPER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_COPPER"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WaxedExposedCopperGrate"
+    },
+    "name": "waxed_exposed_copper_grate_recipe",
+    "namespace": "mod"
+  }
+}

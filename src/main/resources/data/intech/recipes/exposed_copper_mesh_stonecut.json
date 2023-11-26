@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "exposed_copper_mesh",
+  "count": 8,
+  "ingredient": {
+    "item": "intech:reinforced_exposed_copper_spleaves"
+  },
+  "result": "intech:exposed_copper_mesh"
+}

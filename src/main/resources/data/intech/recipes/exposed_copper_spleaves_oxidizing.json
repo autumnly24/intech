@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "weathered_copper_spleaves",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "intech:exposed_copper_spleaves"
+    },
+    {
+      "tag": "intech:patina"
+    }
+  ],
+  "result": {
+    "item": "intech:weathered_copper_spleaves",
+    "count": 1
+  }
+}

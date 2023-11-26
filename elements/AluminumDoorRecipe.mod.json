@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "aluminum_door",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AluminumDoor"
+    },
+    "name": "aluminum_door",
+    "namespace": "mod"
+  }
+}

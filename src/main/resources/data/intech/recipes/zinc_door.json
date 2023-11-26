@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zinc_door",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:zinc_ingot"
+    },
+    "1": {
+      "item": "intech:zinc_ingot"
+    },
+    "2": {
+      "item": "intech:zinc_ingot"
+    },
+    "3": {
+      "item": "intech:zinc_ingot"
+    },
+    "4": {
+      "item": "intech:zinc_ingot"
+    },
+    "5": {
+      "item": "intech:zinc_ingot"
+    }
+  },
+  "result": {
+    "item": "intech:deleted_mod_element",
+    "count": 3
+  }
+}

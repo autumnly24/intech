@@ -348,5 +348,23 @@
         "stream": false
       }
     ]
+  },
+  "block.ancient_coil.ambient": {
+    "subtitle": "subtitles.block.ancient_coil.ambient",
+    "sounds": [
+      {
+        "name": "intech:ancient_coil_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "record.junction_jam": {
+    "subtitle": "subtitles.record.junction_jam",
+    "sounds": [
+      {
+        "name": "intech:junction_jam",
+        "stream": true
+      }
+    ]
   }
 }

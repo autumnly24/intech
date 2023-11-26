@@ -33,4 +33,6 @@ public class IntechModSounds {
 	public static final RegistryObject<SoundEvent> BLOCK_TUFF_BRICKS_BREAK = REGISTRY.register("block.tuff_bricks.break", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("intech", "block.tuff_bricks.break")));
 	public static final RegistryObject<SoundEvent> BLOCK_ALUMINUM_BREAK = REGISTRY.register("block.aluminum.break", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("intech", "block.aluminum.break")));
 	public static final RegistryObject<SoundEvent> BLOCK_TUFF_BRICKS_STEP = REGISTRY.register("block.tuff_bricks.step", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("intech", "block.tuff_bricks.step")));
+	public static final RegistryObject<SoundEvent> BLOCK_ANCIENT_COIL_AMBIENT = REGISTRY.register("block.ancient_coil.ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("intech", "block.ancient_coil.ambient")));
+	public static final RegistryObject<SoundEvent> RECORD_JUNCTION_JAM = REGISTRY.register("record.junction_jam", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("intech", "record.junction_jam")));
 }
