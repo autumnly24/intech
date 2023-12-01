@@ -1057,11 +1057,11 @@
       "registry_name": "copper_cable",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/intech/block/entity/CopperCableBlockEntity.java",
-          "src/main/resources/assets/intech/models/block/copper_cable.json",
           "src/main/resources/assets/intech/models/item/copper_cable.json",
           "src/main/resources/assets/intech/blockstates/copper_cable.json",
-          "src/main/java/net/mcreator/intech/block/CopperCableBlock.java"
+          "src/main/java/net/mcreator/intech/block/CopperCableBlock.java",
+          "src/main/resources/assets/intech/models/block/copper_cable.json",
+          "src/main/java/net/mcreator/intech/block/entity/CopperCableBlockEntity.java"
         ]
       },
       "path": "~/Power"
@@ -1921,10 +1921,10 @@
       "registry_name": "zinc_battery",
       "metadata": {
         "files": [
-          "src/main/resources/assets/intech/models/item/zinc_battery.json",
-          "src/main/java/net/mcreator/intech/block/entity/ZincBatteryBlockEntity.java",
-          "src/main/resources/assets/intech/models/block/zinc_battery.json",
           "src/main/java/net/mcreator/intech/block/ZincBatteryBlock.java",
+          "src/main/resources/assets/intech/models/block/zinc_battery.json",
+          "src/main/java/net/mcreator/intech/block/entity/ZincBatteryBlockEntity.java",
+          "src/main/resources/assets/intech/models/item/zinc_battery.json",
           "src/main/resources/assets/intech/blockstates/zinc_battery.json"
         ]
       },
@@ -3984,18 +3984,6 @@
         ],
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -4563,14 +4551,14 @@
       "block.intech.weathered_copper_grate": "Weathered Copper Grate",
       "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
-      "subtitles.block.zinc.place": "Block placed",
-      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
+      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
+      "subtitles.block.zinc.place": "Block placed",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
       "subtitles.block.aluminum.step": "Footsteps",
-      "item.intech.galvanized_billet": "Galvanized Billet",
+      "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
       "block.intech.copper_pipe": "Copper Pipe",
+      "item.intech.galvanized_billet": "Galvanized Billet",
       "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "subtitles.block.aluminum.hit": "Block breaking",
       "subtitles.block.pipe.break": "Pipe Is Broken",

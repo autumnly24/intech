@@ -127,7 +127,7 @@ public class CopperCableBlock extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		CopperCableUpdateTickProcedure.execute(world, x, y, z);
+		CopperCableUpdateTickProcedure.execute(world);
 		world.scheduleTick(pos, this, 1);
 	}
 
