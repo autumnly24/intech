@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 16,
-    "group": "dark_brass_ingot",
+    "recipeRetstackSize": 6,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_SCRAP"
+        "value": "CUSTOM:PolishedTuff"
       },
       {
-        "value": "Items.COPPER_INGOT"
+        "value": "CUSTOM:PolishedTuff"
       },
       {
-        "value": "CUSTOM:ZincIngot"
-      },
-      {
-        "value": "Items.COPPER_INGOT"
-      },
-      {
-        "value": "Items.COPPER_INGOT"
+        "value": "CUSTOM:PolishedTuff"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.COPPER_INGOT"
+        "value": ""
       },
       {
-        "value": "CUSTOM:ZincIngot"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DarkBrassIngot"
+      "value": "CUSTOM:PolishedTuffSlab"
     },
-    "name": "dark_brass_ingot",
+    "name": "polished_tuff_slab_craft",
     "namespace": "mod"
   }
 }

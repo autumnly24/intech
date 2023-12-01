@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:polished_tuff"
+    },
+    "1": {
+      "item": "intech:polished_tuff"
+    },
+    "2": {
+      "item": "intech:polished_tuff"
+    },
+    "3": {
+      "item": "intech:polished_tuff"
+    },
+    "4": {
+      "item": "intech:polished_tuff"
+    },
+    "5": {
+      "item": "intech:polished_tuff"
+    }
+  },
+  "result": {
+    "item": "intech:polished_tuff_wall",
+    "count": 6
+  }
+}

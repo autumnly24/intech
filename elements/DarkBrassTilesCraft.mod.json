@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 3,
-    "group": "aluminum_door",
+    "recipeRetstackSize": 2,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AluminumIngot"
+        "value": "CUSTOM:DarkBrassIngot"
       },
       {
-        "value": "CUSTOM:AluminumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:AluminumIngot"
-      },
-      {
-        "value": "CUSTOM:AluminumIngot"
+        "value": "CUSTOM:DarkBrassIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:AluminumIngot"
+        "value": "CUSTOM:DarkBrassIngot"
       },
       {
-        "value": "CUSTOM:AluminumIngot"
+        "value": "CUSTOM:DarkBrassIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AluminumDoor"
+      "value": "CUSTOM:DarkBrassTiles"
     },
-    "name": "aluminum_door",
+    "name": "dark_brass_tiles_craft",
     "namespace": "mod"
   }
 }

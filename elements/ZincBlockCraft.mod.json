@@ -3,12 +3,12 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 3,
-    "group": "zinc_door",
+    "recipeRetstackSize": 1,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -18,7 +18,10 @@
         "value": "CUSTOM:ZincIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ZincIngot"
+      },
+      {
+        "value": "CUSTOM:ZincIngot"
       },
       {
         "value": "CUSTOM:ZincIngot"
@@ -27,22 +30,19 @@
         "value": "CUSTOM:ZincIngot"
       },
       {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:ZincIngot"
       },
       {
         "value": "CUSTOM:ZincIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ZincIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ZincDoor"
+      "value": "CUSTOM:ZincBlock"
     },
-    "name": "zinc_door",
+    "name": "zinc_block_craft",
     "namespace": "mod"
   }
 }

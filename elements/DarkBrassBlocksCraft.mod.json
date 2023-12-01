@@ -3,12 +3,12 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 3,
-    "group": "dark_brass_door",
+    "recipeRetstackSize": 1,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -18,7 +18,10 @@
         "value": "CUSTOM:DarkBrassIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:DarkBrassIngot"
+      },
+      {
+        "value": "CUSTOM:DarkBrassIngot"
       },
       {
         "value": "CUSTOM:DarkBrassIngot"
@@ -27,22 +30,19 @@
         "value": "CUSTOM:DarkBrassIngot"
       },
       {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:DarkBrassIngot"
       },
       {
         "value": "CUSTOM:DarkBrassIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:DarkBrassIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DarkBrassDoor"
+      "value": "CUSTOM:DarkBrassBlock"
     },
-    "name": "dark_brass_door",
+    "name": "dark_brass_blocks_craft",
     "namespace": "mod"
   }
 }

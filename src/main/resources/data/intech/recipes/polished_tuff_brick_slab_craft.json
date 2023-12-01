@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:polished_tuff_bricks"
+    },
+    "1": {
+      "item": "intech:polished_tuff_bricks"
+    },
+    "2": {
+      "item": "intech:polished_tuff_bricks"
+    }
+  },
+  "result": {
+    "item": "intech:polished_tuff_brick_slab",
+    "count": 6
+  }
+}

@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 3,
-    "group": "zinc_door",
+    "recipeRetstackSize": 16,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ZincIngot"
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
       },
       {
         "value": "CUSTOM:ZincIngot"
       },
       {
-        "value": ""
+        "value": "Items.NETHERITE_SCRAP"
       },
       {
         "value": "CUSTOM:ZincIngot"
       },
       {
-        "value": "CUSTOM:ZincIngot"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": ""
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "CUSTOM:ZincIngot"
-      },
-      {
-        "value": "CUSTOM:ZincIngot"
-      },
-      {
-        "value": ""
+        "value": "Items.COPPER_INGOT"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ZincDoor"
+      "value": "CUSTOM:DarkBrassIngot"
     },
-    "name": "zinc_door",
+    "name": "dark_brass_ingot_craft",
     "namespace": "mod"
   }
 }

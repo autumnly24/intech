@@ -2097,20 +2097,6 @@
       "path": "~/Decoration/Copper/Spleaves"
     },
     {
-      "name": "DarkBrassIngotRecipe",
-      "type": "recipe",
-      "sortid": 140,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_brass_ingot_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/intech/recipes/dark_brass_ingot.json"
-        ]
-      },
-      "path": "~/Materials/Dark Brass"
-    },
-    {
       "name": "WaxedOxidizedCopperGrate",
       "type": "block",
       "sortid": 48,
@@ -3984,6 +3970,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -4308,6 +4306,538 @@
         ]
       },
       "path": "~/Power"
+    },
+    {
+      "name": "ReinforcedDarkBrassStonecut",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_dark_brass_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/reinforced_dark_brass_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "ReinforcedDarkBrassCraft",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_dark_brass_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/reinforced_dark_brass_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "PolishedTuffSlabCraft",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_slab_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "ZincBlockCraft",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/zinc_block_craft.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "PolishedTuffBricksStonecut",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_bricks_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_bricks_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "DarkBrassTilesMassStonecut",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_tiles_mass_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_tiles_mass_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "ReinforcedDarkBrassMassStonecut",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_dark_brass_mass_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/reinforced_dark_brass_mass_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "PolishedTuffBricksCraft",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_bricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_bricks_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "ZincDoorStonecut",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_door_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/zinc_door_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Zinc"
+    },
+    {
+      "name": "PolishedTuffBrickSlabCraft",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_brick_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_brick_slab_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "DarkBrassPillarMassStonecut",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_pillar_mass_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_pillar_mass_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "DarkBrassPillarStonecut",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_pillar_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_pillar_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "PolishedTuffStonecut",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedChiseledTuffBricksCraft",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_chiseled_tuff_bricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_chiseled_tuff_bricks_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "ZincTilesStonecut",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_tiles_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/zinc_tiles_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Zinc"
+    },
+    {
+      "name": "PolishedTuffBrickSlabStonecut",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_brick_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_brick_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "TuffBlocks",
+      "type": "tag",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuff_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/tags/items/tuff_blocks.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "ZincTilesCraft",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_tiles_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/zinc_tiles_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Zinc"
+    },
+    {
+      "name": "DarkBrassTilesStonecut",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_tiles_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_tiles_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "PolishedTuffBrickStairsCraft",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_brick_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_brick_stairs_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedChiseledTuffStonecut",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_chiseled_tuff_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_chiseled_tuff_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedTuffBrickStairsStonecut",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_brick_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_brick_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "DarkBrassBlocksCraft",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_blocks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_blocks_craft.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "PolishedChiseledTuffBricksStonecut",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_chiseled_tuff_bricks_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_chiseled_tuff_bricks_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedTuffStairsCraft",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_stairs_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedTuffSlabStonecut",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedTuffWallCraft",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_wall_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_wall_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedTuffStairsStonecut",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedChiseledTuffCraft",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_chiseled_tuff_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_chiseled_tuff_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "DarkBrassIngotCraft",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_ingot_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_ingot_craft.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "DarkBrassDoorStonecut",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_door_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_door_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "PolishedTuffCraft",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedTuffBrickWallStonecut",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_brick_wall_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_brick_wall_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedTuffWallStonecut",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_wall_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_wall_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "PolishedTuffBrickWallCraft",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_brick_wall_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/polished_tuff_brick_wall_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Tuff"
+    },
+    {
+      "name": "DarkBrassDoorMassStonecut",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_door_mass_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_door_mass_stonecut.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "DarkBrassTilesCraft",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_tiles_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_tiles_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
+    },
+    {
+      "name": "DarkBrassPillarCraft",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_brass_pillar_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/dark_brass_pillar_craft.json"
+        ]
+      },
+      "path": "~/Decoration/Dark Brass"
     }
   ],
   "variable_elements": [

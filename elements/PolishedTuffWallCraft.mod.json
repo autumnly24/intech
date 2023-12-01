@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 3,
-    "group": "aluminum_door",
+    "recipeRetstackSize": 6,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AluminumIngot"
+        "value": "CUSTOM:PolishedTuff"
       },
       {
-        "value": "CUSTOM:AluminumIngot"
+        "value": "CUSTOM:PolishedTuff"
+      },
+      {
+        "value": "CUSTOM:PolishedTuff"
+      },
+      {
+        "value": "CUSTOM:PolishedTuff"
+      },
+      {
+        "value": "CUSTOM:PolishedTuff"
+      },
+      {
+        "value": "CUSTOM:PolishedTuff"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:AluminumIngot"
-      },
-      {
-        "value": "CUSTOM:AluminumIngot"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:AluminumIngot"
-      },
-      {
-        "value": "CUSTOM:AluminumIngot"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AluminumDoor"
+      "value": "CUSTOM:PolishedTuffWall"
     },
-    "name": "aluminum_door",
+    "name": "polished_tuff_wall_craft",
     "namespace": "mod"
   }
 }
