@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "dark_brass_pipe",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DarkBrassIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkBrassIngot"
+      },
+      {
+        "value": "CUSTOM:DarkBrassIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkBrassIngot"
+      },
+      {
+        "value": "CUSTOM:DarkBrassIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkBrassIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkBrassPipe"
+    },
+    "name": "dark_brass_pipe_recipe",
+    "namespace": "mod"
+  }
+}

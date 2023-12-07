@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_brass_pipe",
+  "category": "building",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "2": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "3": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "5": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "6": {
+      "item": "intech:dark_brass_ingot"
+    },
+    "8": {
+      "item": "intech:dark_brass_ingot"
+    }
+  },
+  "result": {
+    "item": "intech:dark_brass_pipe",
+    "count": 4
+  }
+}
