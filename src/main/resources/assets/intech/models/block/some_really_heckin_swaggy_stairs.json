@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "intech:block/netherite_block",
+    "top": "intech:block/netherite_block",
+    "side": "intech:block/netherite_block"
+  },
+  "render_type": "solid"
+}

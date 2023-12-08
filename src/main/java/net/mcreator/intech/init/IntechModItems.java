@@ -106,6 +106,7 @@ public class IntechModItems {
 	public static final RegistryObject<Item> DEEPSLATE_ZINC_ORE = block(IntechModBlocks.DEEPSLATE_ZINC_ORE);
 	public static final RegistryObject<Item> MUSIC_DISC_JUNCTION_JAM = REGISTRY.register("music_disc_junction_jam", () -> new MusicDiscJunctionJamItem());
 	public static final RegistryObject<Item> EXTRUDER = block(IntechModBlocks.EXTRUDER);
+	public static final RegistryObject<Item> SOME_REALLY_HECKIN_SWAGGY_STAIRS = block(IntechModBlocks.SOME_REALLY_HECKIN_SWAGGY_STAIRS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -30,6 +30,7 @@ import net.mcreator.intech.block.WaxedExposedChiseledCopperBlock;
 import net.mcreator.intech.block.WaxedCopperMeshBlock;
 import net.mcreator.intech.block.WaxedCopperGrateBlock;
 import net.mcreator.intech.block.WaxedChiseledCopperBlock;
+import net.mcreator.intech.block.SomeReallyHeckinSwaggyStairsBlock;
 import net.mcreator.intech.block.ReinforcedWeatheredCopperSpleavesBlock;
 import net.mcreator.intech.block.ReinforcedOxidizedCopperSpleavesBlock;
 import net.mcreator.intech.block.ReinforcedExposedCopperSpleavesBlock;
@@ -160,4 +161,5 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> ZINC_ORE = REGISTRY.register("zinc_ore", () -> new ZincOreBlock());
 	public static final RegistryObject<Block> DEEPSLATE_ZINC_ORE = REGISTRY.register("deepslate_zinc_ore", () -> new DeepslateZincOreBlock());
 	public static final RegistryObject<Block> EXTRUDER = REGISTRY.register("extruder", () -> new ExtruderBlock());
+	public static final RegistryObject<Block> SOME_REALLY_HECKIN_SWAGGY_STAIRS = REGISTRY.register("some_really_heckin_swaggy_stairs", () -> new SomeReallyHeckinSwaggyStairsBlock());
 }
