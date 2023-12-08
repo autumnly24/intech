@@ -4,16 +4,13 @@
  */
 package net.mcreator.intech.init;
 
-import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.intech.IntechMod;
@@ -21,26 +18,6 @@ import net.mcreator.intech.IntechMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class IntechModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, IntechMod.MODID);
-	public static final RegistryObject<CreativeModeTab> INDUSTRY = REGISTRY.register("industry",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.intech.industry")).icon(() -> new ItemStack(IntechModBlocks.PULVERIZER.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(IntechModBlocks.PULVERIZER.get().asItem());
-				tabData.accept(IntechModBlocks.COPPER_PIPE.get().asItem());
-				tabData.accept(IntechModBlocks.EXPOSED_COPPER_PIPE.get().asItem());
-				tabData.accept(IntechModBlocks.WEATHERED_COPPER_PIPE.get().asItem());
-				tabData.accept(IntechModBlocks.OXIDIZED_COPPER_PIPE.get().asItem());
-				tabData.accept(IntechModBlocks.DARK_BRASS_PIPE.get().asItem());
-			}).withSearchBar().build());
-	public static final RegistryObject<CreativeModeTab> POWER = REGISTRY.register("power",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.intech.power")).icon(() -> new ItemStack(IntechModBlocks.COPPER_JUNCTION.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(IntechModBlocks.COPPER_JUNCTION.get().asItem());
-				tabData.accept(IntechModBlocks.COPPER_CABLE.get().asItem());
-				tabData.accept(IntechModBlocks.ZINC_BATTERY.get().asItem());
-				tabData.accept(IntechModBlocks.LIGHTNING_BULB.get().asItem());
-				tabData.accept(IntechModBlocks.COPPER_DIODE.get().asItem());
-				tabData.accept(IntechModBlocks.ANCIENT_COIL.get().asItem());
-				tabData.accept(IntechModBlocks.REINFORCED_LIGHTING_ROD.get().asItem());
-				tabData.accept(IntechModItems.CHARGE_SENSOR.get());
-			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -112,8 +89,14 @@ public class IntechModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(IntechModBlocks.COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.EXPOSED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.WEATHERED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.OXIDIZED_COPPER_PIPE.get().asItem());
+			tabData.accept(IntechModBlocks.DARK_BRASS_PIPE.get().asItem());
 			tabData.accept(IntechModBlocks.BAUXITE_PRESSURE_PLATE.get().asItem());
 			tabData.accept(IntechModBlocks.BAUXITE_BUTTON.get().asItem());
+			tabData.accept(IntechModBlocks.EXTRUDER.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

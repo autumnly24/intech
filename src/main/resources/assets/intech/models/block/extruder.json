@@ -1,0 +1,9 @@
+{
+  "parent": "intech:custom/extruder",
+  "textures": {
+    "all": "intech:block/extruder",
+    "particle": "intech:block/extruder",
+    "3": "intech:block/extruder"
+  },
+  "render_type": "cutout"
+}

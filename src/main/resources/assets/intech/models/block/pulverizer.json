@@ -1,9 +1,0 @@
-{
-  "parent": "intech:custom/pulverizer",
-  "textures": {
-    "all": "intech:block/pulverizer",
-    "particle": "intech:block/pulverizer",
-    "3": "intech:block/pulverizer"
-  },
-  "render_type": "solid"
-}

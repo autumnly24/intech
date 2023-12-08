@@ -1,9 +1,0 @@
-{
-  "parent": "intech:custom/reinforced_lightning_rod",
-  "textures": {
-    "all": "intech:block/reinforced_lightning_rod",
-    "particle": "intech:block/copper_junction",
-    "1": "intech:block/reinforced_lightning_rod"
-  },
-  "render_type": "solid"
-}

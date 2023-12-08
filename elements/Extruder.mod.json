@@ -2,43 +2,106 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "dark_brass_pipe_top",
-    "textureTop": "dark_brass_pipe_top",
-    "textureLeft": "dark_brass_pipe_side",
-    "textureFront": "dark_brass_pipe_side",
-    "textureRight": "dark_brass_pipe_side",
-    "textureBack": "dark_brass_pipe_side",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "extruder",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "extruder:default",
     "rotationMode": 1,
-    "enablePitch": true,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
+      {
+        "mx": 14.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 12.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 16.0,
+        "my": 1.0,
+        "mz": 2.0,
+        "Mx": 20.0,
+        "My": 11.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": -4.0,
+        "my": 1.0,
+        "mz": 2.0,
+        "Mx": 0.0,
+        "My": 11.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
       {
         "mx": 0.0,
         "my": 0.0,
         "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
+        "Mx": 2.0,
+        "My": 12.0,
         "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 14.0,
+        "My": 12.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 14.0,
+        "Mx": 14.0,
+        "My": 12.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 4.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 11.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 11.0,
+        "Mz": 14.0,
         "subtract": false
       }
     ],
-    "name": "Dark Brass Pipe",
+    "name": "Extruder",
     "specialInfo": [],
-    "hardness": 4.5,
-    "resistance": 1600.0,
+    "hardness": 3.5,
+    "resistance": 500.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "REDSTONE"
     },
@@ -52,7 +115,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "IRON"
     },
@@ -79,7 +142,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "NETHERITE"
+      "value": "COPPER"
     },
     "breakSound": {
       "value": ""
@@ -101,13 +164,17 @@
     "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "guiBoundTo": "ExtruderGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 5,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      0,
+      1,
+      2
+    ],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
@@ -118,7 +185,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "CopperPipeUpdateTick"
+      "name": "ExtruderUpdateTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

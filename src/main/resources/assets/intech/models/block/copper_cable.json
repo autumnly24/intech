@@ -1,9 +1,0 @@
-{
-  "parent": "intech:custom/coppercablerenewed",
-  "textures": {
-    "all": "intech:block/texture",
-    "particle": "intech:block/copper_pipe_top",
-    "2": "intech:block/texture"
-  },
-  "render_type": "solid"
-}

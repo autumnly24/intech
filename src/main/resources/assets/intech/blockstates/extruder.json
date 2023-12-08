@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "intech:block/extruder"
+    },
+    "facing=east": {
+      "model": "intech:block/extruder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "intech:block/extruder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "intech:block/extruder",
+      "y": 270
+    }
+  }
+}

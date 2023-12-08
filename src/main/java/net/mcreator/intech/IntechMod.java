@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.intech.init.IntechModTabs;
 import net.mcreator.intech.init.IntechModSounds;
+import net.mcreator.intech.init.IntechModMenus;
 import net.mcreator.intech.init.IntechModItems;
 import net.mcreator.intech.init.IntechModFeatures;
 import net.mcreator.intech.init.IntechModBlocks;
@@ -61,6 +62,7 @@ public class IntechMod {
 		IntechModTabs.REGISTRY.register(bus);
 		IntechModFeatures.REGISTRY.register(bus);
 
+		IntechModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

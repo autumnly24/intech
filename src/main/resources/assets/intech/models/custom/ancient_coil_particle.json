@@ -1,6 +1,0 @@
-{
-  "parent": "intech:displaysettings/ancient_coil.item",
-  "textures": {
-    "particle": "intech:block/ancient_coil"
-  }
-}

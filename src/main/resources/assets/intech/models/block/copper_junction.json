@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "intech:block/zinc_battery_top",
-    "particle": "intech:block/zinc_battery_top"
-  },
-  "render_type": "solid"
-}

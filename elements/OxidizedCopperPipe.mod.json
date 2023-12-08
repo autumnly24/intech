@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Industry"
+      "value": "REDSTONE"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
