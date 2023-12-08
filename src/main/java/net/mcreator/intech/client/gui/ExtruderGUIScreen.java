@@ -1,9 +1,23 @@
 package net.mcreator.intech.client.gui;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.intech.world.inventory.ExtruderGUIMenu;
+import net.mcreator.intech.procedures.ExtruderProgressDisplayProcedure;
+import net.mcreator.intech.procedures.ExtruderFuelDisplayProcedure;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
 public class ExtruderGUIScreen extends AbstractContainerScreen<ExtruderGUIMenu> {
-
 	private final static HashMap<String, Object> guistate = ExtruderGUIMenu.guistate;
-
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -24,11 +38,8 @@ public class ExtruderGUIScreen extends AbstractContainerScreen<ExtruderGUIMenu> 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -36,7 +47,6 @@ public class ExtruderGUIScreen extends AbstractContainerScreen<ExtruderGUIMenu> 
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("intech:textures/screens/coal_icon.png"), this.leftPos + 79, this.topPos + 11, 0, 0, 16, 16, 16, 16);
@@ -52,7 +62,6 @@ public class ExtruderGUIScreen extends AbstractContainerScreen<ExtruderGUIMenu> 
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -66,10 +75,10 @@ public class ExtruderGUIScreen extends AbstractContainerScreen<ExtruderGUIMenu> 
 		guiGraphics.drawString(this.font, Component.translatable("gui.intech.extruder_gui.label_extruder"), 6, 7, -12829636, false);
 		guiGraphics.drawString(this.font,
 
-				ExtruderFuelDisplayProcedure.execute(), 98, 14, -12829636, false);
+				ExtruderFuelDisplayProcedure.execute(world, x, y, z), 98, 14, -12829636, false);
 		guiGraphics.drawString(this.font,
 
-				ExtruderProgressDisplayProcedure.execute(), 98, 86, -12829636, false);
+				ExtruderProgressDisplayProcedure.execute(world, x, y, z), 98, 86, -12829636, false);
 	}
 
 	@Override
@@ -80,7 +89,5 @@ public class ExtruderGUIScreen extends AbstractContainerScreen<ExtruderGUIMenu> 
 	@Override
 	public void init() {
 		super.init();
-
 	}
-
 }
