@@ -109,6 +109,7 @@ public class IntechModTabs {
 			tabData.accept(IntechModBlocks.POLISHED_TUFF_BRICK_WALL.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_CHISELED_TUFF.get().asItem());
 			tabData.accept(IntechModBlocks.POLISHED_CHISELED_TUFF_BRICKS.get().asItem());
+			tabData.accept(IntechModBlocks.SOME_REALLY_HECKIN_SWAGGY_STAIRS.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {

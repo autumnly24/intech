@@ -31,6 +31,7 @@ import net.mcreator.intech.block.WaxedExposedChiseledCopperBlock;
 import net.mcreator.intech.block.WaxedCopperMeshBlock;
 import net.mcreator.intech.block.WaxedCopperGrateBlock;
 import net.mcreator.intech.block.WaxedChiseledCopperBlock;
+import net.mcreator.intech.block.SomeReallyHeckinSwaggyStairsBlock;
 import net.mcreator.intech.block.ReinforcedWeatheredCopperSpleavesBlock;
 import net.mcreator.intech.block.ReinforcedOxidizedCopperSpleavesBlock;
 import net.mcreator.intech.block.ReinforcedLightingRodBlock;
@@ -176,4 +177,5 @@ public class IntechModBlocks {
 	public static final RegistryObject<Block> COPPER_DIODE = REGISTRY.register("copper_diode", () -> new CopperDiodeBlock());
 	public static final RegistryObject<Block> ANCIENT_COIL = REGISTRY.register("ancient_coil", () -> new AncientCoilBlock());
 	public static final RegistryObject<Block> REINFORCED_LIGHTING_ROD = REGISTRY.register("reinforced_lighting_rod", () -> new ReinforcedLightingRodBlock());
+	public static final RegistryObject<Block> SOME_REALLY_HECKIN_SWAGGY_STAIRS = REGISTRY.register("some_really_heckin_swaggy_stairs", () -> new SomeReallyHeckinSwaggyStairsBlock());
 }

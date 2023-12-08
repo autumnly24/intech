@@ -117,6 +117,7 @@ public class IntechModItems {
 	public static final RegistryObject<Item> ANCIENT_COIL = REGISTRY.register(IntechModBlocks.ANCIENT_COIL.getId().getPath(), () -> new AncientCoilDisplayItem(IntechModBlocks.ANCIENT_COIL.get(), new Item.Properties()));
 	public static final RegistryObject<Item> REINFORCED_LIGHTING_ROD = block(IntechModBlocks.REINFORCED_LIGHTING_ROD);
 	public static final RegistryObject<Item> CHARGE_SENSOR = REGISTRY.register("charge_sensor", () -> new ChargeSensorItem());
+	public static final RegistryObject<Item> SOME_REALLY_HECKIN_SWAGGY_STAIRS = block(IntechModBlocks.SOME_REALLY_HECKIN_SWAGGY_STAIRS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

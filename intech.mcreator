@@ -4938,6 +4938,39 @@
         ]
       },
       "path": "~/Industry/Pipes"
+    },
+    {
+      "name": "SomeReallyHeckinSwaggyStairs",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "some_really_heckin_swaggy_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/some_really_heckin_swaggy_stairs.json",
+          "src/main/resources/assets/intech/models/block/some_really_heckin_swaggy_stairs.json",
+          "src/main/resources/assets/intech/blockstates/some_really_heckin_swaggy_stairs.json",
+          "src/main/resources/assets/intech/models/block/some_really_heckin_swaggy_stairs_inner.json",
+          "src/main/resources/assets/intech/models/block/some_really_heckin_swaggy_stairs_outer.json",
+          "src/main/java/net/mcreator/intech/block/SomeReallyHeckinSwaggyStairsBlock.java"
+        ]
+      },
+      "path": "~/Decoration"
+    },
+    {
+      "name": "SomeReallyHeckinSwaggyStairsCraft",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "some_really_heckin_swaggy_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/some_really_heckin_swaggy_stairs_craft.json"
+        ]
+      },
+      "path": "~/Decoration"
     }
   ],
   "variable_elements": [
@@ -5181,14 +5214,14 @@
       "block.intech.weathered_copper_grate": "Weathered Copper Grate",
       "subtitles.pipeclank": "Pipe-Clank",
       "block.intech.bauxite_stairs": "Bauxite Stairs",
-      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
-      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
       "subtitles.block.zinc.place": "Block placed",
+      "block.intech.polished_bauxite_brick_wall": "Polished Bauxite Brick Wall",
+      "block.intech.polished_tuff_brick_slab": "Polished Tuff Brick Slab",
       "block.intech.weathered_copper_pipe": "Weathered Copper Pipe",
-      "subtitles.block.aluminum.step": "Footsteps",
       "block.intech.reinforced_dark_brass": "Reinforced Dark Brass",
-      "block.intech.copper_pipe": "Copper Pipe",
+      "subtitles.block.aluminum.step": "Footsteps",
       "item.intech.galvanized_billet": "Galvanized Billet",
+      "block.intech.copper_pipe": "Copper Pipe",
       "block.intech.waxed_weathered_chiseled_copper": "Waxed Weathered Chiseled Copper",
       "subtitles.block.aluminum.hit": "Block breaking",
       "subtitles.block.pipe.break": "Pipe Is Broken",
@@ -5248,6 +5281,7 @@
       "block.intech.dark_brass_tiles": "Dark Brass Tiles",
       "subtitles.block.tuff_bricks.break": "Tuff Bricks Are Broken",
       "block.intech.oxidized_copper_spleaves": "Oxidized Copper Spleaves",
+      "block.intech.some_really_heckin_swaggy_stairs": "§dSome Really Heckin\u0027 Swaggy Stairs",
       "block.intech.polished_tuff_stairs": "Polished Tuff Stairs",
       "block.intech.waxed_exposed_chiseled_copper": "Waxed Exposed Chiseled Copper",
       "block.intech.polished_tuff": "Polished Tuff",
