@@ -444,7 +444,7 @@ public class ExtruderUpdateTickProcedure {
 										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 									return _retval.get();
 								}
-							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 1));
+							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 2));
 							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable)
 									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -472,7 +472,7 @@ public class ExtruderUpdateTickProcedure {
 										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 									return _retval.get();
 								}
-							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 1));
+							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 2));
 							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable)
 									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -500,7 +500,7 @@ public class ExtruderUpdateTickProcedure {
 										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 									return _retval.get();
 								}
-							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 1));
+							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 2));
 							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable)
 									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -528,7 +528,7 @@ public class ExtruderUpdateTickProcedure {
 										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 									return _retval.get();
 								}
-							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 1));
+							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 2));
 							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable)
 									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -556,7 +556,7 @@ public class ExtruderUpdateTickProcedure {
 										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 									return _retval.get();
 								}
-							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 1));
+							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 2));
 							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable)
 									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -584,7 +584,7 @@ public class ExtruderUpdateTickProcedure {
 										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 									return _retval.get();
 								}
-							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 1));
+							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 2));
 							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable)
 									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);

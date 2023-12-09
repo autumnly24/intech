@@ -50,6 +50,7 @@
   "block.intech.reinforced_oxidized_copper_spleaves": "Oxidized Copper Grate",
   "block.intech.bauxite_slab": "Bauxite Slab",
   "block.intech.reinforced_exposed_copper_spleaves": "Exposed Copper Grate",
+  "item.intech.unknown_type_1": "This is an Extruder Recipe",
   "subtitles.record.junction_jam": "Junction Jam Playing",
   "block.intech.aluminum_block": "Block of Aluminum",
   "gui.intech.extruder_gui.label_extruder": "Extruder",

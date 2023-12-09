@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "extrude",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "intech:extruder"
+    },
+    "3": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "minecraft:lava_bucket"
+    },
+    "7": {
+      "item": "intech:unknown_type_1"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone",
+    "count": 2
+  }
+}

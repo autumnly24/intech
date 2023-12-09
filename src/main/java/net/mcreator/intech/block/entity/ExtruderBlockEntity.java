@@ -109,12 +109,6 @@ public class ExtruderBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
-		if (index == 0)
-			return false;
-		if (index == 1)
-			return false;
-		if (index == 2)
-			return false;
 		return true;
 	}
 
@@ -130,6 +124,14 @@ public class ExtruderBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction) {
+		if (index == 0)
+			return false;
+		if (index == 1)
+			return false;
+		if (index == 2)
+			return false;
+		if (index == 4)
+			return false;
 		return true;
 	}
 

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "extrude",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Extruder"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnknownType1"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "name": "cobblestone_extrude",
+    "namespace": "mod"
+  }
+}

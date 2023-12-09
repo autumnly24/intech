@@ -4400,6 +4400,105 @@
         ]
       },
       "path": "~/Decoration"
+    },
+    {
+      "name": "UnknownType1",
+      "type": "item",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_type_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/item/UnknownType1Item.java",
+          "src/main/resources/assets/intech/models/item/unknown_type_1.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CobblestoneExtrude",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_extrude",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/cobblestone_extrude.json"
+        ]
+      },
+      "path": "~/Industry"
+    },
+    {
+      "name": "BasaltExtrude",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_extrude",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/basalt_extrude.json"
+        ]
+      },
+      "path": "~/Industry"
+    },
+    {
+      "name": "DeepslateExtrude",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_extrude",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/deepslate_extrude.json"
+        ]
+      },
+      "path": "~/Industry"
+    },
+    {
+      "name": "TuffExtrude",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuff_extrude",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/tuff_extrude.json"
+        ]
+      },
+      "path": "~/Industry"
+    },
+    {
+      "name": "QuartzExtrude",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_extrude",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/quartz_extrude.json"
+        ]
+      },
+      "path": "~/Industry"
+    },
+    {
+      "name": "SaltExtrude",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "salt_extrude",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/intech/recipes/salt_extrude.json"
+        ]
+      },
+      "path": "~/Industry"
     }
   ],
   "variable_elements": [
@@ -4672,6 +4771,7 @@
       "block.intech.reinforced_oxidized_copper_spleaves": "Oxidized Copper Grate",
       "block.intech.bauxite_slab": "Bauxite Slab",
       "block.intech.reinforced_exposed_copper_spleaves": "Exposed Copper Grate",
+      "item.intech.unknown_type_1": "This is an Extruder Recipe",
       "subtitles.record.junction_jam": "Junction Jam Playing",
       "block.intech.aluminum_block": "Block of Aluminum",
       "gui.intech.extruder_gui.label_extruder": "Extruder",
@@ -4816,6 +4916,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Tools",
+        "children": []
       }
     ]
   },
@@ -4832,7 +4936,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "geckolib"
+      "geckolib",
+      "jei"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
